@@ -1,7 +1,25 @@
 {
   "associatedLayout": "Forest",
   "name": "ExUpDown",
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 15,
+      "height": 960,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RANGE",
+      "persistentUuid": "19407bda-11a5-4ddf-8224-74ff1b0ebdba",
+      "width": 960,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "editionSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -12,7 +30,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.46596141870577806,
+    "zoomFactor": 0.34571835718200694,
     "windowMask": false
   }
 }

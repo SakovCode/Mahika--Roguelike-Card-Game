@@ -363,7 +363,7 @@
         "depth": 1,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
-        "frontFaceResourceName": "New3DBox_Front4",
+        "frontFaceResourceName": "New3DBox_Front5",
         "backFaceResourceName": "",
         "backFaceUpThroughWhichAxisRotation": "X",
         "leftFaceResourceName": "",
