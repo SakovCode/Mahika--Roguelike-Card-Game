@@ -1,6 +1,21 @@
 {
-  "associatedLayout": "",
+  "associatedLayout": "Forest",
   "lastChangeTimeStamp": 0,
   "name": "LevelEvents",
-  "events": []
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "overlapChecker"
+          ]
+        }
+      ]
+    }
+  ]
 }

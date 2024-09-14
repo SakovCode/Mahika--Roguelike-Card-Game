@@ -72,6 +72,58 @@
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/forest/forest_floor.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forest_floor.glb",
+        "userAdded": true
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/forest/forest_wall.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forest_wall.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/wall.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "wall.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Mini Dungeon/eb04a536a566e6345ff5010515e4249a14fbbc681c975771139e371887e593ea_wall.glb",
+          "name": "wall.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New3DBox_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New3DBox_Front2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New3DBox_Front3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
