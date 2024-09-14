@@ -65,6 +65,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RANGE",
+      "persistentUuid": "40d12b19-3f27-414b-850c-86922a7229fa",
+      "width": 1152,
+      "x": 0,
+      "y": 0,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
