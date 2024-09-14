@@ -1,6 +1,18 @@
 {
-  "associatedLayout": "",
+  "associatedLayout": "Forest",
   "name": "ExUpDown",
   "instances": [],
-  "editionSettings": {}
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 64,
+    "gridHeight": 64,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.46596141870577806,
+    "windowMask": false
+  }
 }

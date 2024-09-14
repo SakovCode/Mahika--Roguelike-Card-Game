@@ -21,7 +21,28 @@
     "zoomFactor": 0.875,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "generator",
+      "objects": [
+        {
+          "name": "interiorGenerator"
+        },
+        {
+          "name": "Up"
+        },
+        {
+          "name": "Left"
+        },
+        {
+          "name": "Right"
+        },
+        {
+          "name": "Down"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [],
   "objects": [
@@ -38,7 +59,7 @@
         "height": 100,
         "keepAspectRatio": true,
         "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forest_floor.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\darkForest_ground.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 0,
@@ -300,6 +321,69 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Player",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\player.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": true,
+            "name": "",
+            "source": "run"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "RANGE",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 64,
+        "height": 64,
+        "depth": 1,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "New3DBox_Front4",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -331,6 +415,12 @@
       },
       {
         "objectName": "Right"
+      },
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "RANGE"
       }
     ]
   },

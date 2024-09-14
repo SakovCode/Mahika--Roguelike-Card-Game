@@ -12,6 +12,14 @@
             "value": "Cache"
           },
           "parameters": [
+            "generator"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
             "overlapChecker"
           ]
         }
