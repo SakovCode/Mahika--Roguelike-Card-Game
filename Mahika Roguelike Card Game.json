@@ -156,6 +156,22 @@
         "name": "New3DBox_Front5",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/forest/forestFloor.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forestFloor.glb",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "forrest_ground_01_diff_1k.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "forrest_ground_01_diff_1k.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
