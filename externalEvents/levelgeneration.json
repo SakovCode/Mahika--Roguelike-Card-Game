@@ -110,7 +110,18 @@
                           "parameters": [
                             "Up",
                             "random",
-                            "<",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Up",
+                            "random",
+                            "<=",
                             "3"
                           ]
                         }
