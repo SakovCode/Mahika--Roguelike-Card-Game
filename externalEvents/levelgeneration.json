@@ -163,7 +163,7 @@
                             "Up",
                             "random",
                             "<=",
-                            "5"
+                            "7"
                           ]
                         }
                       ],
@@ -193,7 +193,7 @@
                             "Up",
                             "random",
                             "<=",
-                            "6"
+                            "8"
                           ]
                         },
                         {
@@ -204,7 +204,7 @@
                             "Up",
                             "random",
                             ">=",
-                            "7"
+                            "9"
                           ]
                         }
                       ],
@@ -233,7 +233,7 @@
                           "parameters": [
                             "Up",
                             "random",
-                            "<=",
+                            "=",
                             "10"
                           ]
                         }
@@ -276,7 +276,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"CaveDownEnd\"",
+                        "\"CaveFourway\"",
                         "Up.X()",
                         "Up.Y()",
                         "Up.Z()"
@@ -342,6 +342,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }
