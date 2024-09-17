@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.875,
+    "zoomFactor": 0.741297891922236,
     "windowMask": false
   },
   "objectsGroups": [
@@ -43,7 +43,20 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Variable",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "NumberOfRooms",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [],
   "objects": [
     {
@@ -160,7 +173,7 @@
         "height": 64,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\dark forest tree.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\ForestTree.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 0,
@@ -207,39 +220,6 @@
     }
   ],
   "layers": [
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "BG",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,

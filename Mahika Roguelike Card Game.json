@@ -209,6 +209,31 @@
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\cave_floor.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/tikbalangTest.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\tikbalangTest.glb",
+        "userAdded": true
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/tikbalang.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\tikbalang.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Anne.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Anne.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Pirate Kit/Character/f33fe1da7f98e11206fcd18c010834d619e0bf74d1ae73abafc3fc900073a79a_Anne.glb",
+          "name": "Anne.glb"
+        }
       }
     ],
     "resourceFolders": []
@@ -288,7 +313,14 @@
       "assetStoreId": "",
       "name": "Up",
       "type": "Scene3D::Cube3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -323,7 +355,14 @@
       "assetStoreId": "",
       "name": "Down",
       "type": "Scene3D::Cube3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -358,7 +397,14 @@
       "assetStoreId": "",
       "name": "Left",
       "type": "Scene3D::Cube3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -393,7 +439,14 @@
       "assetStoreId": "",
       "name": "Right",
       "type": "Scene3D::Cube3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -482,46 +535,6 @@
   "externalLayouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior10"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior9"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior8"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior7"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior6"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior5"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior4"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior3"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior2"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalLayouts/interior"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/cavefourway"
     },
     {
@@ -555,6 +568,46 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/caverightend"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior10"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior9"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior8"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior7"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior6"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior5"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/caveinterior2"
     }
   ],
   "externalSourceFiles": []

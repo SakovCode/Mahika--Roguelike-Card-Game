@@ -18,11 +18,48 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.875,
+    "zoomFactor": 0.8188454456336298,
     "windowMask": false
   },
-  "objectsGroups": [],
-  "variables": [],
+  "objectsGroups": [
+    {
+      "name": "checker",
+      "objects": [
+        {
+          "name": "Up"
+        },
+        {
+          "name": "Down"
+        },
+        {
+          "name": "Left"
+        },
+        {
+          "name": "Right"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "zoom",
+      "type": "number",
+      "value": 0.5
+    },
+    {
+      "folded": true,
+      "name": "MINZOOM",
+      "type": "number",
+      "value": 0.5
+    },
+    {
+      "folded": true,
+      "name": "MAXZOOM",
+      "type": "number",
+      "value": 2
+    }
+  ],
   "instances": [],
   "objects": [
     {
@@ -62,6 +99,137 @@
         "width": 64,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Player",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 800,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": false,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 50,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\tikbalang.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2096f2831c13acfad98cba2bbcb5f1e51dab13dcfaf00ea623f1af364c5717f1",
+      "name": "Anne",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 60,
+        "height": 60,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Anne.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 60,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": false,
+            "name": "Jump",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "HitReact",
+            "source": "HitReact"
+          },
+          {
+            "loop": true,
+            "name": "Jump Idle",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "Jump Land",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          },
+          {
+            "loop": false,
+            "name": "Sword",
+            "source": "Sword"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -72,10 +240,277 @@
       },
       {
         "objectName": "CaveWall"
+      },
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "Anne"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Player",
+            "543",
+            "543",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "DEBUG",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseWheelScrollingUp"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "zoom",
+                "<",
+                "MAXZOOM"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "zoom",
+                "+",
+                ".1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "zoom",
+                "",
+                "zoom"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseWheelScrollingDown"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "zoom",
+                ">",
+                "MINZOOM"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "zoom",
+                "-",
+                ".1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "zoom",
+                "",
+                "zoom"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "w"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "\"Up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "s"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "\"Down\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "\"Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::SimulateControl"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "\"Right\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelGeneration"
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -150,6 +585,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
