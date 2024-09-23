@@ -1,6 +1,7 @@
 {
   "associatedLayout": "Cave",
   "name": "CaveInterior10",
+<<<<<<< Updated upstream
   "instances": [
     {
       "angle": 0,
@@ -2408,12 +2409,25 @@
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
+=======
+  "instances": [],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+>>>>>>> Stashed changes
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
+<<<<<<< Updated upstream
     "snap": true,
     "zoomFactor": 0.26515387596042933,
+=======
+    "snap": false,
+    "zoomFactor": 0.875,
+>>>>>>> Stashed changes
     "windowMask": false
   }
 }
