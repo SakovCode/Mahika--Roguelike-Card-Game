@@ -9,16 +9,16 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
+    "gridWidth": 64,
+    "gridHeight": 64,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.741297891922236,
+    "snap": true,
+    "zoomFactor": 0.3818841323241251,
     "windowMask": false
   },
   "objectsGroups": [
@@ -54,7 +54,7 @@
       "folded": true,
       "name": "NumberOfRooms",
       "type": "number",
-      "value": 0
+      "value": 1
     }
   ],
   "instances": [],
@@ -72,7 +72,7 @@
         "height": 64.00000000000001,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "wall.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forestWall.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
@@ -83,71 +83,8 @@
     },
     {
       "assetStoreId": "",
-      "name": "Player",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\player.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": true,
-            "name": "",
-            "source": "run"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "RANGE",
-      "type": "Scene3D::Cube3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "width": 64,
-        "height": 64,
-        "depth": 1,
-        "enableTextureTransparency": false,
-        "facesOrientation": "Y",
-        "frontFaceResourceName": "New3DBox_Front5",
-        "backFaceResourceName": "",
-        "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "",
-        "rightFaceResourceName": "",
-        "topFaceResourceName": "",
-        "bottomFaceResourceName": "",
-        "frontFaceVisible": true,
-        "backFaceVisible": false,
-        "leftFaceVisible": true,
-        "rightFaceVisible": true,
-        "topFaceVisible": true,
-        "bottomFaceVisible": true,
-        "frontFaceResourceRepeat": false,
-        "backFaceResourceRepeat": false,
-        "leftFaceResourceRepeat": false,
-        "rightFaceResourceRepeat": false,
-        "topFaceResourceRepeat": false,
-        "bottomFaceResourceRepeat": false,
-        "materialType": "Basic"
-      }
-    },
-    {
-      "assetStoreId": "",
       "bottomMargin": 0,
-      "height": 64,
+      "height": 1280,
       "leftMargin": 0,
       "name": "ForestFloor",
       "rightMargin": 0,
@@ -155,32 +92,10 @@
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
-      "width": 64,
+      "width": 1280,
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "name": "New3DModel",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 200,
-        "height": 64,
-        "keepAspectRatio": false,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\ForestTree.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 64,
-        "animations": []
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -191,15 +106,6 @@
       },
       {
         "objectName": "Wall"
-      },
-      {
-        "objectName": "Player"
-      },
-      {
-        "objectName": "RANGE"
-      },
-      {
-        "objectName": "New3DModel"
       }
     ]
   },
