@@ -1,5 +1,4 @@
 {
-
   "associatedLayout": "Forest",
   "name": "ForestInterior",
   "instances": [
@@ -2273,5 +2272,4 @@
     "zoomFactor": 0.45076158913272946,
     "windowMask": false
   }
-
 }
