@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8188454456336298,
+    "zoomFactor": 0.3573760943009831,
     "windowMask": false
   },
   "objectsGroups": [
@@ -99,137 +99,6 @@
         "width": 64,
         "animations": []
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Player",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 800,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 50,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\tikbalang.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "2096f2831c13acfad98cba2bbcb5f1e51dab13dcfaf00ea623f1af364c5717f1",
-      "name": "Anne",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 60,
-        "height": 60,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Anne.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 60,
-        "animations": [
-          {
-            "loop": true,
-            "name": "Idle",
-            "source": "Idle"
-          },
-          {
-            "loop": true,
-            "name": "Walk",
-            "source": "Walk"
-          },
-          {
-            "loop": true,
-            "name": "Run",
-            "source": "Run"
-          },
-          {
-            "loop": false,
-            "name": "Duck",
-            "source": "Duck"
-          },
-          {
-            "loop": false,
-            "name": "Jump",
-            "source": "Jump"
-          },
-          {
-            "loop": false,
-            "name": "Punch",
-            "source": "Punch"
-          },
-          {
-            "loop": false,
-            "name": "Death",
-            "source": "Death"
-          },
-          {
-            "loop": false,
-            "name": "HitReact",
-            "source": "HitReact"
-          },
-          {
-            "loop": true,
-            "name": "Jump Idle",
-            "source": "Jump_Idle"
-          },
-          {
-            "loop": false,
-            "name": "Jump Land",
-            "source": "Jump_Land"
-          },
-          {
-            "loop": false,
-            "name": "No",
-            "source": "No"
-          },
-          {
-            "loop": false,
-            "name": "Sword",
-            "source": "Sword"
-          },
-          {
-            "loop": false,
-            "name": "Wave",
-            "source": "Wave"
-          },
-          {
-            "loop": false,
-            "name": "Yes",
-            "source": "Yes"
-          }
-        ]
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -240,17 +109,12 @@
       },
       {
         "objectName": "CaveWall"
-      },
-      {
-        "objectName": "Player"
-      },
-      {
-        "objectName": "Anne"
       }
     ]
   },
   "events": [
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -287,7 +151,7 @@
           },
           "parameters": [
             "",
-            "Player",
+            "Anne",
             "",
             "",
             ""
@@ -415,7 +279,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Player",
+                "Anne",
                 "TopDownMovement",
                 "\"Up\""
               ]
@@ -441,7 +305,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Player",
+                "Anne",
                 "TopDownMovement",
                 "\"Down\""
               ]
@@ -467,7 +331,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Player",
+                "Anne",
                 "TopDownMovement",
                 "\"Left\""
               ]
@@ -493,7 +357,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Player",
+                "Anne",
                 "TopDownMovement",
                 "\"Right\""
               ]
