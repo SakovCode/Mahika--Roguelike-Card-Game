@@ -96,7 +96,7 @@
         "depth": 100,
         "height": 64,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\cave_wall.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
@@ -156,6 +156,20 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewLight",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 50,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -169,6 +183,9 @@
       },
       {
         "objectName": "cam"
+      },
+      {
+        "objectName": "NewLight"
       }
     ]
   },
@@ -436,21 +453,34 @@
       ],
       "effects": [
         {
-          "effectType": "Scene3D::HemisphereLight",
+          "effectType": "Scene3D::AmbientLight",
           "name": "3D Light",
           "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
+            "intensity": 0.75
           },
           "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
+            "color": "255;255;255"
           },
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
