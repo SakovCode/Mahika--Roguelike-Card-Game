@@ -301,7 +301,14 @@
       "assetStoreId": "",
       "name": "interiorGenerator",
       "type": "Scene3D::Cube3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -524,7 +531,33 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "obstacle",
+      "objects": [
+        {
+          "name": "CaveWall"
+        }
+      ]
+    },
+    {
+      "name": "checker",
+      "objects": [
+        {
+          "name": "Up"
+        },
+        {
+          "name": "Down"
+        },
+        {
+          "name": "Left"
+        },
+        {
+          "name": "Right"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "layouts": [
     {
@@ -541,17 +574,13 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/darkforest"
+      "referenceTo": "/layouts/dforest"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/levelgeneration"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/levelevents"
     }
   ],
   "eventsFunctionsExtensions": [],

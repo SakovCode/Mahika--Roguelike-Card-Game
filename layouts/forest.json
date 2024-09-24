@@ -46,15 +46,9 @@
   "variables": [
     {
       "folded": true,
-      "name": "Variable",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
       "name": "NumberOfRooms",
       "type": "number",
-      "value": 1
+      "value": 0
     }
   ],
   "instances": [],

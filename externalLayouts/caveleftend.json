@@ -1233,6 +1233,24 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
+      "keepRatio": true,
+      "layer": "",
+      "name": "overlapChecker",
+      "persistentUuid": "22588dbf-371b-4810-af8f-42d155aa2350",
+      "width": 1152,
+      "x": 64,
+      "y": 64,
+      "z": -5,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1245,7 +1263,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.29289175928896044,
+    "zoomFactor": 0.23221258312852974,
     "windowMask": false
   }
 }

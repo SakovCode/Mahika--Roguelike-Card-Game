@@ -18,28 +18,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3573760943009831,
+    "zoomFactor": 0.5147058823529432,
     "windowMask": false
   },
-  "objectsGroups": [
-    {
-      "name": "checker",
-      "objects": [
-        {
-          "name": "Up"
-        },
-        {
-          "name": "Down"
-        },
-        {
-          "name": "Left"
-        },
-        {
-          "name": "Right"
-        }
-      ]
-    }
-  ],
+  "objectsGroups": [],
   "variables": [
     {
       "folded": true,
@@ -58,9 +40,33 @@
       "name": "MAXZOOM",
       "type": "number",
       "value": 2
+    },
+    {
+      "folded": true,
+      "name": "NumberOfRooms",
+      "type": "number",
+      "value": 0
     }
   ],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cam",
+      "persistentUuid": "0d9efb63-1ff6-4c15-bdfd-3899e4a1aae3",
+      "width": 64,
+      "x": 231,
+      "y": 163,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "assetStoreId": "",
@@ -99,6 +105,57 @@
         "width": 64,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "cam",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 10000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 20000,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 1000,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": false,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "forrest_ground_01_diff_1k.jpg",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -109,38 +166,13 @@
       },
       {
         "objectName": "CaveWall"
+      },
+      {
+        "objectName": "cam"
       }
     ]
   },
   "events": [
-    {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Player",
-            "543",
-            "543",
-            ""
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
@@ -151,7 +183,7 @@
           },
           "parameters": [
             "",
-            "Anne",
+            "cam",
             "",
             "",
             ""
@@ -185,7 +217,7 @@
               },
               "parameters": [
                 "zoom",
-                "<",
+                "<=",
                 "MAXZOOM"
               ]
             }
@@ -198,7 +230,7 @@
               "parameters": [
                 "zoom",
                 "+",
-                ".1"
+                ".05"
               ]
             },
             {
@@ -231,7 +263,7 @@
               },
               "parameters": [
                 "zoom",
-                ">",
+                ">=",
                 "MINZOOM"
               ]
             }
@@ -244,7 +276,7 @@
               "parameters": [
                 "zoom",
                 "-",
-                ".1"
+                ".05"
               ]
             },
             {
@@ -279,7 +311,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Anne",
+                "cam",
                 "TopDownMovement",
                 "\"Up\""
               ]
@@ -305,7 +337,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Anne",
+                "cam",
                 "TopDownMovement",
                 "\"Down\""
               ]
@@ -331,7 +363,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Anne",
+                "cam",
                 "TopDownMovement",
                 "\"Left\""
               ]
@@ -357,7 +389,7 @@
                 "value": "TopDownMovementBehavior::SimulateControl"
               },
               "parameters": [
-                "Anne",
+                "cam",
                 "TopDownMovement",
                 "\"Right\""
               ]
