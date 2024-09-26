@@ -114,6 +114,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 10000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -123,9 +125,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 1000,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -156,20 +156,6 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "NewLight",
-      "type": "Lighting::LightObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "radius": 50,
-        "color": "255;255;255",
-        "debugMode": false,
-        "texture": ""
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -183,9 +169,6 @@
       },
       {
         "objectName": "cam"
-      },
-      {
-        "objectName": "NewLight"
       }
     ]
   },

@@ -257,6 +257,164 @@
         "metadata": "",
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\Darkforestwall.glb",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Playing Card.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Playing Card.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/CaglarAlperen/34dae9da2de7d5b88b76df9204df10c661e235a1119d9fdd2282f757d4b4e728_Blank Playing Card.png",
+          "name": "Blank Playing Card.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Playing Card Deck_Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card Deck_Blank.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/2ac2a49ee4e54ce351cd8ba026b232d60a6f6ec019572ef45b571d693d9aa286_Playing Card Deck_Blank.png",
+          "name": "Playing Card Deck_Blank.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Playing Card Deck_Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card Deck_Blue.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/8c8c64d952661607a75911b3f9b0a03d9e11c1d1633fae77f43920a2d60c5e06_Playing Card Deck_Blue.png",
+          "name": "Playing Card Deck_Blue.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Playing Card Deck_Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Playing Card Deck_Red.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/37540f5916ba0805dba909cafc4745951f222277b1dd0c48cfe65ed0aa312d91_Playing Card Deck_Red.png",
+          "name": "Playing Card Deck_Red.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Card Selected.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Card Selected.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/mehrasaur/Card/Extra/c5728af25543c991f10b553c1b167f6f575efc0645310ba037e914c7c5477397_Card Selected.png",
+          "name": "Card Selected.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HandSlot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HandSlot.png\",\"pskl\":{}}",
+        "name": "HandSlot",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HandSlot2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/HandSlot2.png\"}",
+        "name": "HandSlot2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Playing Card2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "34dae9da2de7d5b88b76df9204df10c661e235a1119d9fdd2282f757d4b4e728_Blank Playing Card.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/CaglarAlperen/34dae9da2de7d5b88b76df9204df10c661e235a1119d9fdd2282f757d4b4e728_Blank Playing Card.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/HeroSlot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "HeroSlot",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EnemySlot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "EnemySlot",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hero.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hero",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hero2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hero2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight Female_Hit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f8c218f3b3bb5fb176d8f9e3d7948e6a35c111ff234dd52d4ecf5a046e5dec59_Knight Female_Hit.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/f8c218f3b3bb5fb176d8f9e3d7948e6a35c111ff234dd52d4ecf5a046e5dec59_Knight Female_Hit.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Knight Male_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ce68890327d11e873fb58f43a0e47d277d9669e8dd737984e157d6b06e998f60_Knight Male_Idle_1.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Characters/ce68890327d11e873fb58f43a0e47d277d9669e8dd737984e157d6b06e998f60_Knight Male_Idle_1.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -575,6 +733,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/dforest"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/battle"
     }
   ],
   "externalEvents": [

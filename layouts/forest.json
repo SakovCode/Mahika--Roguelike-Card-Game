@@ -110,13 +110,6 @@
         "includeConfig": 0
       },
       "target": "LevelGeneration"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "LevelEvents"
     }
   ],
   "layers": [
