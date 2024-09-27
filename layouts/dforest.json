@@ -22,8 +22,49 @@
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
-  "instances": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "NumberOfRooms",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "zoom",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "MINZOOM",
+      "type": "number",
+      "value": 0.5
+    },
+    {
+      "name": "MAXZOOM",
+      "type": "number",
+      "value": 2
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cam",
+      "persistentUuid": "326d1663-efdb-462c-810d-a03854de76dc",
+      "width": 0,
+      "x": 64,
+      "y": 64,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "assetStoreId": "",
@@ -75,7 +116,22 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "DEBUG"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LevelGeneration"
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -150,6 +206,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }

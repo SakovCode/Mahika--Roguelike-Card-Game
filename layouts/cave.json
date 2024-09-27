@@ -105,57 +105,6 @@
         "width": 64,
         "animations": []
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "cam",
-      "type": "Scene3D::Cube3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 10000,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 20000,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 1000,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
-        }
-      ],
-      "content": {
-        "width": 100,
-        "height": 100,
-        "depth": 100,
-        "enableTextureTransparency": false,
-        "facesOrientation": "Y",
-        "frontFaceResourceName": "forrest_ground_01_diff_1k.jpg",
-        "backFaceResourceName": "",
-        "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "",
-        "rightFaceResourceName": "",
-        "topFaceResourceName": "",
-        "bottomFaceResourceName": "",
-        "frontFaceVisible": true,
-        "backFaceVisible": false,
-        "leftFaceVisible": false,
-        "rightFaceVisible": false,
-        "topFaceVisible": false,
-        "bottomFaceVisible": false,
-        "frontFaceResourceRepeat": false,
-        "backFaceResourceRepeat": false,
-        "leftFaceResourceRepeat": false,
-        "rightFaceResourceRepeat": false,
-        "topFaceResourceRepeat": false,
-        "bottomFaceResourceRepeat": false,
-        "materialType": "Basic"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -166,9 +115,6 @@
       },
       {
         "objectName": "CaveWall"
-      },
-      {
-        "objectName": "cam"
       }
     ]
   },
@@ -190,6 +136,13 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "DEBUG"
     },
     {
       "colorB": 228,

@@ -1243,7 +1243,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "Left",
-      "persistentUuid": "a2bfa9aa-5683-4d7f-b77f-b8f9a64681a5",
+      "persistentUuid": "9624e031-3bfe-449f-90ab-5670bb99aeed",
       "width": 0,
       "x": -1280,
       "y": 0,
@@ -1263,7 +1263,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.17228927016997686,
+    "zoomFactor": 0.15597286821201736,
     "windowMask": false
   }
 }
