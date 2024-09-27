@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3818841323241251,
+    "zoomFactor": 0.3235313168576299,
     "windowMask": false
   },
   "objectsGroups": [
@@ -49,9 +49,44 @@
       "name": "NumberOfRooms",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "zoom",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "MAXZOOM",
+      "type": "number",
+      "value": 2
+    },
+    {
+      "folded": true,
+      "name": "MINZOOM",
+      "type": "number",
+      "value": 0.5
     }
   ],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cam",
+      "persistentUuid": "53eea090-780c-4c47-b2df-1ecba0aba208",
+      "width": 0,
+      "x": 192,
+      "y": 192,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "assetStoreId": "29d029e782eb1227a0adc5023c6cfbeec58039adab6098bb804f2d83864c258b",
@@ -110,6 +145,13 @@
         "includeConfig": 0
       },
       "target": "LevelGeneration"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "DEBUG"
     }
   ],
   "layers": [
@@ -186,6 +228,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
