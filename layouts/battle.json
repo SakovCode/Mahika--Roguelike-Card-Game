@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.032816912529836,
+    "zoomFactor": 0.9665341999982231,
     "windowMask": false
   },
   "objectsGroups": [
@@ -35,9 +35,34 @@
           "name": "EnemySlot"
         }
       ]
+    },
+    {
+      "name": "Hero",
+      "objects": [
+        {
+          "name": "HeroTest"
+        }
+      ]
+    },
+    {
+      "name": "Enemy",
+      "objects": []
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Phase",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "EnemyCount",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -48,7 +73,7 @@
       "name": "HandSlot",
       "persistentUuid": "932aa3d7-8eca-4698-a829-1bac2020c381",
       "width": 0,
-      "x": 320,
+      "x": 288,
       "y": 480,
       "zOrder": 6,
       "numberProperties": [],
@@ -65,7 +90,7 @@
       "name": "Deck",
       "persistentUuid": "0601be4d-86e8-4530-9a1d-4a00ba5244dd",
       "width": 64,
-      "x": 704,
+      "x": 672,
       "y": 480,
       "zOrder": 3,
       "numberProperties": [],
@@ -81,7 +106,7 @@
       "name": "HeroSlot",
       "persistentUuid": "2e88d370-ce81-4a17-8d00-5bc8b1f806f6",
       "width": 0,
-      "x": 192,
+      "x": 160,
       "y": 352,
       "zOrder": 4,
       "numberProperties": [],
@@ -97,7 +122,7 @@
       "name": "HeroSlot",
       "persistentUuid": "7e365f06-d991-4d67-8f3d-ccff214fcd9d",
       "width": 0,
-      "x": 320,
+      "x": 288,
       "y": 352,
       "zOrder": 4,
       "numberProperties": [],
@@ -113,7 +138,7 @@
       "name": "HeroSlot",
       "persistentUuid": "8536f9eb-7708-4dec-bf99-8d4ec148b0d8",
       "width": 0,
-      "x": 448,
+      "x": 416,
       "y": 352,
       "zOrder": 4,
       "numberProperties": [],
@@ -129,7 +154,7 @@
       "name": "EnemySlot",
       "persistentUuid": "36f4a3ec-5cba-4d03-865a-2f4083506fe9",
       "width": 0,
-      "x": 192,
+      "x": 160,
       "y": 32,
       "zOrder": 5,
       "numberProperties": [],
@@ -145,7 +170,7 @@
       "name": "EnemySlot",
       "persistentUuid": "63fd2b30-146d-4149-a6b6-0ec9cfc2bb8c",
       "width": 0,
-      "x": 320,
+      "x": 288,
       "y": 32,
       "zOrder": 5,
       "numberProperties": [],
@@ -161,7 +186,7 @@
       "name": "EnemySlot",
       "persistentUuid": "7c5f3e24-e530-4f45-931a-fd123b922c87",
       "width": 0,
-      "x": 448,
+      "x": 416,
       "y": 32,
       "zOrder": 5,
       "numberProperties": [],
@@ -177,7 +202,7 @@
       "name": "HandSlot",
       "persistentUuid": "a83c8573-fdb6-4612-a925-639a42ee4638",
       "width": 0,
-      "x": 416,
+      "x": 384,
       "y": 480,
       "zOrder": 6,
       "numberProperties": [],
@@ -193,7 +218,7 @@
       "name": "HandSlot",
       "persistentUuid": "dc0374aa-2ed9-41a8-9119-cf282e149dbd",
       "width": 0,
-      "x": 224,
+      "x": 192,
       "y": 480,
       "zOrder": 6,
       "numberProperties": [],
@@ -209,7 +234,7 @@
       "name": "HandSlot",
       "persistentUuid": "959e740b-c8c5-4233-91fc-c1c5e487fe14",
       "width": 0,
-      "x": 512,
+      "x": 480,
       "y": 480,
       "zOrder": 6,
       "numberProperties": [],
@@ -225,7 +250,7 @@
       "name": "HandSlot",
       "persistentUuid": "835ed562-becd-4489-bd39-dad060ed0708",
       "width": 0,
-      "x": 128,
+      "x": 96,
       "y": 480,
       "zOrder": 6,
       "numberProperties": [],
@@ -241,7 +266,7 @@
       "name": "HeroSlot",
       "persistentUuid": "2110390d-6085-489f-af2f-bb80566db0fe",
       "width": 0,
-      "x": 192,
+      "x": 160,
       "y": 256,
       "zOrder": 4,
       "numberProperties": [],
@@ -257,7 +282,7 @@
       "name": "HeroSlot",
       "persistentUuid": "34c61e6a-36b8-421f-b519-08fb60fc1578",
       "width": 0,
-      "x": 320,
+      "x": 288,
       "y": 256,
       "zOrder": 4,
       "numberProperties": [],
@@ -273,7 +298,7 @@
       "name": "HeroSlot",
       "persistentUuid": "fbac5268-b49d-4410-b90c-2903199fb2b3",
       "width": 0,
-      "x": 448,
+      "x": 416,
       "y": 256,
       "zOrder": 4,
       "numberProperties": [],
@@ -289,7 +314,7 @@
       "name": "EnemySlot",
       "persistentUuid": "5e8bd704-574c-4fb2-98a3-ab78945c5e6d",
       "width": 0,
-      "x": 192,
+      "x": 160,
       "y": 128,
       "zOrder": 5,
       "numberProperties": [],
@@ -305,7 +330,7 @@
       "name": "EnemySlot",
       "persistentUuid": "3ee8adbe-7a5a-4997-86d3-8fff7c50cea3",
       "width": 0,
-      "x": 320,
+      "x": 288,
       "y": 128,
       "zOrder": 5,
       "numberProperties": [],
@@ -321,7 +346,7 @@
       "name": "EnemySlot",
       "persistentUuid": "b36793a2-d1f9-41c2-b4d9-78df65fdd993",
       "width": 0,
-      "x": 448,
+      "x": 416,
       "y": 128,
       "zOrder": 5,
       "numberProperties": [],
@@ -534,6 +559,12 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -567,65 +598,134 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Hero",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
+      "name": "HeroTest",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "stats",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "ATK",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "HP",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 64,
+        "height": 64,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\raja.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": -90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 64,
+        "animations": [
+          {
+            "loop": true,
+            "name": "",
+            "source": "metarig.003|mixamo.com|Layer0"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "6d3db6815965204d2834e8cad91e32297418907dfed0ebd1e03104e0f2c6139c",
+      "name": "RedExplosion",
+      "type": "ParticleEmitter3D::ParticleEmitter3D",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "animations": [
-        {
-          "name": "Hero",
-          "useMultipleDirections": false,
-          "directions": [
+      "content": {
+        "EndColor": "255;0;0",
+        "StartColor": "255;255;64",
+        "StartOpacity": 255,
+        "SpayConeAngle": 360,
+        "StartSizeMin": 32,
+        "StartSizeMax": 32,
+        "EndScale": 4,
+        "Flow": 400,
+        "LifespanMin": 0.6,
+        "LifespanMax": 1.2,
+        "Duration": 0.25,
+        "StartSpeedMin": 80,
+        "StartSpeedMax": 140,
+        "ShouldAutodestruct": true
+      },
+      "childrenContent": {
+        "Particle": {
+          "adaptCollisionMaskAutomatically": true,
+          "updateIfNotVisible": false,
+          "animations": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
+              "name": "Image",
+              "useMultipleDirections": false,
+              "directions": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "ce68890327d11e873fb58f43a0e47d277d9669e8dd737984e157d6b06e998f60_Knight Male_Idle_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "LightGlow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
                         "x": 0,
-                        "y": 8
+                        "y": 0
                       },
-                      {
-                        "x": 15,
-                        "y": 8
-                      },
-                      {
-                        "x": 15,
-                        "y": 28
-                      },
-                      {
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
                         "x": 0,
-                        "y": 28
-                      }
-                    ]
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
                   ]
                 }
               ]
             }
           ]
         }
-      ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemyTest",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 64,
+        "height": 64,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\bungisngis.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": -90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 64,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -647,7 +747,13 @@
         "objectName": "Card"
       },
       {
-        "objectName": "Hero"
+        "objectName": "RedExplosion"
+      },
+      {
+        "objectName": "HeroTest"
+      },
+      {
+        "objectName": "EnemyTest"
       }
     ]
   },
@@ -676,11 +782,11 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "PRE DRAW"
+          "comment": "GENERATE ENEMY"
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "HandSlot",
+          "object": "EnemySlot",
           "conditions": [],
           "actions": [],
           "events": [
@@ -689,18 +795,90 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PickNearest"
+                    "value": "BooleanObjectVariable"
                   },
                   "parameters": [
-                    "HandSlot",
-                    "Deck.X()",
-                    "Deck.Y()",
+                    "EnemySlot",
+                    "isVacant",
+                    "True",
                     ""
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "EnemySlot",
+                    "random",
+                    "=",
+                    "RandomInRange(1,100)"
+                  ]
+                }
+              ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "EnemyCount",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EnemyCount",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "\" \" + EnemySlot.isVacant + \" \" + EnemySlot.random",
+                        "\"info\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "EnemySlot",
+                        "isVacant",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyTest",
+                        "EnemySlot.CenterX()",
+                        "EnemySlot.CenterY()",
+                        ""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -709,36 +887,43 @@
                         "value": "BooleanObjectVariable"
                       },
                       "parameters": [
-                        "HandSlot",
+                        "EnemySlot",
                         "isVacant",
                         "True",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "EnemySlot",
+                        "random",
+                        ">=",
+                        "66"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "Create"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "",
-                        "Card",
-                        "Deck.X()",
-                        "Deck.Y()",
-                        ""
+                        "EnemyCount",
+                        "+",
+                        "1"
                       ]
                     },
                     {
                       "type": {
-                        "value": "PathfindingBehavior::SetDestination"
+                        "value": "DebuggerTools::ConsoleLog"
                       },
                       "parameters": [
-                        "Card",
-                        "Pathfinding",
-                        "",
-                        "HandSlot.X()",
-                        "HandSlot.Y()"
+                        "\" \" + EnemySlot.isVacant + \" \" + EnemySlot.random",
+                        "\"info\"",
+                        ""
                       ]
                     },
                     {
@@ -746,46 +931,269 @@
                         "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
-                        "HandSlot",
+                        "EnemySlot",
                         "isVacant",
-                        "False",
+                        "True",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "Create"
                       },
                       "parameters": [
-                        "Card",
-                        "boundPos.X",
-                        "=",
-                        "HandSlot.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Card",
-                        "boundPos.Y",
-                        "=",
-                        "HandSlot.Y()"
+                        "",
+                        "EnemyTest",
+                        "EnemySlot.CenterX()",
+                        "EnemySlot.CenterY()",
+                        ""
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "PRE DRAW"
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "HandSlot",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Card",
+                "Deck.X()",
+                "Deck.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Card",
+                "Pathfinding",
+                "",
+                "HandSlot.X()",
+                "HandSlot.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "HandSlot",
+                "isVacant",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Card",
+                "boundPos.X",
+                "=",
+                "HandSlot.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Card",
+                "boundPos.Y",
+                "=",
+                "HandSlot.Y()"
               ]
             }
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "DRAW PHASE\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Phase",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "HandSlot",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "HandSlot",
+                "isVacant",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Card",
+                "Deck.X()",
+                "Deck.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Card",
+                "Pathfinding",
+                "",
+                "HandSlot.X()",
+                "HandSlot.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "HandSlot",
+                "isVacant",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Card",
+                "boundPos.X",
+                "=",
+                "HandSlot.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Card",
+                "boundPos.Y",
+                "=",
+                "HandSlot.Y()"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "PREPARATION PHASE\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Phase",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "BATTLE PHASE"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Phase",
+            "=",
+            "2"
+          ]
+        }
+      ],
+      "actions": []
     },
     {
       "colorB": 228,
@@ -850,32 +1258,62 @@
                       },
                       "parameters": [
                         "",
-                        "Hero",
-                        "HeroSlot.X()",
-                        "HeroSlot.Y()",
+                        "HeroTest",
+                        "HeroSlot.CenterX()",
+                        "HeroSlot.CenterY()",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "Create"
                       },
                       "parameters": [
-                        "Card",
-                        "boundPos.X",
-                        "=",
-                        "HeroSlot.X()"
+                        "",
+                        "RedExplosion",
+                        "HeroSlot.CenterX()",
+                        "HeroSlot.CenterY()",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "Delete"
                       },
                       "parameters": [
                         "Card",
-                        "boundPos.Y",
-                        "=",
-                        "HeroSlot.Y()"
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "HandSlot",
+                            "Card.boundPos.X",
+                            "Card.boundPos.Y",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "HandSlot",
+                            "isVacant",
+                            "True",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -958,20 +1396,12 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
-      "name": "Effect",
-      "type": "EffectCapability::EffectBehavior"
-    },
-    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
       "name": "Object3D",
       "type": "Scene3D::Base3DBehavior"
-    },
-    {
-      "name": "Opacity",
-      "type": "OpacityCapability::OpacityBehavior"
     },
     {
       "name": "Pathfinding",

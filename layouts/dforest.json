@@ -45,6 +45,12 @@
       "name": "MAXZOOM",
       "type": "number",
       "value": 2
+    },
+    {
+      "folded": true,
+      "name": "MinRoom",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -130,6 +136,11 @@
         "includeConfig": 0
       },
       "target": "LevelGeneration"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

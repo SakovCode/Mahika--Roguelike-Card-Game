@@ -52,6 +52,12 @@
     },
     {
       "folded": true,
+      "name": "MinRoom",
+      "type": "number",
+      "value": 4
+    },
+    {
+      "folded": true,
       "name": "zoom",
       "type": "number",
       "value": 0

@@ -27,6 +27,16 @@
             "0",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MinRoom",
+            "=",
+            "4"
+          ]
         }
       ]
     },
@@ -159,7 +169,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     "<=",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],
@@ -289,7 +299,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     ">",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],
@@ -417,7 +427,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     "<=",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],
@@ -547,7 +557,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     ">",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],
@@ -675,7 +685,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     "<=",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],
@@ -835,7 +845,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     ">",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],
@@ -973,7 +983,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     "<=",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],
@@ -1133,7 +1143,7 @@
                   "parameters": [
                     "NumberOfRooms",
                     ">",
-                    "3"
+                    "MinRoom"
                   ]
                 }
               ],

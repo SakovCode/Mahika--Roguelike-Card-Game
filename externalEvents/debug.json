@@ -26,6 +26,14 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cam"
+          ]
         }
       ]
     },
