@@ -634,22 +634,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Right",
-      "persistentUuid": "3386969f-098f-479c-a86b-7b74292dfffa",
-      "width": 0,
-      "x": 0,
-      "y": 1280,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "DarkForestWall",
       "persistentUuid": "f12b80a0-ff37-41c2-b694-a3109448fc93",
       "width": 0,
@@ -1235,6 +1219,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Down",
+      "persistentUuid": "4d11002b-6c68-4775-b192-ab5a97d14bea",
+      "width": 0,
+      "x": 0,
+      "y": 1280,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1247,7 +1247,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.15597286821201736,
+    "zoomFactor": 0.1612323248116882,
     "windowMask": false
   }
 }
