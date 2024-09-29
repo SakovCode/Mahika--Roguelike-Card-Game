@@ -2007,6 +2007,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkForestFloor",
+      "persistentUuid": "59462288-c179-4c75-afff-a51e0b8064b4",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -2019,7 +2035,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4080728757366943,
+    "zoomFactor": 0.381884132324125,
     "windowMask": false
   }
 }
