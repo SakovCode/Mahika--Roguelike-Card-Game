@@ -199,6 +199,10 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },

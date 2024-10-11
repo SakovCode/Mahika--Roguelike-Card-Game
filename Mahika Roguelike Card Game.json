@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 213,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -513,6 +513,597 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
           "name": "Charm-Regular.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Main menu bg.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main menu bg.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Rubik-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Rubik-Bold.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "RoughenCornerRegular-7RjV.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "RoughenCornerRegular-7RjV.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Branda-yolq.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Branda-yolq.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mouse Cursor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "a914e6a9d6e2d3ee9cb7b80b165e67f4b9f2b91d727b1b7d6000397a29632d7e_Mouse Cursor.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Mini UI/a914e6a9d6e2d3ee9cb7b80b165e67f4b9f2b91d727b1b7d6000397a29632d7e_Mouse Cursor.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DALL·E 2024-10-10 17.29.29 - A vibrant animated scene inspired by Philippine mythology, featuring iconic creatures and deities. A fierce Manananggal, a winged, dismembered female .webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "DALL·E 2024-10-10 17.29.29 - A vibrant animated scene inspired by Philippine mythology, featuring iconic creatures and deities. A fierce Manananggal, a winged, dismembered female .webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DALL·E 2024-10-10 17.29.29 - A vibrant animated scene inspired by Philippine mythology, featuring iconic creatures and deities. A fierce Manananggal, a winged, dismembered female1.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "DALL·E 2024-10-10 17.29.29 - A vibrant animated scene inspired by Philippine mythology, featuring iconic creatures and deities. A fierce Manananggal, a winged, dismembered female1.webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1afdb0a232ddbe0ae1428c6b1c109e050fc5ff15f733fedbca005760a313b61c_Start button.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/1afdb0a232ddbe0ae1428c6b1c109e050fc5ff15f733fedbca005760a313b61c_Start button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "095af6ac17177b422c7f5666efb9184e1ef7728383d8deed29ffea1e5f872c9f_Start.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS Move/095af6ac17177b422c7f5666efb9184e1ef7728383d8deed29ffea1e5f872c9f_Start.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Blue Border_Idle.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Blue Border_Idle.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "67518336539938a40e89dc0cd62158e4734abd706c9307a30244c879c4829225_Start button.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/67518336539938a40e89dc0cd62158e4734abd706c9307a30244c879c4829225_Start button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/67518336539938a40e89dc0cd62158e4734abd706c9307a30244c879c4829225_Start button.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "67518336539938a40e89dc0cd62158e4734abd706c9307a30244c879c4829225_Start button",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1d54af0356de71ef8851aad5d41a433d032164b6e1f2a9aa9151cd0bbef5c678_Start button.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Line Light/1d54af0356de71ef8851aad5d41a433d032164b6e1f2a9aa9151cd0bbef5c678_Start button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "START.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "START.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 183043.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 183043.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 183451.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 183451.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tutorials button new.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tutorials button new.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 184513.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 184513.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 184937.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 184937.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 185206.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 185206.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 190102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 190102.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 190213.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 190213.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 190321.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 190321.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 190426.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 190426.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 190523.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 190523.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10190214.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10190214.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 194010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 194010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10190322.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10190322.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10194011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10194011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tutorials button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tutorials button.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10194012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10194012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 200507.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 200507.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 200403.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 200403.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 201458.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 201458.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 201646.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 201646.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "back.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "START2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "START2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "START.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "START.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 204243.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 204243.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 205949.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 205949.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10 210102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10 210102.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10205950.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10205950.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10210103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10210103.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/324e5f522f6242e9f93090e75ddc38427c3a6c42e8236dbf0ed541bd85cf7221_Square White Slider Border.png",
+          "name": "Square White Slider Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+          "name": "Square White Slider Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
+          "name": "Square White Slider Thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10200508.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10200508.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10200404.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10200404.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10201459.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10201459.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10201647.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10201647.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10205951.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10205951.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-10210104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-10210104.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-11 004618.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-11 004618.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Square Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Square Slider Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/9e43ff20dd1d6788942b5161e19c979068058c02325d1c53493d966e99352b43_Small Plastic Green Square Slider Border.png",
+          "name": "Small Plastic Green Square Slider Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Square Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Square Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/2f9378611f391b8228cac337e39ecacacd720b59716e7dd9e56cce73adb60f69_Small Plastic Green Square Slider Thumb.png",
+          "name": "Small Plastic Green Square Slider Thumb.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -813,6 +1404,42 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Transition",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlashTransitionPainter",
+          "type": "FlashTransitionPainter::FlashTransitionPainter",
+          "Progress": 0,
+          "Duration": 0,
+          "Type": "",
+          "Direction": "",
+          "MaxOpacity": 255,
+          "Index": 0,
+          "Value": 0
+        }
+      ],
+      "fillOpacity": 255,
+      "outlineSize": 1,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     }
   ],
   "objectsFolderStructure": {
@@ -838,6 +1465,9 @@
       },
       {
         "objectName": "cam"
+      },
+      {
+        "objectName": "Transition"
       }
     ]
   },
@@ -902,6 +1532,18 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flashtransitionpainter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousehelper"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
