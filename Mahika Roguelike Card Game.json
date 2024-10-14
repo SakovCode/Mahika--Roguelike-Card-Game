@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "c5039278-c967-4176-8ae2-963a514d18ff",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -1104,6 +1104,186 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/2f9378611f391b8228cac337e39ecacacd720b59716e7dd9e56cce73adb60f69_Small Plastic Green Square Slider Thumb.png",
           "name": "Small Plastic Green Square Slider Thumb.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot_2024-10-13_095426-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2024-10-13_095426-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot_2024-10-13_101508-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2024-10-13_101508-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot_2024-10-13_095426-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2024-10-13_095426-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design (1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design (2).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (2).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design (3).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (3).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 104512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 104512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 110236.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 110236.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 110448.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 110448.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 111842.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 111842.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 112047.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 112047.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 112943.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 112943.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 113115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 113115.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 113534.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 113534.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 113615.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 113615.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 115035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 115035.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 115103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 115103.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 115321.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 115321.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-13 121217.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-13 121217.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1440,6 +1620,66 @@
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
       "antialiasing": "none"
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Marker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-10-11 004618.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 670
+                      },
+                      {
+                        "x": 0,
+                        "y": 670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1468,6 +1708,9 @@
       },
       {
         "objectName": "Transition"
+      },
+      {
+        "objectName": "Marker"
       }
     ]
   },
@@ -1519,6 +1762,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/battle"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/ui"
     }
   ],
   "externalEvents": [
