@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8188454456336317,
+    "zoomFactor": 0.31297760858831064,
     "windowMask": false
   },
   "objectsGroups": [
@@ -29,7 +29,7 @@
           "name": "HandSlot"
         },
         {
-          "name": "HeroSlot"
+          "name": "Slot1"
         },
         {
           "name": "EnemySlot"
@@ -51,6 +51,29 @@
           "name": "EnemyTest"
         }
       ]
+    },
+    {
+      "name": "HeroSlot",
+      "objects": [
+        {
+          "name": "Slot1"
+        },
+        {
+          "name": "Slot2"
+        },
+        {
+          "name": "Slot3"
+        },
+        {
+          "name": "Slot4"
+        },
+        {
+          "name": "Slot5"
+        },
+        {
+          "name": "Slot6"
+        }
+      ]
     }
   ],
   "variables": [
@@ -70,15 +93,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
       "keepRatio": true,
       "layer": "",
       "name": "HandSlot",
       "persistentUuid": "932aa3d7-8eca-4698-a829-1bac2020c381",
-      "width": 0,
-      "x": 288,
-      "y": 384,
+      "width": 104,
+      "x": 889,
+      "y": 795,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -87,15 +111,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 64,
+      "depth": 2,
+      "height": 96,
       "keepRatio": true,
       "layer": "",
       "name": "Deck",
       "persistentUuid": "0601be4d-86e8-4530-9a1d-4a00ba5244dd",
-      "width": 64,
-      "x": 640,
-      "y": 288,
+      "width": 104,
+      "x": 1472,
+      "y": 800,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -103,255 +127,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HeroSlot",
-      "persistentUuid": "2e88d370-ce81-4a17-8d00-5bc8b1f806f6",
-      "width": 0,
-      "x": 160,
-      "y": 256,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HeroSlot",
-      "persistentUuid": "7e365f06-d991-4d67-8f3d-ccff214fcd9d",
-      "width": 0,
-      "x": 288,
-      "y": 256,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HeroSlot",
-      "persistentUuid": "8536f9eb-7708-4dec-bf99-8d4ec148b0d8",
-      "width": 0,
-      "x": 416,
-      "y": 256,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
       "keepRatio": true,
       "layer": "",
       "name": "EnemySlot",
       "persistentUuid": "36f4a3ec-5cba-4d03-865a-2f4083506fe9",
-      "width": 0,
-      "x": 160,
-      "y": -64,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "63fd2b30-146d-4149-a6b6-0ec9cfc2bb8c",
-      "width": 0,
-      "x": 288,
-      "y": -64,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "7c5f3e24-e530-4f45-931a-fd123b922c87",
-      "width": 0,
-      "x": 416,
-      "y": -64,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "a83c8573-fdb6-4612-a925-639a42ee4638",
-      "width": 0,
-      "x": 384,
-      "y": 384,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "dc0374aa-2ed9-41a8-9119-cf282e149dbd",
-      "width": 0,
-      "x": 192,
-      "y": 384,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "959e740b-c8c5-4233-91fc-c1c5e487fe14",
-      "width": 0,
-      "x": 480,
-      "y": 384,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "835ed562-becd-4489-bd39-dad060ed0708",
-      "width": 0,
-      "x": 96,
-      "y": 384,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HeroSlot",
-      "persistentUuid": "2110390d-6085-489f-af2f-bb80566db0fe",
-      "width": 0,
-      "x": 160,
-      "y": 160,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HeroSlot",
-      "persistentUuid": "34c61e6a-36b8-421f-b519-08fb60fc1578",
-      "width": 0,
-      "x": 288,
-      "y": 160,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HeroSlot",
-      "persistentUuid": "fbac5268-b49d-4410-b90c-2903199fb2b3",
-      "width": 0,
-      "x": 416,
-      "y": 160,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "5e8bd704-574c-4fb2-98a3-ab78945c5e6d",
-      "width": 0,
-      "x": 160,
-      "y": 32,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "3ee8adbe-7a5a-4997-86d3-8fff7c50cea3",
-      "width": 0,
-      "x": 288,
-      "y": 32,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "b36793a2-d1f9-41c2-b4d9-78df65fdd993",
-      "width": 0,
-      "x": 416,
-      "y": 32,
+      "width": 104,
+      "x": 672,
+      "y": 64,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -360,16 +145,265 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 54,
+      "depth": 2,
+      "height": 104,
       "keepRatio": true,
       "layer": "",
+      "name": "EnemySlot",
+      "persistentUuid": "63fd2b30-146d-4149-a6b6-0ec9cfc2bb8c",
+      "width": 104,
+      "x": 896,
+      "y": 64,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot",
+      "persistentUuid": "7c5f3e24-e530-4f45-931a-fd123b922c87",
+      "width": 104,
+      "x": 1120,
+      "y": 64,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HandSlot",
+      "persistentUuid": "a83c8573-fdb6-4612-a925-639a42ee4638",
+      "width": 104,
+      "x": 1046,
+      "y": 795,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HandSlot",
+      "persistentUuid": "dc0374aa-2ed9-41a8-9119-cf282e149dbd",
+      "width": 104,
+      "x": 733,
+      "y": 795,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HandSlot",
+      "persistentUuid": "959e740b-c8c5-4233-91fc-c1c5e487fe14",
+      "width": 104,
+      "x": 1203,
+      "y": 795,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HandSlot",
+      "persistentUuid": "835ed562-becd-4489-bd39-dad060ed0708",
+      "width": 104,
+      "x": 576,
+      "y": 795,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot",
+      "persistentUuid": "5e8bd704-574c-4fb2-98a3-ab78945c5e6d",
+      "width": 104,
+      "x": 672,
+      "y": 224,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot",
+      "persistentUuid": "3ee8adbe-7a5a-4997-86d3-8fff7c50cea3",
+      "width": 104,
+      "x": 896,
+      "y": 224,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot",
+      "persistentUuid": "b36793a2-d1f9-41c2-b4d9-78df65fdd993",
+      "width": 104,
+      "x": 1120,
+      "y": 224,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 78,
+      "height": 88,
+      "keepRatio": true,
+      "layer": "UI",
       "name": "RedButtonWithMetalFrame",
       "persistentUuid": "da7a69f6-cf78-4e1e-b1e7-e36909c1d9ac",
-      "width": 134,
-      "x": 570,
-      "y": 170,
+      "width": 219,
+      "x": 1637,
+      "y": 40,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Slot1",
+      "persistentUuid": "c71c3298-8583-4e91-996d-170706132073",
+      "width": 0,
+      "x": 672,
+      "y": 416,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Slot2",
+      "persistentUuid": "6ca5c527-f4b2-4415-8c7d-ef02112c0cae",
+      "width": 0,
+      "x": 672,
+      "y": 576,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Slot3",
+      "persistentUuid": "4c67a90d-9f79-4879-b1f5-18776b0dd9ad",
+      "width": 0,
+      "x": 896,
+      "y": 416,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Slot4",
+      "persistentUuid": "6f2f0915-704c-4dc7-b4a8-83cd2c64d7c2",
+      "width": 0,
+      "x": 1120,
+      "y": 416,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Slot5",
+      "persistentUuid": "4fc9218f-2a3d-4764-98e3-7c167c9d1026",
+      "width": 0,
+      "x": 896,
+      "y": 576,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Slot6",
+      "persistentUuid": "0aca3fc1-c46e-4eaf-92ce-ddb34ceb2aaf",
+      "width": 0,
+      "x": 1120,
+      "y": 576,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -530,7 +564,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "HeroSlot",
+      "name": "Slot1",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -543,8 +577,8 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "width": 64,
-        "height": 64,
+        "width": 104,
+        "height": 104,
         "depth": 1,
         "enableTextureTransparency": true,
         "facesOrientation": "Y",
@@ -646,6 +680,24 @@
           "name": "attackExecuted",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ],
       "effects": [],
@@ -653,7 +705,8 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 400,
+          "acceleration": 4000,
+          "maxSpeed": 2000,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -662,7 +715,6 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
           "rotateObject": false,
           "smoothingMaxCellGap": 1
         }
@@ -673,17 +725,22 @@
         "height": 64,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\raja.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\Raja.glb",
         "originLocation": "ModelOrigin",
-        "rotationX": -90,
-        "rotationY": 0,
-        "rotationZ": 180,
+        "rotationX": 270,
+        "rotationY": 180,
+        "rotationZ": 0,
         "width": 64,
         "animations": [
           {
             "loop": true,
-            "name": "",
-            "source": "metarig.003|mixamo.com|Layer0"
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
           }
         ]
       }
@@ -768,7 +825,7 @@
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 2
+              "value": 4
             }
           ]
         },
@@ -787,11 +844,11 @@
         "height": 64,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\bungisngis.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\bungisngis.glb",
         "originLocation": "ModelOrigin",
-        "rotationX": -90,
+        "rotationX": 0,
         "rotationY": 0,
-        "rotationZ": 180,
+        "rotationZ": 0,
         "width": 64,
         "animations": []
       }
@@ -878,6 +935,216 @@
           "width": 998
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Slot2",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "HeroSlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Slot3",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "HeroSlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Slot4",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "HeroSlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Slot5",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "HeroSlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Slot6",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "HeroSlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -890,7 +1157,22 @@
         "objectName": "HandSlot"
       },
       {
-        "objectName": "HeroSlot"
+        "objectName": "Slot1"
+      },
+      {
+        "objectName": "Slot2"
+      },
+      {
+        "objectName": "Slot3"
+      },
+      {
+        "objectName": "Slot4"
+      },
+      {
+        "objectName": "Slot5"
+      },
+      {
+        "objectName": "Slot6"
       },
       {
         "objectName": "EnemySlot"
@@ -925,21 +1207,49 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene3D::SetCameraRotationX"
-          },
-          "parameters": [
-            "",
-            "=",
-            "10",
-            "",
-            ""
-          ]
-        }
-      ],
+      "actions": [],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene3D::SetCameraRotationX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "30",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "+",
+                "700",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.1",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -1014,16 +1324,6 @@
                     },
                     {
                       "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\" \" + EnemySlot.isVacant + \" \" + EnemySlot.random",
-                        "\"info\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
@@ -1082,16 +1382,6 @@
                         "EnemyCount",
                         "+",
                         "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\" \" + EnemySlot.isVacant + \" \" + EnemySlot.random",
-                        "\"info\"",
-                        ""
                       ]
                     },
                     {
@@ -1202,193 +1492,15 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "DRAW PHASE\n"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Phase",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Phase",
-            "+",
-            "1"
-          ]
-        }
-      ],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "DRAW PHASE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "HandSlot",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "HandSlot",
-                "isVacant",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Card",
-                "Deck.X()",
-                "Deck.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Card",
-                "Pathfinding",
-                "",
-                "HandSlot.X()",
-                "HandSlot.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "HandSlot",
-                "isVacant",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Card",
-                "boundPos.X",
-                "=",
-                "HandSlot.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Card",
-                "boundPos.Y",
-                "=",
-                "HandSlot.Y()"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "PREPARATION PHASE\n"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "Phase",
-            "=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "RedButtonWithMetalFrame",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "Card"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Card",
-                "Draggable",
-                "yes"
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -1399,32 +1511,29 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "END PREPARATION BY CLICKING BUTTON\n"
+          "comment": "DRAW PHASE\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "RedButtonWithMetalFrame",
-                ""
+                "Phase",
+                "=",
+                "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "RedButtonWithMetalFrame",
-                "no",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -1434,55 +1543,95 @@
                 "+",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"phase; \" + Phase",
-                "\"info\"",
-                ""
-              ]
             }
           ],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "HandSlot",
               "conditions": [
                 {
                   "type": {
-                    "value": "AjoutObjConcern"
+                    "value": "BooleanObjectVariable"
                   },
                   "parameters": [
-                    "",
-                    "Card"
+                    "HandSlot",
+                    "isVacant",
+                    "True",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ActivateBehavior"
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Card",
+                    "Deck.X()",
+                    "Deck.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
                   },
                   "parameters": [
                     "Card",
-                    "Draggable",
-                    "no"
+                    "Pathfinding",
+                    "",
+                    "HandSlot.X()",
+                    "HandSlot.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "HandSlot",
+                    "isVacant",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Card",
+                    "boundPos.X",
+                    "=",
+                    "HandSlot.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Card",
+                    "boundPos.Y",
+                    "=",
+                    "HandSlot.Y()"
                   ]
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     },
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "CARD DROPPED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1561,6 +1710,28 @@
                     },
                     {
                       "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "HeroTest",
+                        "boundPos.X",
+                        "=",
+                        "HeroSlot.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "HeroTest",
+                        "boundPos.Y",
+                        "=",
+                        "HeroSlot.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
@@ -1632,10 +1803,218 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
+      "name": "PREPARATION PHASE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "RedButtonWithMetalFrame",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Card"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Card",
+                    "Draggable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "END PREPARATION BY CLICKING BUTTON\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "RedButtonWithMetalFrame",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "RedButtonWithMetalFrame",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "+",
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Card"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Card",
+                        "Draggable",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "stats.HP",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "\"ENEMY DELETED: \" + ToString(Enemy.X()) + \" \" + ToString(Enemy.Y())",
+                "\"info\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Hero",
+                "Hero",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Hero",
+                "Enemy",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -1660,12 +2039,6 @@
                 "=",
                 "2"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [],
@@ -1681,44 +2054,312 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BooleanObjectVariable"
+                        "value": "AjoutHasard"
                       },
                       "parameters": [
-                        "Hero",
-                        "attackExecuted",
-                        "False",
-                        ""
+                        "",
+                        "Hero"
                       ]
                     }
                   ],
                   "actions": [],
                   "events": [
                     {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "TODO: IMPLEMENT ATTACKING"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "attackExecuted",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "MOVE TO ENEMY"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "Hero.X()",
+                                "Hero.Y()",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Pathfinding",
+                                "",
+                                "Enemy.X()",
+                                "Enemy.Y()+30"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                ".5"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "ATK THE ENEMY"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Distance"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Enemy",
+                                "40",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Animation",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "DebuggerTools::ConsoleLog"
+                              },
+                              "parameters": [
+                                "\"HIT\"",
+                                "\"info\"",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "stats.HP",
+                                    "-",
+                                    "Hero.stats.ATK"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "AjoutHasard"
+                            "value": "BooleanObjectVariable"
                           },
                           "parameters": [
-                            "",
-                            "Enemy"
+                            "Hero",
+                            "attackExecuted",
+                            "True",
+                            ""
                           ]
                         }
                       ],
-                      "actions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PathfindingBehavior::SetDestination"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "Pathfinding",
+                            "",
+                            "Hero.boundPos.X",
+                            "Hero.boundPos.Y"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "Animation",
+                            "=",
+                            "\"idle\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Hero"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "attackExecuted",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Phase",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "\"PHASE: \" + Phase",
+                        "\"info\"",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -1794,21 +2435,6 @@
                         "textR": 0
                       },
                       "comment": "TODO: IMPLEMENT ATTACKING"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AjoutHasard"
-                          },
-                          "parameters": [
-                            "",
-                            "Hero"
-                          ]
-                        }
-                      ],
-                      "actions": []
                     }
                   ]
                 }
@@ -1847,6 +2473,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",
