@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4979159907912323,
+    "zoomFactor": 0.178098921229392,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -56,16 +56,357 @@
   "instances": [
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Marker",
+      "persistentUuid": "9157db1e-9efe-4500-aae1-667a0418c73a",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "UI",
+      "name": "Pause_button",
+      "persistentUuid": "7ba78f78-508d-4a2d-9680-b3417fd796af",
+      "width": 64,
+      "x": 64,
+      "y": 64,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 22,
+      "layer": "GUI",
+      "name": "BronzeGreenBar",
+      "persistentUuid": "07e12276-393f-455a-9fb8-670fbaedd7ac",
+      "width": 768,
+      "x": 576,
+      "y": 106,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Transition",
+      "persistentUuid": "1c3d545a-81ba-49b4-8478-bcac74a9f9ac",
+      "width": 64,
+      "x": 1728,
+      "y": -128,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "pause_marker",
+      "persistentUuid": "fa2c2a7f-d094-4492-a4e8-c4923b603268",
+      "width": 1920,
+      "x": 2176,
+      "y": 0,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 384,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "7def995f-7bb0-4a03-82fe-ce6fc789e18e",
+      "width": 640,
+      "x": 2816,
+      "y": 320,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "resume_button",
+      "persistentUuid": "3f07e986-cc66-447d-96d6-17e980659419",
+      "width": 225,
+      "x": 2880,
+      "y": 385,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "options_button",
+      "persistentUuid": "0ba8c5ed-fd66-4ecb-a3bd-59b95722dd1c",
+      "width": 225,
+      "x": 3170,
+      "y": 385,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "MainMenu_button",
+      "persistentUuid": "0580cfc0-e9b4-45fc-bfeb-083fb0183096",
+      "width": 225,
+      "x": 2880,
+      "y": 540,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "quit_button",
+      "persistentUuid": "bd703727-d53a-40b7-a53d-5def94186b85",
+      "width": 225,
+      "x": 3170,
+      "y": 540,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "options_maker",
+      "persistentUuid": "4812fe8f-3e28-4b00-87d1-66e268562575",
+      "width": 1920,
+      "x": 4352,
+      "y": 0,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 642,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "c3509d41-3a1c-4ae8-a1a0-e91d04090300",
+      "width": 1152,
+      "x": 4736,
+      "y": 220,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "cam",
-      "persistentUuid": "326d1663-efdb-462c-810d-a03854de76dc",
+      "layer": "UI",
+      "name": "volume1",
+      "persistentUuid": "a99b3108-5371-41c4-8af4-e12614f4b3e6",
       "width": 0,
-      "x": 64,
-      "y": 64,
-      "zOrder": 1,
+      "x": 5145,
+      "y": 275,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 28,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "02386568-8372-4174-bf8c-57c2aefc4eff",
+      "width": 384,
+      "x": 5120,
+      "y": 405,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "dialogueSpeed1",
+      "persistentUuid": "36418835-e418-40f9-88fd-c8ab633b6211",
+      "width": 0,
+      "x": 4985,
+      "y": 470,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 28,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "ea6f84cc-09b7-4e10-bebf-ef144b25933f",
+      "width": 384,
+      "x": 5120,
+      "y": 600,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "bck_button",
+      "persistentUuid": "801191d5-4a86-46da-a05b-7f580437a7f6",
+      "width": 225,
+      "x": 5197,
+      "y": 665,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_marker",
+      "persistentUuid": "1d40483c-26f0-4c3c-b9ee-7030ec4fa0d7",
+      "width": 1920,
+      "x": 6528,
+      "y": 0,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 450,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "81e6a54d-864b-4112-ad39-ae7d8e5a2ebc",
+      "width": 1015,
+      "x": 6985,
+      "y": 318,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_options",
+      "persistentUuid": "2a5f7611-a673-44a7-92a2-a380a6295f2a",
+      "width": 0,
+      "x": 7137,
+      "y": 430,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "yes_button",
+      "persistentUuid": "ae78ed38-c52a-47a0-a698-ee2395e136f7",
+      "width": 225,
+      "x": 7195,
+      "y": 535,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "no_button",
+      "persistentUuid": "4f50d356-0cb2-4a96-adac-a2c70f755b44",
+      "width": 225,
+      "x": 7555,
+      "y": 535,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -141,6 +482,13 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "UI"
     }
   ],
   "layers": [
@@ -187,12 +535,82 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "GUI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",
@@ -205,6 +623,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Object3D",
@@ -221,6 +643,14 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
