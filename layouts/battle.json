@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5147058823529443,
+    "zoomFactor": 0.5500032386579747,
     "windowMask": false
   },
   "objectsGroups": [
@@ -29,10 +29,10 @@
           "name": "HandSlot"
         },
         {
-          "name": "Slot1"
+          "name": "HeroSlot1"
         },
         {
-          "name": "EnemySlot"
+          "name": "EnemySlot1"
         }
       ]
     },
@@ -56,22 +56,45 @@
       "name": "HeroSlot",
       "objects": [
         {
-          "name": "Slot1"
+          "name": "HeroSlot1"
         },
         {
-          "name": "Slot2"
+          "name": "HeroSlot2"
         },
         {
-          "name": "Slot3"
+          "name": "HeroSlot3"
         },
         {
-          "name": "Slot4"
+          "name": "HeroSlot4"
         },
         {
-          "name": "Slot5"
+          "name": "HeroSlot5"
         },
         {
-          "name": "Slot6"
+          "name": "HeroSlot6"
+        }
+      ]
+    },
+    {
+      "name": "EnemySlot",
+      "objects": [
+        {
+          "name": "EnemySlot1"
+        },
+        {
+          "name": "EnemySlot2"
+        },
+        {
+          "name": "EnemySlot3"
+        },
+        {
+          "name": "EnemySlot4"
+        },
+        {
+          "name": "EnemySlot5"
+        },
+        {
+          "name": "EnemySlot6"
         }
       ]
     }
@@ -86,6 +109,11 @@
     {
       "folded": true,
       "name": "EnemyCount",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CurrentOrder",
       "type": "number",
       "value": 0
     }
@@ -121,57 +149,6 @@
       "x": 1472,
       "y": 800,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "36f4a3ec-5cba-4d03-865a-2f4083506fe9",
-      "width": 104,
-      "x": 672,
-      "y": 64,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "63fd2b30-146d-4149-a6b6-0ec9cfc2bb8c",
-      "width": 104,
-      "x": 896,
-      "y": 64,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "7c5f3e24-e530-4f45-931a-fd123b922c87",
-      "width": 104,
-      "x": 1120,
-      "y": 64,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -247,57 +224,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 2,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "5e8bd704-574c-4fb2-98a3-ab78945c5e6d",
-      "width": 104,
-      "x": 672,
-      "y": 224,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "3ee8adbe-7a5a-4997-86d3-8fff7c50cea3",
-      "width": 104,
-      "x": 896,
-      "y": 224,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "EnemySlot",
-      "persistentUuid": "b36793a2-d1f9-41c2-b4d9-78df65fdd993",
-      "width": 104,
-      "x": 1120,
-      "y": 224,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 78,
       "height": 88,
       "keepRatio": true,
@@ -318,7 +244,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Slot1",
+      "name": "HeroSlot1",
       "persistentUuid": "c71c3298-8583-4e91-996d-170706132073",
       "width": 0,
       "x": 672,
@@ -334,8 +260,8 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Slot2",
-      "persistentUuid": "6ca5c527-f4b2-4415-8c7d-ef02112c0cae",
+      "name": "HeroSlot2",
+      "persistentUuid": "a70cbf9a-ac07-45f2-9eee-07e75a120d58",
       "width": 0,
       "x": 672,
       "y": 576,
@@ -350,8 +276,8 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Slot3",
-      "persistentUuid": "4c67a90d-9f79-4879-b1f5-18776b0dd9ad",
+      "name": "HeroSlot3",
+      "persistentUuid": "bbe7b7ab-176d-4d22-b996-6c75aa9c1200",
       "width": 0,
       "x": 896,
       "y": 416,
@@ -366,11 +292,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Slot4",
-      "persistentUuid": "6f2f0915-704c-4dc7-b4a8-83cd2c64d7c2",
+      "name": "HeroSlot4",
+      "persistentUuid": "1dc3a575-03a4-48c4-bdd2-e9dda6c22dd2",
       "width": 0,
-      "x": 1120,
-      "y": 416,
+      "x": 896,
+      "y": 576,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -382,11 +308,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Slot5",
-      "persistentUuid": "4fc9218f-2a3d-4764-98e3-7c167c9d1026",
+      "name": "HeroSlot5",
+      "persistentUuid": "65c54482-455d-4d17-928e-c20495006421",
       "width": 0,
-      "x": 896,
-      "y": 576,
+      "x": 1120,
+      "y": 416,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -398,12 +324,108 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Slot6",
-      "persistentUuid": "0aca3fc1-c46e-4eaf-92ce-ddb34ceb2aaf",
+      "name": "HeroSlot6",
+      "persistentUuid": "173ced7b-2f22-4eab-bac2-5b1572ad9390",
       "width": 0,
       "x": 1120,
       "y": 576,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot1",
+      "persistentUuid": "28466c70-32ce-45f5-aa0e-3602e5627123",
+      "width": 0,
+      "x": 672,
+      "y": 248,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot2",
+      "persistentUuid": "b6155438-9659-46ff-8e05-bb12ffc5ae95",
+      "width": 0,
+      "x": 672,
+      "y": 88,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot3",
+      "persistentUuid": "ab555efb-7675-447d-bd23-c4e755ecb33b",
+      "width": 0,
+      "x": 896,
+      "y": 248,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot4",
+      "persistentUuid": "bc3261a8-dd59-4951-85e5-d4daea8548f7",
+      "width": 0,
+      "x": 896,
+      "y": 88,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot5",
+      "persistentUuid": "2423be26-aba9-4cde-b6b4-c1a37f7cc82b",
+      "width": 0,
+      "x": 1120,
+      "y": 248,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "EnemySlot6",
+      "persistentUuid": "357c5787-05e0-4b4e-b4bc-84f5ff18583c",
+      "width": 0,
+      "x": 1120,
+      "y": 88,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -420,6 +442,11 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -564,7 +591,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Slot1",
+      "name": "HeroSlot1",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -572,6 +599,11 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 1
         }
       ],
       "effects": [],
@@ -606,7 +638,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "EnemySlot",
+      "name": "EnemySlot1",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -620,13 +652,18 @@
           "name": "random",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
       "behaviors": [],
       "content": {
-        "width": 64,
-        "height": 64,
+        "width": 104,
+        "height": 104,
         "depth": 1,
         "enableTextureTransparency": true,
         "facesOrientation": "Y",
@@ -678,6 +715,7 @@
         {
           "folded": true,
           "name": "attackExecuted",
+          "persistentUuid": "a3c8834e-abb5-49b6-9a63-1f1c31170cdb",
           "type": "boolean",
           "value": false
         },
@@ -698,6 +736,17 @@
               "value": 0
             }
           ]
+        },
+        {
+          "name": "ORDER",
+          "persistentUuid": "25ebe562-10a9-4237-bff9-0c87a0b62e72",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "isAttacking",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -721,16 +770,16 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 64,
-        "height": 64,
+        "depth": 128,
+        "height": 128,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\Raja.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\Bantong.glb",
         "originLocation": "ModelOrigin",
-        "rotationX": 270,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 64,
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 225,
+        "width": 128,
         "animations": [
           {
             "loop": true,
@@ -840,17 +889,23 @@
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 64,
-        "height": 64,
+        "depth": 128,
+        "height": 128,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\bungisngis.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\berberoka.glb",
         "originLocation": "ModelOrigin",
-        "rotationX": 0,
+        "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 0,
-        "width": 64,
-        "animations": []
+        "width": 128,
+        "animations": [
+          {
+            "loop": true,
+            "name": "",
+            "source": "idle"
+          }
+        ]
       }
     },
     {
@@ -920,6 +975,7 @@
             "text": "END TURN",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -938,7 +994,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Slot2",
+      "name": "HeroSlot2",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -946,6 +1002,11 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 2
         }
       ],
       "effects": [],
@@ -980,7 +1041,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Slot3",
+      "name": "HeroSlot3",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -988,6 +1049,11 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 3
         }
       ],
       "effects": [],
@@ -1022,7 +1088,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Slot4",
+      "name": "HeroSlot4",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -1030,6 +1096,11 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 4
         }
       ],
       "effects": [],
@@ -1064,7 +1135,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Slot5",
+      "name": "HeroSlot5",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -1072,6 +1143,11 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 5
         }
       ],
       "effects": [],
@@ -1106,7 +1182,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Slot6",
+      "name": "HeroSlot6",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -1114,6 +1190,11 @@
           "name": "isVacant",
           "type": "boolean",
           "value": true
+        },
+        {
+          "name": "ORDER",
+          "type": "number",
+          "value": 6
         }
       ],
       "effects": [],
@@ -1125,6 +1206,246 @@
         "enableTextureTransparency": true,
         "facesOrientation": "Y",
         "frontFaceResourceName": "HeroSlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemySlot2",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "EnemySlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemySlot3",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "EnemySlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemySlot4",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "EnemySlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemySlot5",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "EnemySlot",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EnemySlot6",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "isVacant",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 104,
+        "height": 104,
+        "depth": 1,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "EnemySlot",
         "backFaceResourceName": "",
         "backFaceUpThroughWhichAxisRotation": "X",
         "leftFaceResourceName": "",
@@ -1157,25 +1478,40 @@
         "objectName": "HandSlot"
       },
       {
-        "objectName": "Slot1"
+        "objectName": "HeroSlot1"
       },
       {
-        "objectName": "Slot2"
+        "objectName": "HeroSlot2"
       },
       {
-        "objectName": "Slot3"
+        "objectName": "HeroSlot3"
       },
       {
-        "objectName": "Slot4"
+        "objectName": "HeroSlot4"
       },
       {
-        "objectName": "Slot5"
+        "objectName": "HeroSlot5"
       },
       {
-        "objectName": "Slot6"
+        "objectName": "HeroSlot6"
       },
       {
-        "objectName": "EnemySlot"
+        "objectName": "EnemySlot1"
+      },
+      {
+        "objectName": "EnemySlot2"
+      },
+      {
+        "objectName": "EnemySlot3"
+      },
+      {
+        "objectName": "EnemySlot4"
+      },
+      {
+        "objectName": "EnemySlot5"
+      },
+      {
+        "objectName": "EnemySlot6"
       },
       {
         "objectName": "Card"
@@ -1265,7 +1601,17 @@
         {
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "EnemySlot",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "EnemySlot"
+              ]
+            }
+          ],
           "actions": [],
           "events": [
             {
@@ -1540,7 +1886,7 @@
               },
               "parameters": [
                 "Phase",
-                "+",
+                "=",
                 "1"
               ]
             }
@@ -1632,6 +1978,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "CARD DROPPED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1732,10 +2079,31 @@
                     },
                     {
                       "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "HeroTest",
+                        "ORDER",
+                        "=",
+                        "HeroSlot.ORDER"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Delete"
                       },
                       "parameters": [
                         "Card",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "\"TEST: \"+HeroTest.ORDER",
+                        "\"info\"",
                         ""
                       ]
                     }
@@ -1803,7 +2171,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PREPARATION PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1903,8 +2270,8 @@
                   },
                   "parameters": [
                     "Phase",
-                    "+",
-                    "1"
+                    "=",
+                    "2"
                   ]
                 }
               ],
@@ -1947,106 +2314,39 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "Enemy",
-                "stats.HP",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Enemy",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"ENEMY DELETED: \" + ToString(Enemy.X()) + \" \" + ToString(Enemy.Y())",
-                "\"info\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Hero",
-                "Hero",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Hero",
-                "Enemy",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "HERO TURN"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "Phase",
-                "=",
-                "2"
-              ]
-            }
-          ],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "HERO TURN",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Hero",
-              "conditions": [],
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
               "actions": [],
               "events": [
                 {
@@ -2054,11 +2354,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "AjoutHasard"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "",
-                        "Hero"
+                        "Hero",
+                        "HeroSlot1.X()",
+                        "HeroSlot1.Y()",
+                        ""
                       ]
                     }
                   ],
@@ -2069,30 +2371,47 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BooleanObjectVariable"
+                            "inverted": true,
+                            "value": "Distance"
                           },
                           "parameters": [
                             "Hero",
-                            "attackExecuted",
-                            "False",
+                            "HeroSlot1",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Phase",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot1",
+                            "20",
                             ""
                           ]
                         }
                       ],
                       "actions": [],
                       "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "MOVE TO ENEMY"
-                        },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
@@ -2104,56 +2423,6 @@
                                 "Enemy",
                                 "Hero.X()",
                                 "Hero.Y()",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Hero",
-                                "Pathfinding",
-                                "",
-                                "Enemy.X()",
-                                "Enemy.Y()+30"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                ".5"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "ATK THE ENEMY"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "Distance"
-                              },
-                              "parameters": [
-                                "Hero",
-                                "Enemy",
-                                "40",
                                 ""
                               ]
                             },
@@ -2172,6 +2441,18 @@
                           "actions": [
                             {
                               "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Pathfinding",
+                                "",
+                                "Enemy.X()",
+                                "Enemy.Y()+64+32"
+                              ]
+                            },
+                            {
+                              "type": {
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
@@ -2183,12 +2464,21 @@
                             },
                             {
                               "type": {
-                                "value": "DebuggerTools::ConsoleLog"
+                                "value": "Wait"
                               },
                               "parameters": [
-                                "\"HIT\"",
-                                "\"info\"",
-                                ""
+                                "Hero.Animation::Duration()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "stats.HP",
+                                "-",
+                                "Hero.stats.ATK"
                               ]
                             },
                             {
@@ -2209,12 +2499,40 @@
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
+                                    "value": "BooleanObjectVariable"
                                   },
-                                  "parameters": []
+                                  "parameters": [
+                                    "Hero",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
                                 }
                               ],
                               "actions": [
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::SetDestination"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Pathfinding",
+                                    "",
+                                    "Hero.boundPos.X",
+                                    "Hero.boundPos.Y"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Animation",
+                                    "=",
+                                    "\"idle\""
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "Wait"
@@ -2225,13 +2543,685 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "SetNumberObjectVariable"
+                                    "value": "SetNumberVariable"
                                   },
                                   "parameters": [
-                                    "Enemy",
-                                    "stats.HP",
-                                    "-",
-                                    "Hero.stats.ATK"
+                                    "Phase",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "HeroSlot2.X()",
+                        "HeroSlot2.Y()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot2",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Phase",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot2",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "Hero.X()",
+                                "Hero.Y()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Pathfinding",
+                                "",
+                                "Enemy.X()",
+                                "Enemy.Y()+64+32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Animation",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "Hero.Animation::Duration()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "stats.HP",
+                                "-",
+                                "Hero.stats.ATK"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::SetDestination"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Pathfinding",
+                                    "",
+                                    "Hero.boundPos.X",
+                                    "Hero.boundPos.Y"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Animation",
+                                    "=",
+                                    "\"idle\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Phase",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "HeroSlot3.X()",
+                        "HeroSlot3.Y()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot3",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Phase",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot3",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "Hero.X()",
+                                "Hero.Y()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Pathfinding",
+                                "",
+                                "Enemy.X()",
+                                "Enemy.Y()+64+32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Animation",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "Hero.Animation::Duration()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "stats.HP",
+                                "-",
+                                "Hero.stats.ATK"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::SetDestination"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Pathfinding",
+                                    "",
+                                    "Hero.boundPos.X",
+                                    "Hero.boundPos.Y"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Animation",
+                                    "=",
+                                    "\"idle\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Phase",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Hero",
+                        "HeroSlot4.X()",
+                        "HeroSlot4.Y()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot4",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "Hero.X()",
+                                "Hero.Y()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Pathfinding",
+                                "",
+                                "Enemy.X()",
+                                "Enemy.Y()+64+32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Animation",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "Hero.Animation::Duration()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "stats.HP",
+                                "-",
+                                "Hero.stats.ATK"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::SetDestination"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Pathfinding",
+                                    "",
+                                    "Hero.boundPos.X",
+                                    "Hero.boundPos.Y"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Animation",
+                                    "=",
+                                    "\"idle\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Phase",
+                                    "+",
+                                    "1"
                                   ]
                                 }
                               ]
@@ -2245,12 +3235,13 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BooleanObjectVariable"
+                            "inverted": true,
+                            "value": "Distance"
                           },
                           "parameters": [
                             "Hero",
-                            "attackExecuted",
-                            "True",
+                            "HeroSlot4",
+                            "20",
                             ""
                           ]
                         }
@@ -2258,41 +3249,12 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "Wait"
+                            "value": "SetNumberVariable"
                           },
                           "parameters": [
+                            "Phase",
+                            "+",
                             "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PathfindingBehavior::SetDestination"
-                          },
-                          "parameters": [
-                            "Hero",
-                            "Pathfinding",
-                            "",
-                            "Hero.boundPos.X",
-                            "Hero.boundPos.Y"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Hero",
-                            "Animation",
-                            "=",
-                            "\"idle\""
                           ]
                         }
                       ]
@@ -2302,17 +3264,23 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AjoutObjConcern"
+                    "value": "NumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "Hero"
+                    "Phase",
+                    "=",
+                    "6"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [],
@@ -2322,62 +3290,449 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Or"
+                        "value": "PickNearest"
                       },
-                      "parameters": [],
-                      "subInstructions": [
+                      "parameters": [
+                        "Hero",
+                        "HeroSlot5.X()",
+                        "HeroSlot5.Y()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
                         {
                           "type": {
-                            "value": "BooleanObjectVariable"
+                            "inverted": true,
+                            "value": "Distance"
                           },
                           "parameters": [
                             "Hero",
-                            "attackExecuted",
-                            "False",
+                            "HeroSlot5",
+                            "20",
                             ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Phase",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot5",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "Hero.X()",
+                                "Hero.Y()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Pathfinding",
+                                "",
+                                "Enemy.X()",
+                                "Enemy.Y()+64+32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Animation",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "Hero.Animation::Duration()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "stats.HP",
+                                "-",
+                                "Hero.stats.ATK"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::SetDestination"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Pathfinding",
+                                    "",
+                                    "Hero.boundPos.X",
+                                    "Hero.boundPos.Y"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Animation",
+                                    "=",
+                                    "\"idle\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Phase",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
                     }
-                  ],
-                  "actions": [
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "SetNumberVariable"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "Phase",
-                        "+",
-                        "1"
+                        "Hero",
+                        "HeroSlot6.X()",
+                        "HeroSlot6.Y()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot6",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Phase",
+                            "+",
+                            "1"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\"PHASE: \" + Phase",
-                        "\"info\"",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Hero",
+                            "HeroSlot6",
+                            "20",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PickNearest"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "Hero.X()",
+                                "Hero.Y()",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Pathfinding",
+                                "",
+                                "Enemy.X()",
+                                "Enemy.Y()+64+32"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "Animation",
+                                "=",
+                                "\"attack\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "Hero.Animation::Duration()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemy",
+                                "stats.HP",
+                                "-",
+                                "Hero.stats.ATK"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Hero",
+                                "attackExecuted",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PathfindingBehavior::SetDestination"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Pathfinding",
+                                    "",
+                                    "Hero.boundPos.X",
+                                    "Hero.boundPos.Y"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "Animation",
+                                    "=",
+                                    "\"idle\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Phase",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
                 }
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "ENEMY TURN"
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2389,7 +3744,7 @@
               "parameters": [
                 "Phase",
                 "=",
-                "3"
+                "8"
               ]
             },
             {
@@ -2399,48 +3754,122 @@
               "parameters": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Enemy",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemy",
-                        "attackExecuted",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "TODO: IMPLEMENT ATTACKING"
-                    }
-                  ]
-                }
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                "=",
+                "9"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
-          ]
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                "=",
+                "11"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                "=",
+                "12"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                "=",
+                "13"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -2569,6 +3998,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

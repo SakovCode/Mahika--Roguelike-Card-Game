@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3573760943009849,
+    "zoomFactor": 0.1459630546032291,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -515,6 +515,7 @@
         "text": "MAHIKA:",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 150,
         "color": "255;255;255"
       }
@@ -556,6 +557,7 @@
         "text": "Roguelike Card Game",
         "font": "Branda-yolq.ttf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -1565,6 +1567,7 @@
         "text": "VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 90,
         "color": "0;0;0"
       }
@@ -1606,6 +1609,7 @@
         "text": "DIALOGUE SPEED",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 90,
         "color": "0;0;0"
       }
@@ -1676,6 +1680,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -2740,6 +2745,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",
