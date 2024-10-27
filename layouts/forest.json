@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2651538759604315,
+    "zoomFactor": 0.40807287573669776,
     "windowMask": false
   },
   "objectsGroups": [
@@ -261,38 +261,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "volume1",
-      "persistentUuid": "e37864e3-240f-4dd8-958a-61db17f13597",
-      "width": 0,
-      "x": 5145,
-      "y": 275,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "dialogueSpeed1",
-      "persistentUuid": "d8459756-b6a8-4ddd-85bf-0d7cfa9d3ffa",
-      "width": 0,
-      "x": 4985,
-      "y": 470,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 48,
       "height": 28,
@@ -331,7 +299,7 @@
       "depth": 0,
       "height": 100,
       "layer": "UI",
-      "name": "bosses_bck_button",
+      "name": "bck_button",
       "persistentUuid": "9ab4eacd-4727-4482-b19f-15e1aad76423",
       "width": 225,
       "x": 5197,
@@ -429,7 +397,7 @@
       "depth": 48,
       "height": 22,
       "keepRatio": true,
-      "layer": "GUI",
+      "layer": "UI",
       "name": "BronzeGreenBar",
       "persistentUuid": "118be776-7f97-4f1d-bc0b-2109ba81f395",
       "width": 768,
@@ -572,39 +540,6 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "UI",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "GUI",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

@@ -374,7 +374,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "",
             "",
             ""
@@ -387,7 +387,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "Animation",
             "=",
             "1"
@@ -404,7 +404,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "",
             "",
             ""
@@ -417,7 +417,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "Animation",
             "=",
             "0"
@@ -433,7 +433,7 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "ButtonFSM",
             ""
           ]

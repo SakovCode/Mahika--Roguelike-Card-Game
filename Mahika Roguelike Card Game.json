@@ -2865,7 +2865,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "bosses_bck_button",
+      "name": "bck_button",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3219,88 +3219,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "volume1",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "VOLUME",
-      "font": "RoughenCornerRegular-7RjV.ttf",
-      "textAlignment": "center",
-      "characterSize": 90,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": true,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 7,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "VOLUME",
-        "font": "RoughenCornerRegular-7RjV.ttf",
-        "textAlignment": "center",
-        "characterSize": 90,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "dialogueSpeed1",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "DIALOGUE SPEED",
-      "font": "RoughenCornerRegular-7RjV.ttf",
-      "textAlignment": "center",
-      "characterSize": 90,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": true,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 7,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "DIALOGUE SPEED",
-        "font": "RoughenCornerRegular-7RjV.ttf",
-        "textAlignment": "center",
-        "characterSize": 90,
-        "color": "0;0;0"
-      }
     },
     {
       "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
@@ -3692,6 +3610,129 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "MasterVolume",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "MASTER VOLUME",
+      "font": "RoughenCornerRegular-7RjV.ttf",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 7,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "MASTER VOLUME",
+        "font": "RoughenCornerRegular-7RjV.ttf",
+        "textAlignment": "center",
+        "characterSize": 55,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "SFX",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "SFX",
+      "font": "RoughenCornerRegular-7RjV.ttf",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 7,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "SFX",
+        "font": "RoughenCornerRegular-7RjV.ttf",
+        "textAlignment": "center",
+        "characterSize": 55,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "BGM",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "BGM",
+      "font": "RoughenCornerRegular-7RjV.ttf",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 7,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "BGM",
+        "font": "RoughenCornerRegular-7RjV.ttf",
+        "textAlignment": "center",
+        "characterSize": 55,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3752,7 +3793,7 @@
         "objectName": "yes_button"
       },
       {
-        "objectName": "bosses_bck_button"
+        "objectName": "bck_button"
       },
       {
         "objectName": "quit_marker"
@@ -3762,12 +3803,6 @@
       },
       {
         "objectName": "no_button"
-      },
-      {
-        "objectName": "volume1"
-      },
-      {
-        "objectName": "dialogueSpeed1"
       },
       {
         "objectName": "SquareWhiteSlider1"
@@ -3783,6 +3818,15 @@
       },
       {
         "objectName": "New_bg"
+      },
+      {
+        "objectName": "MasterVolume"
+      },
+      {
+        "objectName": "SFX"
+      },
+      {
+        "objectName": "BGM"
       }
     ]
   },

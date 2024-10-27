@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.17228927016998005,
+    "zoomFactor": 0.5147058823529519,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -189,81 +189,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "volume1",
-      "persistentUuid": "f1127496-3e85-4b30-9e6c-d0fbba0733bc",
-      "width": 0,
-      "x": 4896,
-      "y": 315,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "734cab6f-8f4c-4b2c-8627-b504c6f93500",
-      "width": 352,
-      "x": 4885,
-      "y": 430,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "dialogueSpeed1",
-      "persistentUuid": "30d9c90d-4f34-4d72-a20c-a56dec4adcac",
-      "width": 0,
-      "x": 4730,
-      "y": 500,
-      "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "17a79688-8bd5-4f5a-a6a8-ae537e2e30fb",
-      "width": 352,
-      "x": 4885,
-      "y": 615,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
       "height": 67,
       "layer": "UI",
-      "name": "bosses_bck_button",
+      "name": "bck_button",
       "persistentUuid": "a701969c-65ae-488e-a376-5a0df145902b",
       "width": 188,
       "x": 4963,
-      "y": 685,
+      "y": 673,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -377,6 +311,100 @@
       "x": 672,
       "y": 96,
       "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "e67b35de-4548-4930-90fc-4993edeb4bb0",
+      "width": 250,
+      "x": 4928,
+      "y": 615,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "BGM",
+      "persistentUuid": "957d350c-af8a-4731-9683-ac3e5d6d5c9a",
+      "width": 0,
+      "x": 5004,
+      "y": 540,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "f91ba066-545b-4354-851c-57761c9cf448",
+      "width": 250,
+      "x": 4928,
+      "y": 510,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SFX",
+      "persistentUuid": "7b6828db-1904-4376-a328-be136712df51",
+      "width": 0,
+      "x": 5007,
+      "y": 435,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "146013f1-ec97-4ef1-9e99-5331a579db43",
+      "width": 250,
+      "x": 4928,
+      "y": 405,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "MasterVolume",
+      "persistentUuid": "1697bd79-7ea9-45e2-8c3e-e7f6899fefe3",
+      "width": 0,
+      "x": 4847,
+      "y": 330,
+      "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -520,7 +548,7 @@
             "CameraCenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -625,7 +653,7 @@
             "CameraCenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -730,7 +758,7 @@
             "CameraCenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -758,7 +786,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "",
             "",
             ""
@@ -771,7 +799,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "Animation",
             "=",
             "1"
@@ -788,7 +816,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "",
             "",
             ""
@@ -801,7 +829,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "Animation",
             "=",
             "0"
@@ -817,7 +845,7 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "bosses_bck_button",
+            "bck_button",
             "ButtonFSM",
             ""
           ]
@@ -835,7 +863,7 @@
             "CameraCenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -1026,7 +1054,7 @@
             "CameraCenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -1215,7 +1243,7 @@
             "CameraCenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
