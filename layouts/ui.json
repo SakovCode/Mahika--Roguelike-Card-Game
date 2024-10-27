@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.12365954820103406,
+    "zoomFactor": 0.17228927016998005,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -259,7 +259,7 @@
       "depth": 0,
       "height": 67,
       "layer": "UI",
-      "name": "bck_button",
+      "name": "bosses_bck_button",
       "persistentUuid": "a701969c-65ae-488e-a376-5a0df145902b",
       "width": 188,
       "x": 4963,
@@ -531,7 +531,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -636,7 +636,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -741,7 +741,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -758,7 +758,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "bck_button",
+            "bosses_bck_button",
             "",
             "",
             ""
@@ -771,7 +771,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "bck_button",
+            "bosses_bck_button",
             "Animation",
             "=",
             "1"
@@ -788,7 +788,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "bck_button",
+            "bosses_bck_button",
             "",
             "",
             ""
@@ -801,7 +801,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
           },
           "parameters": [
-            "bck_button",
+            "bosses_bck_button",
             "Animation",
             "=",
             "0"
@@ -817,7 +817,7 @@
             "value": "ButtonStates::ButtonFSM::IsClicked"
           },
           "parameters": [
-            "bck_button",
+            "bosses_bck_button",
             "ButtonFSM",
             ""
           ]
@@ -846,7 +846,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -1037,7 +1037,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -1226,7 +1226,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
