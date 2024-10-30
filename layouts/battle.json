@@ -610,9 +610,9 @@
           "checkCollisionMask": true
         },
         {
+          "maxSpeed": 10000,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "maxSpeed": 10000,
           "acceleration": 10000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -1730,8 +1730,6 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -1742,8 +1740,10 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
+          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
         }
       ],
       "content": {
