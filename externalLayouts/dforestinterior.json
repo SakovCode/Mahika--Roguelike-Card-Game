@@ -926,6 +926,41 @@
       "x": 992,
       "y": 383,
       "zOrder": 63,
+<<<<<<< Updated upstream
+=======
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkForestWall",
+      "persistentUuid": "ee4aa7ad-4b6c-440f-a04d-84ed8d55b8f5",
+      "width": 0,
+      "x": 992,
+      "y": 319,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DarkForestWall",
+      "persistentUuid": "80a5968d-df7a-48e7-90ef-04d12368db92",
+      "width": 0,
+      "x": 992,
+      "y": 255,
+      "zOrder": 65,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1789,7 +1824,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
+<<<<<<< Updated upstream
     "zoomFactor": 0.33444089965336354,
+=======
+    "zoomFactor": 0.4507615891327295,
+>>>>>>> Stashed changes
     "windowMask": false
   }
 }

@@ -477,6 +477,7 @@
       "width": 0,
       "x": 800,
       "y": 767,
+<<<<<<< Updated upstream
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -493,6 +494,8 @@
       "width": 0,
       "x": 480,
       "y": 703,
+=======
+>>>>>>> Stashed changes
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -509,6 +512,7 @@
       "width": 0,
       "x": 544,
       "y": 767,
+<<<<<<< Updated upstream
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -525,6 +529,8 @@
       "width": 0,
       "x": 608,
       "y": 703,
+=======
+>>>>>>> Stashed changes
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -685,6 +691,7 @@
       "width": 0,
       "x": 608,
       "y": 767,
+<<<<<<< Updated upstream
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -701,6 +708,8 @@
       "width": 0,
       "x": 544,
       "y": 703,
+=======
+>>>>>>> Stashed changes
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1453,6 +1462,7 @@
       "width": 0,
       "x": 416,
       "y": 511,
+<<<<<<< Updated upstream
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1485,6 +1495,8 @@
       "width": 0,
       "x": 352,
       "y": 703,
+=======
+>>>>>>> Stashed changes
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1501,7 +1513,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
+<<<<<<< Updated upstream
     "zoomFactor": 0.32353131685762987,
+=======
+    "zoomFactor": 0.421833227803328,
+>>>>>>> Stashed changes
     "windowMask": false
   }
 }

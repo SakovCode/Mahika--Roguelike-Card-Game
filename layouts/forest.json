@@ -18,7 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
+<<<<<<< Updated upstream
     "zoomFactor": 0.2651538759604315,
+=======
+    "zoomFactor": 0.46596141870578195,
+>>>>>>> Stashed changes
     "windowMask": false
   },
   "objectsGroups": [
@@ -436,6 +440,22 @@
       "x": 576,
       "y": 106,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cam",
+      "persistentUuid": "1c220052-d42d-4fb4-a1a5-cd8c39b11a2b",
+      "width": 0,
+      "x": 576,
+      "y": 384,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

@@ -99,6 +99,7 @@
       "initialVariables": []
     },
     {
+<<<<<<< Updated upstream
       "angle": 270,
       "customSize": false,
       "height": 0,
@@ -115,6 +116,8 @@
       "initialVariables": []
     },
     {
+=======
+>>>>>>> Stashed changes
       "angle": 270,
       "customSize": false,
       "height": 0,
@@ -221,6 +224,7 @@
       "width": 0,
       "x": 1119,
       "y": 704,
+<<<<<<< Updated upstream
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -237,6 +241,8 @@
       "width": 0,
       "x": 1119,
       "y": 448,
+=======
+>>>>>>> Stashed changes
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -1934,7 +1940,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
+<<<<<<< Updated upstream
     "zoomFactor": 0.3818841323241252,
+=======
+    "zoomFactor": 0.4816737915491936,
+>>>>>>> Stashed changes
     "windowMask": false
   }
 }

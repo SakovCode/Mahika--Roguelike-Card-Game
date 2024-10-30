@@ -1509,7 +1509,164 @@
         "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Monsters/tiyanak.glb",
         "kind": "model3D",
         "metadata": "",
+<<<<<<< Updated upstream
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
+=======
+        "name": "Screenshot 2024-10-27 181524.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-27 181604.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-27 181604.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design (1) (1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (1) (1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (1).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p (1)2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bosses.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bosses.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design (1) (1)2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (1) (1)2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design (1)2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ALUNSINA - Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty. APOLAKI - Prominent deity, p3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Monsters.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monsters.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "heroes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heroes.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/dark forest/darkForestTRee.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\darkForestTRee.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/cave/cave_decor.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\cave_decor.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/cave/rockboulder.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\rockboulder.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/cave/caveFloor.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\caveFloor.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/cave/cave_floor.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\cave_floor.glb",
+>>>>>>> Stashed changes
         "userAdded": false
       }
     ],
@@ -3558,6 +3715,195 @@
         "width": 100,
         "animations": []
       }
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "New_bg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cards.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 0
+                      },
+                      {
+                        "x": 1024,
+                        "y": 576
+                      },
+                      {
+                        "x": 0,
+                        "y": 576
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "MasterVolume",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "MASTER VOLUME",
+      "font": "RoughenCornerRegular-7RjV.ttf",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 7,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "MASTER VOLUME",
+        "font": "RoughenCornerRegular-7RjV.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 55,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "SFX",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "SFX",
+      "font": "RoughenCornerRegular-7RjV.ttf",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 7,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "SFX",
+        "font": "RoughenCornerRegular-7RjV.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 55,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "BGM",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "BGM",
+      "font": "RoughenCornerRegular-7RjV.ttf",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 7,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "BGM",
+        "font": "RoughenCornerRegular-7RjV.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 55,
+        "color": "0;0;0"
+      }
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -3704,7 +4050,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+<<<<<<< Updated upstream
       "referenceTo": "/layouts/modeltest"
+=======
+      "referenceTo": "/layouts/caveboss"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/forestboss"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dforestboss"
+>>>>>>> Stashed changes
     }
   ],
   "externalEvents": [
