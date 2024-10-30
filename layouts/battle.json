@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3694269341636015,
+    "zoomFactor": 0.6492030249510189,
     "windowMask": false
   },
   "objectsGroups": [
@@ -41,6 +41,9 @@
       "objects": [
         {
           "name": "HeroTest"
+        },
+        {
+          "name": "Alunsina"
         }
       ]
     },
@@ -1675,6 +1678,88 @@
         "characterSize": 40,
         "color": "255;9;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Alunsina",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "stats",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "ATK",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "folded": true,
+              "name": "HP",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\alunsina.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -137,
+        "width": 150,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1745,6 +1830,9 @@
       },
       {
         "objectName": "HealthText"
+      },
+      {
+        "objectName": "Alunsina"
       }
     ]
   },

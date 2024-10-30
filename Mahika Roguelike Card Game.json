@@ -1448,6 +1448,69 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Sushi Restaurant/Ground/917c27180c1463876aab56f60582aed11a941f07f30a0ece00e30b85dd067e95_Floor Tiles.glb",
           "name": "Floor Tiles.glb"
         }
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/alunsina.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\alunsina.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/apolaki.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\apolaki.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/bantong.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\bantong.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/bantugan.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\bantugan.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/bernardo.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\bernardo.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/lam ang.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\lam ang.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/princess urduja.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\princess urduja.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Heroes/raja.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\raja.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Monsters/tiyanak.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3638,6 +3701,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/ui"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/modeltest"
     }
   ],
   "externalEvents": [
