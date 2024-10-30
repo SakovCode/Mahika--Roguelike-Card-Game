@@ -1149,11 +1149,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-<<<<<<< Updated upstream
     "zoomFactor": 0.3694269341635978,
-=======
-    "zoomFactor": 0.4080728757366943,
->>>>>>> Stashed changes
     "windowMask": false
   }
 }

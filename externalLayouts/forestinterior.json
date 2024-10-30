@@ -61,105 +61,6 @@
       "width": 0,
       "x": 480,
       "y": 1120,
-<<<<<<< Updated upstream
-=======
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "61c9f99a-9004-4fa5-8588-8160292a54ae",
-      "width": 0,
-      "x": 1120,
-      "y": 96,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "738d6f3e-cd92-4feb-9331-3dc63f520c78",
-      "width": 0,
-      "x": 1120,
-      "y": 160,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "f7b39317-a00d-4bb1-bcd5-38c3474adec6",
-      "width": 0,
-      "x": 1120,
-      "y": 224,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "ca11dd3a-4f56-419f-b96c-ad6d78c27c35",
-      "width": 0,
-      "x": 1120,
-      "y": 288,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "9e3d23ac-5ea3-4efa-af8e-9f0cf187a370",
-      "width": 0,
-      "x": 1120,
-      "y": 352,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall",
-      "persistentUuid": "155035e0-efd6-4ecb-b6b7-4a948b097f37",
-      "width": 0,
-      "x": 1120,
-      "y": 416,
->>>>>>> Stashed changes
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1536,11 +1437,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-<<<<<<< Updated upstream
     "zoomFactor": 0.35737609430098216,
-=======
-    "zoomFactor": 0.5147058823529419,
->>>>>>> Stashed changes
     "windowMask": false
   }
 }

@@ -9,73 +9,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveWall",
-<<<<<<< Updated upstream
-=======
-      "persistentUuid": "8d4ecdff-2b19-4a90-adbe-2a9d177dfd7a",
-      "width": 0,
-      "x": 33,
-      "y": 64,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
-      "persistentUuid": "215269aa-2613-46d5-8939-49b358aa3ee4",
-      "width": 0,
-      "x": 97,
-      "y": 64,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
-      "persistentUuid": "e16f8391-4339-45f4-bd6c-0e4445fa2d6b",
-      "width": 0,
-      "x": 159,
-      "y": 64,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
-      "persistentUuid": "57acb05f-0579-48b8-9c60-513cb117acf9",
-      "width": 0,
-      "x": 225,
-      "y": 64,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
->>>>>>> Stashed changes
       "persistentUuid": "89b4dc02-a96d-4a96-88c2-5b52a6b16cd7",
       "width": 0,
       "x": 287,
@@ -92,41 +25,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveWall",
-<<<<<<< Updated upstream
-=======
-      "persistentUuid": "bac1055f-ff8e-40a9-a338-404cc1fa57ed",
-      "width": 0,
-      "x": 353,
-      "y": 64,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
-      "persistentUuid": "a324637e-6d4a-451c-b5c3-ab5343e562b9",
-      "width": 0,
-      "x": 417,
-      "y": 64,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
->>>>>>> Stashed changes
       "persistentUuid": "374ccd6a-6482-4240-9c63-0824660e09e1",
       "width": 0,
       "x": 481,
@@ -201,25 +99,6 @@
       "initialVariables": []
     },
     {
-<<<<<<< Updated upstream
-=======
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
-      "persistentUuid": "077f33c4-87d7-467a-a804-403761b07102",
-      "width": 0,
-      "x": 0,
-      "y": 95,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
->>>>>>> Stashed changes
       "angle": 90,
       "customSize": false,
       "height": 0,
@@ -242,41 +121,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveWall",
-<<<<<<< Updated upstream
-=======
-      "persistentUuid": "6044639a-f23d-43c0-b03e-d89bbbdd178c",
-      "width": 0,
-      "x": 0,
-      "y": 223,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
-      "persistentUuid": "8e39e7f9-9ad4-47b8-8233-a8251cc2c597",
-      "width": 0,
-      "x": 0,
-      "y": 287,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
->>>>>>> Stashed changes
       "persistentUuid": "81418cdc-4bc6-4480-84a9-5c72f7acb579",
       "width": 0,
       "x": 0,
@@ -293,25 +137,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "CaveWall",
-<<<<<<< Updated upstream
-=======
-      "persistentUuid": "e4ca2d6c-9711-4c58-af1a-66466ea1f669",
-      "width": 0,
-      "x": 0,
-      "y": 415,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CaveWall",
->>>>>>> Stashed changes
       "persistentUuid": "87a3e398-1eb8-448d-b6de-4f75165ec682",
       "width": 0,
       "x": 0,
@@ -906,11 +731,7 @@
       "name": "CaveWall",
       "persistentUuid": "9e35bb70-88f9-45a1-aa51-86340cf13542",
       "width": 0,
-<<<<<<< Updated upstream
       "x": 671,
-=======
-      "x": 673,
->>>>>>> Stashed changes
       "y": 1088,
       "zOrder": 49,
       "numberProperties": [],
@@ -1936,11 +1757,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-<<<<<<< Updated upstream
     "zoomFactor": 0.3818841323241251,
-=======
-    "zoomFactor": 0.5320619346001237,
->>>>>>> Stashed changes
     "windowMask": false
   }
 }
