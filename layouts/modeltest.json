@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.7315786463753003,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -173,6 +173,22 @@
       "x": 1118,
       "y": 729,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "New3DModel2",
+      "persistentUuid": "009232e0-19e1-4e30-a112-2be908017619",
+      "width": 0,
+      "x": 1493,
+      "y": 876,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -376,6 +392,39 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DModel2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Princess Urdaja(Card)2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": true,
+            "name": "Flip",
+            "source": "Flip"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -407,6 +456,9 @@
       },
       {
         "objectName": "New3DModel"
+      },
+      {
+        "objectName": "New3DModel2"
       }
     ]
   },
