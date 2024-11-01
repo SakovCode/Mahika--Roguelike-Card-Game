@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "Forest",
   "name": "Forest",
-  "r": 209,
+  "r": 255,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 255,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.40807287573669776,
+    "zoomFactor": 1.3466285000597098,
     "windowMask": false
   },
   "objectsGroups": [
@@ -407,22 +407,43 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "Light",
+      "persistentUuid": "42ff5b4f-ff7f-4235-8330-63efd747434d",
+      "width": 0,
+      "x": 64,
+      "y": -64,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "assetStoreId": "29d029e782eb1227a0adc5023c6cfbeec58039adab6098bb804f2d83864c258b",
-      "name": "Wall",
+      "name": "ForestWall",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
       "content": {
         "centerLocation": "ModelOrigin",
         "depth": 70.4,
         "height": 64.00000000000001,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forestWall.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
@@ -439,7 +460,7 @@
       "leftMargin": 0,
       "name": "ForestFloor",
       "rightMargin": 0,
-      "texture": "forrest_ground_01_diff_1k.jpg",
+      "texture": "tiled_Grass8.png",
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -447,16 +468,286 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Light",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 200,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Sigbin",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\sigbin.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tikbalang",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Kapre",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8b3529d01bbbe18c5a6930de1e4cf04a771851030360c95ff833c2981abb8c40",
+      "name": "Player",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "isMoving",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 9999,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 360,
+          "customIsometryAngle": 30,
+          "deceleration": 9999,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": true,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "Male Adventurer.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": false,
+            "name": "GunShoot",
+            "source": "Gun_Shoot"
+          },
+          {
+            "loop": false,
+            "name": "HitRecieve2",
+            "source": "HitRecieve_2"
+          },
+          {
+            "loop": false,
+            "name": "HitRecieve",
+            "source": "HitRecieve"
+          },
+          {
+            "loop": true,
+            "name": "IdleGun",
+            "source": "Idle_Gun"
+          },
+          {
+            "loop": true,
+            "name": "IdleGunPointing",
+            "source": "Idle_Gun_Pointing"
+          },
+          {
+            "loop": false,
+            "name": "IdleGunShoot",
+            "source": "Idle_Gun_Shoot"
+          },
+          {
+            "loop": true,
+            "name": "IdleNeutral",
+            "source": "Idle_Neutral"
+          },
+          {
+            "loop": true,
+            "name": "IdleSword",
+            "source": "Idle_Sword"
+          },
+          {
+            "loop": false,
+            "name": "Interact",
+            "source": "Interact"
+          },
+          {
+            "loop": false,
+            "name": "KickLeft",
+            "source": "Kick_Left"
+          },
+          {
+            "loop": false,
+            "name": "KickRight",
+            "source": "Kick_Right"
+          },
+          {
+            "loop": false,
+            "name": "PunchLeft",
+            "source": "Punch_Left"
+          },
+          {
+            "loop": false,
+            "name": "PunchRight",
+            "source": "Punch_Right"
+          },
+          {
+            "loop": false,
+            "name": "Roll",
+            "source": "Roll"
+          },
+          {
+            "loop": true,
+            "name": "RunBack",
+            "source": "Run_Back"
+          },
+          {
+            "loop": true,
+            "name": "RunLeft",
+            "source": "Run_Left"
+          },
+          {
+            "loop": true,
+            "name": "RunRight",
+            "source": "Run_Right"
+          },
+          {
+            "loop": false,
+            "name": "RunShoot",
+            "source": "Run_Shoot"
+          },
+          {
+            "loop": false,
+            "name": "SwordSlash",
+            "source": "Sword_Slash"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "ForestFloor"
+        "folderName": "Terrain",
+        "children": [
+          {
+            "objectName": "ForestWall"
+          },
+          {
+            "objectName": "ForestFloor"
+          }
+        ]
       },
       {
-        "objectName": "Wall"
+        "folderName": "Monster",
+        "children": [
+          {
+            "objectName": "Tikbalang"
+          },
+          {
+            "objectName": "Kapre"
+          },
+          {
+            "objectName": "Sigbin"
+          }
+        ]
+      },
+      {
+        "objectName": "Light"
+      },
+      {
+        "objectName": "Player"
       }
     ]
   },
@@ -473,14 +764,14 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "DEBUG"
+      "target": "UI"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-      "target": "UI"
+      "target": "PlayerMovement"
     }
   ],
   "layers": [
@@ -512,16 +803,26 @@
       ],
       "effects": [
         {
-          "effectType": "Scene3D::HemisphereLight",
+          "effectType": "Scene3D::ExponentialFog",
           "name": "3D Light",
           "doubleParameters": {
+            "density": 0.0012
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "Effect",
+          "doubleParameters": {
             "elevation": 45,
-            "intensity": 1,
+            "intensity": 0.5,
             "rotation": 0
           },
           "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
+            "color": "0;0;0",
             "top": "Y-"
           },
           "booleanParameters": {}
@@ -560,6 +861,23 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
@@ -586,6 +904,10 @@
     {
       "name": "Health",
       "type": "Health::Health"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "Object3D",

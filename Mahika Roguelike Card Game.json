@@ -1578,6 +1578,54 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Summer/Plant/27f094a9f6626367b0c0a28e2d98291414109922a122edaef7139e124af1b09b_Tree 3.png",
           "name": "Tree 3.png"
         }
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Player/Player.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Player\\Player.glb",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spawner_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Spawner_Front",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Monsters/sigbin.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\sigbin.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Monsters/tikbalang.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Monsters/kapre.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Male Adventurer.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Male Adventurer.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/9ad9b25ce345360529960fb85e3c8f3926df3282831991077cf079027dd6e406_Male Adventurer.glb",
+          "name": "Male Adventurer.glb"
+        }
       }
     ],
     "resourceFolders": []
@@ -3639,6 +3687,7 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
@@ -3680,6 +3729,7 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
@@ -3721,8 +3771,51 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Spawner",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [
+        {
+          "folded": true,
+          "name": "random",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 64,
+        "height": 64,
+        "depth": 1,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "Spawner_Front",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
       }
     }
   ],
@@ -3730,94 +3823,107 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "overlapChecker"
+        "folderName": "LvlGenerationsHIT",
+        "children": [
+          {
+            "objectName": "Right"
+          },
+          {
+            "objectName": "Left"
+          },
+          {
+            "objectName": "Down"
+          },
+          {
+            "objectName": "Up"
+          },
+          {
+            "objectName": "Spawner"
+          },
+          {
+            "objectName": "interiorGenerator"
+          },
+          {
+            "objectName": "overlapChecker"
+          }
+        ]
       },
       {
-        "objectName": "interiorGenerator"
-      },
-      {
-        "objectName": "Up"
-      },
-      {
-        "objectName": "Down"
-      },
-      {
-        "objectName": "Left"
-      },
-      {
-        "objectName": "Right"
+        "folderName": "idk",
+        "children": [
+          {
+            "objectName": "BGM"
+          },
+          {
+            "objectName": "SFX"
+          },
+          {
+            "objectName": "MasterVolume"
+          },
+          {
+            "objectName": "New_bg"
+          },
+          {
+            "objectName": "Cards_Deck"
+          },
+          {
+            "objectName": "BronzeGreenBar"
+          },
+          {
+            "objectName": "plain_bg"
+          },
+          {
+            "objectName": "SquareWhiteSlider1"
+          },
+          {
+            "objectName": "no_button"
+          },
+          {
+            "objectName": "options_maker"
+          },
+          {
+            "objectName": "quit_marker"
+          },
+          {
+            "objectName": "bck_button"
+          },
+          {
+            "objectName": "yes_button"
+          },
+          {
+            "objectName": "quit_options"
+          },
+          {
+            "objectName": "quit_button"
+          },
+          {
+            "objectName": "MainMenu_button"
+          },
+          {
+            "objectName": "options_button"
+          },
+          {
+            "objectName": "resume_button"
+          },
+          {
+            "objectName": "pause_marker"
+          },
+          {
+            "objectName": "Pause_button"
+          },
+          {
+            "objectName": "pause_bg"
+          },
+          {
+            "objectName": "Marker"
+          },
+          {
+            "objectName": "Transition"
+          }
+        ]
       },
       {
         "objectName": "cam"
-      },
-      {
-        "objectName": "Transition"
-      },
-      {
-        "objectName": "Marker"
-      },
-      {
-        "objectName": "pause_bg"
-      },
-      {
-        "objectName": "Pause_button"
-      },
-      {
-        "objectName": "pause_marker"
-      },
-      {
-        "objectName": "resume_button"
-      },
-      {
-        "objectName": "options_button"
-      },
-      {
-        "objectName": "MainMenu_button"
-      },
-      {
-        "objectName": "quit_button"
-      },
-      {
-        "objectName": "quit_options"
-      },
-      {
-        "objectName": "yes_button"
-      },
-      {
-        "objectName": "bck_button"
-      },
-      {
-        "objectName": "quit_marker"
-      },
-      {
-        "objectName": "options_maker"
-      },
-      {
-        "objectName": "no_button"
-      },
-      {
-        "objectName": "SquareWhiteSlider1"
-      },
-      {
-        "objectName": "plain_bg"
-      },
-      {
-        "objectName": "BronzeGreenBar"
-      },
-      {
-        "objectName": "Cards_Deck"
-      },
-      {
-        "objectName": "New_bg"
-      },
-      {
-        "objectName": "MasterVolume"
-      },
-      {
-        "objectName": "SFX"
-      },
-      {
-        "objectName": "BGM"
       }
     ]
   },
@@ -3827,6 +3933,12 @@
       "objects": [
         {
           "name": "CaveWall"
+        },
+        {
+          "name": "ForestWall"
+        },
+        {
+          "name": "DarkForestWall"
         }
       ]
     },
@@ -3906,7 +4018,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/creatureaction"
+      "referenceTo": "/externalEvents/playermovement"
     }
   ],
   "eventsFunctionsExtensions": [

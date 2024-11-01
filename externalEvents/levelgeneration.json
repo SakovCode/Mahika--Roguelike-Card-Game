@@ -36,42 +36,195 @@
             "=",
             "4"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "overlapChecker",
-                "overlapChecker",
-                "",
-                "",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
+            "value": "Create"
           },
           "parameters": [
             "",
-            "CurrentSceneName()",
+            "Player",
+            "640",
+            "640",
             ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Spawner",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "RandomInRange(1,4)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "random",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Sigbin",
+                        "Spawner.CenterX()",
+                        "Spawner.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "random",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Sigbin",
+                        "Spawner.CenterX()",
+                        "Spawner.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "random",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Sigbin",
+                        "Spawner.CenterX()",
+                        "Spawner.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        "random",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Spawner",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
@@ -116,101 +269,221 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Right",
-      "conditions": [],
-      "actions": [],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "GenerateRooms",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "AjoutHasard"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "Right"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "overlapChecker",
+                    "overlapChecker",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "Scene"
               },
               "parameters": [
-                "Right",
-                "random",
-                "=",
-                "RandomInRange(1,6)"
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"RIGHT RN: \" + Right.random",
-                "\"info\"",
+                "",
+                "CurrentSceneName()",
                 ""
               ]
             }
-          ],
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Right",
+          "conditions": [],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "AjoutHasard"
                   },
                   "parameters": [
-                    "NumberOfRooms",
-                    "<=",
-                    "MinRoom"
+                    "",
+                    "Right"
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Right",
+                    "random",
+                    "=",
+                    "RandomInRange(1,6)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"RIGHT RN: \" + Right.random",
+                    "\"info\"",
+                    ""
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Right",
-                        "random",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Right",
-                        "random",
+                        "NumberOfRooms",
                         "<=",
-                        "3"
+                        "MinRoom"
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"LeftRight\"",
-                        "Right.X()",
-                        "Right.Y()",
-                        "Right.Z()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Right",
+                            "random",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Right",
+                            "random",
+                            "<=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"LeftRight\"",
+                            "Right.X()",
+                            "Right.Y()",
+                            "Right.Z()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Right",
+                            "random",
+                            ">=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Right",
+                            "random",
+                            "<=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"LeftEnd\"",
+                            "Right.X()",
+                            "Right.Y()",
+                            "Right.Z()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Right",
+                            "random",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"Fourway\"",
+                            "Right.X()",
+                            "Right.Y()",
+                            "Right.Z()"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -220,24 +493,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Right",
-                        "random",
-                        ">=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Right",
-                        "random",
-                        "<=",
-                        "5"
+                        "NumberOfRooms",
+                        ">",
+                        "MinRoom"
                       ]
                     }
                   ],
@@ -261,214 +522,227 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "Right",
-                        "random",
-                        "=",
-                        "6"
+                        "Left",
+                        "Right.X()",
+                        "Right.Y()",
+                        ""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                        "value": "Delete"
                       },
                       "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Fourway\"",
-                        "Right.X()",
-                        "Right.Y()",
-                        "Right.Z()"
+                        "Left",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Right",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "NumberOfRooms",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    ">",
-                    "MinRoom"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"LeftEnd\"",
-                    "Right.X()",
-                    "Right.Y()",
-                    "Right.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Left",
-                    "Right.X()",
-                    "Right.Y()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Left",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Right",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Down",
-      "conditions": [],
-      "actions": [],
-      "events": [
+        },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "Down"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Down",
-                "random",
-                "=",
-                "RandomInRange(1,6)"
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"DOWN RN: \" + Down.random",
-                "\"info\"",
-                ""
-              ]
-            }
-          ],
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Down",
+          "conditions": [],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "AjoutHasard"
                   },
                   "parameters": [
-                    "NumberOfRooms",
-                    "<=",
-                    "MinRoom"
+                    "",
+                    "Down"
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Down",
+                    "random",
+                    "=",
+                    "RandomInRange(1,6)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"DOWN RN: \" + Down.random",
+                    "\"info\"",
+                    ""
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Down",
-                        "random",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Down",
-                        "random",
+                        "NumberOfRooms",
                         "<=",
-                        "3"
+                        "MinRoom"
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName() + \"UpDown\"",
-                        "Down.X()",
-                        "Down.Y()",
-                        "Down.Z()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Down",
+                            "random",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Down",
+                            "random",
+                            "<=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName() + \"UpDown\"",
+                            "Down.X()",
+                            "Down.Y()",
+                            "Down.Z()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Down",
+                            "random",
+                            ">=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Down",
+                            "random",
+                            "<=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName() + \"UpEnd\"",
+                            "Down.X()",
+                            "Down.Y()",
+                            "Down.Z()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Down",
+                            "random",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName() + \"Fourway\"",
+                            "Down.X()",
+                            "Down.Y()",
+                            "Down.Z()"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -478,24 +752,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Down",
-                        "random",
-                        ">=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Down",
-                        "random",
-                        "<=",
-                        "5"
+                        "NumberOfRooms",
+                        ">",
+                        "MinRoom"
                       ]
                     }
                   ],
@@ -519,223 +781,23 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "Down",
-                        "random",
-                        "=",
-                        "6"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName() + \"Fourway\"",
+                        "Up",
                         "Down.X()",
                         "Down.Y()",
-                        "Down.Z()"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    ">",
-                    "MinRoom"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName() + \"UpEnd\"",
-                    "Down.X()",
-                    "Down.Y()",
-                    "Down.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Up",
-                    "Down.X()",
-                    "Down.Y()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Up",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Down",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Up",
-      "conditions": [],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "Up"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Up",
-                "random",
-                "=",
-                "RandomInRange(1,6)"
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"UP RN: \" + Up.random",
-                "\"info\"",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    "<=",
-                    "MinRoom"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Up",
-                        "random",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Up",
-                        "random",
-                        "<=",
-                        "3"
+                        ""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                        "value": "Delete"
                       },
                       "parameters": [
-                        "",
-                        "CurrentSceneName() + \"UpDown\"",
-                        "Up.X()",
-                        "Up.Y()",
-                        "Up.Z()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\"GENERATED ROOM: \" + CurrentSceneName() + \"UPDOWN\"",
-                        "\"info\"",
+                        "Up",
                         ""
                       ]
                     }
@@ -743,27 +805,248 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                  "conditions": [],
+                  "actions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "Delete"
                       },
                       "parameters": [
-                        "Up",
-                        "random",
-                        ">=",
-                        "4"
+                        "Down",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "Up",
-                        "random",
+                        "NumberOfRooms",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Up",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "Up"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Up",
+                    "random",
+                    "=",
+                    "RandomInRange(1,6)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"UP RN: \" + Up.random",
+                    "\"info\"",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "NumberOfRooms",
                         "<=",
-                        "5"
+                        "MinRoom"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Up",
+                            "random",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Up",
+                            "random",
+                            "<=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName() + \"UpDown\"",
+                            "Up.X()",
+                            "Up.Y()",
+                            "Up.Z()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"UPDOWN\"",
+                            "\"info\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Up",
+                            "random",
+                            ">=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Up",
+                            "random",
+                            "<=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"DownEnd\"",
+                            "Up.X()",
+                            "Up.Y()",
+                            "Up.Z()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"DOWNEND\"",
+                            "\"info\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Up",
+                            "random",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"Fourway\"",
+                            "Up.X()",
+                            "Up.Y()",
+                            "Up.Z()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"FOURWAY\"",
+                            "\"info\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "NumberOfRooms",
+                        ">",
+                        "MinRoom"
                       ]
                     }
                   ],
@@ -797,68 +1080,87 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "PickNearest"
                       },
                       "parameters": [
-                        "Up",
-                        "random",
-                        "=",
-                        "6"
+                        "Down",
+                        "Up.X()",
+                        "Up.Y()",
+                        ""
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                        "value": "Delete"
                       },
                       "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Fourway\"",
-                        "Up.X()",
-                        "Up.Y()",
-                        "Up.Z()"
+                        "Down",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Up",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "DebuggerTools::ConsoleLog"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "\"GENERATED ROOM: \" + CurrentSceneName() + \"FOURWAY\"",
-                        "\"info\"",
-                        ""
+                        "NumberOfRooms",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Left",
+          "conditions": [],
+          "actions": [],
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "AjoutHasard"
                   },
                   "parameters": [
-                    "NumberOfRooms",
-                    ">",
-                    "MinRoom"
+                    "",
+                    "Left"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                    "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"DownEnd\"",
-                    "Up.X()",
-                    "Up.Y()",
-                    "Up.Z()"
+                    "Left",
+                    "random",
+                    "=",
+                    "RandomInRange(1,6)"
                   ]
                 },
                 {
@@ -866,175 +1168,169 @@
                     "value": "DebuggerTools::ConsoleLog"
                   },
                   "parameters": [
-                    "\"GENERATED ROOM: \" + CurrentSceneName() + \"DOWNEND\"",
+                    "\"LEFT RN: \" + Left.random",
                     "\"info\"",
                     ""
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Down",
-                    "Up.X()",
-                    "Up.Y()",
-                    ""
-                  ]
-                }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Down",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Up",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "Left",
-      "conditions": [],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Left",
-                "random",
-                "=",
-                "RandomInRange(1,6)"
-              ]
-            },
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "\"LEFT RN: \" + Left.random",
-                "\"info\"",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    "<=",
-                    "MinRoom"
-                  ]
-                }
-              ],
-              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Left",
-                        "random",
-                        ">=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Left",
-                        "random",
+                        "NumberOfRooms",
                         "<=",
-                        "3"
+                        "MinRoom"
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"LeftRight\"",
-                        "Left.X()",
-                        "Left.Y()",
-                        "Left.Z()"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Left",
+                            "random",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Left",
+                            "random",
+                            "<=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"LeftRight\"",
+                            "Left.X()",
+                            "Left.Y()",
+                            "Left.Z()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"LEFTRIGHT\"",
+                            "\"info\"",
+                            ""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\"GENERATED ROOM: \" + CurrentSceneName() + \"LEFTRIGHT\"",
-                        "\"info\"",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Left",
+                            "random",
+                            ">=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Left",
+                            "random",
+                            "<=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"RightEnd\"",
+                            "Left.X()",
+                            "Left.Y()",
+                            "Left.Z()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"RIGHTEND\"",
+                            "\"info\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Left",
+                            "random",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                          },
+                          "parameters": [
+                            "",
+                            "CurrentSceneName()+ \"Fourway\"",
+                            "Left.X()",
+                            "Left.Y()",
+                            "Left.Z()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "DebuggerTools::ConsoleLog"
+                          },
+                          "parameters": [
+                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"FOURWAY\"",
+                            "\"info\"",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -1044,24 +1340,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Left",
-                        "random",
-                        ">=",
-                        "4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Left",
-                        "random",
-                        "<=",
-                        "5"
+                        "NumberOfRooms",
+                        ">",
+                        "MinRoom"
                       ]
                     }
                   ],
@@ -1095,10 +1379,250 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Right",
+                        "Left.X()",
+                        "Left.Y()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Right",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
                       },
                       "parameters": [
                         "Left",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "NumberOfRooms",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "interiorGenerator",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "interiorGenerator"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "interiorGenerator",
+                    "random",
+                    "=",
+                    "RandomInRange(1,10)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior2\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior3\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior4\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior5\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
                         "random",
                         "=",
                         "6"
@@ -1112,472 +1636,155 @@
                       },
                       "parameters": [
                         "",
-                        "CurrentSceneName()+ \"Fourway\"",
-                        "Left.X()",
-                        "Left.Y()",
-                        "Left.Z()"
+                        "CurrentSceneName()+ \"Interior6\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "DebuggerTools::ConsoleLog"
+                        "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "\"GENERATED ROOM: \" + CurrentSceneName() + \"FOURWAY\"",
-                        "\"info\"",
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior7\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "8"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior8\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "9"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior9\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
+                        "random",
+                        "=",
+                        "10"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior10\"",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "interiorGenerator",
                         ""
                       ]
                     }
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    ">",
-                    "MinRoom"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"RightEnd\"",
-                    "Left.X()",
-                    "Left.Y()",
-                    "Left.Z()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"GENERATED ROOM: \" + CurrentSceneName() + \"RIGHTEND\"",
-                    "\"info\"",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Right",
-                    "Left.X()",
-                    "Left.Y()",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Right",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Left",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "NumberOfRooms",
-                    "+",
-                    "1"
-                  ]
-                }
-              ]
             }
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::ForEach",
-      "object": "interiorGenerator",
-      "conditions": [],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "interiorGenerator"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "interiorGenerator",
-                "random",
-                "=",
-                "RandomInRange(1,10)"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior2\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior3\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior4\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "5"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior5\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "6"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior6\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "7"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior7\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "8"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior8\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "9"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior9\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "10"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "CurrentSceneName()+ \"Interior10\"",
-                    "interiorGenerator.X()",
-                    "interiorGenerator.Y()",
-                    "interiorGenerator.Z()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      ],
+      "parameters": []
     }
   ]
 }
