@@ -1626,6 +1626,13 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/9ad9b25ce345360529960fb85e3c8f3926df3282831991077cf079027dd6e406_Male Adventurer.glb",
           "name": "Male Adventurer.glb"
         }
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/dark forest/darkForestTRee.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\darkForestTRee.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
