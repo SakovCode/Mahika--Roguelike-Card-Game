@@ -1633,6 +1633,36 @@
         "metadata": "",
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\darkForestTRee.glb",
         "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/cave/caveWall.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\caveWall.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/dark forest/dforestWall.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\dforestWall.glb",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "grass_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grass_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Player/player.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Player\\player.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
