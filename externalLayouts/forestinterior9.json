@@ -1306,22 +1306,34 @@
       "initialVariables": []
     },
     {
+<<<<<<< Updated upstream
       "angle": 0,
+=======
+      "angle": 94,
+>>>>>>> Stashed changes
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "Tikbalang",
+<<<<<<< Updated upstream
       "persistentUuid": "c009fb55-1b4d-4b67-a254-4bffda184c65",
       "width": 0,
       "x": 568,
       "y": 570,
+=======
+      "persistentUuid": "4ed1136c-22fc-419c-9de0-fe7438ed20d6",
+      "width": 0,
+      "x": 13,
+      "y": 571,
+>>>>>>> Stashed changes
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
+<<<<<<< Updated upstream
       "angle": 182,
       "customSize": true,
       "depth": 31,
@@ -1334,6 +1346,83 @@
       "x": 754,
       "y": 206,
       "zOrder": 6,
+=======
+      "angle": 271,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Kapre",
+      "persistentUuid": "3b59bc40-3271-4b22-8d59-294b183ef7a0",
+      "width": 0,
+      "x": 655,
+      "y": 765,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Kapre",
+      "persistentUuid": "41a31b10-60b8-4dff-b2fe-d91777c30298",
+      "width": 0,
+      "x": 567,
+      "y": 303,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 181,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tikbalang",
+      "persistentUuid": "2bf772d9-6709-4e9b-b384-106ba657a8f9",
+      "width": 0,
+      "x": 854,
+      "y": 223,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 272,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Sigbin",
+      "persistentUuid": "114041b2-72c7-4918-bdf5-b9fa69efc594",
+      "width": 0,
+      "x": 970,
+      "y": 576,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 91,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Sigbin",
+      "persistentUuid": "275f785f-60ae-4c7a-8c61-1ad9e4aca803",
+      "width": 0,
+      "x": 226,
+      "y": 928,
+      "zOrder": 10,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1344,35 +1433,73 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "Chess",
       "persistentUuid": "5d0ef3dc-dc3a-44ba-b359-d0db527adb59",
       "width": 0,
       "x": 208,
       "y": 205,
       "zOrder": 7,
+=======
+      "name": "Kapre",
+      "persistentUuid": "cb6de431-5904-41c3-a8ab-e5cdcbf58148",
+      "width": 0,
+      "x": 764,
+      "y": 1000,
+      "zOrder": 11,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
+<<<<<<< Updated upstream
       "angle": 270,
+=======
+      "angle": 94,
+>>>>>>> Stashed changes
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "Chess",
       "persistentUuid": "9b13c328-ad67-4639-bac2-0d7e3a8de50f",
       "width": 0,
       "x": 909,
       "y": 592,
       "zOrder": 8,
+=======
+      "name": "Tikbalang",
+      "persistentUuid": "dfe5bc23-1089-45fb-a786-2c334c1aff56",
+      "width": 0,
+      "x": 146,
+      "y": 381,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 91,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Sigbin",
+      "persistentUuid": "f2d4fe44-63ad-47c3-bf87-a0133ec5aeaa",
+      "width": 0,
+      "x": 296,
+      "y": 85,
+      "zOrder": 13,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "editionSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -1380,8 +1507,13 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
+<<<<<<< Updated upstream
     "snap": true,
     "zoomFactor": 0.6937238887523813,
+=======
+    "snap": false,
+    "zoomFactor": 0.46596141870577923,
+>>>>>>> Stashed changes
     "windowMask": false
   }
 }
