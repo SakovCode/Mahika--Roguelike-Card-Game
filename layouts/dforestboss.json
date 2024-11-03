@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6197916666666665,
+    "zoomFactor": 0.7077142870146652,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1288,6 +1288,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 237,
+      "height": 120,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Sitan",
+      "persistentUuid": "98681a6d-41c1-4305-b3b0-8750b37defcf",
+      "width": 128,
+      "x": 960,
+      "y": -775,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 91,
+      "height": 86,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chess",
+      "persistentUuid": "7d0d0ca6-c6a4-4c58-98f2-d0f12753445d",
+      "width": 128,
+      "x": 960,
+      "y": -1312,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1378,6 +1412,77 @@
         "width": 64,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Sitan",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\sitan.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": false,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Chess",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\chess.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Cylinder.002Action",
+            "source": "Cylinder.002Action"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1394,6 +1499,12 @@
       },
       {
         "objectName": "Ground"
+      },
+      {
+        "objectName": "Sitan"
+      },
+      {
+        "objectName": "Chess"
       }
     ]
   },

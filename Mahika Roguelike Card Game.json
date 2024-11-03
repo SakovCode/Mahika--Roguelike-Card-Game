@@ -1663,6 +1663,34 @@
         "metadata": "",
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Player\\player.glb",
         "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Bosses/sarimanok.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\sarimanok.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/CardandChess/chess.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\chess.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Bosses/sitan.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\sitan.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Characters/Bosses/bakunawa.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\bakunawa.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
