@@ -584,7 +584,7 @@
         "height": 32,
         "keepAspectRatio": true,
         "materialType": "Basic",
-        "modelResourceName": "Male Adventurer.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Player\\player.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
@@ -594,122 +594,87 @@
           {
             "loop": true,
             "name": "Idle",
-            "source": "Idle"
+            "source": "idle"
           },
           {
             "loop": true,
             "name": "Walk",
-            "source": "Walk"
+            "source": "walk"
           },
           {
             "loop": true,
             "name": "Run",
-            "source": "Run"
+            "source": "run"
           },
           {
             "loop": false,
             "name": "Death",
-            "source": "Death"
-          },
-          {
-            "loop": false,
-            "name": "GunShoot",
-            "source": "Gun_Shoot"
-          },
-          {
-            "loop": false,
-            "name": "HitRecieve2",
-            "source": "HitRecieve_2"
+            "source": "death"
           },
           {
             "loop": false,
             "name": "HitRecieve",
-            "source": "HitRecieve"
-          },
-          {
-            "loop": true,
-            "name": "IdleGun",
-            "source": "Idle_Gun"
-          },
-          {
-            "loop": true,
-            "name": "IdleGunPointing",
-            "source": "Idle_Gun_Pointing"
-          },
-          {
-            "loop": false,
-            "name": "IdleGunShoot",
-            "source": "Idle_Gun_Shoot"
-          },
-          {
-            "loop": true,
-            "name": "IdleNeutral",
-            "source": "Idle_Neutral"
-          },
-          {
-            "loop": true,
-            "name": "IdleSword",
-            "source": "Idle_Sword"
+            "source": "hit"
           },
           {
             "loop": false,
             "name": "Interact",
-            "source": "Interact"
-          },
-          {
-            "loop": false,
-            "name": "KickLeft",
-            "source": "Kick_Left"
-          },
-          {
-            "loop": false,
-            "name": "KickRight",
-            "source": "Kick_Right"
-          },
-          {
-            "loop": false,
-            "name": "PunchLeft",
-            "source": "Punch_Left"
-          },
-          {
-            "loop": false,
-            "name": "PunchRight",
-            "source": "Punch_Right"
-          },
-          {
-            "loop": false,
-            "name": "Roll",
-            "source": "Roll"
-          },
-          {
-            "loop": true,
-            "name": "RunBack",
-            "source": "Run_Back"
+            "source": "pull"
           },
           {
             "loop": true,
             "name": "RunLeft",
-            "source": "Run_Left"
+            "source": "run"
           },
           {
             "loop": true,
             "name": "RunRight",
-            "source": "Run_Right"
+            "source": "run"
           },
           {
             "loop": false,
-            "name": "RunShoot",
-            "source": "Run_Shoot"
+            "name": "death",
+            "source": "death"
           },
           {
             "loop": false,
-            "name": "SwordSlash",
-            "source": "Sword_Slash"
+            "name": "hit",
+            "source": "hit"
           },
           {
             "loop": false,
-            "name": "Wave",
-            "source": "Wave"
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "metarig|mixamo.com|Layer0",
+            "source": "metarig|mixamo.com|Layer0"
+          },
+          {
+            "loop": false,
+            "name": "pull",
+            "source": "pull"
+          },
+          {
+            "loop": false,
+            "name": "run",
+            "source": "run"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          },
+          {
+            "loop": true,
+            "name": "RunBack",
+            "source": "run"
           }
         ]
       }

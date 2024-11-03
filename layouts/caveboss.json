@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5079575118131734,
+    "zoomFactor": 0.7077142870146653,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1503,6 +1503,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 345,
+      "customSize": true,
+      "depth": 177,
+      "height": 119,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bakunawa",
+      "persistentUuid": "0d750c87-cba8-446f-b1bd-3adbf2b4f755",
+      "width": 101,
+      "x": 964,
+      "y": -1066,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 91,
+      "height": 86,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chess",
+      "persistentUuid": "8113b3ed-ca3a-446e-913f-b4daee19240b",
+      "width": 128,
+      "x": 960,
+      "y": -1687,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1519,7 +1553,7 @@
         "height": 64,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\cave_wall.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\caveWall.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 0,
@@ -1593,6 +1627,71 @@
         "width": 64,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bakunawa",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\bakunawa.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": false,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Chess",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\chess.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1609,6 +1708,12 @@
       },
       {
         "objectName": "Decor"
+      },
+      {
+        "objectName": "Bakunawa"
+      },
+      {
+        "objectName": "Chess"
       }
     ]
   },
