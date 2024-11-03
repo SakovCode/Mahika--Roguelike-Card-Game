@@ -1304,6 +1304,71 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tikbalang",
+      "persistentUuid": "c009fb55-1b4d-4b67-a254-4bffda184c65",
+      "width": 0,
+      "x": 568,
+      "y": 570,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 182,
+      "customSize": true,
+      "depth": 31,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Sigbin",
+      "persistentUuid": "d2ae5197-498d-4b21-af64-3950103d9296",
+      "width": 22,
+      "x": 754,
+      "y": 206,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chess",
+      "persistentUuid": "5d0ef3dc-dc3a-44ba-b359-d0db527adb59",
+      "width": 0,
+      "x": 208,
+      "y": 205,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chess",
+      "persistentUuid": "9b13c328-ad67-4639-bac2-0d7e3a8de50f",
+      "width": 0,
+      "x": 909,
+      "y": 592,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1316,7 +1381,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.33444089965336343,
+    "zoomFactor": 0.6937238887523813,
     "windowMask": false
   }
 }
