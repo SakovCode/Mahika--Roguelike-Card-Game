@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.1666691320239445,
+    "zoomFactor": 1.3466285000597098,
     "windowMask": false
   },
   "objectsGroups": [
@@ -495,7 +495,7 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "Basic",
+        "materialType": "StandardWithoutMetalness",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\sigbin.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
@@ -514,16 +514,16 @@
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 40,
-        "height": 40,
+        "depth": 32,
+        "height": 32,
         "keepAspectRatio": true,
-        "materialType": "Basic",
+        "materialType": "StandardWithoutMetalness",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 0,
-        "width": 40,
+        "width": 32,
         "animations": []
       }
     },
@@ -536,16 +536,16 @@
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 64,
-        "height": 64,
+        "depth": 32,
+        "height": 32,
         "keepAspectRatio": true,
-        "materialType": "Basic",
+        "materialType": "StandardWithoutMetalness",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 0,
-        "width": 64,
+        "width": 32,
         "animations": []
       }
     },
