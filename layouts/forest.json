@@ -678,6 +678,119 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tree",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\ForestTree.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Berberoka",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\berberoka.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tiyanak",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -705,6 +818,12 @@
           },
           {
             "objectName": "Sigbin"
+          },
+          {
+            "objectName": "Berberoka"
+          },
+          {
+            "objectName": "Tiyanak"
           }
         ]
       },
@@ -713,6 +832,9 @@
       },
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "Tree"
       }
     ]
   },

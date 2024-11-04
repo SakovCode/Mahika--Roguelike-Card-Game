@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6492030249510189,
+    "zoomFactor": 0.8188454456336366,
     "windowMask": false
   },
   "objectsGroups": [
@@ -486,6 +486,25 @@
       "x": -66,
       "y": 70,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 1,
+      "customSize": true,
+      "depth": 107,
+      "height": 12,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Stump",
+      "persistentUuid": "69efcf7d-dd2d-4629-8293-e783dc456cbd",
+      "rotationX": -51,
+      "rotationY": -6,
+      "width": 112,
+      "x": 713,
+      "y": 236,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1760,6 +1779,28 @@
         "width": 150,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Stump",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "stump.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 4.45619116537e-313,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1833,6 +1874,9 @@
       },
       {
         "objectName": "Alunsina"
+      },
+      {
+        "objectName": "Stump"
       }
     ]
   },
