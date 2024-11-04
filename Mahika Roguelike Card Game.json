@@ -1694,6 +1694,7 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "cards.jpg",
         "kind": "image",
         "metadata": "",
@@ -2291,6 +2292,79 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+=======
+        "file": "9451-v1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "9451-v1.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9451.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "9451.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image5.png\"}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tree 4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree 4.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Pack/Plant/efc6abd8e5c4d04a2007e58643dc6e79ef673b5fb6556ff206665710b4e4f14d_Tree 4.glb",
+          "name": "Tree 4.glb"
+        }
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []

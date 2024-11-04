@@ -1272,6 +1272,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "MonsterSigbin",
       "persistentUuid": "13c219a3-e671-44a5-b437-792c71183d26",
       "width": 0,
@@ -1304,6 +1305,8 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+=======
+>>>>>>> Stashed changes
       "name": "Chess",
       "persistentUuid": "c5bd724e-c9b9-46e9-8bcf-23ae3c1c3cd7",
       "width": 0,
@@ -1336,28 +1339,64 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "Tree",
       "persistentUuid": "f594eae7-f9be-4296-b0d6-d71bd6696f38",
       "width": 0,
       "x": 244,
       "y": 587,
+=======
+      "name": "Tikbalang",
+      "persistentUuid": "ba15f9b8-5f1a-43b5-8191-94165659c380",
+      "width": 0,
+      "x": 762,
+      "y": 394,
+>>>>>>> Stashed changes
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
+<<<<<<< Updated upstream
+=======
+      "angle": 269,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Kapre",
+      "persistentUuid": "0b132fd3-38ed-4a41-84c9-d469160cb113",
+      "width": 0,
+      "x": 672,
+      "y": 733,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+>>>>>>> Stashed changes
       "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "Tree",
       "persistentUuid": "4e932060-6a78-4c94-a0bf-374aba13f5fe",
       "width": 0,
       "x": 244,
       "y": 523,
       "zOrder": 9,
+=======
+      "name": "Kapre",
+      "persistentUuid": "85d4700a-a7ac-4409-8917-7bfeb351017d",
+      "width": 0,
+      "x": 585,
+      "y": 924,
+      "zOrder": 11,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1368,12 +1407,37 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "Tree",
       "persistentUuid": "a6643a5e-e0f8-4a62-bc87-f02c033dcb93",
       "width": 0,
       "x": 884,
       "y": 629,
       "zOrder": 9,
+=======
+      "name": "Tikbalang",
+      "persistentUuid": "533149ba-6583-4cc7-a8a4-b372abd93c5c",
+      "width": 0,
+      "x": 417,
+      "y": 641,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 85,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Sigbin",
+      "persistentUuid": "4e44dde9-36d0-4198-b4a3-703aad43da14",
+      "width": 0,
+      "x": 475,
+      "y": 161,
+      "zOrder": 13,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1384,12 +1448,21 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "Tree",
       "persistentUuid": "ad25df0e-5281-4000-ba2e-0ce3f19e97b3",
       "width": 0,
       "x": 884,
       "y": 523,
       "zOrder": 9,
+=======
+      "name": "Tikbalang",
+      "persistentUuid": "d003a015-e6e0-4879-96f5-a1da83e8e651",
+      "width": 0,
+      "x": 989,
+      "y": 669,
+      "zOrder": 14,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1400,6 +1473,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+<<<<<<< Updated upstream
       "name": "Tree",
       "persistentUuid": "5e5c8564-c630-4df4-8cf3-f2082b1c5afe",
       "width": 0,
@@ -1454,13 +1528,21 @@
       "x": 524,
       "y": 885,
       "zOrder": 9,
+=======
+      "name": "Sigbin",
+      "persistentUuid": "5a3ceaca-cd2f-489e-81a2-7377138339d1",
+      "width": 0,
+      "x": 160,
+      "y": 673,
+      "zOrder": 15,
+>>>>>>> Stashed changes
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "editionSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -1468,8 +1550,13 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
+<<<<<<< Updated upstream
     "snap": true,
     "zoomFactor": 0.9045052888202111,
+=======
+    "snap": false,
+    "zoomFactor": 0.628025788078117,
+>>>>>>> Stashed changes
     "windowMask": false
   }
 }
