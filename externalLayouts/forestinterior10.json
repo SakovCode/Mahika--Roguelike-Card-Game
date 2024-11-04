@@ -1121,6 +1121,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Berberoka",
+      "persistentUuid": "a84dcf09-4af7-4f96-b546-ddbfcac8053e",
+      "width": 0,
+      "x": 587,
+      "y": 823,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tikbalang",
+      "persistentUuid": "b7e0faba-fa72-4916-b6cb-62a23e95ba2b",
+      "width": 0,
+      "x": 904,
+      "y": 437,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1133,7 +1165,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6075393603116693,
+    "zoomFactor": 1.8761967421084225,
     "windowMask": false
   }
 }

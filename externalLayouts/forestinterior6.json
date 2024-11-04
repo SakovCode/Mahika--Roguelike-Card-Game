@@ -1073,6 +1073,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tikbalang",
+      "persistentUuid": "c3e05430-a0a2-4f2e-9d63-911e43e6d4cc",
+      "width": 0,
+      "x": 648,
+      "y": 715,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tiyanak",
+      "persistentUuid": "0c205409-5deb-491f-bab3-2bb70f243c39",
+      "width": 0,
+      "x": 586,
+      "y": 633,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1085,7 +1117,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8750000000000008,
+    "zoomFactor": 1.1793306108790453,
     "windowMask": false
   }
 }

@@ -1713,6 +1713,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Berberoka",
+      "persistentUuid": "492e15f9-bee8-4300-a4fb-10b979191e8f",
+      "width": 0,
+      "x": 247,
+      "y": 523,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 30,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tiyanak",
+      "persistentUuid": "9318e845-65da-4ed1-9ac3-fd494e0231d6",
+      "width": 0,
+      "x": 906,
+      "y": 263,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1725,7 +1757,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7921344117998224,
+    "zoomFactor": 0.8188454456336285,
     "windowMask": false
   }
 }

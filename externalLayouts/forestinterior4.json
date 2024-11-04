@@ -1489,6 +1489,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Berberoka",
+      "persistentUuid": "a7afde23-7d7b-4152-8509-75495480c0d7",
+      "width": 0,
+      "x": 395,
+      "y": 393,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Sigbin",
+      "persistentUuid": "83ea8e0d-2da6-44c0-b1d9-c590465eb7de",
+      "width": 0,
+      "x": 844,
+      "y": 631,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {

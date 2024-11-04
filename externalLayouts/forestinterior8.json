@@ -1297,6 +1297,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tiyanak",
+      "persistentUuid": "34f6a4fb-7b01-4db2-b004-ac85632236b1",
+      "width": 0,
+      "x": 566,
+      "y": 583,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Kapre",
+      "persistentUuid": "234d5bcc-5067-4e3c-8a18-94df76d94f23",
+      "width": 0,
+      "x": 632,
+      "y": 332,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1309,7 +1341,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5320619346001237,
+    "zoomFactor": 1.1036451424167204,
     "windowMask": false
   }
 }
