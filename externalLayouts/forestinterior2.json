@@ -1649,6 +1649,70 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tree",
+      "persistentUuid": "a66ef3e1-da96-4552-a52f-33109cda890e",
+      "width": 0,
+      "x": 524,
+      "y": 757,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tree",
+      "persistentUuid": "1b5cc98f-99b5-4f5f-9d2f-5533157e2da8",
+      "width": 0,
+      "x": 524,
+      "y": 395,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tree",
+      "persistentUuid": "20787a3a-03ef-4f52-aae0-0f7d534c459a",
+      "width": 0,
+      "x": 820,
+      "y": 693,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tree",
+      "persistentUuid": "72ef2fa1-7e2d-4092-b8d7-f474863d03e0",
+      "width": 0,
+      "x": 756,
+      "y": 267,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1661,7 +1725,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.34571835718200694,
+    "zoomFactor": 0.7921344117998224,
     "windowMask": false
   }
 }

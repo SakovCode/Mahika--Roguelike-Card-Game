@@ -1265,6 +1265,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tree",
+      "persistentUuid": "64b4d6ed-aa51-4ad3-9d52-97c914ded0ba",
+      "width": 0,
+      "x": 204,
+      "y": 331,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Tree",
+      "persistentUuid": "1ef22805-6b83-41a0-9647-25ea97631eec",
+      "width": 0,
+      "x": 1012,
+      "y": 693,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1277,7 +1309,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.31297760858830836,
+    "zoomFactor": 0.5320619346001237,
     "windowMask": false
   }
 }
