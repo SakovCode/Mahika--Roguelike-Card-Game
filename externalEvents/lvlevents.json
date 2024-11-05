@@ -1,0 +1,247 @@
+{
+  "associatedLayout": "Forest",
+  "name": "LvlEvents",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TODO: \nENEMY ENCOUNTER"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Monsters",
+            "ForestWall",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "EnemyLOS",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Monsters",
+          "conditions": [
+            {
+              "type": {
+                "value": "Raycast"
+              },
+              "parameters": [
+                "Thicc",
+                "Monsters.X()",
+                "Monsters.Y()",
+                "ToDeg(atan2(Player.Y() - Monsters.Y(), Player.X() - Monsters.X()))",
+                "600",
+                "Intersection.X",
+                "Intersection.Y",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickedInstancesCount"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Monsters",
+                    "isAlerted",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Monsters",
+                "Player",
+                "300",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Monsters",
+                "isAlerted",
+                "False",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "EnemyMovement/Animation",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Monsters",
+                "isAlerted",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Monsters",
+                    "Animation",
+                    "=",
+                    "\"walk\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Monsters",
+                    "Pathfinding",
+                    "",
+                    "Player.X()",
+                    "Player.Y()"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::Speed"
+              },
+              "parameters": [
+                "Monsters",
+                "Pathfinding",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Monsters",
+                "Animation",
+                "=",
+                "\"idle\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "EnemyEncounter",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Monsters",
+                "Player",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    }
+  ]
+}

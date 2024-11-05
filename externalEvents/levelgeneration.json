@@ -1,6 +1,5 @@
 {
   "associatedLayout": "Forest",
-  "lastChangeTimeStamp": 0,
   "name": "LevelGeneration",
   "events": [
     {
@@ -54,176 +53,25 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Spawner",
-          "conditions": [],
-          "actions": [],
-          "events": [
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Spawner",
-                    "random",
-                    "=",
-                    "RandomInRange(1,4)"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        "random",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Sigbin",
-                        "Spawner.CenterX()",
-                        "Spawner.CenterY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        "random",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Sigbin",
-                        "Spawner.CenterX()",
-                        "Spawner.CenterY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        "random",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Sigbin",
-                        "Spawner.CenterX()",
-                        "Spawner.CenterY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        "random",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Spawner",
-                        ""
-                      ]
-                    }
-                  ]
-                }
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Monsters"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Monsters",
+                ""
               ]
             }
           ]

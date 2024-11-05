@@ -1203,22 +1203,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Spawner",
-      "persistentUuid": "954d3fcb-235e-4a5d-b469-d10c170b4ec1",
-      "width": 0,
-      "x": 576,
-      "y": 576,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {

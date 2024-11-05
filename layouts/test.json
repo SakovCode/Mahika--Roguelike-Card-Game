@@ -1,0 +1,459 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "TEST",
+  "name": "TEST",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 2.259253576955559,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Floor",
+      "persistentUuid": "17923a68-1739-452c-84da-262778ef29bb",
+      "width": 1920,
+      "x": 960,
+      "y": 544,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "e46df3cd-7241-4e60-b35e-60ef7e042f4e",
+      "width": 0,
+      "x": 569,
+      "y": 473,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "Light",
+      "persistentUuid": "df94e8ce-516f-4c04-b592-9df30c3d24d8",
+      "width": 0,
+      "x": 2386,
+      "y": 435,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MonsterTiyanak",
+      "persistentUuid": "8b705216-2f99-4fc5-a989-7179bc9bce90",
+      "width": 0,
+      "x": 855,
+      "y": 457,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MonsterBerberoka",
+      "persistentUuid": "44c7ba0e-ded6-44a2-aff9-7ed2d27fd0b5",
+      "width": 0,
+      "x": 1045,
+      "y": 695,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MonsterSigbin",
+      "persistentUuid": "265a8ddc-bd6f-4945-bf6e-db31897d3d5d",
+      "width": 0,
+      "x": 1216,
+      "y": 160,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ForestWall",
+      "persistentUuid": "11ac0d63-e287-4142-83a7-e0d62c9a74bb",
+      "width": 32,
+      "x": 816,
+      "y": 432,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ForestWall",
+      "persistentUuid": "89a790c3-5436-43cf-bf55-eb59b644d0d2",
+      "width": 32,
+      "x": 1168,
+      "y": 304,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 416,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ForestWall",
+      "persistentUuid": "075ea6ff-b406-403b-9a3f-0a6bbe8d7409",
+      "width": 32,
+      "x": 976,
+      "y": 624,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "7a812b9231d5e6be3ac57aa0ef1ead008f4ee4d020f2d2461463ce9ee6b295d3",
+      "name": "Floor",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "floor.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 30,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Light2",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 50,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "29d029e782eb1227a0adc5023c6cfbeec58039adab6098bb804f2d83864c258b",
+      "name": "Wall",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 33,
+        "height": 33,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "wall.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 33,
+        "animations": []
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Alerted",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 0
+                      },
+                      {
+                        "x": 37,
+                        "y": 0
+                      },
+                      {
+                        "x": 37,
+                        "y": 50
+                      },
+                      {
+                        "x": 27,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Floor"
+      },
+      {
+        "objectName": "Light2"
+      },
+      {
+        "objectName": "Wall"
+      },
+      {
+        "objectName": "Alerted"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LvlEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "PlayerMovement"
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    }
+  ]
+}

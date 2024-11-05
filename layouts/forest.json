@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.24813719282548996,
+    "zoomFactor": 0.17809892122939394,
     "windowMask": false
   },
   "objectsGroups": [
@@ -73,6 +73,22 @@
       "name": "MINZOOM",
       "type": "number",
       "value": 0.5
+    },
+    {
+      "name": "Intersection",
+      "type": "structure",
+      "children": [
+        {
+          "name": "X",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Y",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "instances": [
@@ -427,33 +443,6 @@
   ],
   "objects": [
     {
-      "assetStoreId": "29d029e782eb1227a0adc5023c6cfbeec58039adab6098bb804f2d83864c258b",
-      "name": "ForestWall",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 70.4,
-        "height": 64.00000000000001,
-        "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forestWall.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": -90,
-        "width": 64.00000000000003,
-        "animations": []
-      }
-    },
-    {
       "assetStoreId": "",
       "bottomMargin": 0,
       "height": 1280,
@@ -471,216 +460,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "Light",
-      "type": "Lighting::LightObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "radius": 200,
-        "color": "255;255;255",
-        "debugMode": false,
-        "texture": ""
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Sigbin",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\sigbin.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Tikbalang",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Kapre",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "8b3529d01bbbe18c5a6930de1e4cf04a771851030360c95ff833c2981abb8c40",
-      "name": "Player",
-      "type": "Scene3D::Model3DObject",
-      "variables": [
-        {
-          "name": "isMoving",
-          "type": "boolean",
-          "value": false
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 9999,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 360,
-          "customIsometryAngle": 30,
-          "deceleration": 9999,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "viewpoint": "TopDown"
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Player\\player.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 32,
-        "animations": [
-          {
-            "loop": true,
-            "name": "Idle",
-            "source": "idle"
-          },
-          {
-            "loop": true,
-            "name": "Walk",
-            "source": "walk"
-          },
-          {
-            "loop": true,
-            "name": "Run",
-            "source": "run"
-          },
-          {
-            "loop": false,
-            "name": "Death",
-            "source": "death"
-          },
-          {
-            "loop": false,
-            "name": "HitRecieve",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "Interact",
-            "source": "pull"
-          },
-          {
-            "loop": true,
-            "name": "RunLeft",
-            "source": "run"
-          },
-          {
-            "loop": true,
-            "name": "RunRight",
-            "source": "run"
-          },
-          {
-            "loop": false,
-            "name": "death",
-            "source": "death"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": false,
-            "name": "metarig|mixamo.com|Layer0",
-            "source": "metarig|mixamo.com|Layer0"
-          },
-          {
-            "loop": false,
-            "name": "pull",
-            "source": "pull"
-          },
-          {
-            "loop": false,
-            "name": "run",
-            "source": "run"
-          },
-          {
-            "loop": false,
-            "name": "t-pose",
-            "source": "t-pose"
-          },
-          {
-            "loop": false,
-            "name": "walk",
-            "source": "walk"
-          },
-          {
-            "loop": true,
-            "name": "RunBack",
-            "source": "run"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Tree",
       "type": "Scene3D::Model3DObject",
       "variables": [],
@@ -691,7 +470,7 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\ForestTree.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
@@ -699,97 +478,6 @@
         "rotationZ": 0,
         "width": 32,
         "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Berberoka",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\berberoka.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": [
-          {
-            "loop": true,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": false,
-            "name": "attack",
-            "source": "attack"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "t-pose",
-            "source": "t-pose"
-          },
-          {
-            "loop": false,
-            "name": "walk",
-            "source": "walk"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Tiyanak",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": [
-          {
-            "loop": true,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": false,
-            "name": "attack",
-            "source": "attack"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "walk",
-            "source": "walk"
-          }
-        ]
       }
     }
   ],
@@ -800,41 +488,12 @@
         "folderName": "Terrain",
         "children": [
           {
-            "objectName": "ForestWall"
+            "objectName": "Tree"
           },
           {
             "objectName": "ForestFloor"
           }
         ]
-      },
-      {
-        "folderName": "Monster",
-        "children": [
-          {
-            "objectName": "Tikbalang"
-          },
-          {
-            "objectName": "Kapre"
-          },
-          {
-            "objectName": "Sigbin"
-          },
-          {
-            "objectName": "Berberoka"
-          },
-          {
-            "objectName": "Tiyanak"
-          }
-        ]
-      },
-      {
-        "objectName": "Light"
-      },
-      {
-        "objectName": "Player"
-      },
-      {
-        "objectName": "Tree"
       }
     ]
   },
@@ -859,6 +518,13 @@
         "includeConfig": 0
       },
       "target": "PlayerMovement"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "LvlEvents"
     }
   ],
   "layers": [
@@ -1036,6 +702,14 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "Resizable",

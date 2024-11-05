@@ -1,6 +1,5 @@
 {
   "associatedLayout": "Forest",
-  "lastChangeTimeStamp": 0,
   "name": "PlayerMovement",
   "events": [
     {
@@ -198,46 +197,13 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "TopDownMovementBehavior::Speed"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "d"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "a"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "s"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "w"
-              ]
-            }
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            ">",
+            "0"
           ]
         }
       ],
@@ -260,46 +226,13 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "TopDownMovementBehavior::Speed"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "w"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "a"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "s"
-              ]
-            },
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "d"
-              ]
-            }
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "<=",
+            "0"
           ]
         }
       ],

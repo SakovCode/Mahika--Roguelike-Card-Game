@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2258,6 +2258,39 @@
         "name": "TiyanakInfo.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor checkered blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor checkered blue.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/a88024627b15311ce3c92fe715878b74c191ae1a22d564a975f7113c97d290c6_floor checkered blue.png",
+          "name": "floor checkered blue.png"
+        }
+      },
+      {
+        "file": "assets/floor.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "floor.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Mini Dungeon/7bf755e449badc7c0852f7aa22cfee7fecbcd9bfdbc66e3d4f20bdf91f6f9e7f_floor.glb",
+          "name": "floor.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2581,19 +2614,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3418,6 +3451,7 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -3965,6 +3999,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4202,6 +4237,7 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4327,6 +4363,7 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
@@ -4368,6 +4405,7 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
@@ -4409,6 +4447,7 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
@@ -4453,6 +4492,562 @@
         "topFaceResourceRepeat": false,
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MonsterTikbalang",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MonsterKapre",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 100,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MonsterSigbin",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 300,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\sigbin.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": [
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          },
+          {
+            "loop": true,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MonsterBerberoka",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 100,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\berberoka.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": true,
+            "name": "walk",
+            "source": "walk"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MonsterTiyanak",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 360,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 10,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 200,
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": true,
+            "name": "walk",
+            "source": "walk"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Light",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 200,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "8b3529d01bbbe18c5a6930de1e4cf04a771851030360c95ff833c2981abb8c40",
+      "name": "Player",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "isMoving",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 9998,
+          "maxSpeed": 400,
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 360,
+          "customIsometryAngle": 30,
+          "deceleration": 9999,
+          "ignoreDefaultControls": false,
+          "movementAngleOffset": 0,
+          "rotateObject": true,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Player\\player.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 32,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "run"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "death"
+          },
+          {
+            "loop": false,
+            "name": "HitRecieve",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "Interact",
+            "source": "pull"
+          },
+          {
+            "loop": true,
+            "name": "RunLeft",
+            "source": "run"
+          },
+          {
+            "loop": true,
+            "name": "RunRight",
+            "source": "run"
+          },
+          {
+            "loop": false,
+            "name": "death",
+            "source": "death"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "metarig|mixamo.com|Layer0",
+            "source": "metarig|mixamo.com|Layer0"
+          },
+          {
+            "loop": false,
+            "name": "pull",
+            "source": "pull"
+          },
+          {
+            "loop": false,
+            "name": "run",
+            "source": "run"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          },
+          {
+            "loop": true,
+            "name": "RunBack",
+            "source": "run"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "29d029e782eb1227a0adc5023c6cfbeec58039adab6098bb804f2d83864c258b",
+      "name": "ForestWall",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 70.4,
+        "height": 64.00000000000001,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forestWall.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 64.00000000000003,
+        "animations": []
       }
     }
   ],
@@ -4560,7 +5155,36 @@
         ]
       },
       {
+        "folderName": "Monsters",
+        "children": [
+          {
+            "objectName": "MonsterTiyanak"
+          },
+          {
+            "objectName": "MonsterBerberoka"
+          },
+          {
+            "objectName": "MonsterSigbin"
+          },
+          {
+            "objectName": "MonsterKapre"
+          },
+          {
+            "objectName": "MonsterTikbalang"
+          }
+        ]
+      },
+      {
         "objectName": "cam"
+      },
+      {
+        "objectName": "Light"
+      },
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "ForestWall"
       }
     ]
   },
@@ -4576,6 +5200,37 @@
         },
         {
           "name": "DarkForestWall"
+        }
+      ]
+    },
+    {
+      "name": "Monsters",
+      "objects": [
+        {
+          "name": "MonsterTikbalang"
+        },
+        {
+          "name": "MonsterKapre"
+        },
+        {
+          "name": "MonsterSigbin"
+        },
+        {
+          "name": "MonsterBerberoka"
+        },
+        {
+          "name": "MonsterTiyanak"
+        }
+      ]
+    },
+    {
+      "name": "Thicc",
+      "objects": [
+        {
+          "name": "Player"
+        },
+        {
+          "name": "ForestWall"
         }
       ]
     },
@@ -4597,7 +5252,18 @@
       ]
     }
   ],
-  "variables": [],
+  "variables": [
+    {
+      "name": "encounterID",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "PlayerHP",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -4638,6 +5304,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/dforestboss"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/test"
     }
   ],
   "externalEvents": [
@@ -4656,6 +5326,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/playermovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/lvlevents"
     }
   ],
   "eventsFunctionsExtensions": [
