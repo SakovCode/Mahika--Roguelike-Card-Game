@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1691,6 +1691,573 @@
         "metadata": "",
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\bakunawa.glb",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cards.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "cards.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-27 173934.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-27 173934.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-10-27 174014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-10-27 174014.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CardsBg2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CardsBg2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Card BG.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Card BG.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ALUNSINA CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ALUNSINA CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Paper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Paper.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Alunsina3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alunsina3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Alunsina info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alunsina info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "APOLAKI CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "APOLAKI CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Apolaki.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apolaki.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Apolaki info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apolaki info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ASWANG CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ASWANG CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Aswang.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Aswang.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AswangInfo2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AswangInfo2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BAKUNAWA CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "BAKUNAWA CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bakunawa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bakunawa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BakunawaInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BakunawaInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BANTONG CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "BANTONG CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bantong.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bantong.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bantong info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bantong info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BANTUGAN CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "BANTUGAN CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bantugan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bantugan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bantugan info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bantugan info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BERBEROKA CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "BERBEROKA CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Berberoka.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Berberoka.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BerberokaInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BerberokaInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BERNARDO CARPIO CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "BERNARDO CARPIO CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bernardo Carpio.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bernardo Carpio.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bernardo Carpio info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bernardo Carpio info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BUNGISNGIS CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "BUNGISNGIS CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bungisngis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bungisngis.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BungisngisInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BungisngisInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "KAPRE CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "KAPRE CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Kapre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Kapre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "KapreInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "KapreInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LAM-ANG CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "LAM-ANG CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lam-ang.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lam-ang.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lam-ang info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lam-ang info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PRINCESS URDAJA CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "PRINCESS URDAJA CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PrincessUrduja.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PrincessUrduja.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Princess Urduja info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Princess Urduja info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RAJA CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "RAJA CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Raja.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Raja.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Raja info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Raja info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SARIMANOK CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "SARIMANOK CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sarimanok.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sarimanok.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SarimanokInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SarimanokInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SIGBIN CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "SIGBIN CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sigbin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sigbin.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SigbinInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SigbinInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SITAN CARD (1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "SITAN CARD (1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sitan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sitan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SitanInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SitanInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TIKBALANG CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIKBALANG CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tikbalang.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tikbalang.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TikbalangInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TikbalangInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TIKTIK CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIKTIK CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tiktik.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiktik.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TiktikInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TiktikInfo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TIYANAK CARD.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIYANAK CARD.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tiyanak.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiyanak.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TiyanakInfo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TiyanakInfo.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2014,19 +2581,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -2096,7 +2663,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -2840,7 +3418,6 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -3388,7 +3965,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -3626,7 +4202,6 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -3752,7 +4327,6 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
@@ -3794,7 +4368,6 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
@@ -3836,7 +4409,6 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 55,
         "color": "0;0;0"
       }
