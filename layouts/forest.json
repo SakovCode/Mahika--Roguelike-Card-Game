@@ -449,7 +449,7 @@
       "leftMargin": 0,
       "name": "ForestFloor",
       "rightMargin": 0,
-      "texture": "9451.jpg",
+      "texture": "tiled_Grass8.png",
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -460,25 +460,7 @@
     },
     {
       "assetStoreId": "",
-<<<<<<< Updated upstream
       "name": "Tree",
-=======
-      "name": "Light",
-      "type": "Lighting::LightObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "radius": 200,
-        "color": "248;231;28",
-        "debugMode": false,
-        "texture": "New image5"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Sigbin",
->>>>>>> Stashed changes
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -488,97 +470,6 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-<<<<<<< Updated upstream
-=======
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\sigbin.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Tikbalang",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 40,
-        "height": 40,
-        "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 40,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Kapre",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 64,
-        "height": 64,
-        "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 64,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "8b3529d01bbbe18c5a6930de1e4cf04a771851030360c95ff833c2981abb8c40",
-      "name": "Player",
-      "type": "Scene3D::Model3DObject",
-      "variables": [
-        {
-          "name": "isMoving",
-          "type": "boolean",
-          "value": false
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 9999,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 360,
-          "customIsometryAngle": 30,
-          "deceleration": 9999,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "viewpoint": "TopDown"
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
->>>>>>> Stashed changes
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\ForestTree.glb",
         "originLocation": "ModelOrigin",
