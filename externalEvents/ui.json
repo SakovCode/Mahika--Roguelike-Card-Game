@@ -1,5 +1,6 @@
 {
   "associatedLayout": "Forest",
+  "lastChangeTimeStamp": 0,
   "name": "UI",
   "events": [
     {
@@ -132,7 +133,7 @@
             "",
             "\"CameraMoves\"",
             "pause_marker.CenterX()",
-            "CameraCenterY()",
+            "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
             "1"
@@ -237,7 +238,7 @@
             "",
             "\"CameraMoves\"",
             "Marker.CenterX()",
-            "CameraCenterY()",
+            "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
             "1"
@@ -342,7 +343,7 @@
             "",
             "\"CameraMoves\"",
             "options_maker.CenterX()",
-            "CameraCenterY()",
+            "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
             "1"
@@ -447,7 +448,7 @@
             "",
             "\"CameraMoves\"",
             "pause_marker.CenterX()",
-            "CameraCenterY()",
+            "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
             "1"
@@ -638,7 +639,7 @@
             "",
             "\"CameraMoves\"",
             "quit_marker.CenterX()",
-            "CameraCenterY()",
+            "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
             "1"
@@ -827,7 +828,7 @@
             "",
             "\"CameraMoves\"",
             "pause_marker.CenterX()",
-            "CameraCenterY()",
+            "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
             "1"

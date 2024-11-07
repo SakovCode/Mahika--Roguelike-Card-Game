@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2614,19 +2614,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3451,7 +3451,6 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -3999,7 +3998,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4237,7 +4235,6 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4340,7 +4337,7 @@
       "string": "MASTER VOLUME",
       "font": "RoughenCornerRegular-7RjV.ttf",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 35,
       "color": {
         "b": 0,
         "g": 0,
@@ -4363,8 +4360,7 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
-        "characterSize": 55,
+        "characterSize": 35,
         "color": "0;0;0"
       }
     },
@@ -4382,7 +4378,7 @@
       "string": "SFX",
       "font": "RoughenCornerRegular-7RjV.ttf",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 35,
       "color": {
         "b": 0,
         "g": 0,
@@ -4405,8 +4401,7 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
-        "characterSize": 55,
+        "characterSize": 35,
         "color": "0;0;0"
       }
     },
@@ -4424,7 +4419,7 @@
       "string": "BGM",
       "font": "RoughenCornerRegular-7RjV.ttf",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 35,
       "color": {
         "b": 0,
         "g": 0,
@@ -4447,8 +4442,7 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
-        "characterSize": 55,
+        "characterSize": 35,
         "color": "0;0;0"
       }
     },
@@ -4524,6 +4518,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -4534,10 +4530,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -4585,6 +4579,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -4595,10 +4591,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 100,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -4646,6 +4640,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -4656,10 +4652,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 300,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -4733,6 +4727,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -4743,10 +4739,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 100,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -4820,6 +4814,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -4830,10 +4826,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -4900,15 +4894,15 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 9998,
-          "maxSpeed": 400,
+          "acceleration": 400,
+          "deceleration": 400,
+          "maxSpeed": 200,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
           "customIsometryAngle": 30,
-          "deceleration": 9999,
           "ignoreDefaultControls": false,
           "movementAngleOffset": 0,
           "rotateObject": true,
@@ -5024,15 +5018,15 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
+          "type": "Lighting::LightObstacleBehavior",
+          "isFolded": true
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "content": {

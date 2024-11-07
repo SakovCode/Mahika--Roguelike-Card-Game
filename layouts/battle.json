@@ -1100,7 +1100,6 @@
             "text": "END TURN",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -1651,7 +1650,6 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1693,7 +1691,6 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -5884,6 +5881,10 @@
       "type": "Health::Health"
     },
     {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
+    },
+    {
       "name": "Object3D",
       "type": "Scene3D::Base3DBehavior"
     },
@@ -5894,6 +5895,10 @@
     {
       "name": "Pathfinding",
       "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "Resizable",
