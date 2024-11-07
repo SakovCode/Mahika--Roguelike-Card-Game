@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.44485159988866657,
+    "zoomFactor": 0.38958562738273056,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2785,7 +2785,7 @@
       "height": 150,
       "keepRatio": true,
       "layer": "",
-      "name": "Saimanok",
+      "name": "Sarimanok",
       "persistentUuid": "78830cb7-c996-451f-8095-582d84859ac7",
       "width": 256,
       "x": 956,
@@ -2926,7 +2926,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Saimanok",
+      "name": "Sarimanok",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -3018,7 +3018,7 @@
         "objectName": "Grass8"
       },
       {
-        "objectName": "Saimanok"
+        "objectName": "Sarimanok"
       },
       {
         "objectName": "Chess"

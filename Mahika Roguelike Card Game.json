@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2291,6 +2291,55 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PSX_Seamless_ForestWildGround_128px.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PSX_Seamless_ForestWildGround_128px.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Common Tree 1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Common Tree 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/7c4f3d2324ecd1f8910652478dd7bcb1ac714b260c66a562318c3f72c37bb404_Common Tree 1.glb",
+          "name": "Common Tree 1.glb"
+        }
+      },
+      {
+        "file": "assets/Common Tree 4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Common Tree 4.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/79dd91741d24352562a206734cc2d282a5ddfc1796b3df98a0ffd385e018d84a_Common Tree 4.glb",
+          "name": "Common Tree 4.glb"
+        }
+      },
+      {
+        "file": "assets/Grass.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Grass.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Rocks and Trees/Plant/0cb362cb36ecbe654ad32e458334e319e1318ccf79abfadaf0e300eb4fc9e119_Grass.glb",
+          "name": "Grass.glb"
+        }
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/Portal/portal.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\Portal\\portal.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2614,19 +2663,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3451,6 +3500,7 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -3998,6 +4048,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4235,6 +4286,7 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4360,6 +4412,7 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4401,6 +4454,7 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4442,6 +4496,7 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4520,7 +4575,8 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 400,
+          "acceleration": 150,
+          "maxSpeed": 250,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -4529,15 +4585,14 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 40,
+        "height": 40,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
@@ -4545,8 +4600,34 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
-        "animations": []
+        "width": 40,
+        "animations": [
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          },
+          {
+            "loop": true,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
       }
     },
     {
@@ -4597,8 +4678,8 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 64,
+        "height": 64,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
@@ -4606,8 +4687,34 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
-        "animations": []
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          },
+          {
+            "loop": true,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
       }
     },
     {
@@ -4642,7 +4749,8 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 400,
+          "acceleration": 150,
+          "maxSpeed": 200,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -4651,7 +4759,6 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 300,
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
@@ -4699,175 +4806,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "MonsterBerberoka",
-      "type": "Scene3D::Model3DObject",
-      "variables": [
-        {
-          "name": "isAlerted",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "boundPos",
-          "type": "structure",
-          "children": [
-            {
-              "name": "X",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "Y",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "cellHeight": 20,
-          "cellWidth": 20,
-          "extraBorder": 0,
-          "gridOffsetX": 0,
-          "gridOffsetY": 0,
-          "maxSpeed": 100,
-          "rotateObject": true,
-          "smoothingMaxCellGap": 1
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\berberoka.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 32,
-        "animations": [
-          {
-            "loop": true,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": true,
-            "name": "walk",
-            "source": "walk"
-          },
-          {
-            "loop": false,
-            "name": "attack",
-            "source": "attack"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "t-pose",
-            "source": "t-pose"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "MonsterTiyanak",
-      "type": "Scene3D::Model3DObject",
-      "variables": [
-        {
-          "name": "isAlerted",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "boundPos",
-          "type": "structure",
-          "children": [
-            {
-              "name": "X",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "Y",
-              "type": "number",
-              "value": 0
-            }
-          ]
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 360,
-          "cellHeight": 20,
-          "cellWidth": 20,
-          "extraBorder": 10,
-          "gridOffsetX": 0,
-          "gridOffsetY": 0,
-          "maxSpeed": 200,
-          "rotateObject": true,
-          "smoothingMaxCellGap": 1
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 32,
-        "animations": [
-          {
-            "loop": true,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": true,
-            "name": "walk",
-            "source": "walk"
-          },
-          {
-            "loop": false,
-            "name": "attack",
-            "source": "attack"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Light",
       "type": "Lighting::LightObject",
       "variables": [],
@@ -4894,19 +4832,19 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "movementAngleOffset": 0,
+          "viewpoint": "TopDown",
           "acceleration": 400,
           "deceleration": 400,
           "maxSpeed": 200,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
           "customIsometryAngle": 30,
           "ignoreDefaultControls": false,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "viewpoint": "TopDown"
+          "rotateObject": true
         }
       ],
       "content": {
@@ -5018,9 +4956,9 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior",
-          "isFolded": true
+          "type": "Lighting::LightObstacleBehavior"
         },
         {
           "name": "PathfindingObstacle",
@@ -5152,12 +5090,6 @@
         "folderName": "Monsters",
         "children": [
           {
-            "objectName": "MonsterTiyanak"
-          },
-          {
-            "objectName": "MonsterBerberoka"
-          },
-          {
             "objectName": "MonsterSigbin"
           },
           {
@@ -5208,12 +5140,6 @@
         },
         {
           "name": "MonsterSigbin"
-        },
-        {
-          "name": "MonsterBerberoka"
-        },
-        {
-          "name": "MonsterTiyanak"
         }
       ]
     },

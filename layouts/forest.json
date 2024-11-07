@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.29289175928896455,
+    "zoomFactor": 0.3457183571820118,
     "windowMask": false
   },
   "objectsGroups": [
@@ -518,7 +518,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Tree",
+      "name": "Chess",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -528,14 +528,20 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\ForestTree.glb",
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\chess.glb",
         "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
+        "rotationX": 90,
+        "rotationY": 4.6683907445e-313,
+        "rotationZ": 4.66839074457e-313,
         "width": 32,
-        "animations": []
+        "animations": [
+          {
+            "loop": false,
+            "name": "Cylinder.002Action",
+            "source": "Cylinder.002Action"
+          }
+        ]
       }
     }
   ],
@@ -546,12 +552,12 @@
         "folderName": "Terrain",
         "children": [
           {
-            "objectName": "Tree"
-          },
-          {
             "objectName": "ForestFloor"
           }
         ]
+      },
+      {
+        "objectName": "Chess"
       }
     ]
   },
