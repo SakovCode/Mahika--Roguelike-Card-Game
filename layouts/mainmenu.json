@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.22463772489654807,
+    "zoomFactor": 0.1278293889839464,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -607,7 +607,7 @@
       "name": "MasterVolume",
       "persistentUuid": "a950b189-8085-45d3-8f5e-ac0b38bf6466",
       "width": 0,
-      "x": 4845,
+      "x": 4922,
       "y": 330,
       "zOrder": 56,
       "numberProperties": [],
@@ -657,7 +657,7 @@
       "persistentUuid": "28cd4518-5d51-4996-aa1d-967d371493ab",
       "width": 0,
       "x": 8192,
-      "y": -32,
+      "y": -24,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -1267,7 +1267,7 @@
       "persistentUuid": "7acb1087-0d8c-4c4f-9865-3acab34ddcf5",
       "width": 0,
       "x": 28672,
-      "y": -32,
+      "y": -24,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -2985,6 +2985,106 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 640,
+      "layer": "UI",
+      "name": "Mission1",
+      "persistentUuid": "9e522aec-9d1b-4de5-a40e-839ffab83430",
+      "width": 1140,
+      "x": 47552,
+      "y": 224,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "OkayButton",
+      "persistentUuid": "8b2039cd-f158-49c3-9151-e8f573c41f1a",
+      "width": 128,
+      "x": 48032,
+      "y": 800,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "MissionMarker",
+      "persistentUuid": "e41fbd58-a527-46f7-ab7d-68336181bfbe",
+      "width": 1920,
+      "x": 47104,
+      "y": 0,
+      "zOrder": 151,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "CutsceneMarker",
+      "persistentUuid": "965aa39b-279d-465b-8cc3-31f219ee6532",
+      "width": 1920,
+      "x": 49152,
+      "y": 0,
+      "zOrder": 152,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "layer": "UI",
+      "name": "NewVideo",
+      "persistentUuid": "819584ef-f4ef-40dd-a52c-c854887c454a",
+      "width": 1920,
+      "x": 49152,
+      "y": 0,
+      "zOrder": 153,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackSpace",
+      "persistentUuid": "d5de3f6a-c50d-45cb-ab49-0e52c56d3c62",
+      "width": 1920,
+      "x": 47104,
+      "y": 0,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3085,7 +3185,6 @@
         "text": "MAHIKA:",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 150,
         "color": "255;255;255"
       }
@@ -3127,7 +3226,6 @@
         "text": "Roguelike Card Game",
         "font": "Branda-yolq.ttf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -4210,7 +4308,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -11347,6 +11444,151 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MissionMarker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-10-11 004618.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 670
+                      },
+                      {
+                        "x": 0,
+                        "y": 670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CutsceneMarker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-10-11 004618.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 670
+                      },
+                      {
+                        "x": 0,
+                        "y": 670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewVideo",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "First Cutscene- Made with Clipchamp.mp4"
+      }
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 256,
+      "name": "BlackSpace",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -11387,6 +11629,12 @@
       },
       {
         "objectName": "StartMarker"
+      },
+      {
+        "objectName": "CutsceneMarker"
+      },
+      {
+        "objectName": "MissionMarker"
       },
       {
         "objectName": "EnkantopediaMarker"
@@ -11690,6 +11938,12 @@
       },
       {
         "objectName": "TiyanakCard"
+      },
+      {
+        "objectName": "NewVideo"
+      },
+      {
+        "objectName": "BlackSpace"
       }
     ]
   },
@@ -11890,6 +12144,14 @@
           },
           "parameters": [
             "TiyanakMarker"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "MissionMarker"
           ]
         }
       ]
@@ -12713,12 +12975,68 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "Tween::TweenCameraPosition2"
           },
           "parameters": [
             "",
-            "\"Forest\"",
+            "\"CameraMove\"",
+            "CutsceneMarker.CenterX()",
+            "CameraCenterY()",
+            "\"UI\"",
+            "\"elastic\"",
+            ".1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            ".1",
+            "\"Flash\"",
+            "\"Both\"",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "NewVideo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "NewVideo"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMove\"",
+            "MissionMarker.CenterX()",
+            "CameraCenterY()",
+            "\"UI\"",
+            "\"elastic\"",
+            ".1"
           ]
         }
       ]
@@ -14772,6 +15090,92 @@
             "\"Flash\"",
             "\"Both\"",
             "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "OkayButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "OkayButton",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "OkayButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "OkayButton",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "OkayButton",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Forest\"",
             ""
           ]
         }

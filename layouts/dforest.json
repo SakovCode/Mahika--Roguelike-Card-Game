@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5147058823529428,
+    "zoomFactor": 0.22463772489654474,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -456,6 +456,22 @@
       "x": 7104,
       "y": 256,
       "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "UI",
+      "name": "rolledPaper",
+      "persistentUuid": "e9ac45a5-efa6-46ef-9fc2-88ad6f2f2fa1",
+      "width": 128,
+      "x": 1728,
+      "y": 64,
+      "zOrder": 103,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

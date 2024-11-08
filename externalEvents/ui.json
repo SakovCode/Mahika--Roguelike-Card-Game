@@ -1,36 +1,8 @@
 {
   "associatedLayout": "Forest",
+  "lastChangeTimeStamp": 0,
   "name": "UI",
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Pause_button",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "Pause_button",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
@@ -75,6 +47,43 @@
           },
           "parameters": [
             "options_maker"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "missionsMarker"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Pause_button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "Pause_button",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
@@ -135,7 +144,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -146,7 +155,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -240,7 +249,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -251,7 +260,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -345,7 +354,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -356,7 +365,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -450,7 +459,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -461,7 +470,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -641,7 +650,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -652,7 +661,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -830,7 +839,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            "1"
+            ".1"
           ]
         },
         {
@@ -841,7 +850,7 @@
             "Transition",
             "FlashTransitionPainter",
             "\"0;0;0\"",
-            ".2",
+            ".1",
             "\"Flash\"",
             "\"Both\"",
             "",
@@ -854,6 +863,216 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "rolledPaper",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "rolledPaper",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "rolledPaper",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "rolledPaper",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "rolledPaper",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMoves\"",
+            "missionsMarker.CenterX()",
+            "pause_bg.CenterY()",
+            "\"UI\"",
+            "\"elastic\"",
+            ".1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            ".1",
+            "\"Flash\"",
+            "\"Both\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "OkayButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "OkayButton",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "OkayButton",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "OkayButton",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "OkayButton",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMoves\"",
+            "Marker.CenterX()",
+            "pause_bg.CenterY()",
+            "\"UI\"",
+            "\"elastic\"",
+            ".1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            ".1",
+            "\"Flash\"",
+            "\"Both\"",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }

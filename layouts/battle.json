@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8188454456336366,
+    "zoomFactor": 0.2322125831285323,
     "windowMask": false
   },
   "objectsGroups": [
@@ -254,7 +254,7 @@
       "height": 88,
       "keepRatio": true,
       "layer": "UI",
-      "name": "RedButtonWithMetalFrame",
+      "name": "EndTurnButton",
       "persistentUuid": "da7a69f6-cf78-4e1e-b1e7-e36909c1d9ac",
       "width": 219,
       "x": 1637,
@@ -1035,7 +1035,7 @@
     },
     {
       "assetStoreId": "e80b6352d9f27049db858db6a22ad1351febb242a738de07155a6ac8301ea5c5",
-      "name": "RedButtonWithMetalFrame",
+      "name": "EndTurnButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -1054,7 +1054,7 @@
           "height": 54,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Metal Frame_Hovered.png",
+          "texture": "Screenshot 2024-11-09 043549.png",
           "tiled": false,
           "topMargin": 0,
           "width": 998
@@ -1064,7 +1064,7 @@
           "height": 54,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Metal Frame_Idle.png",
+          "texture": "Screenshot 2024-11-09 043528.png",
           "tiled": false,
           "topMargin": 0,
           "width": 998
@@ -1074,7 +1074,7 @@
           "italic": true,
           "smoothed": true,
           "underlined": false,
-          "string": "END TURN",
+          "string": "",
           "font": "Charm-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 20,
@@ -1097,10 +1097,9 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "END TURN",
+            "text": "",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -1110,7 +1109,7 @@
           "height": 54,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Red Button With Metal Frame_Pressed.png",
+          "texture": "Screenshot 2024-11-0943550.png",
           "tiled": false,
           "topMargin": 0,
           "width": 998
@@ -1651,7 +1650,6 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1693,7 +1691,6 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -1861,7 +1858,7 @@
         "objectName": "EnemyTest"
       },
       {
-        "objectName": "RedButtonWithMetalFrame"
+        "objectName": "EndTurnButton"
       },
       {
         "objectName": "FloorTiles"
@@ -2277,7 +2274,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "DRAW PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2640,7 +2636,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::Activate"
               },
               "parameters": [
-                "RedButtonWithMetalFrame",
+                "EndTurnButton",
                 "yes",
                 ""
               ]
@@ -2693,7 +2689,7 @@
                     "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
                   },
                   "parameters": [
-                    "RedButtonWithMetalFrame",
+                    "EndTurnButton",
                     ""
                   ]
                 }
@@ -2704,7 +2700,7 @@
                     "value": "PanelSpriteButton::PanelSpriteButton::Activate"
                   },
                   "parameters": [
-                    "RedButtonWithMetalFrame",
+                    "EndTurnButton",
                     "no",
                     ""
                   ]
@@ -2884,7 +2880,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "HERO TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4363,7 +4358,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "ENEMY TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

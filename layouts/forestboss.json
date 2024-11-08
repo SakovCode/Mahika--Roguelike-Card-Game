@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8635277700823986,
+    "zoomFactor": 0.8635277700823987,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2824,6 +2824,22 @@
       "x": 960,
       "y": -960,
       "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "c510e7e2-dbf7-476a-8e5a-9b8375aee006",
+      "width": 0,
+      "x": 960,
+      "y": 576,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
