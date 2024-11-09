@@ -594,7 +594,7 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\chess.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
