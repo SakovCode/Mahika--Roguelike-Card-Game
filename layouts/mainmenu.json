@@ -3185,6 +3185,7 @@
         "text": "MAHIKA:",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 150,
         "color": "255;255;255"
       }
@@ -3226,6 +3227,7 @@
         "text": "Roguelike Card Game",
         "font": "Branda-yolq.ttf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -4308,6 +4310,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }

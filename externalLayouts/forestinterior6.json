@@ -1075,22 +1075,6 @@
       "initialVariables": []
     },
     {
-      "angle": 272,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MonsterTikbalang",
-      "persistentUuid": "3d36c597-93e0-4608-bdbe-4858df09f63d",
-      "width": 0,
-      "x": 578,
-      "y": 571,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 184,
       "customSize": false,
       "height": 0,
@@ -1165,7 +1149,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4659614187057782,
+    "zoomFactor": 0.4979159907912324,
     "windowMask": false
   }
 }

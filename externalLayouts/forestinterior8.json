@@ -1267,23 +1267,7 @@
       "initialVariables": []
     },
     {
-      "angle": 92,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MonsterKapre",
-      "persistentUuid": "234d5bcc-5067-4e3c-8a18-94df76d94f23",
-      "width": 0,
-      "x": 567,
-      "y": 700,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
+      "angle": 268,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -1291,8 +1275,8 @@
       "name": "Chess",
       "persistentUuid": "3b7caa76-6bbf-4e26-a62c-859e83e330d0",
       "width": 0,
-      "x": 575,
-      "y": 525,
+      "x": 464,
+      "y": 320,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1355,8 +1339,8 @@
       "name": "MonsterKapre",
       "persistentUuid": "f78b8337-e0d8-4915-8e93-4a92bf21ee78",
       "width": 0,
-      "x": 901,
-      "y": 324,
+      "x": 646,
+      "y": 319,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -1389,7 +1373,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9350055057185496,
+    "zoomFactor": 0.34571835718200733,
     "windowMask": false
   }
 }

@@ -1091,22 +1091,6 @@
       "initialVariables": []
     },
     {
-      "angle": 89,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MonsterKapre",
-      "persistentUuid": "efcf6c50-d935-410a-83a5-31e897bc769c",
-      "width": 0,
-      "x": 574,
-      "y": 689,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 270,
       "customSize": false,
       "height": 0,
@@ -1185,22 +1169,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chess",
-      "persistentUuid": "76b97565-3592-428d-adb3-6bdfe11b7473",
-      "width": 0,
-      "x": 577,
-      "y": 531,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1213,7 +1181,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5147058823529428,
+    "zoomFactor": 0.43605758348366963,
     "windowMask": false
   }
 }

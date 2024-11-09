@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2590,6 +2590,15 @@
         "name": "Okay button (2).png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/rolled paper (1080 x 720 px).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "rolled paper (1080 x 720 px)",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2913,19 +2922,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3750,6 +3759,7 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -4297,6 +4307,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4534,6 +4545,7 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4659,6 +4671,7 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4700,6 +4713,7 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4741,6 +4755,7 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5200,9 +5215,9 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior",
-          "isFolded": true
+          "type": "Lighting::LightObstacleBehavior"
         },
         {
           "name": "PathfindingObstacle",
@@ -5368,16 +5383,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "rolled paper (1080 x 720 px)",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rolled paper (1080 x 720 px).png",
+                  "image": "rolled paper (1080 x 720 px)",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5393,20 +5409,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 162,
-                        "y": 185
+                        "x": 163,
+                        "y": 186
                       },
                       {
                         "x": 916,
-                        "y": 185
+                        "y": 186
                       },
                       {
                         "x": 916,
-                        "y": 535
+                        "y": 534
                       },
                       {
-                        "x": 162,
-                        "y": 535
+                        "x": 163,
+                        "y": 534
                       }
                     ]
                   ]
@@ -5441,20 +5457,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 162,
-                        "y": 185
+                        "x": 163,
+                        "y": 186
                       },
                       {
                         "x": 916,
-                        "y": 185
+                        "y": 186
                       },
                       {
                         "x": 916,
-                        "y": 535
+                        "y": 534
                       },
                       {
-                        "x": 162,
-                        "y": 535
+                        "x": 163,
+                        "y": 534
                       }
                     ]
                   ]

@@ -1283,7 +1283,7 @@
       "initialVariables": []
     },
     {
-      "angle": 179,
+      "angle": 269,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -1291,8 +1291,8 @@
       "name": "MonsterKapre",
       "persistentUuid": "16dc7d64-e3ac-4337-8467-561a8116fb86",
       "width": 0,
-      "x": 446,
-      "y": 573,
+      "x": 570,
+      "y": 167,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -1315,7 +1315,7 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 181,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -1323,8 +1323,8 @@
       "name": "Chess",
       "persistentUuid": "610e8a0a-3fa9-4da0-8805-0b41d7112792",
       "width": 0,
-      "x": 625,
-      "y": 574,
+      "x": 578,
+      "y": 238,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -1374,22 +1374,6 @@
       "x": 732,
       "y": 103,
       "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 179,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MonsterSigbin",
-      "persistentUuid": "f943b215-d419-4313-93ac-66e0636d00b7",
-      "width": 0,
-      "x": 476,
-      "y": 140,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1453,7 +1437,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4389772133866623,
+    "zoomFactor": 0.4816737915491945,
     "windowMask": false
   }
 }
