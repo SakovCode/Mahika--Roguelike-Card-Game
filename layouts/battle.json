@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2322125831285323,
+    "zoomFactor": 0.16123232481169006,
     "windowMask": false
   },
   "objectsGroups": [
@@ -157,7 +157,7 @@
       "width": 104,
       "x": 889,
       "y": 856,
-      "zOrder": 6,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -174,7 +174,7 @@
       "width": 104,
       "x": 1376,
       "y": 856,
-      "zOrder": 3,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -191,7 +191,7 @@
       "width": 104,
       "x": 1046,
       "y": 856,
-      "zOrder": 6,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -208,7 +208,7 @@
       "width": 104,
       "x": 733,
       "y": 856,
-      "zOrder": 6,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -225,7 +225,7 @@
       "width": 104,
       "x": 1203,
       "y": 856,
-      "zOrder": 6,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -242,7 +242,7 @@
       "width": 104,
       "x": 576,
       "y": 856,
-      "zOrder": 6,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -259,7 +259,7 @@
       "width": 219,
       "x": 1637,
       "y": 936,
-      "zOrder": 7,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -275,7 +275,7 @@
       "width": 0,
       "x": 672,
       "y": 448,
-      "zOrder": 8,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -291,7 +291,7 @@
       "width": 0,
       "x": 672,
       "y": 640,
-      "zOrder": 9,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -307,7 +307,7 @@
       "width": 0,
       "x": 896,
       "y": 448,
-      "zOrder": 10,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -323,7 +323,7 @@
       "width": 0,
       "x": 896,
       "y": 640,
-      "zOrder": 11,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -339,7 +339,7 @@
       "width": 0,
       "x": 1120,
       "y": 448,
-      "zOrder": 12,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -355,7 +355,7 @@
       "width": 0,
       "x": 1120,
       "y": 640,
-      "zOrder": 13,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -371,7 +371,7 @@
       "width": 0,
       "x": 672,
       "y": 160,
-      "zOrder": 14,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -387,7 +387,7 @@
       "width": 0,
       "x": 672,
       "y": -32,
-      "zOrder": 15,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -403,7 +403,7 @@
       "width": 0,
       "x": 896,
       "y": 160,
-      "zOrder": 16,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -419,7 +419,7 @@
       "width": 0,
       "x": 896,
       "y": -32,
-      "zOrder": 17,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -435,7 +435,7 @@
       "width": 0,
       "x": 1120,
       "y": 160,
-      "zOrder": 18,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -451,7 +451,7 @@
       "width": 0,
       "x": 1120,
       "y": -32,
-      "zOrder": 19,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -468,7 +468,7 @@
       "width": 290.9090909090909,
       "x": -35,
       "y": 145,
-      "zOrder": 20,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -485,26 +485,24 @@
       "width": 321.590909090909,
       "x": -66,
       "y": 70,
-      "zOrder": 21,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 1,
+      "angle": 0,
       "customSize": true,
-      "depth": 107,
-      "height": 12,
-      "keepRatio": true,
+      "depth": 1,
+      "height": 1920,
       "layer": "",
-      "name": "Stump",
-      "persistentUuid": "69efcf7d-dd2d-4629-8293-e783dc456cbd",
-      "rotationX": -51,
-      "rotationY": -6,
-      "width": 112,
-      "x": 713,
-      "y": 236,
-      "zOrder": 22,
+      "name": "New3DBox",
+      "persistentUuid": "210cb357-5678-4215-a3be-27b917b9d77b",
+      "width": 2688,
+      "x": -384,
+      "y": -448,
+      "z": -5,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1100,7 +1098,6 @@
             "text": "",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -1651,7 +1648,6 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1693,7 +1689,6 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -1801,6 +1796,41 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DBox",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 1,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "resizable_image2.png",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": false,
+        "rightFaceVisible": false,
+        "topFaceVisible": false,
+        "bottomFaceVisible": false,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1877,6 +1907,9 @@
       },
       {
         "objectName": "Stump"
+      },
+      {
+        "objectName": "New3DBox"
       }
     ]
   },
