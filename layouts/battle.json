@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4360575834836748,
+    "zoomFactor": 0.3129776085883126,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1229,7 +1229,6 @@
             "text": "",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -1780,7 +1779,6 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1822,7 +1820,6 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -2033,7 +2030,6 @@
             "text": "RELOAD",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2060,19 +2056,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 17,
+        "b": 17,
         "g": 17,
-        "b": 17
+        "r": 17
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     }
   ],
   "objectsFolderStructure": {
