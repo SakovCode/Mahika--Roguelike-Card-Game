@@ -1,6 +1,6 @@
 {
   "associatedLayout": "DForest",
-  "name": "DForestInterior",
+  "name": "DForestInterior1",
   "instances": [
     {
       "angle": 0,
@@ -1838,38 +1838,6 @@
       "x": 245,
       "y": 566,
       "zOrder": 89,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tiyanak",
-      "persistentUuid": "862983a4-fbd8-43bc-b2e1-274c7bcae750",
-      "width": 0,
-      "x": 633,
-      "y": 778,
-      "zOrder": 90,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Berberoka",
-      "persistentUuid": "47290c22-ed7e-4bb5-b8a2-0d39f9c795a9",
-      "width": 0,
-      "x": 949,
-      "y": 521,
-      "zOrder": 91,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

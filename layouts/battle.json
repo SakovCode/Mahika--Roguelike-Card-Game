@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3129776085883126,
+    "zoomFactor": 0.42183322780333404,
     "windowMask": false
   },
   "objectsGroups": [
@@ -44,14 +44,6 @@
         },
         {
           "name": "Alunsina"
-        }
-      ]
-    },
-    {
-      "name": "Enemy",
-      "objects": [
-        {
-          "name": "EnemyTest"
         }
       ]
     },
@@ -356,7 +348,7 @@
       "persistentUuid": "7427eeff-3f6f-4a0d-b33c-9c04885ed2a3",
       "width": 0,
       "x": 640,
-      "y": 448,
+      "y": 416,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -372,7 +364,7 @@
       "persistentUuid": "5dea2949-bedd-463e-9918-5d95bfc81716",
       "width": 0,
       "x": 640,
-      "y": 672,
+      "y": 640,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -388,7 +380,7 @@
       "persistentUuid": "759d9aa2-b8ce-4bbf-be70-832b96d7a20f",
       "width": 0,
       "x": 896,
-      "y": 448,
+      "y": 416,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -404,7 +396,7 @@
       "persistentUuid": "509395c7-eaed-4d3d-9872-a5beb37b02c6",
       "width": 0,
       "x": 896,
-      "y": 672,
+      "y": 640,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -420,7 +412,7 @@
       "persistentUuid": "469f742b-a27f-46ef-89bb-e67b7f29253e",
       "width": 0,
       "x": 1152,
-      "y": 448,
+      "y": 416,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -436,7 +428,7 @@
       "persistentUuid": "a989b238-c196-4214-b7eb-f99a8f3bbfda",
       "width": 0,
       "x": 1152,
-      "y": 672,
+      "y": 640,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -453,7 +445,7 @@
       "persistentUuid": "d416fa4e-a68d-4bf9-afdd-f6ffbd850ea5",
       "width": 128,
       "x": 640,
-      "y": 224,
+      "y": 192,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -470,7 +462,7 @@
       "persistentUuid": "a6c37070-5f4a-46d1-8bdf-a090578cc3c6",
       "width": 128,
       "x": 640,
-      "y": 32,
+      "y": 0,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -486,7 +478,7 @@
       "persistentUuid": "060b9305-2435-4727-a671-cc40b1a6f405",
       "width": 0,
       "x": 896,
-      "y": 224,
+      "y": 192,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -503,7 +495,7 @@
       "persistentUuid": "36248422-8ae8-4f86-a5d2-a28bb8de1c5c",
       "width": 128,
       "x": 896,
-      "y": 32,
+      "y": 0,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -520,7 +512,7 @@
       "persistentUuid": "dbe45496-0614-4d18-9f82-22487c26f223",
       "width": 128,
       "x": 1152,
-      "y": 224,
+      "y": 192,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -537,7 +529,7 @@
       "persistentUuid": "05c87cf8-247f-4ddf-b618-5e8713542d00",
       "width": 128,
       "x": 1152,
-      "y": 32,
+      "y": 0,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -636,9 +628,26 @@
       "name": "Player",
       "persistentUuid": "70ab486c-a8e2-46eb-9c77-84c65820f6c5",
       "width": 69,
-      "x": 951,
-      "y": 995,
+      "x": 983,
+      "y": 1000,
       "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackDecoratedButton2",
+      "persistentUuid": "90aa1821-8a65-43da-a069-d3c624681654",
+      "width": 224,
+      "x": 1632,
+      "y": 672,
+      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1115,6 +1124,11 @@
               "value": 0
             }
           ]
+        },
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -1229,6 +1243,7 @@
             "text": "",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -1779,6 +1794,7 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
+        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1820,6 +1836,7 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
+        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -2030,6 +2047,7 @@
             "text": "RELOAD",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2056,19 +2074,103 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 17,
-        "g": 17,
-        "r": 17
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 17,
+        "g": 17,
+        "b": 17
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "BlackDecoratedButton2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "END BATTLE",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 22,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "END BATTLE",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 22,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2154,6 +2256,9 @@
       },
       {
         "objectName": "BlackDecoratedButton"
+      },
+      {
+        "objectName": "BlackDecoratedButton2"
       }
     ]
   },
@@ -2176,7 +2281,7 @@
                 "value": "DebuggerTools::ConsoleLog"
               },
               "parameters": [
-                "\"Intersection: \" +Intersection.X + \",\" + Intersection.X + \" Phase: \" + Phase +\" WINCOND: \" +WIN_CONDITION",
+                "\"Intersection: \" +Intersection.X + \",\" + Intersection.X + \" Phase: \" + Phase +\" Encounter: \" +encounterID",
                 "\"info\"",
                 ""
               ]
@@ -2204,6 +2309,57 @@
               "parameters": [
                 "",
                 "CurrentSceneName()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BlackDecoratedButton2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                ".5",
+                "",
                 ""
               ]
             }
@@ -2533,11 +2689,12 @@
                         },
                         {
                           "type": {
-                            "value": "Create"
+                            "value": "CreateByName"
                           },
                           "parameters": [
                             "",
-                            "EnemyTest",
+                            "Enemy",
+                            "encounterID",
                             "EnemySlot.CenterX()",
                             "EnemySlot.CenterY()",
                             ""
@@ -2548,7 +2705,7 @@
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "EnemyTest",
+                            "Enemy",
                             "boundPos.X",
                             "=",
                             "EnemySlot.CenterX()"
@@ -2559,10 +2716,21 @@
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "EnemyTest",
+                            "Enemy",
                             "boundPos.Y",
                             "=",
                             "EnemySlot.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "Resizable",
+                            "64",
+                            "64"
                           ]
                         }
                       ]
@@ -2617,11 +2785,12 @@
                         },
                         {
                           "type": {
-                            "value": "Create"
+                            "value": "CreateByName"
                           },
                           "parameters": [
                             "",
-                            "EnemyTest",
+                            "Enemy",
+                            "encounterID",
                             "EnemySlot.CenterX()",
                             "EnemySlot.CenterY()",
                             ""
@@ -2632,7 +2801,7 @@
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "EnemyTest",
+                            "Enemy",
                             "boundPos.X",
                             "=",
                             "EnemySlot.CenterX()"
@@ -2643,10 +2812,21 @@
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "EnemyTest",
+                            "Enemy",
                             "boundPos.Y",
                             "=",
                             "EnemySlot.CenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "Resizable",
+                            "64",
+                            "64"
                           ]
                         }
                       ]
@@ -2986,17 +3166,6 @@
                         "boundPos.Y",
                         "=",
                         "HeroSlot.CenterY()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "HeroTest",
-                        "ORDER",
-                        "=",
-                        "HeroSlot.ORDER"
                       ]
                     },
                     {
@@ -4965,7 +5134,6 @@
           "colorG": 74,
           "colorR": 228,
           "creationTime": 0,
-          "folded": true,
           "name": "ENEMY TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7850,7 +8018,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "END OF ROUND",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

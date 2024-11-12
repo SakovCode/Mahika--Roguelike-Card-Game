@@ -1635,38 +1635,6 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Aswang",
-      "persistentUuid": "a8b0eda6-9b14-4b1a-b170-974d033d4390",
-      "width": 0,
-      "x": 440,
-      "y": 525,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bungisngis",
-      "persistentUuid": "4abaa179-648d-462e-b580-4f67ab06f4bb",
-      "width": 0,
-      "x": 949,
-      "y": 587,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": false,
       "height": 0,

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.12782938898394633,
+    "zoomFactor": 0.28333752444070764,
     "windowMask": false
   },
   "objectsGroups": [
@@ -46,13 +46,13 @@
   "variables": [
     {
       "folded": true,
-      "name": "NumberOfRooms",
+      "name": "NumberOfZone",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
-      "name": "MinRoom",
+      "name": "MinZone",
       "type": "number",
       "value": 4
     },
@@ -731,7 +731,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Chess",
+      "name": "Chest",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
@@ -765,12 +765,12 @@
         "folderName": "Terrain",
         "children": [
           {
+            "objectName": "Chest"
+          },
+          {
             "objectName": "ForestFloor"
           }
         ]
-      },
-      {
-        "objectName": "Chess"
       }
     ]
   },

@@ -1,6 +1,5 @@
 {
   "associatedLayout": "Forest",
-  "lastChangeTimeStamp": 0,
   "name": "LvlEvents",
   "events": [
     {
@@ -13,7 +12,38 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "TODO: \nENEMY ENCOUNTER"
+      "comment": "TODO: \nENEMY ENCOUNTER\nPORTAL INTERACTION\nLEVEL COMPLETION CONDITION"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SceneBackground"
+              },
+              "parameters": [
+                "",
+                "\"0;0;0\""
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -24,8 +54,24 @@
             "value": "SeparateFromObjects"
           },
           "parameters": [
-            "Monsters",
+            "Enemy",
             "ForestWall",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Enemy",
+            "Enemy",
             ""
           ]
         }
@@ -42,7 +88,7 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Monsters",
+          "object": "Enemy",
           "conditions": [
             {
               "type": {
@@ -50,10 +96,10 @@
               },
               "parameters": [
                 "Thicc",
-                "Monsters.X()",
-                "Monsters.Y()",
-                "ToDeg(atan2(Player.Y() - Monsters.Y(), Player.X() - Monsters.X()))",
-                "600",
+                "Enemy.X()",
+                "Enemy.Y()",
+                "ToDeg(atan2(Player.Y() - Enemy.Y(), Player.X() - Enemy.X()))",
+                "400",
                 "Intersection.X",
                 "Intersection.Y",
                 ""
@@ -82,7 +128,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "Monsters",
+                    "Enemy",
                     "isAlerted",
                     "True",
                     ""
@@ -101,9 +147,9 @@
                 "value": "Distance"
               },
               "parameters": [
-                "Monsters",
+                "Enemy",
                 "Player",
-                "300",
+                "450",
                 ""
               ]
             }
@@ -114,7 +160,7 @@
                 "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "Monsters",
+                "Enemy",
                 "isAlerted",
                 "False",
                 ""
@@ -142,7 +188,7 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Monsters",
+                "Enemy",
                 "isAlerted",
                 "True",
                 ""
@@ -160,7 +206,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Monsters",
+                    "Enemy",
                     "Animation",
                     "=",
                     "\"walk\""
@@ -171,7 +217,7 @@
                     "value": "PathfindingBehavior::SetDestination"
                   },
                   "parameters": [
-                    "Monsters",
+                    "Enemy",
                     "Pathfinding",
                     "",
                     "Player.X()",
@@ -190,7 +236,7 @@
                 "value": "PathfindingBehavior::Speed"
               },
               "parameters": [
-                "Monsters",
+                "Enemy",
                 "Pathfinding",
                 "<=",
                 "0"
@@ -203,7 +249,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Monsters",
+                "Enemy",
                 "Animation",
                 "=",
                 "\"idle\""
@@ -231,7 +277,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Monsters",
+                "Enemy",
                 "Player",
                 "",
                 "",
@@ -239,7 +285,36 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "encounterID",
+                "=",
+                "Enemy.ObjectName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Battle\""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []

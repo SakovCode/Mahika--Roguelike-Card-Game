@@ -1667,22 +1667,6 @@
       "initialVariables": []
     },
     {
-      "angle": 180,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tiyanak",
-      "persistentUuid": "7fef9f2f-cf89-4a6a-8125-a6b9e913a764",
-      "width": 0,
-      "x": 246,
-      "y": 263,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": false,
       "height": 0,
@@ -1742,22 +1726,6 @@
       "x": 848,
       "y": 946,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Bungisngis",
-      "persistentUuid": "770d8f39-f54e-4ec9-b08a-456ee6189801",
-      "width": 0,
-      "x": 837,
-      "y": 693,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

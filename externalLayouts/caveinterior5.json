@@ -1841,38 +1841,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 180,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Sigbin",
-      "persistentUuid": "877bb215-2859-4f60-acf4-2e25d5d8a676",
-      "width": 0,
-      "x": 1014,
-      "y": 172,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tiktik",
-      "persistentUuid": "66bfc398-7edb-4b14-ad8c-e4dd473d6582",
-      "width": 0,
-      "x": 373,
-      "y": 812,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {

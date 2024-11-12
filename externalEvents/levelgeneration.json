@@ -1,8 +1,19 @@
 {
   "associatedLayout": "Forest",
-  "lastChangeTimeStamp": 0,
   "name": "LevelGeneration",
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TODO: GENERATE PORTAL AND REST ZONES\n"
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -33,7 +44,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "MinRoom",
+            "MinZone",
             "=",
             "4"
           ]
@@ -50,33 +61,6 @@
             ""
           ]
         }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AjoutObjConcern"
-              },
-              "parameters": [
-                "",
-                "Monsters"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Monsters",
-                ""
-              ]
-            }
-          ]
-        }
       ]
     },
     {
@@ -88,7 +72,7 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "NumberOfRooms",
+            "NumberOfZone",
             "<",
             "3"
           ]
@@ -123,7 +107,8 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "GenerateRooms",
+      "folded": true,
+      "name": "Generate Zones",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -165,7 +150,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Right",
           "conditions": [],
@@ -216,9 +200,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "<=",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -346,9 +330,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         ">",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -412,7 +396,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "+",
                         "1"
                       ]
@@ -424,7 +408,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Down",
           "conditions": [],
@@ -475,9 +458,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "<=",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -605,9 +588,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         ">",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -671,7 +654,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "+",
                         "1"
                       ]
@@ -683,7 +666,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Up",
           "conditions": [],
@@ -734,9 +716,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "<=",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -894,9 +876,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         ">",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -970,7 +952,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "+",
                         "1"
                       ]
@@ -982,7 +964,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Left",
           "conditions": [],
@@ -1033,9 +1014,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "<=",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -1193,9 +1174,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         ">",
-                        "MinRoom"
+                        "MinZone"
                       ]
                     }
                   ],
@@ -1269,7 +1250,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "NumberOfRooms",
+                        "NumberOfZone",
                         "+",
                         "1"
                       ]
@@ -1281,7 +1262,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "interiorGenerator",
           "conditions": [],
@@ -1300,324 +1280,24 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "interiorGenerator",
-                    "random",
-                    "=",
-                    "RandomInRange(1,10)"
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "2"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior2\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior3\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "4"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior4\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "5"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior5\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "6"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior6\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "7"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior7\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "8"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior8\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "9"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior9\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "interiorGenerator",
-                        "random",
-                        "=",
-                        "10"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                      },
-                      "parameters": [
-                        "",
-                        "CurrentSceneName()+ \"Interior10\"",
-                        "interiorGenerator.X()",
-                        "interiorGenerator.Y()",
-                        "interiorGenerator.Z()"
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "CurrentSceneName()+ \"Interior\"+ToString(RandomInRange(1,10))",
+                        "interiorGenerator.X()",
+                        "interiorGenerator.Y()",
+                        "interiorGenerator.Z()"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Delete"
@@ -1627,6 +1307,351 @@
                         ""
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "GenerateEnemies",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Spawner",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Spawner",
+                "random",
+                "=",
+                "RandomInRange(0,7)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyAswang",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemySigbin",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyKapre",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyBerberoka",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyBungisngis",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyTikbalang",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyTiktik",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    "random",
+                    "=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyTiyanak",
+                    "Spawner.X()",
+                    "Spawner.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Spawner",
+                    ""
                   ]
                 }
               ]

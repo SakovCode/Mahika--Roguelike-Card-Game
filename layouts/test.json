@@ -75,22 +75,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "MonsterSigbin",
-      "persistentUuid": "265a8ddc-bd6f-4945-bf6e-db31897d3d5d",
-      "width": 0,
-      "x": 1216,
-      "y": 160,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 64,
       "height": 416,
