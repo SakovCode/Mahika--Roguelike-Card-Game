@@ -1817,22 +1817,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "Rock",
-      "persistentUuid": "cd070b6c-6a2c-40f3-9732-06276c09fd73",
-      "width": 0,
-      "x": 752,
-      "y": 462,
-      "zOrder": 153,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Rock",
       "persistentUuid": "6ab633be-6ab7-4075-abc8-a1994b4c10ad",
       "width": 0,
       "x": 112,
@@ -1860,7 +1844,7 @@
     }
   ],
   "editionSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -1868,8 +1852,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.6710943652414499,
+    "snap": false,
+    "zoomFactor": 1.4389772133866596,
     "windowMask": false
   }
 }

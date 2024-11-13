@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.42183322780333404,
+    "snap": false,
+    "zoomFactor": 0.3457183571820123,
     "windowMask": false
   },
   "objectsGroups": [
@@ -179,7 +179,7 @@
       "persistentUuid": "da7a69f6-cf78-4e1e-b1e7-e36909c1d9ac",
       "width": 219,
       "x": 1632,
-      "y": 928,
+      "y": 924,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -195,8 +195,8 @@
       "name": "ManaText",
       "persistentUuid": "317c903e-0609-49d0-a724-9f7844593f4d",
       "width": 290.9090909090909,
-      "x": 61,
-      "y": 949,
+      "x": 79,
+      "y": 112,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -212,8 +212,8 @@
       "name": "HealthText",
       "persistentUuid": "1f5d2fb5-5581-48e2-a013-66fefa088ccd",
       "width": 321.590909090909,
-      "x": 30,
-      "y": 885,
+      "x": 48,
+      "y": 48,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,7 +230,7 @@
       "persistentUuid": "6f53d3c8-d0e2-4374-8eee-5834aa191b4e",
       "width": 64,
       "x": 640,
-      "y": 832,
+      "y": 828,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,7 +247,7 @@
       "persistentUuid": "d8102706-740f-4590-8ad6-273ed3744da2",
       "width": 64,
       "x": 736,
-      "y": 832,
+      "y": 828,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -264,7 +264,7 @@
       "persistentUuid": "cad62f69-ea9b-414f-acda-a54e2131224d",
       "width": 64,
       "x": 832,
-      "y": 832,
+      "y": 828,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -281,7 +281,7 @@
       "persistentUuid": "0ce3bcdf-8fbc-409b-9de2-03958d453b3d",
       "width": 64,
       "x": 928,
-      "y": 832,
+      "y": 828,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -298,7 +298,7 @@
       "persistentUuid": "33e51553-760d-4330-8bfe-0d33dcc6f3b7",
       "width": 64,
       "x": 1024,
-      "y": 832,
+      "y": 828,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -315,7 +315,7 @@
       "persistentUuid": "56d53766-7b08-4c49-856e-35a86df28f26",
       "width": 64,
       "x": 1120,
-      "y": 832,
+      "y": 828,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -332,7 +332,7 @@
       "persistentUuid": "326d0af7-e33d-4b67-9504-1efdc108158e",
       "width": 64,
       "x": 1344,
-      "y": 832,
+      "y": 828,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -348,7 +348,8 @@
       "persistentUuid": "7427eeff-3f6f-4a0d-b33c-9c04885ed2a3",
       "width": 0,
       "x": 640,
-      "y": 416,
+      "y": 412,
+      "z": -5,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -364,7 +365,8 @@
       "persistentUuid": "5dea2949-bedd-463e-9918-5d95bfc81716",
       "width": 0,
       "x": 640,
-      "y": 640,
+      "y": 636,
+      "z": -5,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -380,7 +382,8 @@
       "persistentUuid": "759d9aa2-b8ce-4bbf-be70-832b96d7a20f",
       "width": 0,
       "x": 896,
-      "y": 416,
+      "y": 412,
+      "z": -5,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -396,7 +399,8 @@
       "persistentUuid": "509395c7-eaed-4d3d-9872-a5beb37b02c6",
       "width": 0,
       "x": 896,
-      "y": 640,
+      "y": 636,
+      "z": -5,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -412,7 +416,8 @@
       "persistentUuid": "469f742b-a27f-46ef-89bb-e67b7f29253e",
       "width": 0,
       "x": 1152,
-      "y": 416,
+      "y": 412,
+      "z": -5,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -428,7 +433,8 @@
       "persistentUuid": "a989b238-c196-4214-b7eb-f99a8f3bbfda",
       "width": 0,
       "x": 1152,
-      "y": 640,
+      "y": 636,
+      "z": -5,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -445,7 +451,7 @@
       "persistentUuid": "d416fa4e-a68d-4bf9-afdd-f6ffbd850ea5",
       "width": 128,
       "x": 640,
-      "y": 192,
+      "y": 188,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -462,7 +468,7 @@
       "persistentUuid": "a6c37070-5f4a-46d1-8bdf-a090578cc3c6",
       "width": 128,
       "x": 640,
-      "y": 0,
+      "y": -4,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -478,7 +484,7 @@
       "persistentUuid": "060b9305-2435-4727-a671-cc40b1a6f405",
       "width": 0,
       "x": 896,
-      "y": 192,
+      "y": 188,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -495,7 +501,7 @@
       "persistentUuid": "36248422-8ae8-4f86-a5d2-a28bb8de1c5c",
       "width": 128,
       "x": 896,
-      "y": 0,
+      "y": -4,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -512,7 +518,7 @@
       "persistentUuid": "dbe45496-0614-4d18-9f82-22487c26f223",
       "width": 128,
       "x": 1152,
-      "y": 192,
+      "y": 188,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -529,7 +535,7 @@
       "persistentUuid": "05c87cf8-247f-4ddf-b618-5e8713542d00",
       "width": 128,
       "x": 1152,
-      "y": 0,
+      "y": -4,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -546,7 +552,7 @@
       "persistentUuid": "9c252385-5760-41c5-8572-4c08198d5b83",
       "width": 224,
       "x": 1632,
-      "y": 800,
+      "y": 796,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -556,14 +562,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1092,
+      "height": 1536,
       "keepRatio": true,
       "layer": "",
       "name": "New3DBox",
       "persistentUuid": "2676edb3-0416-48ab-b0ff-59361a881400",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
+      "width": 2701,
+      "x": -391,
+      "y": -448,
+      "z": -10,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -579,7 +586,7 @@
       "persistentUuid": "5ba8e428-d951-4e58-bd15-89359d6a3ee6",
       "width": 0,
       "x": 0,
-      "y": 0,
+      "y": -4,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -595,7 +602,7 @@
       "persistentUuid": "8ff9f649-47cb-4fff-9d32-0688b98550af",
       "width": 0,
       "x": 32,
-      "y": 0,
+      "y": -4,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -612,7 +619,7 @@
       "persistentUuid": "500a6cb5-caa4-4875-b98d-d3399f42e9b7",
       "width": 64,
       "x": 1216,
-      "y": 832,
+      "y": 828,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -621,15 +628,15 @@
     {
       "angle": 270,
       "customSize": true,
-      "depth": 187,
-      "height": 100,
+      "depth": 246,
+      "height": 128,
       "keepRatio": true,
       "layer": "",
       "name": "Player",
       "persistentUuid": "70ab486c-a8e2-46eb-9c77-84c65820f6c5",
-      "width": 69,
-      "x": 983,
-      "y": 1000,
+      "width": 88,
+      "x": 484,
+      "y": 892,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -646,8 +653,108 @@
       "persistentUuid": "90aa1821-8a65-43da-a069-d3c624681654",
       "width": 224,
       "x": 1632,
-      "y": 672,
+      "y": 668,
       "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackDecoratedButton3",
+      "persistentUuid": "907b5e32-49d9-4241-9fa8-5540ea023a64",
+      "width": 224,
+      "x": 1632,
+      "y": 544,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 992,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "victory",
+      "persistentUuid": "2471f18d-f8fe-412e-9d56-401f58c5c764",
+      "width": 992,
+      "x": 2720,
+      "y": -1792,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Transition",
+      "persistentUuid": "8005cbf8-25d6-4248-90f3-73b2b1b2089a",
+      "width": 0,
+      "x": -384,
+      "y": -480,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackDecoratedButton2",
+      "persistentUuid": "8a85848e-3be6-4631-8394-1c041f0e0de8",
+      "width": 224,
+      "x": 3104,
+      "y": -800,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 892,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "defeat",
+      "persistentUuid": "0c9c3e67-5a79-4ddb-85ac-43e23082dbec",
+      "width": 992,
+      "x": 4536,
+      "y": -1389,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackDecoratedButton4",
+      "persistentUuid": "e3807e0a-b047-4b03-aed1-e4617a8f4909",
+      "width": 0,
+      "x": 4943,
+      "y": -687,
+      "zOrder": 47,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -929,13 +1036,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 2
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 2
+              "value": 10
             }
           ]
         },
@@ -1010,6 +1117,16 @@
             "loop": false,
             "name": "attack",
             "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
           }
         ]
       }
@@ -1736,28 +1853,6 @@
       }
     },
     {
-      "assetStoreId": "4da3e07e25901642408ae96095d826c70af421f03ceab510d00ea9ce98a9c690",
-      "name": "FloorTiles",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 120,
-        "height": 120,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Floor Tiles.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 90,
-        "width": 120,
-        "animations": []
-      }
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -1920,28 +2015,6 @@
         "rotationY": 0,
         "rotationZ": -137,
         "width": 150,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Stump",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "stump.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 4.45619116537e-313,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
         "animations": []
       }
     },
@@ -2171,6 +2244,174 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "BlackDecoratedButton3",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "WHOSYOURDADDY\n",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "WHOSYOURDADDY\n",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 17,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
+      "name": "BlackDecoratedButton4",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 20,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "EXIT TO MAIN MENU",
+          "font": "ArchitectsDaughter.ttf",
+          "textAlignment": "center",
+          "characterSize": 15,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "EXIT TO MAIN MENU",
+            "font": "ArchitectsDaughter.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 15,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2237,9 +2478,6 @@
         "objectName": "EndTurnButton"
       },
       {
-        "objectName": "FloorTiles"
-      },
-      {
         "objectName": "ManaText"
       },
       {
@@ -2249,16 +2487,19 @@
         "objectName": "Alunsina"
       },
       {
-        "objectName": "Stump"
-      },
-      {
         "objectName": "New3DBox"
       },
       {
         "objectName": "BlackDecoratedButton"
       },
       {
+        "objectName": "BlackDecoratedButton4"
+      },
+      {
         "objectName": "BlackDecoratedButton2"
+      },
+      {
+        "objectName": "BlackDecoratedButton3"
       }
     ]
   },
@@ -2281,7 +2522,7 @@
                 "value": "DebuggerTools::ConsoleLog"
               },
               "parameters": [
-                "\"Intersection: \" +Intersection.X + \",\" + Intersection.X + \" Phase: \" + Phase +\" Encounter: \" +encounterID",
+                "\"wincon: \"+ WIN_CONDITION + \" e: \" + EnemyCount +\" phase: \" +Phase",
                 "\"info\"",
                 ""
               ]
@@ -2339,6 +2580,76 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BlackDecoratedButton3",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Enemy"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "stats.HP",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BlackDecoratedButton4",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"MainMenu\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -2361,6 +2672,33 @@
                 ".5",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Enemy"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Enemy",
+                "Pathfinding",
+                "=",
+                "999"
               ]
             }
           ]
@@ -2437,6 +2775,68 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "WIN_CONDITION",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMoves\"",
+                "victory.CenterX()",
+                "victory.CenterY()",
+                "\"UI\"",
+                "\"elastic\"",
+                ".1"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".1",
+                "\"Circular\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "enemyDefeated",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2456,7 +2856,7 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "health",
+                "PlayerHP",
                 "<=",
                 "0"
               ]
@@ -2484,6 +2884,58 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "WIN_CONDITION",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMoves\"",
+                "defeat.CenterX()",
+                "defeat.CenterY()",
+                "\"UI\"",
+                "\"elastic\"",
+                ".1"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".1",
+                "\"Circular\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -2493,6 +2945,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "UI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2520,7 +2973,7 @@
                 "HealthText",
                 "Text",
                 "=",
-                "\"Health: \" + health"
+                "\"Health: \" + PlayerHP"
               ]
             }
           ]
@@ -2533,6 +2986,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "AT THE BEGINNING",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2552,7 +3006,6 @@
           "actions": [],
           "events": [
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -2724,13 +3177,23 @@
                         },
                         {
                           "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
                           },
                           "parameters": [
                             "Enemy",
-                            "Resizable",
-                            "64",
-                            "64"
+                            "Scale",
+                            "=",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "=",
+                            "90"
                           ]
                         }
                       ]
@@ -2757,7 +3220,7 @@
                             "EnemySlot",
                             "random",
                             ">=",
-                            "0"
+                            "50"
                           ]
                         }
                       ],
@@ -2820,13 +3283,39 @@
                         },
                         {
                           "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                            "value": "ScalableCapability::ScalableBehavior::SetValue"
                           },
                           "parameters": [
                             "Enemy",
-                            "Resizable",
-                            "64",
-                            "64"
+                            "Scale",
+                            "=",
+                            "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAngle"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "=",
+                            "90"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PathfindingBehavior::RotateObject"
+                          },
+                          "parameters": [
+                            "Enemy",
+                            "Pathfinding",
+                            "no"
                           ]
                         }
                       ]
@@ -2937,6 +3426,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "DRAW PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3060,6 +3550,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "CARD DROPPED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3250,6 +3741,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "PREPARATION PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3381,6 +3873,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3398,6 +3891,12 @@
                 "<=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -3445,6 +3944,12 @@
                 "<=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -3490,10 +3995,11 @@
           ]
         },
         {
-          "colorB": 93,
-          "colorG": 255,
-          "colorR": 0,
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "HERO TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3612,98 +4118,25 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PickNearest"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "Hero.X()",
-                                "Hero.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Hero",
-                                "attackExecuted",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Hero",
-                                "Pathfinding",
-                                "",
-                                "Enemy.X()",
-                                "Enemy.Y()+64+32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Hero",
-                                "attackExecuted",
-                                "True",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Hero",
-                                "Animation",
-                                "=",
-                                "\"attack\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "stats.HP",
-                                "-",
-                                "Hero.stats.ATK"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "Hero.Animation::Duration()"
-                              ]
-                            }
-                          ],
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "HeroTargeting/Attacking/DMG calculation",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "Distance"
+                                    "value": "PickNearest"
                                   },
                                   "parameters": [
-                                    "Hero",
                                     "Enemy",
-                                    "200",
+                                    "Hero.X()",
+                                    "Hero.Y()",
                                     ""
                                   ]
                                 },
@@ -3719,23 +4152,6 @@
                                   ]
                                 }
                               ],
-                              "actions": []
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "BooleanObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Hero",
-                                    "attackExecuted",
-                                    "True",
-                                    ""
-                                  ]
-                                }
-                              ],
                               "actions": [
                                 {
                                   "type": {
@@ -3745,8 +4161,8 @@
                                     "Hero",
                                     "Pathfinding",
                                     "",
-                                    "Hero.boundPos.X",
-                                    "Hero.boundPos.Y"
+                                    "Enemy.X()",
+                                    "Enemy.Y()+64+32"
                                   ]
                                 },
                                 {
@@ -3757,7 +4173,29 @@
                                     "Hero",
                                     "Animation",
                                     "=",
-                                    "\"idle\""
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Hero",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "stats.HP",
+                                    "-",
+                                    "Hero.stats.ATK"
                                   ]
                                 },
                                 {
@@ -3765,22 +4203,102 @@
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "1"
+                                    "Hero.Animation::Duration()"
                                   ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Distance"
+                                      },
+                                      "parameters": [
+                                        "Hero",
+                                        "Enemy",
+                                        "200",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Hero",
+                                        "attackExecuted",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
                                 },
                                 {
-                                  "type": {
-                                    "value": "SetNumberVariable"
-                                  },
-                                  "parameters": [
-                                    "Phase",
-                                    "+",
-                                    "1"
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Hero",
+                                        "attackExecuted",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PathfindingBehavior::SetDestination"
+                                      },
+                                      "parameters": [
+                                        "Hero",
+                                        "Pathfinding",
+                                        "",
+                                        "Hero.boundPos.X",
+                                        "Hero.boundPos.Y"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "Hero",
+                                        "Animation",
+                                        "=",
+                                        "\"idle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Phase",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
                             }
-                          ]
+                          ],
+                          "parameters": []
                         }
                       ]
                     }
@@ -3789,6 +4307,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4079,6 +4598,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4341,6 +4861,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4603,6 +5124,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4865,6 +5387,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -5130,9 +5653,9 @@
           "parameters": []
         },
         {
-          "colorB": 74,
-          "colorG": 74,
-          "colorR": 228,
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
           "creationTime": 0,
           "name": "ENEMY TURN",
           "source": "",
@@ -5341,6 +5864,17 @@
                                     },
                                     {
                                       "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "Hero",
+                                        "Animation",
+                                        "=",
+                                        "\"hit\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
                                         "value": "SetNumberObjectVariable"
                                       },
                                       "parameters": [
@@ -5404,6 +5938,16 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -5455,6 +5999,17 @@
                                   },
                                   "parameters": [
                                     "targetAvailable",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "attackExecuted",
                                     "False",
                                     ""
                                   ]
@@ -5512,7 +6067,7 @@
                                         "value": "SetNumberVariable"
                                       },
                                       "parameters": [
-                                        "health",
+                                        "PlayerHP",
                                         "-",
                                         "Enemy.stats.ATK"
                                       ]
@@ -5571,6 +6126,16 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -5605,6 +6170,11 @@
                             }
                           ],
                           "parameters": []
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     }
@@ -5878,6 +6448,16 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -5929,6 +6509,17 @@
                                   },
                                   "parameters": [
                                     "targetAvailable",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "attackExecuted",
                                     "False",
                                     ""
                                   ]
@@ -5986,7 +6577,7 @@
                                         "value": "SetNumberVariable"
                                       },
                                       "parameters": [
-                                        "health",
+                                        "PlayerHP",
                                         "-",
                                         "Enemy.stats.ATK"
                                       ]
@@ -6041,6 +6632,16 @@
                                             "Animation",
                                             "=",
                                             "\"idle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
                                           ]
                                         },
                                         {
@@ -6357,6 +6958,16 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -6408,6 +7019,17 @@
                                   },
                                   "parameters": [
                                     "targetAvailable",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "attackExecuted",
                                     "False",
                                     ""
                                   ]
@@ -6465,7 +7087,7 @@
                                         "value": "SetNumberVariable"
                                       },
                                       "parameters": [
-                                        "health",
+                                        "PlayerHP",
                                         "-",
                                         "Enemy.stats.ATK"
                                       ]
@@ -6520,6 +7142,16 @@
                                             "Animation",
                                             "=",
                                             "\"idle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
                                           ]
                                         },
                                         {
@@ -6836,6 +7468,16 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -6887,6 +7529,17 @@
                                   },
                                   "parameters": [
                                     "targetAvailable",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "attackExecuted",
                                     "False",
                                     ""
                                   ]
@@ -6944,7 +7597,7 @@
                                         "value": "SetNumberVariable"
                                       },
                                       "parameters": [
-                                        "health",
+                                        "PlayerHP",
                                         "-",
                                         "Enemy.stats.ATK"
                                       ]
@@ -6999,6 +7652,16 @@
                                             "Animation",
                                             "=",
                                             "\"idle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
                                           ]
                                         },
                                         {
@@ -7315,6 +7978,16 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -7366,6 +8039,17 @@
                                   },
                                   "parameters": [
                                     "targetAvailable",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "attackExecuted",
                                     "False",
                                     ""
                                   ]
@@ -7423,7 +8107,7 @@
                                         "value": "SetNumberVariable"
                                       },
                                       "parameters": [
-                                        "health",
+                                        "PlayerHP",
                                         "-",
                                         "Enemy.stats.ATK"
                                       ]
@@ -7478,6 +8162,16 @@
                                             "Animation",
                                             "=",
                                             "\"idle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
                                           ]
                                         },
                                         {
@@ -7794,6 +8488,16 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -7845,6 +8549,17 @@
                                   },
                                   "parameters": [
                                     "targetAvailable",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "attackExecuted",
                                     "False",
                                     ""
                                   ]
@@ -7902,7 +8617,7 @@
                                         "value": "SetNumberVariable"
                                       },
                                       "parameters": [
-                                        "health",
+                                        "PlayerHP",
                                         "-",
                                         "Enemy.stats.ATK"
                                       ]
@@ -7957,6 +8672,16 @@
                                             "Animation",
                                             "=",
                                             "\"idle\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Enemy",
+                                            "=",
+                                            "90\n"
                                           ]
                                         },
                                         {
@@ -8018,6 +8743,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "END OF ROUND",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8071,6 +8797,58 @@
                     "mana",
                     "=",
                     "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Hero"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Hero",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "attackExecuted",
+                    "False",
+                    ""
                   ]
                 }
               ]

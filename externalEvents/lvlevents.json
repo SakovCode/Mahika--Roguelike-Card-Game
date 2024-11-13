@@ -12,7 +12,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "TODO: \nENEMY ENCOUNTER\nPORTAL INTERACTION\nLEVEL COMPLETION CONDITION"
+      "comment": "TODO: \nLEVEL COMPLETION CONDITION"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -71,7 +71,7 @@
           },
           "parameters": [
             "Enemy",
-            "Enemy",
+            "Portal",
             ""
           ]
         }
@@ -312,6 +312,82 @@
               "parameters": [
                 "",
                 "\"Battle\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "SAVE/LOAD???????????",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "PORTAL",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "enemyDefeated",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Portal",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ForestBoss\"",
+                    "yes"
+                  ]
+                }
               ]
             }
           ]

@@ -18,29 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.491387754532936,
+    "zoomFactor": 0.4753585087126941,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewShapePainter",
-      "persistentUuid": "a778014b-7129-4a84-a42f-a966c9eb7e8d",
-      "width": 0,
-      "x": 516,
-      "y": 222,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    }
-  ],
+  "instances": [],
   "objects": [
     {
       "assetStoreId": "",
@@ -105,7 +88,28 @@
         "rotationY": 0,
         "rotationZ": 0,
         "width": 100,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -294,6 +298,39 @@
         "g": 0,
         "b": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DModel",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": true,
+            "name": "open",
+            "source": "open"
+          },
+          {
+            "loop": true,
+            "name": "no action",
+            "source": "no action"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -328,44 +365,17 @@
       },
       {
         "objectName": "NewShapePainter"
+      },
+      {
+        "objectName": "New3DModel"
       }
     ]
   },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PrimitiveDrawing::Circle"
-          },
-          "parameters": [
-            "NewShapePainter",
-            "NewShapePainter.X()",
-            "NewShapePainter.Y()",
-            "999999"
-          ]
-        },
-        {
-          "type": {
-            "value": "PrimitiveDrawing::FillColor"
-          },
-          "parameters": [
-            "NewShapePainter",
-            "\"0;0;0\""
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

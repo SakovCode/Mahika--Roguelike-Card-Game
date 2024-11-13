@@ -2772,6 +2772,13 @@
         "metadata": "",
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiktek.glb",
         "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/CardandChess/Chess(1).glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6145,13 +6152,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 9
             }
           ]
         },
@@ -6191,7 +6198,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
+          "maxSpeed": 300,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6200,11 +6210,8 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -6217,7 +6224,7 @@
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -6256,13 +6263,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 6
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 5
             }
           ]
         },
@@ -6302,7 +6309,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 400,
+          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6311,11 +6321,8 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -6323,12 +6330,12 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\sigbin.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -6372,13 +6379,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 14
             }
           ]
         },
@@ -6418,7 +6425,9 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6428,10 +6437,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -6439,12 +6446,12 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -6488,13 +6495,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 18
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 14
             }
           ]
         },
@@ -6534,7 +6541,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 200,
+          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6543,11 +6553,8 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -6555,12 +6562,12 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\berberoka.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -6604,13 +6611,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 16
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 12
             }
           ]
         },
@@ -6650,7 +6657,9 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6660,10 +6669,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -6671,12 +6678,12 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\bungisngis.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -6715,13 +6722,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 18
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 20
             }
           ]
         },
@@ -6761,7 +6768,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 400,
+          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6770,11 +6780,8 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -6782,12 +6789,12 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -6831,13 +6838,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 14
             }
           ]
         },
@@ -6877,7 +6884,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 300,
+          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6886,11 +6896,8 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -6898,12 +6905,12 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiktek.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -6947,13 +6954,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 7
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 8
+              "value": 11
             }
           ]
         },
@@ -6993,7 +7000,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 400,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 500,
+          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -7002,11 +7012,8 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 200,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -7014,12 +7021,12 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
+        "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 32,
         "animations": [
           {
@@ -7044,6 +7051,42 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Portal",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 64,
+        "height": 36,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\Portal\\portal.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 36,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PortalLight",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 500,
+        "color": "216;0;255",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7052,6 +7095,9 @@
       {
         "folderName": "LvlGenerationsHIT",
         "children": [
+          {
+            "objectName": "Portal"
+          },
           {
             "objectName": "Right"
           },
@@ -7212,9 +7258,6 @@
         ]
       },
       {
-        "objectName": "Light"
-      },
-      {
         "objectName": "Player"
       },
       {
@@ -7225,6 +7268,17 @@
       },
       {
         "objectName": "ViewDefeat"
+      },
+      {
+        "folderName": "Lightshit",
+        "children": [
+          {
+            "objectName": "Light"
+          },
+          {
+            "objectName": "PortalLight"
+          }
+        ]
       }
     ]
   },
@@ -7311,12 +7365,17 @@
     {
       "name": "PlayerHP",
       "type": "number",
-      "value": 0
+      "value": 100
     },
     {
       "name": "encounterID",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "enemyDefeated",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
