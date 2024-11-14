@@ -285,15 +285,17 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": false,
+      "antialiasing": "none",
       "fillColor": {
-        "b": 0,
+        "r": 0,
         "g": 0,
-        "r": 0
+        "b": 0
       },
       "outlineColor": {
-        "b": 0,
+        "r": 0,
         "g": 0,
-<<<<<<< Updated upstream
         "b": 0
       }
     },
@@ -329,13 +331,6 @@
           }
         ]
       }
-=======
-        "r": 0
-      },
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": false,
-      "antialiasing": "none"
->>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {

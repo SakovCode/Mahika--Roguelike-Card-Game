@@ -1360,6 +1360,7 @@
             "text": "",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -1888,6 +1889,7 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
+        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1929,6 +1931,7 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
+        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -2117,6 +2120,7 @@
             "text": "RELOAD",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2143,19 +2147,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 17,
-        "g": 17,
-        "r": 17
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 17,
+        "g": 17,
+        "b": 17
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
@@ -2224,6 +2228,7 @@
             "text": "END BATTLE",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
