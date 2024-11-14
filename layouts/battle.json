@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3457183571820123,
+    "zoomFactor": 0.23221258312853338,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1360,7 +1360,6 @@
             "text": "",
             "font": "Charm-Regular.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "255;255;255"
           }
@@ -1889,7 +1888,6 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1931,7 +1929,6 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -2120,7 +2117,6 @@
             "text": "RELOAD",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2147,19 +2143,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 17,
+        "b": 17,
         "g": 17,
-        "b": 17
+        "r": 17
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
@@ -2228,7 +2224,6 @@
             "text": "END BATTLE",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2286,7 +2281,7 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "WHOSYOURDADDY\n",
+          "string": "TRY\n",
           "font": "ArchitectsDaughter.ttf",
           "textAlignment": "center",
           "characterSize": 17,
@@ -2309,10 +2304,9 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "WHOSYOURDADDY\n",
+            "text": "TRY\n",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "255;255;255"
           }
@@ -2396,7 +2390,6 @@
             "text": "EXIT TO MAIN MENU",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 15,
             "color": "255;255;255"
           }

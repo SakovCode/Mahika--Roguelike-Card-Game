@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.24004286808041378,
+    "zoomFactor": 0.16666913202394656,
     "windowMask": false
   },
   "objectsGroups": [
@@ -513,7 +513,7 @@
       "persistentUuid": "0d43f801-ade6-4185-bfe6-6f2929ff21b4",
       "width": 128,
       "x": 1728,
-      "y": 128,
+      "y": 64,
       "zOrder": 103,
       "numberProperties": [],
       "stringProperties": [],
@@ -578,8 +578,8 @@
       "name": "SaveButton",
       "persistentUuid": "e3432a8c-feef-45c7-bda9-7c9d775a6aff",
       "width": 48,
-      "x": 1664,
-      "y": 128,
+      "x": 1641,
+      "y": 104,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -699,6 +699,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "Cutscene",
+      "name": "NewGameCutscene",
+      "persistentUuid": "3886b870-7d36-4037-988f-6ff0c86ec2ef",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -745,6 +762,20 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewGameCutscene",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "incomplete11 - Made with Clipchamp.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -760,6 +791,9 @@
             "objectName": "ForestFloor"
           }
         ]
+      },
+      {
+        "objectName": "NewGameCutscene"
       }
     ]
   },
@@ -876,7 +910,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "GUI",
+      "name": "UI",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -909,7 +943,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "UI",
+      "name": "Cutscene",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

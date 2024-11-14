@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2987985363606903,
+    "zoomFactor": 0.2006974131454972,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -42,29 +42,9 @@
       "initialVariables": []
     }
   ],
-  "objects": [
-    {
-      "assetStoreId": "",
-      "name": "SarimanokCutscene",
-      "type": "Video::VideoObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "opacity": 255,
-        "loop": false,
-        "volume": 100,
-        "videoResource": "Sarimanok - Made with Clipchamp.mp4"
-      }
-    }
-  ],
+  "objects": [],
   "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "SarimanokCutscene"
-      }
-    ]
+    "folderName": "__ROOT"
   },
   "events": [
     {

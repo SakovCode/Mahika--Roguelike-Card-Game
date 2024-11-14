@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2006974131454987,
+    "zoomFactor": 0.20746499616301514,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2785,7 +2785,7 @@
       "height": 150,
       "keepRatio": true,
       "layer": "",
-      "name": "Sarimanok",
+      "name": "SarimanokBoss",
       "persistentUuid": "78830cb7-c996-451f-8095-582d84859ac7",
       "width": 256,
       "x": 956,
@@ -2824,6 +2824,561 @@
       "x": 965,
       "y": 761,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Marker",
+      "persistentUuid": "1fb1e893-769e-4f71-a2f0-5778e3386f0e",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Pause_button",
+      "persistentUuid": "b0e1bf12-e205-4be6-a4eb-4645d64723c4",
+      "width": 64,
+      "x": 64,
+      "y": 64,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Transition",
+      "persistentUuid": "0c89c795-664c-46f0-969b-abeb72c3cdb3",
+      "width": 64,
+      "x": 1856,
+      "y": -128,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "pause_marker",
+      "persistentUuid": "388bed47-2d05-4f75-a668-9242a0e875db",
+      "width": 768,
+      "x": 2752,
+      "y": 192,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "UI",
+      "name": "resume_button",
+      "persistentUuid": "dd9a3436-169e-4832-adda-8d21779dd933",
+      "width": 225,
+      "x": 2880,
+      "y": 384,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "options_button",
+      "persistentUuid": "430b5ce6-465c-4094-828b-381e4c3ae4a3",
+      "width": 225,
+      "x": 3200,
+      "y": 384,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "MainMenu_button",
+      "persistentUuid": "5413a3f6-f785-4ad4-88a5-0c4488bced7a",
+      "width": 225,
+      "x": 2880,
+      "y": 512,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "quit_button",
+      "persistentUuid": "886cc715-467e-4bc5-9af2-1648c26435c8",
+      "width": 225,
+      "x": 3200,
+      "y": 512,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "options_maker",
+      "persistentUuid": "c78c6951-0870-4c62-bb84-0573cb63f305",
+      "width": 768,
+      "x": 4992,
+      "y": 192,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_marker",
+      "persistentUuid": "8b3e2102-f4b7-45c9-b7c6-5515b35a6e7f",
+      "width": 768,
+      "x": 7104,
+      "y": 192,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_options",
+      "persistentUuid": "8416d7c1-7d4a-4ca0-8ac7-c96cce69123b",
+      "width": 479,
+      "x": 7296,
+      "y": 384,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "yes_button",
+      "persistentUuid": "eefdb2a4-9d53-431a-aec1-e763f2054e16",
+      "width": 225,
+      "x": 7232,
+      "y": 512,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "layer": "UI",
+      "name": "no_button",
+      "persistentUuid": "881554e9-6537-4152-a9ad-171952d23620",
+      "width": 225,
+      "x": 7552,
+      "y": 512,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 67,
+      "layer": "UI",
+      "name": "bck_button",
+      "persistentUuid": "3388f084-9f1c-4035-9f07-21f5c20bf4af",
+      "width": 188,
+      "x": 5312,
+      "y": 640,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 512,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "6566645d-9666-495b-9a44-7bea3b05d498",
+      "width": 768,
+      "x": 4992,
+      "y": 256,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "f1799983-d9bf-453a-bfe2-d5d295dff437",
+      "width": 250,
+      "x": 5248,
+      "y": 576,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "BGM",
+      "persistentUuid": "e3b69543-f88c-4500-9384-f8bcd7e5e3ed",
+      "width": 0,
+      "x": 5376,
+      "y": 512,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "445ab4b0-0914-4272-a44a-e66426524953",
+      "width": 250,
+      "x": 5248,
+      "y": 512,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SFX",
+      "persistentUuid": "d1ab6b91-1679-4e64-b6d0-25e11b3da1b0",
+      "width": 0,
+      "x": 5376,
+      "y": 448,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SquareWhiteSlider1",
+      "persistentUuid": "fbe2bfc4-9abc-4be4-8fb4-ead389134288",
+      "width": 250,
+      "x": 5248,
+      "y": 384,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "MasterVolume",
+      "persistentUuid": "9dd21c2f-928a-4f2e-945f-b7bf9d7b8659",
+      "width": 0,
+      "x": 5248,
+      "y": 320,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 512,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "a78eed73-3481-4f2b-92ea-b21d7bdd9241",
+      "width": 768,
+      "x": 2752,
+      "y": 256,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 512,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "d1e610c8-bab7-4d33-ab90-c89686e04a1c",
+      "width": 768,
+      "x": 7104,
+      "y": 256,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 720,
+      "layer": "UI",
+      "name": "Mission1",
+      "persistentUuid": "7e2aa8d1-e72e-4bcf-9e4e-1010c15399a8",
+      "width": 1080,
+      "x": 9152,
+      "y": 128,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "OkayButton",
+      "persistentUuid": "bba2fb41-c0da-4c18-a966-22950a53e6c6",
+      "width": 128,
+      "x": 9664,
+      "y": 768,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "missionsMarker",
+      "persistentUuid": "dc2e76ed-2e2f-466e-901a-fa8e517ba203",
+      "width": 1920,
+      "x": 8704,
+      "y": 0,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "victoryMarker",
+      "persistentUuid": "f03531f9-c517-4d89-9aa6-0e50d4cd02a4",
+      "width": 1920,
+      "x": 10880,
+      "y": 0,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1472,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "victory",
+      "persistentUuid": "530b5dec-d32e-4bc9-93fa-e7f54cde2545",
+      "width": 1408,
+      "x": 11136,
+      "y": -128,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "UI",
+      "name": "BACK",
+      "persistentUuid": "5a115705-4453-4262-8aaf-bd3d7e6a85d5",
+      "width": 128,
+      "x": 11776,
+      "y": 832,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "defeatMarker",
+      "persistentUuid": "40a9d872-bb9c-43cc-be49-ccf48a8d600b",
+      "width": 1920,
+      "x": 13056,
+      "y": 0,
+      "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "UI",
+      "name": "BACK",
+      "persistentUuid": "a06d5b6a-bc43-4b82-9176-542fa82e7392",
+      "width": 128,
+      "x": 13952,
+      "y": 832,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
+      "layer": "UI",
+      "name": "defeat",
+      "persistentUuid": "2ae88a66-cc10-4e05-8b11-52fb6ab59eee",
+      "width": 1152,
+      "x": 13440,
+      "y": 0,
+      "zOrder": 109,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "Cutscene",
+      "name": "SarimanokCutscene",
+      "persistentUuid": "8a4c079e-35e7-4b87-ab32-c3700a26d4d5",
+      "width": 1934,
+      "x": -2190,
+      "y": 0,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Objectives",
+      "persistentUuid": "6bfe50cd-99d2-4b07-9449-34976f48d297",
+      "width": 0,
+      "x": 128,
+      "y": 187,
+      "zOrder": 111,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2942,49 +3497,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "Sarimanok",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\sarimanok.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": true,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": false,
-            "name": "attack",
-            "source": "attack"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "walk",
-            "source": "walk"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Chess",
       "type": "Scene3D::Model3DObject",
       "variables": [],
@@ -3010,6 +3522,47 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Objectives",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "OBJECTIVES:\n        Find a way to escape\n        Defeat the Engkantos",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 35,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "OBJECTIVES:\n        Find a way to escape\n        Defeat the Engkantos",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 35,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3034,10 +3587,10 @@
         "objectName": "Grass8"
       },
       {
-        "objectName": "Sarimanok"
+        "objectName": "Chess"
       },
       {
-        "objectName": "Chess"
+        "objectName": "Objectives"
       }
     ]
   },
@@ -3051,32 +3604,15 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Sarimanok",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"ForestScene\"",
-            ""
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "UI"
     }
   ],
   "layers": [
@@ -3106,6 +3642,72 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Cutscene",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

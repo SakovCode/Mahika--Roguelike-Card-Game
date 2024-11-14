@@ -1,5 +1,6 @@
 {
   "associatedLayout": "Forest",
+  "lastChangeTimeStamp": 0,
   "name": "PlayerMovement",
   "events": [
     {
@@ -71,7 +72,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [

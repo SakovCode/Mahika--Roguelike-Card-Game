@@ -1,5 +1,6 @@
 {
   "associatedLayout": "Forest",
+  "lastChangeTimeStamp": 0,
   "name": "UI",
   "events": [
     {
@@ -70,6 +71,53 @@
           },
           "parameters": [
             "defeatMarker"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "NewGameCutscene"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "NewGameCutscene"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NewGameCutscene",
+            ""
           ]
         }
       ]
@@ -1341,6 +1389,125 @@
             "\"Both\"",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "ForestBoss",
+            "=",
+            "CurrentSceneName()"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "SarimanokBoss",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMoves\"",
+                "SarimanokCutscene.CenterX()",
+                "SarimanokCutscene.CenterY()",
+                "\"Cutscene\"",
+                "\"elastic\"",
+                ".1"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".1",
+                "\"Flash\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "SarimanokCutscene"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SarimanokBoss",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "SarimanokCutscene.Duration()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SarimanokCutscene",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "encounterID",
+                "=",
+                "\"SarimanokBoss\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Battle\""
+              ]
+            }
           ]
         }
       ]

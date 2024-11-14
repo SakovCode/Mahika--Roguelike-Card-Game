@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2779,6 +2779,54 @@
         "metadata": "",
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
         "userAdded": false
+      },
+      {
+        "file": "incomplete11 - Made with Clipchamp.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "incomplete11 - Made with Clipchamp.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Bakunawa - Made with Clipchamp3.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Bakunawa - Made with Clipchamp3.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-14 133252.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-14 133252.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-14 133405.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-14 133405.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Branda-yolq3.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Branda-yolq3.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3102,19 +3150,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3814,7 +3862,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-13 113534.png",
+                  "image": "Screenshot 2024-11-14 133252.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3839,11 +3887,11 @@
                       },
                       {
                         "x": 834,
-                        "y": 445
+                        "y": 443
                       },
                       {
                         "x": 0,
-                        "y": 445
+                        "y": 443
                       }
                     ]
                   ]
@@ -3862,7 +3910,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-13 113615.png",
+                  "image": "Screenshot 2024-11-14 133405.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3887,11 +3935,11 @@
                       },
                       {
                         "x": 834,
-                        "y": 445
+                        "y": 443
                       },
                       {
                         "x": 0,
-                        "y": 445
+                        "y": 443
                       }
                     ]
                   ]
@@ -3939,7 +3987,6 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -4487,7 +4534,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4725,7 +4771,6 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4851,7 +4896,6 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4893,7 +4937,6 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4935,7 +4978,6 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5134,9 +5176,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
+          "type": "Lighting::LightObstacleBehavior",
+          "isFolded": true
         },
         {
           "name": "PathfindingObstacle",
@@ -6146,19 +6188,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 9
+              "value": 0
             }
           ]
         },
@@ -6257,19 +6299,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 6
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 5
+              "value": 0
             }
           ]
         },
@@ -6373,19 +6415,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 14
+              "value": 0
             }
           ]
         },
@@ -6489,19 +6531,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 18
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 14
+              "value": 0
             }
           ]
         },
@@ -6605,19 +6647,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 16
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 12
+              "value": 0
             }
           ]
         },
@@ -6716,19 +6758,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 18
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 20
+              "value": 0
             }
           ]
         },
@@ -6832,19 +6874,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 14
+              "value": 0
             }
           ]
         },
@@ -6948,19 +6990,19 @@
       "variables": [
         {
           "name": "stats",
+          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 7
+              "value": 0
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 11
+              "value": 0
             }
           ]
         },
@@ -7086,6 +7128,204 @@
         "color": "216;0;255",
         "debugMode": false,
         "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BakunawaCutscene",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Bakunawa - Made with Clipchamp3.mp4"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CaveMarker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-10-11 004618.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 670
+                      },
+                      {
+                        "x": 0,
+                        "y": 670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "SarimanokCutscene",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Sarimanok - Made with Clipchamp.mp4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SarimanokBoss",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "stats",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "ATK",
+              "type": "number",
+              "value": 15
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 9999,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 500,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\sarimanok.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
       }
     }
   ],
@@ -7221,6 +7461,9 @@
             "objectName": "Marker"
           },
           {
+            "objectName": "CaveMarker"
+          },
+          {
             "objectName": "Transition"
           }
         ]
@@ -7254,6 +7497,9 @@
           },
           {
             "objectName": "EnemyTiyanak"
+          },
+          {
+            "objectName": "SarimanokBoss"
           }
         ]
       },
@@ -7279,6 +7525,12 @@
             "objectName": "PortalLight"
           }
         ]
+      },
+      {
+        "objectName": "BakunawaCutscene"
+      },
+      {
+        "objectName": "SarimanokCutscene"
       }
     ]
   },
@@ -7340,6 +7592,9 @@
         },
         {
           "name": "EnemyTiyanak"
+        },
+        {
+          "name": "SarimanokBoss"
         }
       ]
     },
@@ -7376,6 +7631,41 @@
       "name": "enemyDefeated",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Forest",
+      "type": "string",
+      "value": "Forest"
+    },
+    {
+      "folded": true,
+      "name": "DForest",
+      "type": "string",
+      "value": "DForest"
+    },
+    {
+      "folded": true,
+      "name": "Cave",
+      "type": "string",
+      "value": "Cave"
+    },
+    {
+      "folded": true,
+      "name": "CaveBoss",
+      "type": "string",
+      "value": "CaveBoss"
+    },
+    {
+      "folded": true,
+      "name": "ForestBoss",
+      "type": "string",
+      "value": "ForestBoss"
+    },
+    {
+      "name": "DForestBoss",
+      "type": "string",
+      "value": "DForestBoss"
     }
   ],
   "layouts": [
