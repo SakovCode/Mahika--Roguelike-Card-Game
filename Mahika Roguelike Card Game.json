@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -3102,19 +3102,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3939,7 +3939,6 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -4487,7 +4486,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4725,7 +4723,6 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4851,7 +4848,6 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4893,7 +4889,6 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4935,7 +4930,6 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5134,9 +5128,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
+          "type": "Lighting::LightObstacleBehavior",
+          "isFolded": true
         },
         {
           "name": "PathfindingObstacle",
@@ -6200,8 +6194,12 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "acceleration": 9999,
           "maxSpeed": 300,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6210,6 +6208,10 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
+<<<<<<< Updated upstream
+=======
+          "maxSpeed": 200,
+>>>>>>> Stashed changes
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
@@ -6311,8 +6313,12 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "maxSpeed": 400,
           "acceleration": 9999,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6321,6 +6327,10 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
+<<<<<<< Updated upstream
+=======
+          "maxSpeed": 200,
+>>>>>>> Stashed changes
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
@@ -6427,7 +6437,11 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "acceleration": 9999,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6543,8 +6557,12 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "maxSpeed": 200,
           "acceleration": 9999,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6553,6 +6571,10 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
+<<<<<<< Updated upstream
+=======
+          "maxSpeed": 200,
+>>>>>>> Stashed changes
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
@@ -6659,7 +6681,11 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "acceleration": 9999,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6770,8 +6796,12 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "maxSpeed": 400,
           "acceleration": 9999,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6780,6 +6810,10 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
+<<<<<<< Updated upstream
+=======
+          "maxSpeed": 200,
+>>>>>>> Stashed changes
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
@@ -6886,8 +6920,12 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "maxSpeed": 300,
           "acceleration": 9999,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6896,6 +6934,10 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
+<<<<<<< Updated upstream
+=======
+          "maxSpeed": 200,
+>>>>>>> Stashed changes
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
@@ -7002,8 +7044,12 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< Updated upstream
           "maxSpeed": 500,
           "acceleration": 9999,
+=======
+          "acceleration": 400,
+>>>>>>> Stashed changes
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -7012,6 +7058,10 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
+<<<<<<< Updated upstream
+=======
+          "maxSpeed": 200,
+>>>>>>> Stashed changes
           "rotateObject": true,
           "smoothingMaxCellGap": 1
         }
@@ -7054,12 +7104,18 @@
     },
     {
       "assetStoreId": "",
+<<<<<<< Updated upstream
       "name": "Portal",
       "type": "Scene3D::Model3DObject",
+=======
+      "name": "NewVideo",
+      "type": "Video::VideoObject",
+>>>>>>> Stashed changes
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
+<<<<<<< Updated upstream
         "centerLocation": "ModelOrigin",
         "depth": 64,
         "height": 36,
@@ -7087,6 +7143,73 @@
         "debugMode": false,
         "texture": ""
       }
+=======
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Untitled video - Made with Clipchamp (1).mp4"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CutsceneMarker2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-10-11 004618.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 670
+                      },
+                      {
+                        "x": 0,
+                        "y": 670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -7212,6 +7335,9 @@
             "objectName": "defeatMarker"
           },
           {
+            "objectName": "CutsceneMarker2"
+          },
+          {
             "objectName": "Pause_button"
           },
           {
@@ -7270,6 +7396,7 @@
         "objectName": "ViewDefeat"
       },
       {
+<<<<<<< Updated upstream
         "folderName": "Lightshit",
         "children": [
           {
@@ -7279,6 +7406,9 @@
             "objectName": "PortalLight"
           }
         ]
+=======
+        "objectName": "NewVideo"
+>>>>>>> Stashed changes
       }
     ]
   },
