@@ -52,6 +52,11 @@
       "name": "NumberOfZone",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "portalCount",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -756,6 +761,11 @@
         "includeConfig": 0
       },
       "target": "UI"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

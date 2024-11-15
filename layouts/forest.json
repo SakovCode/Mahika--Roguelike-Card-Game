@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.16666913202394656,
+    "snap": false,
+    "zoomFactor": 0.15597286821202128,
     "windowMask": false
   },
   "objectsGroups": [
@@ -716,6 +716,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "Cutscene",
+      "name": "txtSkip",
+      "persistentUuid": "3bc3d378-e1db-4b61-a3cc-8d99b23d4aba",
+      "width": 192,
+      "x": 1664,
+      "y": 960,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -762,20 +779,6 @@
           }
         ]
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "NewGameCutscene",
-      "type": "Video::VideoObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "opacity": 255,
-        "loop": false,
-        "volume": 100,
-        "videoResource": "incomplete11 - Made with Clipchamp.mp4"
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -791,9 +794,6 @@
             "objectName": "ForestFloor"
           }
         ]
-      },
-      {
-        "objectName": "NewGameCutscene"
       }
     ]
   },

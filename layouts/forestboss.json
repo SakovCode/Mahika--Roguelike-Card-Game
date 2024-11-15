@@ -3560,6 +3560,7 @@
         "text": "OBJECTIVES:\n        Find a way to escape\n        Defeat the Engkantos",
         "font": "",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "255;255;255"
       }

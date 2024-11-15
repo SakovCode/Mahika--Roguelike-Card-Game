@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4753585087126941,
+    "zoomFactor": 0.8926462115230266,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -285,19 +285,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": false,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "assetStoreId": "",
@@ -312,22 +312,22 @@
         "height": 100,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Alunsina(Card).glb",
         "originLocation": "ModelOrigin",
-        "rotationX": 0,
+        "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 0,
         "width": 100,
         "animations": [
           {
-            "loop": true,
-            "name": "open",
-            "source": "open"
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
           },
           {
-            "loop": true,
-            "name": "no action",
-            "source": "no action"
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
           }
         ]
       }

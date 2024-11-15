@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -12,8 +12,8 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "default",
-    "packageName": "com.example.gamename",
-    "pixelsRounding": false,
+    "packageName": "com.example.mahika",
+    "pixelsRounding": true,
     "projectUuid": "c5039278-c967-4176-8ae2-963a514d18ff",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
@@ -22,14 +22,42 @@
     "version": "1.0.0",
     "name": "Mahika Roguelike Card Game",
     "description": "",
-    "author": "",
+    "author": "JonasBrothers",
     "windowWidth": 1920,
     "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -37,10 +65,10 @@
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 1.5,
+      "minDuration": 2,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
-      "progressBarMaxWidth": 200,
+      "progressBarMaxWidth": 199,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
       "showGDevelopSplash": true,
@@ -48,7 +76,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
@@ -2827,6 +2855,52 @@
         "metadata": "",
         "name": "Branda-yolq3.ttf",
         "userAdded": true
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/CardandChess/Alunsina(Card).glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Alunsina(Card).glb",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Metal Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Metal Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/f8e5d88f8b377f182d5d42adf0bf9bc5f94034ac24c410f07ba27c46cda841c3_Metal Bar Border.png",
+          "name": "Metal Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/3eee053defc4f2944d72ef78b5aebbac31634202712157a3630b84fe08d79cbb_Pixel Red Fill Bar.png",
+          "name": "Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pixel Yellow Fill Bar.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pixel Yellow Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Pixel Yellow Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/62f87cd20640fba9413cea576a648c6995a6d0e0026ba0adadb937ab3adec1b1_Pixel Yellow Fill Bar.png",
+          "name": "Pixel Yellow Fill Bar.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -3150,19 +3224,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3987,6 +4061,7 @@
         "text": "Are you sure you want to quit?",
         "font": "Branda-yolq.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "255;255;255"
       }
@@ -4534,6 +4609,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4771,6 +4847,7 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4896,6 +4973,7 @@
         "text": "MASTER VOLUME",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4937,6 +5015,7 @@
         "text": "SFX",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4978,6 +5057,7 @@
         "text": "BGM",
         "font": "RoughenCornerRegular-7RjV.ttf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5176,9 +5256,9 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior",
-          "isFolded": true
+          "type": "Lighting::LightObstacleBehavior"
         },
         {
           "name": "PathfindingObstacle",
@@ -6188,19 +6268,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 10
             }
           ]
         },
@@ -6240,12 +6319,12 @@
       "effects": [],
       "behaviors": [
         {
+          "angleOffset": 0,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 9999,
           "maxSpeed": 300,
           "allowDiagonals": true,
-          "angleOffset": 0,
           "angularMaxSpeed": 360,
           "cellHeight": 20,
           "cellWidth": 20,
@@ -6299,19 +6378,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 3
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 7
             }
           ]
         },
@@ -6415,19 +6493,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 15
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 15
             }
           ]
         },
@@ -6531,19 +6608,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 20
             }
           ]
         },
@@ -6647,19 +6723,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 20
             }
           ]
         },
@@ -6758,19 +6833,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 20
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 10
             }
           ]
         },
@@ -6874,19 +6948,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 5
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 15
             }
           ]
         },
@@ -6990,19 +7063,18 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "842a8c16-4818-4c2d-8106-90cc3b6fbbfa",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 3
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 7
             }
           ]
         },
@@ -7231,12 +7303,12 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 15
+              "value": 10
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 18
+              "value": 50
             }
           ]
         },
@@ -7276,6 +7348,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -7286,10 +7360,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 500,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -7327,11 +7399,95 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewGameCutscene",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "incomplete11 - Made with Clipchamp.mp4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txtSkip",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "string": "Skip >>",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Skip >>",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 40,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Cutscenes",
+        "children": [
+          {
+            "objectName": "txtSkip"
+          },
+          {
+            "objectName": "NewGameCutscene"
+          },
+          {
+            "objectName": "SarimanokCutscene"
+          },
+          {
+            "objectName": "BakunawaCutscene"
+          }
+        ]
+      },
       {
         "folderName": "LvlGenerationsHIT",
         "children": [
@@ -7469,9 +7625,6 @@
         ]
       },
       {
-        "objectName": "cam"
-      },
-      {
         "folderName": "Enemies",
         "children": [
           {
@@ -7527,10 +7680,7 @@
         ]
       },
       {
-        "objectName": "BakunawaCutscene"
-      },
-      {
-        "objectName": "SarimanokCutscene"
+        "objectName": "cam"
       }
     ]
   },
@@ -7595,6 +7745,20 @@
         },
         {
           "name": "SarimanokBoss"
+        }
+      ]
+    },
+    {
+      "name": "cutsceneGroup",
+      "objects": [
+        {
+          "name": "NewGameCutscene"
+        },
+        {
+          "name": "BakunawaCutscene"
+        },
+        {
+          "name": "SarimanokCutscene"
         }
       ]
     },

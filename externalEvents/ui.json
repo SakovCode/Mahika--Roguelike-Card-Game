@@ -1,6 +1,5 @@
 {
   "associatedLayout": "Forest",
-  "lastChangeTimeStamp": 0,
   "name": "UI",
   "events": [
     {
@@ -1511,6 +1510,80 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Skip Cutscene",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "txtSkip",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Cutscene\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "txtSkip",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "cutsceneGroup"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "cutsceneGroup",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ]
 }

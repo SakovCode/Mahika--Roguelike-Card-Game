@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,109 +17,26 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.6197916666666681,
+    "snap": false,
+    "zoomFactor": 0.49138775453293715,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
-      "depth": 1,
-      "height": 1088,
+      "depth": 404,
+      "height": 306,
       "keepRatio": true,
       "layer": "",
-      "name": "Floor",
-      "persistentUuid": "17923a68-1739-452c-84da-262778ef29bb",
-      "width": 1920,
-      "x": 960,
-      "y": 544,
+      "name": "EnemyAswang",
+      "persistentUuid": "ec3f5774-74df-4815-ac1f-95693805051a",
+      "width": 255,
+      "x": 959,
+      "y": 268,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "e46df3cd-7241-4e60-b35e-60ef7e042f4e",
-      "width": 0,
-      "x": 569,
-      "y": 473,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Lighting",
-      "name": "Light",
-      "persistentUuid": "df94e8ce-516f-4c04-b592-9df30c3d24d8",
-      "width": 0,
-      "x": 2386,
-      "y": 435,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 416,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ForestWall",
-      "persistentUuid": "11ac0d63-e287-4142-83a7-e0d62c9a74bb",
-      "width": 32,
-      "x": 816,
-      "y": 432,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 416,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ForestWall",
-      "persistentUuid": "89a790c3-5436-43cf-bf55-eb59b644d0d2",
-      "width": 32,
-      "x": 1168,
-      "y": 304,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 416,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ForestWall",
-      "persistentUuid": "075ea6ff-b406-403b-9a3f-0a6bbe8d7409",
-      "width": 32,
-      "x": 976,
-      "y": 624,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -244,6 +161,135 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "CopperRedBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "rightMargin": 11,
+          "texture": "Copper Bar Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 96
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 8,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Framed Pixel Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 3,
+          "height": 8,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Framed Pixel Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 8,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "8 / 16",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 8,
+            "color": "255;255;255"
+          }
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -260,23 +306,238 @@
       },
       {
         "objectName": "Alerted"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "CopperRedBar"
       }
     ]
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "LvlEvents"
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "EnemyAswang",
+            "Pathfinding",
+            "",
+            "CursorX()",
+            "CursorY()"
+          ]
+        }
+      ]
     },
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "PlayerMovement"
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "CopperRedBar",
+            "EnemyAswang",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "=",
+            "EnemyAswang.X()-EnemyAswang.Width()/2",
+            "=",
+            "EnemyAswang.Y()+EnemyAswang.Height()/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "=",
+            "EnemyAswang.stats.HP",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "EnemyAswang",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "CopperRedBar",
+            "EnemyAswang",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "CopperRedBar",
+            "EnemyAswang.X()-EnemyAswang.Width()/2",
+            "EnemyAswang.Y()+EnemyAswang.Height()/2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::LinkObjects"
+          },
+          "parameters": [
+            "",
+            "CopperRedBar",
+            "EnemyAswang"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "=",
+            "EnemyAswang.stats.HP",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "=",
+            "EnemyAswang.stats.HP",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "Resizable",
+            "=",
+            "EnemyAswang.Width()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+          },
+          "parameters": [
+            "CopperRedBar",
+            "Resizable",
+            "=",
+            "30"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "EnemyAswang",
+            "stats.HP",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "EnemyAswang",
+            "stats.HP",
+            "<=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "LinkedObjects::PickObjectsLinkedTo"
+          },
+          "parameters": [
+            "",
+            "CopperRedBar",
+            "EnemyAswang",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "CopperRedBar",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "EnemyAswang",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
