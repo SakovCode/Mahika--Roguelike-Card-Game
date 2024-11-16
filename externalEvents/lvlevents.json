@@ -3,6 +3,17 @@
   "name": "LvlEvents",
   "events": [
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "DEBUG",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -12,7 +23,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "TODO: \nLEVEL COMPLETION CONDITION"
+      "comment": "TODO: "
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -95,11 +106,11 @@
                 "value": "Raycast"
               },
               "parameters": [
-                "Thicc",
+                "PlayerAndSolid",
                 "Enemy.X()",
                 "Enemy.Y()",
                 "ToDeg(atan2(Player.Y() - Enemy.Y(), Player.X() - Enemy.X()))",
-                "400",
+                "200",
                 "Intersection.X",
                 "Intersection.Y",
                 ""
@@ -149,7 +160,7 @@
               "parameters": [
                 "Enemy",
                 "Player",
-                "450",
+                "300",
                 ""
               ]
             }
@@ -176,6 +187,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "EnemyMovement/Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -265,6 +277,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "EnemyEncounter",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -341,7 +354,8 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "PORTAL",
+      "folded": true,
+      "name": "LVL CLEAR CONDITION",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -388,6 +402,142 @@
                     "yes"
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "ENEMY VISIBILITY",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Enemy",
+          "conditions": [
+            {
+              "type": {
+                "value": "Raycast"
+              },
+              "parameters": [
+                "EnemyAndSolid",
+                "Player.X()",
+                "Player.Y()",
+                "ToDeg(atan2(Enemy.Y() - Player.Y(), Enemy.X() - Player.X()))",
+                "300",
+                "Intersection.X",
+                "Intersection.Y",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickedInstancesCount"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "isSpotted",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "isSpotted",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                ".01"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "isSpotted",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "isSpotted",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Enemy"
               ]
             }
           ]

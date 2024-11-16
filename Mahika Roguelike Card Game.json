@@ -5134,7 +5134,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "radius": 200,
+        "radius": 300,
         "color": "255;255;255",
         "debugMode": false,
         "texture": ""
@@ -5174,7 +5174,7 @@
         "depth": 32,
         "height": 32,
         "keepAspectRatio": true,
-        "materialType": "Basic",
+        "materialType": "KeepOriginal",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Player\\player.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
@@ -6336,6 +6336,11 @@
           "name": "isAlerted",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "isSpotted",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -6444,6 +6449,11 @@
         },
         {
           "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isSpotted",
           "type": "boolean",
           "value": false
         }
@@ -6561,6 +6571,11 @@
           "name": "isAlerted",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "isSpotted",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -6674,6 +6689,11 @@
         },
         {
           "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isSpotted",
           "type": "boolean",
           "value": false
         }
@@ -6791,6 +6811,11 @@
           "name": "isAlerted",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "isSpotted",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -6899,6 +6924,11 @@
         },
         {
           "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isSpotted",
           "type": "boolean",
           "value": false
         }
@@ -7016,6 +7046,11 @@
           "name": "isAlerted",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "isSpotted",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -7129,6 +7164,11 @@
         },
         {
           "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isSpotted",
           "type": "boolean",
           "value": false
         }
@@ -7363,6 +7403,11 @@
         },
         {
           "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isSpotted",
           "type": "boolean",
           "value": false
         }
@@ -7722,7 +7767,7 @@
       ]
     },
     {
-      "name": "Thicc",
+      "name": "PlayerAndSolid",
       "objects": [
         {
           "name": "Player"
@@ -7781,6 +7826,38 @@
         },
         {
           "name": "SarimanokCutscene"
+        }
+      ]
+    },
+    {
+      "name": "EnemyAndSolid",
+      "objects": [
+        {
+          "name": "ForestWall"
+        },
+        {
+          "name": "EnemyAswang"
+        },
+        {
+          "name": "EnemySigbin"
+        },
+        {
+          "name": "EnemyKapre"
+        },
+        {
+          "name": "EnemyBerberoka"
+        },
+        {
+          "name": "EnemyBungisngis"
+        },
+        {
+          "name": "EnemyTikbalang"
+        },
+        {
+          "name": "EnemyTiktik"
+        },
+        {
+          "name": "EnemyTiyanak"
         }
       ]
     },
