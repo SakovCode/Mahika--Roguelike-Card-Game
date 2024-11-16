@@ -84,6 +84,16 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "load",
+            "=",
+            "0"
+          ]
         }
       ],
       "actions": [

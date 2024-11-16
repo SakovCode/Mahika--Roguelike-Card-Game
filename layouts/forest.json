@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.17228927016998122,
+    "snap": true,
+    "zoomFactor": 0.2322125831285361,
     "windowMask": false
   },
   "objectsGroups": [
@@ -714,22 +714,6 @@
       "x": -524,
       "y": 164,
       "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Lighting",
-      "name": "PortalLight",
-      "persistentUuid": "ef345cbd-9c67-4e40-9834-606bd4773495",
-      "width": 0,
-      "x": -586,
-      "y": 1039,
-      "zOrder": 114,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

@@ -33,7 +33,7 @@
           },
           "parameters": [
             "",
-            "3",
+            "1",
             "",
             ""
           ]
@@ -71,6 +71,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [

@@ -25,7 +25,7 @@
     "author": "JonasBrothers",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Kenneth\\Desktop\\builds\\2",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -2922,6 +2922,56 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/b6e9029f1fd48b677d55dda50e3dd47d5cff19b1635fe72be8f78599cc1dc5c0_tiled_Grass5.png",
           "name": "tiled_Grass5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Beige_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6fad8e544ef611861ec9222dd95874cd2b011f1a98a4593372a25801f3236c1c_Medieval Button Beige_Hovered.png",
+          "name": "Medieval Button Beige_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Beige_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7366f06f5fb6f903e0745608c31da98b3d781c9f29af9016636619b32685ec97_Medieval Button Beige_Idle.png",
+          "name": "Medieval Button Beige_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Beige_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8ca64832a117b91bf3128f96ab66c83c7126c3ffb82909ac01ab1d687137997a_Medieval Button Beige_Pressed.png",
+          "name": "Medieval Button Beige_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "CaesarDressing-Regular.ttf"
         }
       }
     ],
@@ -6312,11 +6362,6 @@
           "value": false
         },
         {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
-        },
-        {
           "name": "boundPos",
           "type": "structure",
           "children": [
@@ -6425,11 +6470,6 @@
           "name": "attackExecuted",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
         },
         {
           "name": "boundPos",
@@ -6547,11 +6587,6 @@
           "value": false
         },
         {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
-        },
-        {
           "name": "boundPos",
           "type": "structure",
           "children": [
@@ -6665,11 +6700,6 @@
           "name": "attackExecuted",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
         },
         {
           "name": "boundPos",
@@ -6787,11 +6817,6 @@
           "value": false
         },
         {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
-        },
-        {
           "name": "boundPos",
           "type": "structure",
           "children": [
@@ -6900,11 +6925,6 @@
           "name": "attackExecuted",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
         },
         {
           "name": "boundPos",
@@ -7022,11 +7042,6 @@
           "value": false
         },
         {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
-        },
-        {
           "name": "boundPos",
           "type": "structure",
           "children": [
@@ -7140,11 +7155,6 @@
           "name": "attackExecuted",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
         },
         {
           "name": "boundPos",
@@ -7379,11 +7389,6 @@
           "name": "attackExecuted",
           "type": "boolean",
           "value": false
-        },
-        {
-          "name": "Variable",
-          "type": "number",
-          "value": 0
         },
         {
           "name": "boundPos",
@@ -7862,6 +7867,23 @@
       ]
     },
     {
+      "name": "Terrain",
+      "objects": [
+        {
+          "name": "ForestFloor"
+        },
+        {
+          "name": "ForestWall"
+        },
+        {
+          "name": "Portal"
+        },
+        {
+          "name": "PortalLight"
+        }
+      ]
+    },
+    {
       "name": "checker",
       "objects": [
         {
@@ -7884,6 +7906,11 @@
       "name": "PlayerHP",
       "type": "number",
       "value": 100
+    },
+    {
+      "name": "PlayerMaxMana",
+      "type": "number",
+      "value": 3
     },
     {
       "name": "encounterID",
@@ -7929,6 +7956,26 @@
       "name": "DForestBoss",
       "type": "string",
       "value": "DForestBoss"
+    },
+    {
+      "name": "load",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SaveEnemy",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "SaveTerrain",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "SavePlayer",
+      "type": "array",
+      "children": []
     }
   ],
   "layouts": [
