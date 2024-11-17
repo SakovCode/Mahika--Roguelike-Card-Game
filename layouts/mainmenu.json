@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 206,
   "disableInputWhenNotFocused": true,
   "mangledName": "MainMenu",
   "name": "MainMenu",
-  "r": 209,
+  "r": 231,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 206,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3818841323241363,
+    "zoomFactor": 0.40807287573672346,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -123,8 +123,8 @@
       "name": "woodenBg",
       "persistentUuid": "36e2c898-1d0c-4002-b0f6-0e889a9ef048",
       "width": 448,
-      "x": 2784,
-      "y": 320,
+      "x": 2791,
+      "y": 326,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -140,8 +140,8 @@
       "name": "OptionsMarker",
       "persistentUuid": "3fa3cf89-50cd-4c80-a00d-4866e564b402",
       "width": 1920,
-      "x": 4096,
-      "y": 0,
+      "x": 4064,
+      "y": 64,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -156,8 +156,8 @@
       "name": "woodenBg",
       "persistentUuid": "33cfd94b-cc86-4cfa-9129-b34c53d512eb",
       "width": 704,
-      "x": 4704,
-      "y": 288,
+      "x": 4707,
+      "y": 304,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -198,40 +198,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "dc4f215a-56e1-44ae-b40a-3688711371a1",
-      "width": 1920,
-      "x": 2048,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "bf27e1e4-d83e-44dd-b095-03eb8689de4f",
-      "width": 1920,
-      "x": 4096,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -241,23 +207,6 @@
       "x": 6144,
       "y": 0,
       "zOrder": 39,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "fe702f0f-cb53-4908-8228-288bc70745c7",
-      "width": 1920,
-      "x": 6144,
-      "y": 0,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -283,23 +232,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "47f4814c-3616-40c7-be55-02066b9b766d",
-      "width": 1920,
-      "x": 8192,
-      "y": 0,
-      "zOrder": -11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 30,
       "keepRatio": true,
       "layer": "UI",
@@ -307,25 +239,8 @@
       "persistentUuid": "7e6fd834-a85e-4177-abc5-a55e8e658d33",
       "width": 1920,
       "x": 10240,
-      "y": 2,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "1c67d98b-b958-4926-8b61-5680c1135535",
-      "width": 1920,
-      "x": 10240,
       "y": 0,
-      "zOrder": 0,
+      "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -343,23 +258,6 @@
       "x": 12288,
       "y": 0,
       "zOrder": 49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "d8f59905-a5cd-466d-b9b7-a859ba4fa5ce",
-      "width": 1920,
-      "x": 12288,
-      "y": 0,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -428,24 +326,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 832,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "CardsBG",
-      "persistentUuid": "cdad001f-f755-4974-9f53-f0c5c07baaa5",
-      "width": 1664,
-      "x": 6272,
-      "y": 64,
-      "zOrder": 57,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
+      "angle": 16,
       "customSize": true,
       "depth": 1,
       "height": 128,
@@ -453,8 +334,8 @@
       "name": "AlunsinaCard",
       "persistentUuid": "5fd24330-28b9-4cf5-a5e0-d991a9a0028a",
       "width": 96,
-      "x": 6400,
-      "y": 160,
+      "x": 7438,
+      "y": 641,
       "zOrder": 58,
       "numberProperties": [],
       "stringProperties": [],
@@ -470,8 +351,8 @@
       "name": "AlunsinaStats",
       "persistentUuid": "08bb21e5-5609-4318-a300-be6cb39c4959",
       "width": 256,
-      "x": 8704,
-      "y": 320,
+      "x": 8631,
+      "y": 266,
       "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
@@ -481,81 +362,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 416,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Alunsina",
-      "persistentUuid": "7530d4b9-5498-4b5e-baae-72778d8b715d",
-      "width": 544,
-      "x": 9005,
-      "y": 105,
-      "zOrder": 61,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1.0221354166666663,
-      "height": 785,
+      "height": 737,
       "keepRatio": true,
       "layer": "UI",
       "name": "AlunsinaInfo",
       "persistentUuid": "6a8e3529-d858-4ac8-9bfa-15ededd8496a",
-      "width": 1471.8750000000005,
-      "x": 8548,
-      "y": 189,
+      "width": 1338,
+      "x": 8818,
+      "y": 279,
       "zOrder": 166,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "0fb0c310-1d1a-40f5-bd91-a4f6152a0169",
-      "width": 0,
-      "x": 10240,
-      "y": -32,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "0e5bcbe5-c6ed-4747-9a75-824ccd769b74",
-      "width": 0,
-      "x": 12288,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "e73ee066-49f6-485d-9c56-412c986b4843",
-      "width": 1920,
-      "x": 14336,
-      "y": 0,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -571,41 +386,8 @@
       "persistentUuid": "9a84daf1-ffd9-4453-bdd5-288666184a45",
       "width": 1920,
       "x": 14336,
-      "y": 2,
-      "zOrder": 63,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "9d6882dc-3908-450a-841b-45330cd5165b",
-      "width": 0,
-      "x": 14336,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "a078475b-29b0-4fe9-b011-4b394086aa7b",
-      "width": 1920,
-      "x": 16384,
       "y": 0,
-      "zOrder": 0,
+      "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -629,39 +411,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "56c9076e-eb49-4d0b-92c0-307b04c12092",
-      "width": 0,
-      "x": 16384,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "64a86b2b-aa70-4c99-b3ee-860994b0baca",
-      "width": 1920,
-      "x": 18432,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 32,
@@ -673,39 +422,6 @@
       "x": 18432,
       "y": 0,
       "zOrder": 65,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "bb0a2a9d-54a9-4eea-b37c-370355939f66",
-      "width": 0,
-      "x": 18432,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "61e84b02-2c9c-46c0-8ea5-9172f8acf3c6",
-      "width": 1920,
-      "x": 20480,
-      "y": 0,
-      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -729,55 +445,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "8ff02fcb-5ce2-4a90-bf27-ebb1e2e0afff",
-      "width": 0,
-      "x": 20480,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "a1e22b84-098f-47a5-a9f5-9f1fcf7ad954",
-      "width": 1920,
-      "x": 22528,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "2303e04a-2f6b-41a4-b8ed-01014b12d606",
-      "width": 0,
-      "x": 22528,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 30,
@@ -787,41 +454,8 @@
       "persistentUuid": "2d16b435-2dc5-444d-acd1-a061affe477a",
       "width": 1920,
       "x": 22528,
-      "y": 0,
+      "y": 2,
       "zOrder": 67,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "a50fae2b-7858-4731-9942-a97193a7fdf8",
-      "width": 1920,
-      "x": 24576,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "2a31b824-d5ec-45c7-9bd8-40f0d936ae82",
-      "width": 0,
-      "x": 24576,
-      "y": -24,
-      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -847,39 +481,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "edc83960-faa8-416a-a043-9eb32b81fb2b",
-      "width": 1920,
-      "x": 26624,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "40d33ae3-b92f-4121-8db9-3e919e9cf87d",
-      "width": 0,
-      "x": 26624,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -889,39 +490,6 @@
       "x": 26624,
       "y": 0,
       "zOrder": 69,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "addb5a65-b304-405b-8200-fcbb2d10bbe6",
-      "width": 1920,
-      "x": 28672,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "7acb1087-0d8c-4c4f-9865-3acab34ddcf5",
-      "width": 0,
-      "x": 28672,
-      "y": -24,
-      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -947,39 +515,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "87aa8d2f-10aa-4ed4-81fb-a7acbd93ea83",
-      "width": 1920,
-      "x": 30720,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "ad2937d7-8411-4ab2-82c3-1bd019d3cc70",
-      "width": 0,
-      "x": 30720,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -989,39 +524,6 @@
       "x": 30720,
       "y": 0,
       "zOrder": 71,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "fcba835b-bf7b-45b2-9a7e-1eb42066412d",
-      "width": 1920,
-      "x": 32768,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "7a43bde8-e52b-412a-8845-f7198bed9200",
-      "width": 0,
-      "x": 32768,
-      "y": -24,
-      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1047,39 +549,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "bc9875f0-193c-4d04-a099-fd5d6b37f428",
-      "width": 1920,
-      "x": 34816,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "67c01999-b197-4960-9ff8-975b5d6c29b1",
-      "width": 0,
-      "x": 34816,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1089,39 +558,6 @@
       "x": 34816,
       "y": 0,
       "zOrder": 73,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "516703ae-062c-4fe3-9ba2-2f57a75c0cc0",
-      "width": 1920,
-      "x": 36864,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "7fc3d1ab-bdab-4d61-a333-c8a2aff23436",
-      "width": 0,
-      "x": 36864,
-      "y": -24,
-      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1147,39 +583,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "2b25065f-ab7c-4afb-9e11-cb020d6208db",
-      "width": 1920,
-      "x": 38912,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "e5df79fb-61f7-4a79-93ab-7973f1c42dcd",
-      "width": 0,
-      "x": 38912,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1189,39 +592,6 @@
       "x": 38912,
       "y": 0,
       "zOrder": 75,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "f76d8051-0434-4e97-8b28-7ee822045d54",
-      "width": 1920,
-      "x": 40960,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "1ed6d9dc-4f17-4d29-ab2d-467f9b761ed4",
-      "width": 0,
-      "x": 40960,
-      "y": -24,
-      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1247,39 +617,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "f3ceacf7-b101-480d-b4e6-f30edbe6e6d8",
-      "width": 1920,
-      "x": 43008,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "acd774e7-76b6-4ded-a1e2-d6bfcd2af380",
-      "width": 0,
-      "x": 43008,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1289,39 +626,6 @@
       "x": 43008,
       "y": 0,
       "zOrder": 77,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New_bg",
-      "persistentUuid": "5e733b9b-be7c-4e0e-831c-eac3fbad12da",
-      "width": 1920,
-      "x": 45056,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "cddc96dd-d04c-4dfb-bfce-73daed7bcd65",
-      "width": 0,
-      "x": 45056,
-      "y": -24,
-      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1344,7 +648,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 347,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -1352,8 +656,8 @@
       "name": "ApolakiCard",
       "persistentUuid": "0a4f7c4f-f7ea-4c36-bbcf-f4938b17acd8",
       "width": 96,
-      "x": 6592,
-      "y": 160,
+      "x": 6572,
+      "y": 116,
       "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
@@ -1368,25 +672,9 @@
       "name": "ApolakiStats",
       "persistentUuid": "86900675-4c30-4567-b245-111bb915a9cc",
       "width": 256,
-      "x": 10752,
-      "y": 320,
+      "x": 10653,
+      "y": 279,
       "zOrder": 80,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Apolaki",
-      "persistentUuid": "37618ba1-da1e-43d9-b7a8-d20a7f0adb21",
-      "width": 544,
-      "x": 11072,
-      "y": 96,
-      "zOrder": 81,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1400,8 +688,8 @@
       "name": "ApolakiInfo",
       "persistentUuid": "f025f2d8-02e4-4c49-9862-0014053635fc",
       "width": 1440,
-      "x": 10624,
-      "y": 192,
+      "x": 10825,
+      "y": 356,
       "zOrder": 82,
       "numberProperties": [],
       "stringProperties": [],
@@ -1416,25 +704,9 @@
       "name": "AswangStats",
       "persistentUuid": "bc6f467e-2a01-453c-b9b6-bb3e6716d516",
       "width": 256,
-      "x": 12800,
-      "y": 320,
+      "x": 12728,
+      "y": 289,
       "zOrder": 83,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Aswang",
-      "persistentUuid": "437a7fe7-4d24-4881-8e1b-ae87b903e6fe",
-      "width": 544,
-      "x": 13120,
-      "y": 96,
-      "zOrder": 84,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1448,8 +720,8 @@
       "name": "AswangInfo",
       "persistentUuid": "9d6f03c0-ea09-4f87-bc93-03bf3bab3173",
       "width": 1440,
-      "x": 12672,
-      "y": 192,
+      "x": 12933,
+      "y": 376,
       "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
@@ -1464,25 +736,9 @@
       "name": "BakunawaStats",
       "persistentUuid": "2c1e5442-5e86-4a05-9e53-7c8751dde78a",
       "width": 256,
-      "x": 14848,
-      "y": 320,
+      "x": 14805,
+      "y": 276,
       "zOrder": 86,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Bakunawa",
-      "persistentUuid": "43cf0e31-ea44-4958-b304-14dcdd209525",
-      "width": 544,
-      "x": 15168,
-      "y": 96,
-      "zOrder": 87,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1496,8 +752,8 @@
       "name": "BakunawaInfo",
       "persistentUuid": "41f8a866-130d-4592-90c2-a895581c2525",
       "width": 1440,
-      "x": 14720,
-      "y": 192,
+      "x": 14870,
+      "y": 408,
       "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
@@ -1512,25 +768,9 @@
       "name": "BantongStats",
       "persistentUuid": "9ab3f384-5b3f-47a1-a82b-4c73abf24b6a",
       "width": 256,
-      "x": 16896,
-      "y": 320,
+      "x": 16864,
+      "y": 288,
       "zOrder": 89,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Bantong",
-      "persistentUuid": "a8bbeaa4-a5d0-40b4-9386-d8b51f299f69",
-      "width": 544,
-      "x": 17216,
-      "y": 96,
-      "zOrder": 90,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1544,8 +784,8 @@
       "name": "BantongInfo",
       "persistentUuid": "9fc5cae2-05bc-4172-800c-55f0d614f098",
       "width": 1440,
-      "x": 16768,
-      "y": 192,
+      "x": 16960,
+      "y": 416,
       "zOrder": 91,
       "numberProperties": [],
       "stringProperties": [],
@@ -1561,24 +801,8 @@
       "persistentUuid": "e51d432b-eaf4-446a-ae5d-75254e393302",
       "width": 256,
       "x": 18944,
-      "y": 320,
+      "y": 288,
       "zOrder": 92,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Bantugan",
-      "persistentUuid": "ab38f065-2c65-479c-b05e-33b707fd5e55",
-      "width": 544,
-      "x": 19264,
-      "y": 96,
-      "zOrder": 93,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1592,8 +816,8 @@
       "name": "BantuganInfo",
       "persistentUuid": "fabe141c-ace0-4222-994c-717584fb0b80",
       "width": 1440,
-      "x": 18816,
-      "y": 192,
+      "x": 19072,
+      "y": 448,
       "zOrder": 94,
       "numberProperties": [],
       "stringProperties": [],
@@ -1609,24 +833,8 @@
       "persistentUuid": "7bb45c35-376e-4960-9a51-6dde6ebabfac",
       "width": 256,
       "x": 20992,
-      "y": 320,
+      "y": 288,
       "zOrder": 95,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Berberoka",
-      "persistentUuid": "d5eefa8d-ef67-4f9e-9d5d-538e1c041669",
-      "width": 544,
-      "x": 21312,
-      "y": 96,
-      "zOrder": 96,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1640,8 +848,8 @@
       "name": "BerberokaInfo",
       "persistentUuid": "fdebe30c-52cc-46d4-b372-412167eff425",
       "width": 1440,
-      "x": 20864,
-      "y": 192,
+      "x": 21213,
+      "y": 425,
       "zOrder": 97,
       "numberProperties": [],
       "stringProperties": [],
@@ -1667,29 +875,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "BernardoCarpio",
-      "persistentUuid": "403d3d38-8d31-4279-b78e-37b40e9e83c5",
-      "width": 544,
-      "x": 23360,
-      "y": 96,
-      "zOrder": 99,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "BernardoCarpioInfo",
       "persistentUuid": "5b66f067-beb6-461c-bdde-5f0e4654a663",
       "width": 1440,
-      "x": 22912,
-      "y": 192,
+      "x": 23456,
+      "y": 452,
       "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
@@ -1715,29 +907,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Bungisngis",
-      "persistentUuid": "8bf2a06d-9f2b-4d1f-8f30-32d1c583d466",
-      "width": 544,
-      "x": 25408,
-      "y": 96,
-      "zOrder": 102,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "BungisngisInfo",
       "persistentUuid": "ebe8d0e2-1361-4a19-9f33-3d695dc87165",
       "width": 1440,
-      "x": 24960,
-      "y": 192,
+      "x": 25286,
+      "y": 415,
       "zOrder": 103,
       "numberProperties": [],
       "stringProperties": [],
@@ -1763,29 +939,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Kapre",
-      "persistentUuid": "4602a2aa-54d4-41d0-ac68-14da9cc1744d",
-      "width": 544,
-      "x": 27456,
-      "y": 96,
-      "zOrder": 105,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "KapreInfo",
       "persistentUuid": "e4412c25-2092-4a50-af2b-9e4c6fb48d95",
       "width": 1440,
-      "x": 27008,
-      "y": 192,
+      "x": 27163,
+      "y": 368,
       "zOrder": 106,
       "numberProperties": [],
       "stringProperties": [],
@@ -1811,29 +971,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Lam_ang",
-      "persistentUuid": "b30e656c-c748-432d-80de-3d797f18cc3a",
-      "width": 544,
-      "x": 29504,
-      "y": 96,
-      "zOrder": 108,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "Lam_angInfo",
       "persistentUuid": "84a4d92a-e671-4bac-bd1b-e82285d0d619",
       "width": 1440,
-      "x": 29056,
-      "y": 192,
+      "x": 29423,
+      "y": 459,
       "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
@@ -1859,29 +1003,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "PrincessUrduja",
-      "persistentUuid": "58de2584-1cc0-4e44-a8c5-9f570595995d",
-      "width": 544,
-      "x": 31552,
-      "y": 96,
-      "zOrder": 111,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "PrincessUrdujaInfo",
       "persistentUuid": "afbf63db-d883-4c10-afa6-a6fe381649f5",
       "width": 1440,
-      "x": 31104,
-      "y": 192,
+      "x": 31528,
+      "y": 485,
       "zOrder": 112,
       "numberProperties": [],
       "stringProperties": [],
@@ -1907,29 +1035,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Raja",
-      "persistentUuid": "8afee6ef-89e9-4997-a5ff-154e1faa0abb",
-      "width": 544,
-      "x": 33600,
-      "y": 96,
-      "zOrder": 114,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "RajaInfo",
       "persistentUuid": "545b6b30-587c-4ae9-b571-7347d6f406bb",
       "width": 1440,
-      "x": 33152,
-      "y": 192,
+      "x": 33467,
+      "y": 484,
       "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
@@ -1955,29 +1067,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Sarimanok",
-      "persistentUuid": "cc41315b-2c02-45ac-b0ae-dec1f8d2eb85",
-      "width": 544,
-      "x": 35648,
-      "y": 96,
-      "zOrder": 117,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "SarimanokInfo",
       "persistentUuid": "29225a6f-f1cc-4446-a9bf-e683a999136e",
       "width": 1440,
-      "x": 35200,
-      "y": 192,
+      "x": 35424,
+      "y": 384,
       "zOrder": 118,
       "numberProperties": [],
       "stringProperties": [],
@@ -2003,29 +1099,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Sigbin",
-      "persistentUuid": "0f5b37db-228e-42cd-b3d5-cdb3f3cfc8a3",
-      "width": 544,
-      "x": 37696,
-      "y": 96,
-      "zOrder": 120,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "SigbinInfo",
       "persistentUuid": "96b677b9-8e00-4480-8886-a98cbff629bd",
       "width": 1440,
-      "x": 37248,
-      "y": 192,
+      "x": 37507,
+      "y": 429,
       "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
@@ -2051,29 +1131,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Sitan",
-      "persistentUuid": "92f571df-e75b-41eb-b785-2936dd767e8b",
-      "width": 544,
-      "x": 39744,
-      "y": 96,
-      "zOrder": 123,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "SitanInfo",
       "persistentUuid": "cdb8f321-1514-4abd-855b-9ca61eb1cc3d",
       "width": 1440,
-      "x": 39296,
-      "y": 192,
+      "x": 39616,
+      "y": 416,
       "zOrder": 124,
       "numberProperties": [],
       "stringProperties": [],
@@ -2099,29 +1163,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Tikbalang",
-      "persistentUuid": "026f7e8c-db4b-4cf3-a415-fa9f40ffec4d",
-      "width": 544,
-      "x": 41792,
-      "y": 96,
-      "zOrder": 126,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "TikbalangInfo",
       "persistentUuid": "4a0613b0-3084-4fdc-a328-56f4657ddff3",
       "width": 1440,
-      "x": 41344,
-      "y": 192,
+      "x": 41572,
+      "y": 452,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -2147,29 +1195,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Tiktik",
-      "persistentUuid": "59b52bf7-f779-4978-833d-cbf64d2522fd",
-      "width": 544,
-      "x": 43840,
-      "y": 96,
-      "zOrder": 129,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "TiktikInfo",
       "persistentUuid": "2b0bfc2e-db2f-4004-b8e9-b7085cc6af9f",
       "width": 1440,
-      "x": 43392,
-      "y": 192,
+      "x": 43648,
+      "y": 448,
       "zOrder": 130,
       "numberProperties": [],
       "stringProperties": [],
@@ -2195,36 +1227,20 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 416,
-      "layer": "UI",
-      "name": "Tiyanak",
-      "persistentUuid": "beec5730-2a76-471d-9b11-062132fc343f",
-      "width": 544,
-      "x": 45888,
-      "y": 96,
-      "zOrder": 132,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 768,
       "layer": "UI",
       "name": "TiyanakInfo",
       "persistentUuid": "88e8492a-6b21-4a40-8e99-f352b5fb7a78",
       "width": 1440,
-      "x": 45440,
-      "y": 192,
+      "x": 45625,
+      "y": 372,
       "zOrder": 133,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 10,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2232,15 +1248,15 @@
       "name": "AswangCard",
       "persistentUuid": "f74b792b-a67c-4d4e-8599-9259a632953e",
       "width": 96,
-      "x": 6784,
-      "y": 160,
+      "x": 6768,
+      "y": 140,
       "zOrder": 134,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 334,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2248,15 +1264,15 @@
       "name": "BakunawaCard",
       "persistentUuid": "bb10af1f-14f5-4d92-919e-10adaacf9443",
       "width": 96,
-      "x": 6976,
-      "y": 160,
+      "x": 6929,
+      "y": 77,
       "zOrder": 135,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 7,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2264,15 +1280,15 @@
       "name": "BantongCard",
       "persistentUuid": "7ed41586-cb21-4576-9cbe-8443e06eae73",
       "width": 96,
-      "x": 7168,
-      "y": 160,
+      "x": 7101,
+      "y": 114,
       "zOrder": 136,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 344,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2280,15 +1296,15 @@
       "name": "BantuganCard",
       "persistentUuid": "ed986d2b-edd3-43e6-af93-8d643bb296d1",
       "width": 96,
-      "x": 7360,
-      "y": 160,
+      "x": 7276,
+      "y": 82,
       "zOrder": 137,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 12,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2296,15 +1312,15 @@
       "name": "BerberokaCard",
       "persistentUuid": "da6737e7-8999-4730-b248-7453371ec85d",
       "width": 96,
-      "x": 7552,
-      "y": 160,
+      "x": 7430,
+      "y": 85,
       "zOrder": 138,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 350,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2312,15 +1328,15 @@
       "name": "BernardoCarpioCard",
       "persistentUuid": "44e16ef1-e53e-4605-b166-dcdc78bf52d7",
       "width": 96,
-      "x": 7744,
-      "y": 160,
+      "x": 7493,
+      "y": 457,
       "zOrder": 139,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 14,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2328,15 +1344,15 @@
       "name": "BungisngisCard",
       "persistentUuid": "941b2773-0713-4902-a439-b3f6c2395466",
       "width": 96,
-      "x": 6368,
-      "y": 416,
+      "x": 6555,
+      "y": 333,
       "zOrder": 140,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 354,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2344,15 +1360,15 @@
       "name": "KapreCard",
       "persistentUuid": "45dabfb7-10aa-433e-b1af-ec6addb58633",
       "width": 96,
-      "x": 6560,
-      "y": 416,
+      "x": 6705,
+      "y": 432,
       "zOrder": 141,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 6,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2360,15 +1376,15 @@
       "name": "Lam_angCard",
       "persistentUuid": "a38b7676-f0e3-42ee-91ee-68eecd5306b6",
       "width": 96,
-      "x": 6752,
-      "y": 416,
+      "x": 6849,
+      "y": 356,
       "zOrder": 142,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 350,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2376,15 +1392,15 @@
       "name": "PrincessUrdujaCard",
       "persistentUuid": "bf4db7a4-0af5-4e86-a839-09a6c795128d",
       "width": 96,
-      "x": 6944,
-      "y": 416,
+      "x": 7011,
+      "y": 288,
       "zOrder": 143,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 12,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2392,15 +1408,15 @@
       "name": "RajaCard",
       "persistentUuid": "c9fb27cb-58f4-4e2b-a959-b0017ae833e6",
       "width": 96,
-      "x": 7136,
-      "y": 416,
+      "x": 7232,
+      "y": 303,
       "zOrder": 144,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 7,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2408,15 +1424,15 @@
       "name": "SarimanokCard",
       "persistentUuid": "14ed2fbf-6634-40ce-9cd9-8431eede54bd",
       "width": 96,
-      "x": 7328,
-      "y": 416,
+      "x": 7432,
+      "y": 286,
       "zOrder": 145,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 354,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2424,15 +1440,15 @@
       "name": "SigbinCard",
       "persistentUuid": "be8dc28a-8f3c-40f7-8c14-7ef5f4472055",
       "width": 96,
-      "x": 7520,
-      "y": 416,
+      "x": 7579,
+      "y": 217,
       "zOrder": 146,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 346,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2440,15 +1456,15 @@
       "name": "SitanCard",
       "persistentUuid": "62c8bf5a-0e0b-493c-9cc9-9d56c6677af9",
       "width": 96,
-      "x": 7712,
-      "y": 416,
+      "x": 7231,
+      "y": 555,
       "zOrder": 147,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 348,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2456,15 +1472,15 @@
       "name": "TikbalangCard",
       "persistentUuid": "c30a55ef-50be-4131-a372-78c7b0826c88",
       "width": 96,
-      "x": 6752,
-      "y": 640,
+      "x": 6643,
+      "y": 620,
       "zOrder": 148,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 6,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2472,15 +1488,15 @@
       "name": "TiktikCard",
       "persistentUuid": "25d29a9b-25a8-4d30-92f0-d4775ad319d8",
       "width": 96,
-      "x": 7040,
-      "y": 640,
+      "x": 6870,
+      "y": 623,
       "zOrder": 149,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 15,
       "customSize": true,
       "depth": 0,
       "height": 128,
@@ -2488,8 +1504,8 @@
       "name": "TiyanakCard",
       "persistentUuid": "13f356c1-f2fa-4890-bca7-21ef749f7f7c",
       "width": 96,
-      "x": 7328,
-      "y": 640,
+      "x": 7057,
+      "y": 543,
       "zOrder": 150,
       "numberProperties": [],
       "stringProperties": [],
@@ -2648,8 +1664,8 @@
       "name": "Back2MainMenuButton",
       "persistentUuid": "8b9e3b9f-bee0-44cf-b0e3-675277c23357",
       "width": 0,
-      "x": 7008,
-      "y": 832,
+      "x": 7012,
+      "y": 880,
       "zOrder": 162,
       "numberProperties": [],
       "stringProperties": [],
@@ -2997,12 +2013,671 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "5765158b-3246-4bf8-81a0-453c2f2b643c",
+      "name": "Oldpaper2",
+      "persistentUuid": "9387ef57-f7d0-45b0-b94b-19ff6cfe7f2c",
       "width": 0,
-      "x": 8161,
-      "y": -19,
-      "zOrder": 59,
+      "x": 2048,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "c71e3b1f-cae6-4604-aaed-c22511d018a7",
+      "width": 0,
+      "x": 4096,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "051b7cfb-5b83-4f36-b50a-9bda4f9b845e",
+      "width": 0,
+      "x": 6144,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "1990d9d6-e78f-4b28-97cb-e9b1c299e456",
+      "width": 0,
+      "x": 8192,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 209,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Alunsina2",
+      "persistentUuid": "40fa7f63-4827-4f36-8ca2-909297c0135b",
+      "width": 766,
+      "x": 8970,
+      "y": 266,
+      "zOrder": 167,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "6b59a93e-e80a-4ed5-b1a3-2ae186428223",
+      "width": 0,
+      "x": 10240,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Apolaki2",
+      "persistentUuid": "52da91b7-7f6e-4610-9592-4713b6d66cb2",
+      "width": 798,
+      "x": 10951,
+      "y": 278,
+      "zOrder": 168,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "1ed9e5e3-c3e5-4d5c-9075-2152292824f4",
+      "width": 0,
+      "x": 12288,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Aswang2",
+      "persistentUuid": "95b60643-ee88-4d7e-927c-bcf67d0ebe12",
+      "width": 670,
+      "x": 13065,
+      "y": 281,
+      "zOrder": 169,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "1be1156f-ed5c-4b21-8d83-03f6bbebe6f9",
+      "width": 0,
+      "x": 14336,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 300,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Bakunawa2",
+      "persistentUuid": "422ae730-c54d-480f-bfc9-ee0c27435884",
+      "width": 570,
+      "x": 15225,
+      "y": 273,
+      "zOrder": 170,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "33b0c9f2-fb94-4dd4-ab19-f7548b736289",
+      "width": 0,
+      "x": 16384,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 268,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Bantong2",
+      "persistentUuid": "3ed8db75-32c5-421d-8852-8351002b9018",
+      "width": 576,
+      "x": 17248,
+      "y": 288,
+      "zOrder": 171,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "279b161c-9d78-4c75-8202-b799b462349e",
+      "width": 0,
+      "x": 20480,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Bantugan2",
+      "persistentUuid": "e6c1208a-10ee-458b-b373-cf18cdd2b051",
+      "width": 561,
+      "x": 19318,
+      "y": 283,
+      "zOrder": 172,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "79cac069-8988-4eaf-8072-59aa9ddfca58",
+      "width": 0,
+      "x": 18432,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 300,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Berberoka2",
+      "persistentUuid": "7d351cab-5d61-4bae-9b28-dc36f22c5819",
+      "width": 576,
+      "x": 21374,
+      "y": 284,
+      "zOrder": 173,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "5f76bb60-f272-4352-bfcc-7a43142fa2f9",
+      "width": 0,
+      "x": 22528,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 409,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BernardoCarpio2",
+      "persistentUuid": "75b6b18e-cc3c-4bd6-aa7b-04993196dd14",
+      "width": 541,
+      "x": 23455,
+      "y": 318,
+      "zOrder": 174,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "5512f4da-6f73-428c-a09d-3a4dc114b19e",
+      "width": 0,
+      "x": 24576,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 133,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Bungisngis2",
+      "persistentUuid": "c532a44a-eb2a-477c-b840-82d7fa33c4ea",
+      "width": 572,
+      "x": 25490,
+      "y": 312,
+      "zOrder": 175,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "396fc72f-d955-496f-867a-2b1dbeb9cf16",
+      "width": 0,
+      "x": 26624,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 217,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Kapre2",
+      "persistentUuid": "dff5dc32-26d7-4740-9ed4-1a8d213a7fca",
+      "width": 582,
+      "x": 27487,
+      "y": 321,
+      "zOrder": 176,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "5f271d66-ddd1-42dd-a01c-4807ca54c232",
+      "width": 0,
+      "x": 28672,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 307,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Lam_ang2",
+      "persistentUuid": "1510c537-01e6-44be-a0a2-71bbee38ed25",
+      "width": 558,
+      "x": 29579,
+      "y": 328,
+      "zOrder": 177,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "26220370-e2c9-4350-8b0a-9998710f206a",
+      "width": 0,
+      "x": 30720,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 249,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Princess_Urduja",
+      "persistentUuid": "b880a6ac-08da-4e4c-b755-73283da6dc59",
+      "width": 593,
+      "x": 31615,
+      "y": 336,
+      "zOrder": 178,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "7e546a07-894d-41b4-8716-e6c933764520",
+      "width": 0,
+      "x": 32768,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 284,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Raja2",
+      "persistentUuid": "b6931bdd-203b-4d96-99ec-aec61716aa27",
+      "width": 660,
+      "x": 33647,
+      "y": 325,
+      "zOrder": 179,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "d8bece93-37d1-4ce9-8aed-45cf41a79adf",
+      "width": 0,
+      "x": 34816,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 278,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Sarimanok2",
+      "persistentUuid": "20c14595-1a2d-4094-8a6b-8ac758924827",
+      "width": 531,
+      "x": 35728,
+      "y": 320,
+      "zOrder": 180,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "55e73178-f0a6-4d53-947f-7e53f2beaf3a",
+      "width": 0,
+      "x": 36864,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Sigbin2",
+      "persistentUuid": "ff3b7c3d-d56c-486d-950c-41f23ac8cd40",
+      "width": 608,
+      "x": 37728,
+      "y": 320,
+      "zOrder": 181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "1bc156f5-baf3-42c2-bc20-ef37baf36a7f",
+      "width": 0,
+      "x": 38912,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 232,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Sitan2",
+      "persistentUuid": "173ad383-361f-40dc-938f-2b6e32170ec9",
+      "width": 753,
+      "x": 39757,
+      "y": 319,
+      "zOrder": 182,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "f29e8d8c-cf4f-4851-a2f7-82c4e7c02228",
+      "width": 0,
+      "x": 40960,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 241,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Tikbalang2",
+      "persistentUuid": "a40badc5-3501-4354-91aa-b86c3eadcd37",
+      "width": 616,
+      "x": 41823,
+      "y": 323,
+      "zOrder": 183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "05536a33-09d0-4471-8ed3-1eff03a4421a",
+      "width": 0,
+      "x": 43008,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Tiktik2",
+      "persistentUuid": "1388d580-afb6-4d1e-8a26-315f0b5832b1",
+      "width": 513,
+      "x": 43926,
+      "y": 312,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper2",
+      "persistentUuid": "a7049952-e794-4c36-81b2-29463a1bef02",
+      "width": 0,
+      "x": 45056,
+      "y": 0,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 264,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Tiyanak2",
+      "persistentUuid": "4fa56f35-113f-4e04-8d76-78058b23b404",
+      "width": 537,
+      "x": 45931,
+      "y": 314,
+      "zOrder": 185,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3902,7 +3577,20 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -5057,7 +4745,7 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "asdawdasd",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -5105,7 +4793,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "asdwadasdw",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -11628,7 +11316,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "cceeeee051f052d1bce22aa3c33fcdcb-removebg-preview.png",
+                  "image": "bghik.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11644,20 +11332,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 23,
-                        "y": 12
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 373,
-                        "y": 12
+                        "x": 1920,
+                        "y": 0
                       },
                       {
-                        "x": 373,
-                        "y": 607
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
-                        "x": 23,
-                        "y": 607
+                        "x": 0,
+                        "y": 1080
                       }
                     ]
                   ]
@@ -11667,6 +11355,367 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Alunsina2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Goddess in Visayan mythology, often regarded as the creator of the universe and the goddess of wind, fertility, and the moon, who embodies grace and beauty",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Apolaki2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Prominent deity, particularly in the Tagalog pantheon, revered as the god of the sun, war, and agriculture, often depicted as a fierce warrior and protector of the people.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Aswang2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Shapeshifting creature, feared for preying on humans at night by transforming into animals like dogs, pigs, or birds.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bakunawa2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Mythical sea serpent or dragon in believed to cause eclipses by attempting to swallow the moon, and it is often depicted as a powerful creature associated with the ocean and the cycle of life and death.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bantong2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Heroic figure, known for his incredible strength and bravery, often depicted as a champion of the oppressed who battles various monstrous beings to protect his community.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bantugan2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Legendary prince, celebrated for his unmatched bravery and prowess in battle, as well as his romantic adventures and noble qualities that make him a revered hero among his people.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Berberoka2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Water-dwelling creature in Philippine mythology that lures humans near bodies of water by withdrawing water to create a dry area, then drowns them when they come close.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BernardoCarpio2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Legendary strongman, trapped between two\nmountains and symbolizing Filipino resilience and\nresistance against oppression.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bungisngis2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Legendary strongman, trapped between two mountains and symbolizing Filipino resilience and resistance against oppression.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Kapre2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Legendary strongman, trapped between two mountains and symbolizing Filipino resilience and resistance against oppression.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Lam_ang2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Legendary strongman, trapped between two mountains and symbolizing Filipino resilience and resistance against oppression.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Princess_Urduja",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Legendary warrior princess, renowned for her beauty, bravery, and leadership, often depicted as a skilled fighter who defends her kingdom and upholds justice.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Raja2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Often depicted as a wise and just ruler who governs a community or kingdom with authority, embodying the ideals of bravery, honor, and protection for his people.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Sarimanok2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Legendary bird in Maranao culture, symbolizing good fortune and prosperity, often depicted with vibrant feathers and a fish in its beak.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Sigbin2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Resembling a strange, hornless goat that walks backward and is believed to suck the blood of its victims, often feared for its ability to turn invisible and move stealthily at night.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Sitan2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "God of the underworld in Tagalog mythology, known as the keeper of souls and the chief deity of darkness who oversees malevolent spirits and punishes evildoers.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tikbalang2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Half-human, half-horse creature in Philippine mythology known for leading travelers astray in the mountains and forests, often causing them to become lost or disoriented.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tiktik2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Often depicted as a bird-like monster that preys on pregnant women, known for its distinctive clicking sound that signals its approach and is said to be a type of Aswang.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tiyanak2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Takes the form of a baby or young child, often luring unsuspecting individuals to help it before revealing its true nature as a vengeful spirit that attacks its victims.",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -12040,6 +12089,63 @@
       },
       {
         "objectName": "Oldpaper2"
+      },
+      {
+        "objectName": "Alunsina2"
+      },
+      {
+        "objectName": "Apolaki2"
+      },
+      {
+        "objectName": "Aswang2"
+      },
+      {
+        "objectName": "Bakunawa2"
+      },
+      {
+        "objectName": "Bantong2"
+      },
+      {
+        "objectName": "Bantugan2"
+      },
+      {
+        "objectName": "Berberoka2"
+      },
+      {
+        "objectName": "BernardoCarpio2"
+      },
+      {
+        "objectName": "Bungisngis2"
+      },
+      {
+        "objectName": "Kapre2"
+      },
+      {
+        "objectName": "Lam_ang2"
+      },
+      {
+        "objectName": "Princess_Urduja"
+      },
+      {
+        "objectName": "Raja2"
+      },
+      {
+        "objectName": "Sarimanok2"
+      },
+      {
+        "objectName": "Sigbin2"
+      },
+      {
+        "objectName": "Sitan2"
+      },
+      {
+        "objectName": "Tikbalang2"
+      },
+      {
+        "objectName": "Tiktik2"
+      },
+      {
+        "objectName": "Tiyanak2"
       }
     ]
   },
@@ -12321,6 +12427,1103 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
+      "name": "Hover",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "ApolakiCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "ApolakiCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "AswangCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "AswangCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BakunawaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BakunawaCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BantongCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BantongCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BantuganCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BantuganCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BerberokaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BerberokaCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BungisngisCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BungisngisCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "KapreCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "KapreCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "Lam_angCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Lam_angCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "PrincessUrdujaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "PrincessUrdujaCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "RajaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "RajaCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "SarimanokCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "SarimanokCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "SigbinCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "SigbinCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "TikbalangCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "TikbalangCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "TiktikCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "TiktikCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "TiyanakCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "TiyanakCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "SitanCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "SitanCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "AlunsinaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "AlunsinaCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BernardoCarpioCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BernardoCarpioCard",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "ApolakiCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "ApolakiCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "AswangCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "AswangCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BakunawaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BakunawaCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BantuganCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BantuganCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BerberokaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BerberokaCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BungisngisCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BungisngisCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "KapreCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "KapreCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "Lam_angCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Lam_angCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "PrincessUrdujaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "PrincessUrdujaCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "RajaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "RajaCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "SarimanokCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "SarimanokCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "SigbinCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "SigbinCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "TikbalangCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "TikbalangCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BantongCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BantongCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "TiktikCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "TiktikCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "TiyanakCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "TiyanakCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "SitanCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "SitanCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "AlunsinaCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "AlunsinaCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "BernardoCarpioCard",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BernardoCarpioCard",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

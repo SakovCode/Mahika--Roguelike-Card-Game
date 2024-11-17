@@ -3218,6 +3218,79 @@
         "name": "Screenshot_2024-09-29_230352-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bghik.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bghik.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TestingFont.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "TestingFont.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TestingFont.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TestingFont.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "asdqwdaadsad.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "asdqwdaadsad.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "asdqwdaadsad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asdqwdaadsad.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Kinet.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "Kinet.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Kinet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Kinet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "KinetWHite.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "KinetWHite.fnt",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "KinetWHite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "KinetWHite.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
