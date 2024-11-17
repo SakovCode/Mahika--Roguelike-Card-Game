@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.22463772489654907,
+    "snap": true,
+    "zoomFactor": 0.3694269341636075,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -56,8 +56,8 @@
       "layer": "UI",
       "name": "Title",
       "persistentUuid": "6d9e7ff0-5b13-40e2-afcd-7d50386af359",
-      "width": 576,
-      "x": 672,
+      "width": 672,
+      "x": 640,
       "y": -2,
       "zOrder": 2,
       "numberProperties": [],
@@ -73,73 +73,9 @@
       "name": "under_title",
       "persistentUuid": "26b1c7b4-0f13-49c5-96ef-0be741cd44f8",
       "width": 0,
-      "x": 720,
-      "y": 157,
+      "x": 628,
+      "y": 159,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 115,
-      "layer": "UI",
-      "name": "Start_button",
-      "persistentUuid": "53f95b59-a0f3-44ce-8ef3-9a0e726b3a0c",
-      "width": 300,
-      "x": 813,
-      "y": 300,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 115,
-      "layer": "UI",
-      "name": "Credits_button",
-      "persistentUuid": "9cab919e-45eb-450c-94d7-7b6797a136f1",
-      "width": 300,
-      "x": 813,
-      "y": 600,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 115,
-      "layer": "UI",
-      "name": "Options_button",
-      "persistentUuid": "5ce7ef02-508b-4f9a-875c-f74cb38c1712",
-      "width": 300,
-      "x": 813,
-      "y": 750,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 115,
-      "layer": "UI",
-      "name": "Exit_button",
-      "persistentUuid": "3058f876-671b-426c-acec-8a3f4b9fb777",
-      "width": 300,
-      "x": 813,
-      "y": 900,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -198,63 +134,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 608,
+      "height": 448,
       "keepRatio": true,
       "layer": "UI",
       "name": "woodenBg",
       "persistentUuid": "36e2c898-1d0c-4002-b0f6-0e889a9ef048",
-      "width": 567,
-      "x": 2726,
-      "y": 256,
+      "width": 448,
+      "x": 2784,
+      "y": 320,
       "zOrder": 28,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 115,
-      "layer": "UI",
-      "name": "newGame_button",
-      "persistentUuid": "c73b0ddf-2372-4171-b4ea-c8d03d887f2b",
-      "width": 300,
-      "x": 2858,
-      "y": 350,
-      "zOrder": 29,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 115,
-      "layer": "UI",
-      "name": "load_button",
-      "persistentUuid": "88041cbd-2944-4f36-b036-c51662939bf5",
-      "width": 300,
-      "x": 2858,
-      "y": 495,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 115,
-      "layer": "UI",
-      "name": "back_button",
-      "persistentUuid": "738119e9-830b-4f26-8f4a-fe6b2826077e",
-      "width": 300,
-      "x": 2858,
-      "y": 640,
-      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -284,8 +172,8 @@
       "layer": "UI",
       "name": "woodenBg",
       "persistentUuid": "33cfd94b-cc86-4cfa-9129-b34c53d512eb",
-      "width": 768,
-      "x": 4672,
+      "width": 704,
+      "x": 4704,
       "y": 288,
       "zOrder": 33,
       "numberProperties": [],
@@ -300,8 +188,8 @@
       "name": "BGM",
       "persistentUuid": "334fd9da-ada1-4701-be73-c6551d42b980",
       "width": 0,
-      "x": 4999,
-      "y": 540,
+      "x": 5017,
+      "y": 565,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -317,40 +205,8 @@
       "persistentUuid": "36c6802c-8d2a-4e21-9d80-c0439b0ea625",
       "width": 250,
       "x": 4928,
-      "y": 615,
+      "y": 635,
       "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 67,
-      "layer": "UI",
-      "name": "back_button",
-      "persistentUuid": "a246f73e-8c77-496b-9827-b4dd66405242",
-      "width": 188,
-      "x": 4960,
-      "y": 673,
-      "zOrder": 37,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 115,
-      "layer": "UI",
-      "name": "Engkantopedia_button",
-      "persistentUuid": "7be5f5b2-9cf0-477e-9d57-5ab078b9da5d",
-      "width": 300,
-      "x": 813,
-      "y": 450,
-      "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -461,38 +317,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 68,
-      "layer": "UI",
-      "name": "back_button",
-      "persistentUuid": "d4644d67-6579-430d-b9da-09b803178fec",
-      "width": 128,
-      "x": 7040,
-      "y": 960,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "228cabb3-36d5-444e-8435-140f49767c16",
-      "width": 128,
-      "x": 9088,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 30,
       "keepRatio": true,
       "layer": "UI",
@@ -567,7 +391,7 @@
       "persistentUuid": "5b067f11-4f83-4780-9ff7-d6ec09b87d7e",
       "width": 250,
       "x": 4928,
-      "y": 510,
+      "y": 525,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -582,8 +406,8 @@
       "name": "SFX",
       "persistentUuid": "04eb523a-e903-47e1-8f8d-a12562dc4104",
       "width": 0,
-      "x": 5000,
-      "y": 435,
+      "x": 5017,
+      "y": 455,
       "zOrder": 55,
       "numberProperties": [],
       "stringProperties": [],
@@ -598,8 +422,8 @@
       "name": "SquareWhiteSlider",
       "persistentUuid": "1b2f9173-5e11-4777-abf0-49a286075965",
       "width": 250,
-      "x": 4928,
-      "y": 405,
+      "x": 4934,
+      "y": 415,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -613,8 +437,8 @@
       "name": "MasterVolume",
       "persistentUuid": "a950b189-8085-45d3-8f5e-ac0b38bf6466",
       "width": 0,
-      "x": 4922,
-      "y": 330,
+      "x": 4879,
+      "y": 345,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -722,22 +546,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "83c2a0bd-cf0b-4dae-b94e-b849d66de9c1",
-      "width": 128,
-      "x": 11136,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -764,22 +572,6 @@
       "x": 12288,
       "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "446fbef3-b677-4efd-a51c-33bbf91dff56",
-      "width": 128,
-      "x": 13184,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -838,22 +630,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "61ddfce9-5333-4d85-a968-0619aaba82a5",
-      "width": 128,
-      "x": 15232,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1088,
       "keepRatio": true,
       "layer": "UI",
@@ -896,22 +672,6 @@
       "x": 16384,
       "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "7ea49cf3-d35e-48df-ae2e-edb16a98e579",
-      "width": 128,
-      "x": 17280,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -970,22 +730,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "3d719e01-094a-440d-a1f0-e03f9b85a001",
-      "width": 128,
-      "x": 19328,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1088,
       "keepRatio": true,
       "layer": "UI",
@@ -1036,22 +780,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "796cad90-2bc7-4699-9d38-1ec2721784e5",
-      "width": 128,
-      "x": 21376,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1088,
       "keepRatio": true,
       "layer": "UI",
@@ -1077,22 +805,6 @@
       "x": 22528,
       "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "ab52d8ce-d4d0-40cc-9155-ee4dad840681",
-      "width": 128,
-      "x": 23424,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1151,22 +863,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "e7c7bdce-d493-4d17-88c4-a96f20349f85",
-      "width": 128,
-      "x": 25472,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1209,22 +905,6 @@
       "x": 26624,
       "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "906793dd-6531-4093-bc81-3fb60c0636c3",
-      "width": 128,
-      "x": 27520,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1283,22 +963,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "06617763-f04a-4b4d-918f-1793d14bb199",
-      "width": 128,
-      "x": 29568,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1341,22 +1005,6 @@
       "x": 30720,
       "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "25ac1a92-7ab3-4b73-8408-3153fae64f87",
-      "width": 128,
-      "x": 31616,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1415,22 +1063,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "bfd8ad3f-9228-4d5a-8dc4-9762e9aa2962",
-      "width": 128,
-      "x": 33664,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1473,22 +1105,6 @@
       "x": 34816,
       "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "79758b3c-ff2c-47d8-8be6-63ffbc40f32e",
-      "width": 128,
-      "x": 35712,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1547,22 +1163,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "4687c167-1a67-4fe0-8f09-7e9845c64234",
-      "width": 128,
-      "x": 37760,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1613,22 +1213,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "4b13602e-30d5-4c57-9faf-1a33db5e5362",
-      "width": 128,
-      "x": 39808,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1669,24 +1253,8 @@
       "persistentUuid": "1ed6d9dc-4f17-4d29-ab2d-467f9b761ed4",
       "width": 0,
       "x": 40960,
-      "y": -32,
+      "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "8a010f91-6d87-4162-af6d-bdcea61bf226",
-      "width": 128,
-      "x": 41856,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1745,22 +1313,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "7ca1e3ef-cb11-4aa9-8a28-9ae81b780b69",
-      "width": 128,
-      "x": 43904,
-      "y": 928,
-      "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "UI",
@@ -1803,22 +1355,6 @@
       "x": 45056,
       "y": -24,
       "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "bck_button",
-      "persistentUuid": "f74a72e6-62fe-43b1-8c19-7f5a93d73744",
-      "width": 128,
-      "x": 45952,
-      "y": 928,
-      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2991,6 +2527,486 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "StartButton",
+      "persistentUuid": "53f9d9a2-efac-49dd-bb56-6b927ac82545",
+      "width": 0,
+      "x": 864,
+      "y": 352,
+      "zOrder": 151,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "EngkantopediaButton",
+      "persistentUuid": "83270f65-d72f-4e15-bf87-edbe1d94dfdb",
+      "width": 0,
+      "x": 864,
+      "y": 544,
+      "zOrder": 153,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "CreditsButton",
+      "persistentUuid": "bbe701d2-6904-4154-b575-1c505742f635",
+      "width": 0,
+      "x": 864,
+      "y": 640,
+      "zOrder": 154,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "OptionsButton",
+      "persistentUuid": "8b1d4d43-d269-4fd0-b4ad-3f3312cc716c",
+      "width": 0,
+      "x": 864,
+      "y": 736,
+      "zOrder": 155,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ExitButton",
+      "persistentUuid": "92bf9fb3-4731-4057-b75a-a50b4d68ee99",
+      "width": 0,
+      "x": 864,
+      "y": 832,
+      "zOrder": 156,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "NewGameButton",
+      "persistentUuid": "46c672ee-3bbd-4f3a-9de2-229e11f31c4d",
+      "width": 0,
+      "x": 2912,
+      "y": 384,
+      "zOrder": 157,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "LoadGameButton",
+      "persistentUuid": "6e7e86f6-ec73-4072-96a0-f602aace7d4d",
+      "width": 0,
+      "x": 2912,
+      "y": 512,
+      "zOrder": 158,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2MainMenuButton",
+      "persistentUuid": "a87d1a4a-d6cf-428e-9750-4aa0c782d121",
+      "width": 0,
+      "x": 2912,
+      "y": 640,
+      "zOrder": 159,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2MainMenuButton",
+      "persistentUuid": "8744259a-31ca-4212-85ac-f2b01f986c4b",
+      "width": 0,
+      "x": 4960,
+      "y": 704,
+      "zOrder": 161,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2MainMenuButton",
+      "persistentUuid": "8b9e3b9f-bee0-44cf-b0e3-675277c23357",
+      "width": 0,
+      "x": 7008,
+      "y": 832,
+      "zOrder": 162,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "7925e724-04a9-4288-b394-2061e862efee",
+      "width": 0,
+      "x": 9056,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "91f86675-5418-42b7-aab7-09de938425ab",
+      "width": 0,
+      "x": 11104,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "27a325a7-e7e8-4c37-a58d-5057a7d4d002",
+      "width": 0,
+      "x": 13152,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "92a40f7b-532a-45bd-a3aa-aa77909a32c5",
+      "width": 0,
+      "x": 15200,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "88cc2cb9-e0da-4888-8f3d-8d42a6c3d862",
+      "width": 0,
+      "x": 17248,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "2bbd8f8e-c010-40cd-b419-f432167b67a8",
+      "width": 0,
+      "x": 19296,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "84cde536-8be7-4792-8355-456b9781d486",
+      "width": 0,
+      "x": 21344,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "16a1caab-2113-496a-a380-eb0bb25a5457",
+      "width": 0,
+      "x": 23392,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "d32f5712-f71d-42a9-9286-2d8b05d7f4f5",
+      "width": 0,
+      "x": 25440,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "fa36452c-ac3a-4507-9d2c-df823e736963",
+      "width": 0,
+      "x": 27488,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "55d874cb-374f-4d9c-840f-db42c549eb59",
+      "width": 0,
+      "x": 29536,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "d1acfd41-8564-417c-beae-99a03917ec6e",
+      "width": 0,
+      "x": 31584,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "be2236b0-fbb5-43d4-a9b8-b7cf045e5c7a",
+      "width": 0,
+      "x": 33632,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "b43ba97c-2354-436f-a44b-8bab0d9d9240",
+      "width": 0,
+      "x": 35680,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "4d2fe6a8-b282-4236-ac6f-279b9f809520",
+      "width": 0,
+      "x": 37728,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "4c9a71ab-e009-4677-a0bf-19a6dd0f02fa",
+      "width": 0,
+      "x": 39776,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "0288e701-3264-465d-9979-7ab966f29564",
+      "width": 0,
+      "x": 41824,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "79f90ddd-80be-4688-aca4-971646676b73",
+      "width": 0,
+      "x": 43872,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2CardsButton",
+      "persistentUuid": "29cf8fab-79ec-489f-b097-f1990e12fe52",
+      "width": 0,
+      "x": 45920,
+      "y": 832,
+      "zOrder": 163,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TutotialButton",
+      "persistentUuid": "f7ce5688-bd07-412c-9c53-826dbbe1ff2a",
+      "width": 0,
+      "x": 864,
+      "y": 448,
+      "zOrder": 164,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3066,9 +3082,9 @@
       "effects": [],
       "behaviors": [],
       "string": "MAHIKA:",
-      "font": "RoughenCornerRegular-7RjV.ttf",
+      "font": "NTBrickSans8.otf",
       "textAlignment": "left",
-      "characterSize": 150,
+      "characterSize": 130,
       "color": {
         "b": 255,
         "g": 255,
@@ -3089,10 +3105,9 @@
         "smoothed": true,
         "underlined": false,
         "text": "MAHIKA:",
-        "font": "RoughenCornerRegular-7RjV.ttf",
+        "font": "NTBrickSans8.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 150,
+        "characterSize": 130,
         "color": "255;255;255"
       }
     },
@@ -3108,20 +3123,20 @@
       "effects": [],
       "behaviors": [],
       "string": "Roguelike Card Game",
-      "font": "Branda-yolq.ttf",
+      "font": "NTBrickSans9.otf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": true,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "0;0;0",
+        "outlineColor": "255;255;255",
         "outlineThickness": 12,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -3131,964 +3146,11 @@
         "smoothed": true,
         "underlined": false,
         "text": "Roguelike Card Game",
-        "font": "Branda-yolq.ttf",
+        "font": "NTBrickSans9.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Start_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 183043.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 769,
-                        "y": 0
-                      },
-                      {
-                        "x": 769,
-                        "y": 407
-                      },
-                      {
-                        "x": 0,
-                        "y": 407
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 190102.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 769,
-                        "y": 0
-                      },
-                      {
-                        "x": 769,
-                        "y": 407
-                      },
-                      {
-                        "x": 0,
-                        "y": 407
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Credits_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 184513.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 408
-                      },
-                      {
-                        "x": 0,
-                        "y": 408
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 190321.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 408
-                      },
-                      {
-                        "x": 0,
-                        "y": 408
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Options_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 184937.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 411
-                      },
-                      {
-                        "x": 0,
-                        "y": 411
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 190426.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 411
-                      },
-                      {
-                        "x": 0,
-                        "y": 411
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Exit_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 185206.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 770,
-                        "y": 0
-                      },
-                      {
-                        "x": 770,
-                        "y": 409
-                      },
-                      {
-                        "x": 0,
-                        "y": 409
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10 190523.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 770,
-                        "y": 0
-                      },
-                      {
-                        "x": 770,
-                        "y": 409
-                      },
-                      {
-                        "x": 0,
-                        "y": 409
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Engkantopedia_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-27 173934.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1322,
-                        "y": 0
-                      },
-                      {
-                        "x": 1322,
-                        "y": 365
-                      },
-                      {
-                        "x": 0,
-                        "y": 365
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-27 174014.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1322,
-                        "y": 0
-                      },
-                      {
-                        "x": 1322,
-                        "y": 365
-                      },
-                      {
-                        "x": 0,
-                        "y": 365
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "newGame_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10200508.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 409
-                      },
-                      {
-                        "x": 0,
-                        "y": 409
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10200404.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 0
-                      },
-                      {
-                        "x": 768,
-                        "y": 409
-                      },
-                      {
-                        "x": 0,
-                        "y": 409
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "load_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10201459.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 767,
-                        "y": 0
-                      },
-                      {
-                        "x": 767,
-                        "y": 408
-                      },
-                      {
-                        "x": 0,
-                        "y": 408
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10201647.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 767,
-                        "y": 0
-                      },
-                      {
-                        "x": 767,
-                        "y": 408
-                      },
-                      {
-                        "x": 0,
-                        "y": 408
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "back_button",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10205951.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 793,
-                        "y": 0
-                      },
-                      {
-                        "x": 793,
-                        "y": 423
-                      },
-                      {
-                        "x": 0,
-                        "y": 423
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Screenshot 2024-10-10210104.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 793,
-                        "y": 0
-                      },
-                      {
-                        "x": 793,
-                        "y": 423
-                      },
-                      {
-                        "x": 0,
-                        "y": 423
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -4216,7 +3278,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -11498,6 +10559,946 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "StartButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "START",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "START",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "EngkantopediaButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "ENGKANTOPEDIA",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ENGKANTOPEDIA",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "CreditsButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "CREDITS",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "CREDITS",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "OptionsButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "OPTIONS",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "OPTIONS",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "ExitButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "EXIT",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "EXIT",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "NewGameButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "NEW GAME",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "NEW GAME",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "LoadGameButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "LOAD GAME",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "LOAD GAME",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "Back2MainMenuButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "BACK",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "BACK",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "Back2CardsButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "BACK",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "BACK",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "TutotialButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "LeftPadding": 10,
+        "RightPadding": 10,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 10,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "TUTORIAL",
+          "font": "NTBrickSans.otf",
+          "textAlignment": "center",
+          "characterSize": 17,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "TUTORIAL",
+            "font": "NTBrickSans.otf",
+            "textAlignment": "center",
+            "characterSize": 17,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -11511,30 +11512,6 @@
       },
       {
         "objectName": "under_title"
-      },
-      {
-        "objectName": "Start_button"
-      },
-      {
-        "objectName": "Credits_button"
-      },
-      {
-        "objectName": "Options_button"
-      },
-      {
-        "objectName": "Exit_button"
-      },
-      {
-        "objectName": "Engkantopedia_button"
-      },
-      {
-        "objectName": "newGame_button"
-      },
-      {
-        "objectName": "load_button"
-      },
-      {
-        "objectName": "back_button"
       },
       {
         "objectName": "StartMarker"
@@ -11853,6 +11830,36 @@
       },
       {
         "objectName": "BlackSpace"
+      },
+      {
+        "objectName": "StartButton"
+      },
+      {
+        "objectName": "TutotialButton"
+      },
+      {
+        "objectName": "EngkantopediaButton"
+      },
+      {
+        "objectName": "CreditsButton"
+      },
+      {
+        "objectName": "OptionsButton"
+      },
+      {
+        "objectName": "ExitButton"
+      },
+      {
+        "objectName": "NewGameButton"
+      },
+      {
+        "objectName": "LoadGameButton"
+      },
+      {
+        "objectName": "Back2MainMenuButton"
+      },
+      {
+        "objectName": "Back2CardsButton"
       }
     ]
   },
@@ -12099,7 +12106,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12645,7 +12651,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "Start_button",
+                "StartButton",
                 "ButtonFSM",
                 ""
               ]
@@ -12691,7 +12697,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "back_button",
+                "Back2MainMenuButton",
                 "ButtonFSM",
                 ""
               ]
@@ -12737,7 +12743,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "Options_button",
+                "OptionsButton",
                 "ButtonFSM",
                 ""
               ]
@@ -12783,7 +12789,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "Exit_button",
+                "ExitButton",
                 "ButtonFSM",
                 ""
               ]
@@ -12808,7 +12814,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "Engkantopedia_button",
+                "EngkantopediaButton",
                 "ButtonFSM",
                 ""
               ]
@@ -12854,7 +12860,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "bck_button",
+                "Back2CardsButton",
                 "ButtonFSM",
                 ""
               ]
@@ -12900,7 +12906,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "newGame_button",
+                "NewGameButton",
                 "ButtonFSM",
                 ""
               ]
@@ -13295,1789 +13301,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "THE CURSOR/TOUCH IS ON",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "OkayButton",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "OkayButton",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "OkayButton",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "OkayButton",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TiyanakCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "TiyanakCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TiyanakCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "TiyanakCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TiktikCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "TiktikCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TiktikCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "TiktikCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TikbalangCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "TikbalangCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "TikbalangCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "TikbalangCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SitanCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "SitanCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SitanCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "SitanCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SigbinCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "SigbinCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SigbinCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "SigbinCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SarimanokCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "SarimanokCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "SarimanokCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "SarimanokCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "RajaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "RajaCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "RajaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "RajaCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "PrincessUrdujaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "PrincessUrdujaCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "PrincessUrdujaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "PrincessUrdujaCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Lam_angCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Lam_angCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Lam_angCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Lam_angCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "KapreCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "KapreCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "KapreCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "KapreCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BungisngisCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BungisngisCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BungisngisCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BungisngisCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BernardoCarpioCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BernardoCarpioCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BernardoCarpioCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BernardoCarpioCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BerberokaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BerberokaCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BerberokaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BerberokaCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BantuganCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BantuganCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BantuganCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BantuganCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BantongCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BantongCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BantongCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BantongCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BakunawaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BakunawaCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BakunawaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "BakunawaCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Start_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Start_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Start_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Start_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "back_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "back_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "back_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "back_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Options_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Options_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Options_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Options_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Exit_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Exit_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Exit_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Exit_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Credits_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Credits_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Credits_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Credits_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Engkantopedia_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Engkantopedia_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Engkantopedia_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Engkantopedia_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "bck_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "bck_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "bck_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "bck_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Exit_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Exit_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Exit_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Exit_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "newGame_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "newGame_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "newGame_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "newGame_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "load_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "load_button",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "load_button",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "load_button",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "AlunsinaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "AlunsinaCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "AlunsinaCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "AlunsinaCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ApolakiCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "ApolakiCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "ApolakiCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "ApolakiCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "AswangCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "AswangCard",
-                "Animation",
-                "=",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "AswangCard",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "AswangCard",
-                "Animation",
-                "=",
-                "0"
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
       "name": "LOAD GAME",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15116,7 +13339,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "load_button",
+                "LoadGameButton",
                 "ButtonFSM",
                 ""
               ]
@@ -15218,7 +13441,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "newGame_button",
+                "NewGameButton",
                 "ButtonFSM",
                 ""
               ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4507615891327375,
+    "zoomFactor": 0.26515387596043427,
     "windowMask": false
   },
   "objectsGroups": [
@@ -168,23 +168,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 78,
-      "height": 88,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "EndTurnButton",
-      "persistentUuid": "da7a69f6-cf78-4e1e-b1e7-e36909c1d9ac",
-      "width": 219,
-      "x": 1632,
-      "y": 924,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -550,23 +533,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BlackDecoratedButton",
-      "persistentUuid": "9c252385-5760-41c5-8572-4c08198d5b83",
-      "width": 224,
-      "x": 1632,
-      "y": 796,
-      "zOrder": 38,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 1092,
       "keepRatio": true,
@@ -651,48 +617,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BlackDecoratedButton2",
-      "persistentUuid": "90aa1821-8a65-43da-a069-d3c624681654",
-      "width": 224,
-      "x": 1632,
-      "y": 668,
-      "zOrder": 42,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BlackDecoratedButton3",
-      "persistentUuid": "907b5e32-49d9-4241-9fa8-5540ea023a64",
-      "width": 224,
-      "x": 1632,
-      "y": 544,
-      "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 992,
       "keepRatio": true,
       "layer": "UI",
       "name": "victory",
       "persistentUuid": "2471f18d-f8fe-412e-9d56-401f58c5c764",
-      "width": 992,
-      "x": 2872,
+      "width": 1016,
+      "x": 2848,
       "y": -1833,
       "zOrder": 44,
       "numberProperties": [],
@@ -711,23 +643,6 @@
       "x": -384,
       "y": -480,
       "zOrder": 45,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BlackDecoratedButton2",
-      "persistentUuid": "8a85848e-3be6-4631-8394-1c041f0e0de8",
-      "width": 224,
-      "x": 3256,
-      "y": -841,
-      "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -755,29 +670,44 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "BlackDecoratedButton4",
-      "persistentUuid": "e3807e0a-b047-4b03-aed1-e4617a8f4909",
+      "name": "EndTurnButton",
+      "persistentUuid": "d130d5e2-ed9b-4c8c-a98e-fc5193815bac",
       "width": 0,
-      "x": 5096,
-      "y": 370,
-      "zOrder": 47,
+      "x": 1632,
+      "y": 928,
+      "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 98,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "SPAWN_RANDOM_ENEMY",
-      "persistentUuid": "ab9dbee6-d5b3-4f56-8ea0-9f391815bfbb",
-      "width": 224,
-      "x": 1632,
-      "y": 416,
-      "zOrder": 48,
+      "name": "ExitToMainMenuButton",
+      "persistentUuid": "56fdb6e8-ef49-4568-9485-3ab7b324d9b9",
+      "width": 0,
+      "x": 5056,
+      "y": 320,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "EndBattleButton",
+      "persistentUuid": "9da793c8-83ea-4137-b8ec-ac64f47abf46",
+      "width": 0,
+      "x": 3264,
+      "y": -1184,
+      "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1317,90 +1247,6 @@
       }
     },
     {
-      "assetStoreId": "e80b6352d9f27049db858db6a22ad1351febb242a738de07155a6ac8301ea5c5",
-      "name": "EndTurnButton",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 0,
-        "RightPadding": 0,
-        "PressedLabelOffsetY": 2,
-        "BottomPadding": 0,
-        "TopPadding": 0,
-        "HoveredFadeOutDuration": 0.2
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 54,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Screenshot 2024-11-09 043549.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 998
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 54,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Screenshot 2024-11-09 043528.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 998
-        },
-        "Label": {
-          "bold": true,
-          "italic": true,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "Charm-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": true,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "Charm-Regular.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 54,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Screenshot 2024-11-0943550.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 998
-        }
-      }
-    },
-    {
       "assetStoreId": "",
       "name": "HeroSlot2",
       "type": "Scene3D::Cube3DObject",
@@ -1912,7 +1758,6 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1954,7 +1799,6 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -2143,7 +1987,6 @@
             "text": "RELOAD",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2170,19 +2013,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 17,
+        "b": 17,
         "g": 17,
-        "b": 17
+        "r": 17
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
@@ -2251,7 +2094,6 @@
             "text": "END BATTLE",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2335,7 +2177,6 @@
             "text": "TRY\n",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "255;255;255"
           }
@@ -2419,7 +2260,6 @@
             "text": "EXIT TO MAIN MENU",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 15,
             "color": "255;255;255"
           }
@@ -2536,7 +2376,6 @@
             "text": "SPAWN RANDOM ENEMY",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2632,10 +2471,258 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 14,
             "color": "255;255;255"
           }
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "EndTurnButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "END TURN",
+          "font": "NTBrickSans5.otf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "END TURN",
+            "font": "NTBrickSans5.otf",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "ExitToMainMenuButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "END TURN",
+          "font": "NTBrickSans5.otf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "END TURN",
+            "font": "NTBrickSans5.otf",
+            "textAlignment": "center",
+            "characterSize": 30,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "EndBattleButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "END BATTLE",
+          "font": "NTBrickSans5.otf",
+          "textAlignment": "center",
+          "characterSize": 26,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "END BATTLE",
+            "font": "NTBrickSans5.otf",
+            "textAlignment": "center",
+            "characterSize": 26,
+            "color": "0;0;0"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
         }
       }
     }
@@ -2643,6 +2730,9 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "NewFolder"
+      },
       {
         "objectName": "Deck"
       },
@@ -2701,9 +2791,6 @@
         "objectName": "EnemyTest"
       },
       {
-        "objectName": "EndTurnButton"
-      },
-      {
         "objectName": "ManaText"
       },
       {
@@ -2735,6 +2822,15 @@
       },
       {
         "objectName": "HealthBar"
+      },
+      {
+        "objectName": "EndTurnButton"
+      },
+      {
+        "objectName": "EndBattleButton"
+      },
+      {
+        "objectName": "ExitToMainMenuButton"
       }
     ]
   },
@@ -2744,7 +2840,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2799,7 +2894,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "BlackDecoratedButton2",
+                "EndBattleButton",
                 ""
               ]
             }
@@ -2859,7 +2954,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "BlackDecoratedButton4",
+                "ExitToMainMenuButton",
                 ""
               ]
             }
@@ -4117,7 +4212,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PREPARATION PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4249,7 +4343,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9909,7 +10002,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "END OF ROUND",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

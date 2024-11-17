@@ -8,7 +8,7 @@
   "name": "PanelSpriteButton",
   "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Interface Elements/Interface Elements_interface_ui_button_ok_cta_clock_tap.svg",
   "shortDescription": "A button that can be customized.",
-  "version": "1.4.4",
+  "version": "1.4.6",
   "description": [
     "The button can be customized with a background for each state and a label. It handles user interactions and a simple condition can be used to check if it is clicked.",
     "",
@@ -214,8 +214,8 @@
                           },
                           "parameters": [
                             "Object",
-                            "TouchX(Object.Behavior::PropertyTouchId(), Object.Layer(), 0)",
-                            "TouchY(Object.Behavior::PropertyTouchId(), Object.Layer(), 0)"
+                            "TouchX(TouchId, Object.Layer(), 0)",
+                            "TouchY(TouchId, Object.Layer(), 0)"
                           ]
                         }
                       ],
@@ -285,8 +285,8 @@
                                   },
                                   "parameters": [
                                     "Object",
-                                    "TouchX(StartedTouchOrMouseId(Object.Behavior::PropertyIndex()), Object.Layer(), 0)",
-                                    "TouchY(StartedTouchOrMouseId(Object.Behavior::PropertyIndex()), Object.Layer(), 0)"
+                                    "TouchX(StartedTouchOrMouseId(Index), Object.Layer(), 0)",
+                                    "TouchY(StartedTouchOrMouseId(Index), Object.Layer(), 0)"
                                   ]
                                 }
                               ],
@@ -299,7 +299,7 @@
                                     "Object",
                                     "Behavior",
                                     "=",
-                                    "StartedTouchOrMouseId(Object.Behavior::PropertyIndex())"
+                                    "StartedTouchOrMouseId(Index)"
                                   ]
                                 },
                                 {
@@ -572,7 +572,7 @@
                           },
                           "parameters": [
                             "",
-                            "Object.Behavior::PropertyTouchId()"
+                            "TouchId"
                           ]
                         }
                       ],
@@ -1111,7 +1111,7 @@
                     "value": "SetReturnNumber"
                   },
                   "parameters": [
-                    "Object.Behavior::PropertyTouchId()"
+                    "TouchId"
                   ]
                 }
               ]
@@ -1218,7 +1218,6 @@
       "defaultName": "Button",
       "description": "A button that can be customized.",
       "fullName": "Button (panel sprite)",
-      "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteButton",
       "eventsFunctions": [
         {
@@ -1847,66 +1846,83 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Idle",
-                        "Width",
-                        "=",
-                        "Object.Width()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Idle",
-                        "Height",
-                        "=",
-                        "Object.Height()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::Scale"
-                      },
-                      "parameters": [
-                        "Object",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteObject::Width"
-                      },
-                      "parameters": [
-                        "Background",
-                        "=",
-                        "Idle.Variable(Width)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteObject::Height"
-                      },
-                      "parameters": [
-                        "Background",
-                        "=",
-                        "Idle.Variable(Height)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::CenterLabel"
-                      },
-                      "parameters": [
-                        "Object",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Width",
+                            "=",
+                            "Object.Width()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Height",
+                            "=",
+                            "Object.Height()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::Scale"
+                          },
+                          "parameters": [
+                            "Object",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteObject::Width"
+                          },
+                          "parameters": [
+                            "Background",
+                            "=",
+                            "Width"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteObject::Height"
+                          },
+                          "parameters": [
+                            "Background",
+                            "=",
+                            "Height"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteButton::PanelSpriteButton::CenterLabel"
+                          },
+                          "parameters": [
+                            "Object",
+                            ""
+                          ]
+                        }
+                      ],
+                      "variables": [
+                        {
+                          "name": "Width",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "Height",
+                          "type": "number",
+                          "value": 0
+                        }
                       ]
                     }
                   ]
@@ -2173,7 +2189,7 @@
                   "parameters": [
                     "Label",
                     "=",
-                    "GetArgumentAsString(\"LabelText\")"
+                    "LabelText"
                   ]
                 },
                 {
@@ -2609,7 +2625,6 @@
             "text": "Text",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
