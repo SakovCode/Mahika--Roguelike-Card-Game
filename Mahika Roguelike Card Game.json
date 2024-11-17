@@ -61,7 +61,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "Screenshot 2024-11-17 192041.png",
+      "backgroundImageResourceName": "Screenshot_2024-09-29_230352-removebg-preview.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -3159,6 +3159,63 @@
         "kind": "image",
         "metadata": "",
         "name": "Screenshot 2024-11-17 192041.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "blender_burning_parchment_and_procedural_flame.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "blender_burning_parchment_and_procedural_flame.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Scroll.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Scroll.glb",
+        "userAdded": false
+      },
+      {
+        "file": "oldPaper.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "oldPaper.glb",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "OldPaper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OldPaper.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pngtree-old-paper-png-image_11744294-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngtree-old-paper-png-image_11744294-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cceeeee051f052d1bce22aa3c33fcdcb-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cceeeee051f052d1bce22aa3c33fcdcb-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot_2024-09-29_230352-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2024-09-29_230352-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
       }

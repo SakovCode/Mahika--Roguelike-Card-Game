@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3573760943009919,
+    "zoomFactor": 0.26515387596043705,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -291,7 +291,7 @@
       "width": 1920,
       "x": 8192,
       "y": 0,
-      "zOrder": 0,
+      "zOrder": -11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -462,22 +462,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Paper",
-      "persistentUuid": "28cd4518-5d51-4996-aa1d-967d371493ab",
-      "width": 0,
-      "x": 8192,
-      "y": -24,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 384,
@@ -503,8 +487,8 @@
       "name": "Alunsina",
       "persistentUuid": "7530d4b9-5498-4b5e-baae-72778d8b715d",
       "width": 544,
-      "x": 9024,
-      "y": 96,
+      "x": 9005,
+      "y": 105,
       "zOrder": 61,
       "numberProperties": [],
       "stringProperties": [],
@@ -513,16 +497,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 768,
+      "depth": 1.0221354166666663,
+      "height": 785,
       "keepRatio": true,
       "layer": "UI",
       "name": "AlunsinaInfo",
       "persistentUuid": "6a8e3529-d858-4ac8-9bfa-15ededd8496a",
-      "width": 1440,
-      "x": 8576,
-      "y": 192,
-      "zOrder": 62,
+      "width": 1471.8750000000005,
+      "x": 8548,
+      "y": 189,
+      "zOrder": 166,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3003,6 +2987,22 @@
       "x": 0,
       "y": 0,
       "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Paper",
+      "persistentUuid": "5765158b-3246-4bf8-81a0-453c2f2b643c",
+      "width": 0,
+      "x": 8161,
+      "y": -19,
+      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -11525,6 +11525,148 @@
         "volume": 100,
         "videoResource": "KinetNoSOund.mp4"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "OldPaper",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "oldPaper.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "OldPaper2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "OldPaper.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Oldpaper2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cceeeee051f052d1bce22aa3c33fcdcb-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 12
+                      },
+                      {
+                        "x": 373,
+                        "y": 12
+                      },
+                      {
+                        "x": 373,
+                        "y": 607
+                      },
+                      {
+                        "x": 23,
+                        "y": 607
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -11889,6 +12031,15 @@
       },
       {
         "objectName": "BG_testing"
+      },
+      {
+        "objectName": "OldPaper"
+      },
+      {
+        "objectName": "OldPaper2"
+      },
+      {
+        "objectName": "Oldpaper2"
       }
     ]
   },
