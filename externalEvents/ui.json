@@ -216,7 +216,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -262,7 +262,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -308,7 +308,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -354,7 +354,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -427,7 +427,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -498,7 +498,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -544,7 +544,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -590,7 +590,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -636,7 +636,7 @@
             "pause_bg.CenterY()",
             "\"UI\"",
             "\"elastic\"",
-            ".1"
+            ".01"
           ]
         },
         {
@@ -700,7 +700,7 @@
                 "SarimanokCutscene.CenterY()",
                 "\"Cutscene\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {

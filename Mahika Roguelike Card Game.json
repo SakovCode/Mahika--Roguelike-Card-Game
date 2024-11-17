@@ -61,7 +61,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "Screenshot 2024-11-17 192041.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -3151,6 +3151,15 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-17 192041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-17 192041.png",
+        "smoothed": true,
         "userAdded": false
       }
     ],
