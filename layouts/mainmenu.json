@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3694269341636075,
+    "zoomFactor": 0.32353131685763836,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,23 +30,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Bg_image",
-      "persistentUuid": "761cff93-ed0b-427a-b3e3-dbd3ffdaff54",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -3007,6 +2990,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BG_testing",
+      "persistentUuid": "101367c5-f88c-402a-a661-3758032dfbd7",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3107,6 +3106,7 @@
         "text": "MAHIKA:",
         "font": "NTBrickSans8.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 130,
         "color": "255;255;255"
       }
@@ -3148,6 +3148,7 @@
         "text": "Roguelike Card Game",
         "font": "NTBrickSans9.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -3278,6 +3279,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -10638,6 +10640,7 @@
             "text": "START",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -10732,6 +10735,7 @@
             "text": "ENGKANTOPEDIA",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -10826,6 +10830,7 @@
             "text": "CREDITS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -10920,6 +10925,7 @@
             "text": "OPTIONS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11014,6 +11020,7 @@
             "text": "EXIT",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11108,6 +11115,7 @@
             "text": "NEW GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11202,6 +11210,7 @@
             "text": "LOAD GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11296,6 +11305,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11390,6 +11400,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11484,6 +11495,7 @@
             "text": "TUTORIAL",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11498,6 +11510,20 @@
           "topMargin": 11,
           "width": 192
         }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BG_testing",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": true,
+        "volume": 100,
+        "videoResource": "KinetNoSOund.mp4"
       }
     }
   ],
@@ -11860,6 +11886,9 @@
       },
       {
         "objectName": "Back2CardsButton"
+      },
+      {
+        "objectName": "BG_testing"
       }
     ]
   },
@@ -11879,6 +11908,41 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "BG_testing"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "KineTSOUND.mp3",
+            "yes",
+            "30",
+            ""
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -12163,7 +12227,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12209,7 +12273,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12255,7 +12319,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12301,7 +12365,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12347,7 +12411,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12393,7 +12457,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12439,7 +12503,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12485,7 +12549,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12531,7 +12595,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12577,7 +12641,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12623,7 +12687,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12669,7 +12733,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12680,7 +12744,7 @@
                 "Transition",
                 "FlashTransitionPainter",
                 "\"0;0;0\"",
-                ".1",
+                ".01",
                 "\"Flash\"",
                 "\"Both\"",
                 "",
@@ -12715,7 +12779,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                "0.01"
               ]
             },
             {
@@ -12761,7 +12825,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12832,7 +12896,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12878,7 +12942,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12889,7 +12953,7 @@
                 "Transition",
                 "FlashTransitionPainter",
                 "\"0;0;0\"",
-                ".1",
+                "0.01",
                 "\"Flash\"",
                 "\"Both\"",
                 "",
@@ -12951,7 +13015,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -12997,7 +13061,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -13043,7 +13107,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -13089,7 +13153,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -13135,7 +13199,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -13181,7 +13245,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -13227,7 +13291,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -13273,7 +13337,7 @@
                 "CameraCenterY()",
                 "\"UI\"",
                 "\"elastic\"",
-                ".1"
+                ".01"
               ]
             },
             {
@@ -13301,6 +13365,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "LOAD GAME",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
