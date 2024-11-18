@@ -18,10 +18,132 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.568549529410761,
+    "zoomFactor": 0.43605758348370255,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "CardShit",
+      "objects": [
+        {
+          "name": "AlunsinaCard"
+        },
+        {
+          "name": "ApolakiCard"
+        },
+        {
+          "name": "AswangCard"
+        },
+        {
+          "name": "BakunawaCard"
+        },
+        {
+          "name": "BantongCard"
+        },
+        {
+          "name": "BantuganCard"
+        },
+        {
+          "name": "BerberokaCard"
+        },
+        {
+          "name": "BernardoCarpioCard"
+        },
+        {
+          "name": "BungisngisCard"
+        },
+        {
+          "name": "KapreCard"
+        },
+        {
+          "name": "Lam_angCard"
+        },
+        {
+          "name": "PrincessUrdujaCard"
+        },
+        {
+          "name": "RajaCard"
+        },
+        {
+          "name": "SarimanokCard"
+        },
+        {
+          "name": "SigbinCard"
+        },
+        {
+          "name": "SitanCard"
+        },
+        {
+          "name": "TikbalangCard"
+        },
+        {
+          "name": "TiktikCard"
+        },
+        {
+          "name": "TiyanakCard"
+        }
+      ]
+    },
+    {
+      "name": "ButtonShit",
+      "objects": [
+        {
+          "name": "StartButton"
+        },
+        {
+          "name": "EngkantopediaButton"
+        },
+        {
+          "name": "CreditsButton"
+        },
+        {
+          "name": "OptionsButton"
+        },
+        {
+          "name": "ExitButton"
+        },
+        {
+          "name": "NewGameButton"
+        },
+        {
+          "name": "LoadGameButton"
+        },
+        {
+          "name": "Back2MainMenuButton"
+        },
+        {
+          "name": "Back2CardsButton"
+        },
+        {
+          "name": "TutotialButton"
+        },
+        {
+          "name": "ResumeButton"
+        },
+        {
+          "name": "OptionsButton2"
+        },
+        {
+          "name": "ExitToMainMenuButton2"
+        },
+        {
+          "name": "SaveAndQuitButton"
+        },
+        {
+          "name": "SaveButton2"
+        },
+        {
+          "name": "YesButton"
+        },
+        {
+          "name": "NoButton"
+        },
+        {
+          "name": "BackToPauseButton"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "saveFileExists",
@@ -165,37 +287,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "BGM",
-      "persistentUuid": "334fd9da-ada1-4701-be73-c6551d42b980",
-      "width": 0,
-      "x": 5017,
-      "y": 565,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider",
-      "persistentUuid": "36c6802c-8d2a-4e21-9d80-c0439b0ea625",
-      "width": 250,
-      "x": 4928,
-      "y": 635,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 32,
@@ -264,31 +355,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider",
-      "persistentUuid": "5b067f11-4f83-4780-9ff7-d6ec09b87d7e",
-      "width": 250,
-      "x": 4928,
-      "y": 525,
-      "zOrder": 35,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "SFX",
+      "name": "SoundSlider",
       "persistentUuid": "04eb523a-e903-47e1-8f8d-a12562dc4104",
       "width": 0,
-      "x": 5017,
-      "y": 455,
+      "x": 4993,
+      "y": 581,
       "zOrder": 55,
       "numberProperties": [],
       "stringProperties": [],
@@ -300,7 +375,7 @@
       "depth": 48,
       "height": 25,
       "layer": "UI",
-      "name": "SquareWhiteSlider",
+      "name": "MusicSlider",
       "persistentUuid": "1b2f9173-5e11-4777-abf0-49a286075965",
       "width": 250,
       "x": 4934,
@@ -315,11 +390,11 @@
       "customSize": false,
       "height": 0,
       "layer": "UI",
-      "name": "MasterVolume",
+      "name": "Music",
       "persistentUuid": "a950b189-8085-45d3-8f5e-ac0b38bf6466",
       "width": 0,
-      "x": 4879,
-      "y": 345,
+      "x": 4994,
+      "y": 434,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -2985,6 +3060,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 28,
+      "layer": "UI",
+      "name": "SoundSlider2",
+      "persistentUuid": "520645c7-1754-4dd1-91dd-30ffa51804b2",
+      "width": 250,
+      "x": 4931,
+      "y": 555,
+      "zOrder": 224,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3194,7 +3285,7 @@
     },
     {
       "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
-      "name": "SquareWhiteSlider",
+      "name": "MusicSlider",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
       "variables": [],
       "effects": [],
@@ -3701,7 +3792,13 @@
       "name": "AlunsinaCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -5033,7 +5130,13 @@
       "name": "ApolakiCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -8392,7 +8495,13 @@
       "name": "AswangCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -8511,7 +8620,13 @@
       "name": "BakunawaCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -8630,7 +8745,13 @@
       "name": "BantongCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -8749,7 +8870,13 @@
       "name": "BantuganCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -8868,7 +8995,13 @@
       "name": "BerberokaCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -8987,7 +9120,13 @@
       "name": "BernardoCarpioCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9106,7 +9245,13 @@
       "name": "BungisngisCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9225,7 +9370,13 @@
       "name": "KapreCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9344,7 +9495,13 @@
       "name": "Lam_angCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9463,7 +9620,13 @@
       "name": "PrincessUrdujaCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9582,7 +9745,13 @@
       "name": "RajaCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9701,7 +9870,13 @@
       "name": "SarimanokCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9820,7 +9995,13 @@
       "name": "SigbinCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -9939,7 +10120,13 @@
       "name": "SitanCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -10058,7 +10245,13 @@
       "name": "TikbalangCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -10177,7 +10370,13 @@
       "name": "TiktikCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -10296,7 +10495,13 @@
       "name": "TiyanakCard",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -12742,6 +12947,172 @@
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "SoundSlider2",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 28,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Square White Slider Border.png",
+          "tiled": false,
+          "topMargin": 4,
+          "width": 265
+        },
+        "FillBar": {
+          "bottomMargin": 2,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Square White Slider Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 16
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "221;221;221"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 2,
+          "height": 36,
+          "leftMargin": 1,
+          "rightMargin": 1,
+          "texture": "Square White Slider Thumb.png",
+          "tiled": false,
+          "topMargin": 2,
+          "width": 22
+        }
+      }
+    },
+    {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "BGM2",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 28,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Square White Slider Border.png",
+          "tiled": false,
+          "topMargin": 4,
+          "width": 265
+        },
+        "FillBar": {
+          "bottomMargin": 2,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Square White Slider Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 16
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "221;221;221"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 2,
+          "height": 36,
+          "leftMargin": 1,
+          "rightMargin": 1,
+          "texture": "Square White Slider Thumb.png",
+          "tiled": false,
+          "topMargin": 2,
+          "width": 22
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -12829,7 +13200,13 @@
         "objectName": "OptionsMarker"
       },
       {
-        "objectName": "SquareWhiteSlider"
+        "objectName": "MusicSlider"
+      },
+      {
+        "objectName": "SoundSlider2"
+      },
+      {
+        "objectName": "BGM2"
       },
       {
         "objectName": "woodenBg"
@@ -13326,18 +13703,6 @@
           "parameters": [
             "BG_testing"
           ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "KineTSOUND.mp3",
-            "yes",
-            "30",
-            ""
-          ]
         }
       ]
     },
@@ -13580,6 +13945,42 @@
                 "value": "ButtonStates::ButtonFSM::IsHovered"
               },
               "parameters": [
+                "CardShit",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "1118.mp3",
+                "69",
+                "",
+                "30",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
                 "ApolakiCard",
                 "ButtonFSM",
                 ""
@@ -14663,6 +15064,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -16019,6 +16421,431 @@
               },
               "parameters": [
                 "\"Storage\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "SoundBttns",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "ButtonShit",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button-202966.mp3",
+                "2",
+                "",
+                "GlobalVariable(Settings.Sound)",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ButtonShit",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "button-202966.mp3",
+                "2",
+                "",
+                "GlobalVariable(Settings.Sound)",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Music",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"Settings\"",
+                    "\"Settings\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Music",
+                    "=",
+                    "MusicSlider.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Sound",
+                    "=",
+                    "SoundSlider2.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"SLStorage\"",
+                    "\"SaveSettingsGroup\"",
+                    "GlobalVarToJSON(Settings)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"Settings\"",
+                    "\"Settings\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"SLStorage\"",
+                    "\"SaveSettingsGroup\"",
+                    "",
+                    "TnginangYan"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "GlobalVariableString(Settings)",
+                    "Settings"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "MusicSlider",
+                    "=",
+                    "GlobalVariable(Settings.Music)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "SoundSlider2",
+                    "=",
+                    "GlobalVariable(Settings.Sound)",
+                    ""
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "TnginangYan",
+                  "type": "string",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "KineTSOUND.mp3",
+                    "1",
+                    "yes",
+                    "GlobalVariable(Settings.Music)",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Sliders",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicSlider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Music",
+                "=",
+                "MusicSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "Settings.Music"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "SoundSlider2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Sound",
+                "=",
+                "SoundSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "Settings.Sound"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "MusicSlider",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "SoundSlider2",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"CanSave\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"CanSave\"",
+                ">=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"CanSave\""
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"SLStorage\"",
+                "\"SaveSettingsGroup\"",
+                "\"GlobalVarToJSON(Settings)\""
               ]
             }
           ]

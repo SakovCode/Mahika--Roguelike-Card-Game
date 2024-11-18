@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 216,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -3291,6 +3291,36 @@
         "name": "KinetWHite.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "card-sounds-35956.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "card-sounds-35956.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "1118.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1118.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "button-202966.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "button-202966.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4497,14 +4527,14 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "MasterVolume",
+      "name": "Music",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Master Volume",
+      "string": "Music",
       "font": "NTBrickSans2.otf",
       "textAlignment": "center",
       "characterSize": 35,
@@ -4527,7 +4557,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Master Volume",
+        "text": "Music",
         "font": "NTBrickSans2.otf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -4539,14 +4569,14 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "SFX",
+      "name": "SoundSlider",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "SFX",
+      "string": "Sound",
       "font": "NTBrickSans3.otf",
       "textAlignment": "center",
       "characterSize": 35,
@@ -4569,7 +4599,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "SFX",
+        "text": "Sound",
         "font": "NTBrickSans3.otf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -7689,10 +7719,10 @@
             "objectName": "BGM"
           },
           {
-            "objectName": "SFX"
+            "objectName": "SoundSlider"
           },
           {
-            "objectName": "MasterVolume"
+            "objectName": "Music"
           },
           {
             "objectName": "New_bg"
@@ -8030,6 +8060,22 @@
       "name": "SavePlayer",
       "type": "array",
       "children": []
+    },
+    {
+      "name": "Settings",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Music",
+          "type": "number",
+          "value": 50
+        },
+        {
+          "name": "Sound",
+          "type": "number",
+          "value": 50
+        }
+      ]
     }
   ],
   "layouts": [
