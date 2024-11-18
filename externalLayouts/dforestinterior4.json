@@ -1493,6 +1493,70 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawner",
+      "persistentUuid": "2c9ba158-de23-4f64-8335-6484fb1e5d54",
+      "width": 0,
+      "x": 768,
+      "y": 640,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawner",
+      "persistentUuid": "8fb87621-6418-45db-a383-f4022890e05f",
+      "width": 0,
+      "x": 448,
+      "y": 192,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawner",
+      "persistentUuid": "497ea759-0305-4746-b6a1-4b49232573a1",
+      "width": 0,
+      "x": 384,
+      "y": 832,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spawner",
+      "persistentUuid": "d0b06373-1667-46e2-9672-5c02e3143d07",
+      "width": 0,
+      "x": 192,
+      "y": 256,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1505,7 +1569,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7412978919222369,
+    "zoomFactor": 0.4080728757366947,
     "windowMask": false
   }
 }

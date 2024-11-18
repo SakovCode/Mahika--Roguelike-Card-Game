@@ -521,28 +521,6 @@
         "width": 64,
         "animations": []
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Rock",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\rockboulder.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": []
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -553,9 +531,6 @@
       },
       {
         "objectName": "CaveWall"
-      },
-      {
-        "objectName": "Rock"
       }
     ]
   },

@@ -4694,10 +4694,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 9999,
-          "deceleration": 9999,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 9999,
+          "deceleration": 9999,
           "angularMaxSpeed": 999,
           "movementAngleOffset": 0,
           "viewpoint": "TopDown",
