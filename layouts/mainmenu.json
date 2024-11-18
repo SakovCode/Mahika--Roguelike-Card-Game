@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40807287573672346,
+    "zoomFactor": 0.19672994097258198,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -140,8 +140,8 @@
       "name": "OptionsMarker",
       "persistentUuid": "3fa3cf89-50cd-4c80-a00d-4866e564b402",
       "width": 1920,
-      "x": 4064,
-      "y": 64,
+      "x": 4096,
+      "y": 0,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -354,23 +354,6 @@
       "x": 8631,
       "y": 266,
       "zOrder": 60,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 737,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "AlunsinaInfo",
-      "persistentUuid": "6a8e3529-d858-4ac8-9bfa-15ededd8496a",
-      "width": 1338,
-      "x": 8818,
-      "y": 279,
-      "zOrder": 166,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -682,22 +665,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 768,
-      "layer": "UI",
-      "name": "ApolakiInfo",
-      "persistentUuid": "f025f2d8-02e4-4c49-9862-0014053635fc",
-      "width": 1440,
-      "x": 10825,
-      "y": 356,
-      "zOrder": 82,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 384,
       "layer": "UI",
@@ -707,22 +674,6 @@
       "x": 12728,
       "y": 289,
       "zOrder": 83,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 768,
-      "layer": "UI",
-      "name": "AswangInfo",
-      "persistentUuid": "9d6f03c0-ea09-4f87-bc93-03bf3bab3173",
-      "width": 1440,
-      "x": 12933,
-      "y": 376,
-      "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -746,22 +697,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 768,
-      "layer": "UI",
-      "name": "BakunawaInfo",
-      "persistentUuid": "41f8a866-130d-4592-90c2-a895581c2525",
-      "width": 1440,
-      "x": 14870,
-      "y": 408,
-      "zOrder": 88,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 384,
       "layer": "UI",
@@ -769,24 +704,8 @@
       "persistentUuid": "9ab3f384-5b3f-47a1-a82b-4c73abf24b6a",
       "width": 256,
       "x": 16864,
-      "y": 288,
+      "y": 276,
       "zOrder": 89,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 768,
-      "layer": "UI",
-      "name": "BantongInfo",
-      "persistentUuid": "9fc5cae2-05bc-4172-800c-55f0d614f098",
-      "width": 1440,
-      "x": 16960,
-      "y": 416,
-      "zOrder": 91,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -811,22 +730,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "BantuganInfo",
-      "persistentUuid": "fabe141c-ace0-4222-994c-717584fb0b80",
-      "width": 1440,
-      "x": 19072,
-      "y": 448,
-      "zOrder": 94,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 384,
       "layer": "UI",
       "name": "BerberokaStats",
@@ -835,22 +738,6 @@
       "x": 20992,
       "y": 288,
       "zOrder": 95,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "BerberokaInfo",
-      "persistentUuid": "fdebe30c-52cc-46d4-b372-412167eff425",
-      "width": 1440,
-      "x": 21213,
-      "y": 425,
-      "zOrder": 97,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -875,22 +762,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "BernardoCarpioInfo",
-      "persistentUuid": "5b66f067-beb6-461c-bdde-5f0e4654a663",
-      "width": 1440,
-      "x": 23456,
-      "y": 452,
-      "zOrder": 100,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 384,
       "layer": "UI",
       "name": "BungisngisStats",
@@ -899,22 +770,6 @@
       "x": 25088,
       "y": 320,
       "zOrder": 101,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "BungisngisInfo",
-      "persistentUuid": "ebe8d0e2-1361-4a19-9f33-3d695dc87165",
-      "width": 1440,
-      "x": 25286,
-      "y": 415,
-      "zOrder": 103,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -939,22 +794,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "KapreInfo",
-      "persistentUuid": "e4412c25-2092-4a50-af2b-9e4c6fb48d95",
-      "width": 1440,
-      "x": 27163,
-      "y": 368,
-      "zOrder": 106,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 384,
       "layer": "UI",
       "name": "Lam_angStats",
@@ -963,22 +802,6 @@
       "x": 29184,
       "y": 320,
       "zOrder": 107,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "Lam_angInfo",
-      "persistentUuid": "84a4d92a-e671-4bac-bd1b-e82285d0d619",
-      "width": 1440,
-      "x": 29423,
-      "y": 459,
-      "zOrder": 109,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1003,22 +826,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "PrincessUrdujaInfo",
-      "persistentUuid": "afbf63db-d883-4c10-afa6-a6fe381649f5",
-      "width": 1440,
-      "x": 31528,
-      "y": 485,
-      "zOrder": 112,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 384,
       "layer": "UI",
       "name": "RajaStats",
@@ -1027,22 +834,6 @@
       "x": 33280,
       "y": 320,
       "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "RajaInfo",
-      "persistentUuid": "545b6b30-587c-4ae9-b571-7347d6f406bb",
-      "width": 1440,
-      "x": 33467,
-      "y": 484,
-      "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1067,22 +858,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "SarimanokInfo",
-      "persistentUuid": "29225a6f-f1cc-4446-a9bf-e683a999136e",
-      "width": 1440,
-      "x": 35424,
-      "y": 384,
-      "zOrder": 118,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 384,
       "layer": "UI",
       "name": "SigbinStats",
@@ -1091,22 +866,6 @@
       "x": 37376,
       "y": 320,
       "zOrder": 119,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "SigbinInfo",
-      "persistentUuid": "96b677b9-8e00-4480-8886-a98cbff629bd",
-      "width": 1440,
-      "x": 37507,
-      "y": 429,
-      "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1131,22 +890,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "SitanInfo",
-      "persistentUuid": "cdb8f321-1514-4abd-855b-9ca61eb1cc3d",
-      "width": 1440,
-      "x": 39616,
-      "y": 416,
-      "zOrder": 124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 384,
       "layer": "UI",
       "name": "TikbalangStats",
@@ -1155,22 +898,6 @@
       "x": 41472,
       "y": 320,
       "zOrder": 125,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "TikbalangInfo",
-      "persistentUuid": "4a0613b0-3084-4fdc-a328-56f4657ddff3",
-      "width": 1440,
-      "x": 41572,
-      "y": 452,
-      "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1195,22 +922,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "TiktikInfo",
-      "persistentUuid": "2b0bfc2e-db2f-4004-b8e9-b7085cc6af9f",
-      "width": 1440,
-      "x": 43648,
-      "y": 448,
-      "zOrder": 130,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
       "height": 384,
       "layer": "UI",
       "name": "TiyanakStats",
@@ -1219,22 +930,6 @@
       "x": 45568,
       "y": 320,
       "zOrder": 131,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 768,
-      "layer": "UI",
-      "name": "TiyanakInfo",
-      "persistentUuid": "88e8492a-6b21-4a40-8e99-f352b5fb7a78",
-      "width": 1440,
-      "x": 45625,
-      "y": 372,
-      "zOrder": 133,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2113,9 +1808,9 @@
       "layer": "UI",
       "name": "Apolaki2",
       "persistentUuid": "52da91b7-7f6e-4610-9592-4713b6d66cb2",
-      "width": 798,
-      "x": 10951,
-      "y": 278,
+      "width": 726,
+      "x": 10982,
+      "y": 280,
       "zOrder": 168,
       "numberProperties": [],
       "stringProperties": [],
@@ -2147,8 +1842,8 @@
       "name": "Aswang2",
       "persistentUuid": "95b60643-ee88-4d7e-927c-bcf67d0ebe12",
       "width": 670,
-      "x": 13065,
-      "y": 281,
+      "x": 13095,
+      "y": 284,
       "zOrder": 169,
       "numberProperties": [],
       "stringProperties": [],
@@ -2180,8 +1875,8 @@
       "name": "Bakunawa2",
       "persistentUuid": "422ae730-c54d-480f-bfc9-ee0c27435884",
       "width": 570,
-      "x": 15225,
-      "y": 273,
+      "x": 15189,
+      "y": 270,
       "zOrder": 170,
       "numberProperties": [],
       "stringProperties": [],
@@ -2214,7 +1909,7 @@
       "persistentUuid": "3ed8db75-32c5-421d-8852-8351002b9018",
       "width": 576,
       "x": 17248,
-      "y": 288,
+      "y": 276,
       "zOrder": 171,
       "numberProperties": [],
       "stringProperties": [],
@@ -2240,7 +1935,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 384,
+      "height": 306,
       "keepRatio": true,
       "layer": "UI",
       "name": "Bantugan2",
@@ -2280,7 +1975,7 @@
       "persistentUuid": "7d351cab-5d61-4bae-9b28-dc36f22c5819",
       "width": 576,
       "x": 21374,
-      "y": 284,
+      "y": 288,
       "zOrder": 173,
       "numberProperties": [],
       "stringProperties": [],
@@ -2306,14 +2001,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 409,
+      "height": 232,
       "keepRatio": true,
       "layer": "UI",
       "name": "BernardoCarpio2",
       "persistentUuid": "75b6b18e-cc3c-4bd6-aa7b-04993196dd14",
       "width": 541,
-      "x": 23455,
-      "y": 318,
+      "x": 23426,
+      "y": 317,
       "zOrder": 174,
       "numberProperties": [],
       "stringProperties": [],
@@ -2339,14 +2034,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 133,
+      "height": 210,
       "keepRatio": true,
       "layer": "UI",
       "name": "Bungisngis2",
       "persistentUuid": "c532a44a-eb2a-477c-b840-82d7fa33c4ea",
       "width": 572,
       "x": 25490,
-      "y": 312,
+      "y": 320,
       "zOrder": 175,
       "numberProperties": [],
       "stringProperties": [],
@@ -2411,8 +2106,8 @@
       "name": "Lam_ang2",
       "persistentUuid": "1510c537-01e6-44be-a0a2-71bbee38ed25",
       "width": 558,
-      "x": 29579,
-      "y": 328,
+      "x": 29569,
+      "y": 320,
       "zOrder": 177,
       "numberProperties": [],
       "stringProperties": [],
@@ -2445,7 +2140,7 @@
       "persistentUuid": "b880a6ac-08da-4e4c-b755-73283da6dc59",
       "width": 593,
       "x": 31615,
-      "y": 336,
+      "y": 320,
       "zOrder": 178,
       "numberProperties": [],
       "stringProperties": [],
@@ -2471,14 +2166,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 284,
+      "height": 226,
       "keepRatio": true,
       "layer": "UI",
       "name": "Raja2",
       "persistentUuid": "b6931bdd-203b-4d96-99ec-aec61716aa27",
       "width": 660,
       "x": 33647,
-      "y": 325,
+      "y": 320,
       "zOrder": 179,
       "numberProperties": [],
       "stringProperties": [],
@@ -2575,7 +2270,7 @@
       "layer": "UI",
       "name": "Sitan2",
       "persistentUuid": "173ad383-361f-40dc-938f-2b6e32170ec9",
-      "width": 753,
+      "width": 675,
       "x": 39757,
       "y": 319,
       "zOrder": 182,
@@ -2610,7 +2305,7 @@
       "persistentUuid": "a40badc5-3501-4354-91aa-b86c3eadcd37",
       "width": 616,
       "x": 41823,
-      "y": 323,
+      "y": 320,
       "zOrder": 183,
       "numberProperties": [],
       "stringProperties": [],
@@ -2636,7 +2331,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 44,
+      "height": 315,
       "keepRatio": true,
       "layer": "UI",
       "name": "Tiktik2",
@@ -2678,6 +2373,615 @@
       "x": 45931,
       "y": 314,
       "zOrder": 185,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "AlunsinaTypes",
+      "persistentUuid": "0dcc0867-8ba3-47e9-9fde-a888da83874d",
+      "width": 214,
+      "x": 8970,
+      "y": 537,
+      "zOrder": 186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "AlunsinaDomain",
+      "persistentUuid": "3a1c6737-3ad9-414a-88c6-4d2f9cfe14d9",
+      "width": 0,
+      "x": 8970,
+      "y": 604,
+      "zOrder": 187,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ApolakiTypes2",
+      "persistentUuid": "99160432-63fc-4f26-892d-960f74213f45",
+      "width": 0,
+      "x": 10982,
+      "y": 537,
+      "zOrder": 188,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ApolakiDomain2",
+      "persistentUuid": "40e57e26-064e-4622-ae60-d66d7e11c515",
+      "width": 0,
+      "x": 10982,
+      "y": 604,
+      "zOrder": 189,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "AswangType",
+      "persistentUuid": "357866be-b5b1-4d44-b590-3a0a4f79aef0",
+      "width": 0,
+      "x": 13095,
+      "y": 537,
+      "zOrder": 190,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "AswangDomain",
+      "persistentUuid": "5c69493d-0f24-4bae-9702-9b324bb92e74",
+      "width": 0,
+      "x": 13095,
+      "y": 604,
+      "zOrder": 191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BakunawaType",
+      "persistentUuid": "583a6d55-29a8-4d01-b03e-5e90b2441ce1",
+      "width": 0,
+      "x": 15189,
+      "y": 614,
+      "zOrder": 192,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BakunawaTerrain",
+      "persistentUuid": "c5f12cae-a686-41f2-8b99-9bd42c096ec0",
+      "width": 0,
+      "x": 15189,
+      "y": 681,
+      "zOrder": 193,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BantongType",
+      "persistentUuid": "b0302e35-67bf-4d35-b5fc-2ada967b16ee",
+      "width": 0,
+      "x": 17248,
+      "y": 583,
+      "zOrder": 194,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BantongDomain",
+      "persistentUuid": "10d20d32-637d-4e6d-8855-5849153709cd",
+      "width": 0,
+      "x": 17248,
+      "y": 656,
+      "zOrder": 195,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BantuganType",
+      "persistentUuid": "55133c31-ec39-42ca-aa98-29ff697e8eb7",
+      "width": 0,
+      "x": 19318,
+      "y": 638,
+      "zOrder": 196,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BantuganDomain",
+      "persistentUuid": "543ce402-b447-4953-8b90-25c39fa7c2fd",
+      "width": 0,
+      "x": 19318,
+      "y": 694,
+      "zOrder": 197,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BerberokaType",
+      "persistentUuid": "0374c4bc-71e2-459f-993e-8200c6565b9b",
+      "width": 0,
+      "x": 21374,
+      "y": 597,
+      "zOrder": 198,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BerberokaTerrain",
+      "persistentUuid": "ce28ead1-4c64-4c16-83b2-c01ec5810212",
+      "width": 0,
+      "x": 21374,
+      "y": 661,
+      "zOrder": 199,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BernardoCarpioType",
+      "persistentUuid": "af665f88-53f8-4463-bdaf-a5ad8f15257c",
+      "width": 0,
+      "x": 23426,
+      "y": 576,
+      "zOrder": 200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BernardoCarpioDomain",
+      "persistentUuid": "b8f4eefa-6c31-44e8-bfde-13a3aa2eb636",
+      "width": 0,
+      "x": 23426,
+      "y": 647,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BungisngisType",
+      "persistentUuid": "f25193e0-3eaf-4cb7-a054-061cff670257",
+      "width": 0,
+      "x": 25490,
+      "y": 586,
+      "zOrder": 202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BernardoCarpioDomain3",
+      "persistentUuid": "d7ddd82a-4113-45cc-a115-724eb0a1c254",
+      "width": 0,
+      "x": 25490,
+      "y": 645,
+      "zOrder": 203,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "KapreType",
+      "persistentUuid": "abb8b6b0-215a-4ac0-be48-33b4b4d922ed",
+      "width": 0,
+      "x": 27487,
+      "y": 593,
+      "zOrder": 204,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BernardoCarpioDomain4",
+      "persistentUuid": "5d896f0b-1cd1-415f-a4ff-c579bc66c05f",
+      "width": 0,
+      "x": 27487,
+      "y": 670,
+      "zOrder": 205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "LamAngDomain",
+      "persistentUuid": "bde37cc0-c4e1-4916-b328-5bfe09cebf14",
+      "width": 0,
+      "x": 29569,
+      "y": 673,
+      "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "LamAngType",
+      "persistentUuid": "32961744-adb9-4809-b3b6-9af35d3c73b6",
+      "width": 0,
+      "x": 29569,
+      "y": 597,
+      "zOrder": 207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "UdujaType",
+      "persistentUuid": "df646b7f-0475-42df-aee0-6413b09bff1b",
+      "width": 0,
+      "x": 31615,
+      "y": 626,
+      "zOrder": 208,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "UrdujaDomain",
+      "persistentUuid": "639accc4-91d2-48f9-99c6-a779d8b12573",
+      "width": 0,
+      "x": 31615,
+      "y": 680,
+      "zOrder": 209,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "RajaType",
+      "persistentUuid": "6d3854ca-e6f0-440f-936a-2b0be3b52550",
+      "width": 0,
+      "x": 33647,
+      "y": 602,
+      "zOrder": 210,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "RajaDomain",
+      "persistentUuid": "024bb318-f609-43e6-9fab-15650d401e29",
+      "width": 0,
+      "x": 33647,
+      "y": 660,
+      "zOrder": 211,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SarimanokType",
+      "persistentUuid": "8deec549-206f-4b8f-8acf-defd002d9bba",
+      "width": 0,
+      "x": 35728,
+      "y": 620,
+      "zOrder": 212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SarimanokTerrain",
+      "persistentUuid": "367de793-647c-441f-8998-71eef7fe57db",
+      "width": 0,
+      "x": 35728,
+      "y": 684,
+      "zOrder": 213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SigbinType",
+      "persistentUuid": "5647c24b-8b07-4eac-8c28-28331e426eff",
+      "width": 0,
+      "x": 37728,
+      "y": 624,
+      "zOrder": 214,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SigbinTerrain",
+      "persistentUuid": "f94af932-1cad-4060-b3c4-daae872acc19",
+      "width": 0,
+      "x": 37728,
+      "y": 682,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SitanType",
+      "persistentUuid": "36c7381e-71de-4b4e-8109-be71dac07287",
+      "width": 0,
+      "x": 39757,
+      "y": 591,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SigbinTerrain2",
+      "persistentUuid": "2d460d45-c642-4e2e-9ad5-18ce907d8ca2",
+      "width": 0,
+      "x": 39757,
+      "y": 657,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TikbalangType",
+      "persistentUuid": "22f2b0d4-3536-4f3c-8ff1-1c84816a6c7d",
+      "width": 0,
+      "x": 41823,
+      "y": 617,
+      "zOrder": 218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TikbalangTerrain",
+      "persistentUuid": "9e882fa6-4f55-470d-9e83-aa9050137d90",
+      "width": 0,
+      "x": 41823,
+      "y": 683,
+      "zOrder": 219,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TiktikType",
+      "persistentUuid": "83d7656a-0134-4af5-8ad8-66d6cc2c1c08",
+      "width": 0,
+      "x": 43926,
+      "y": 657,
+      "zOrder": 220,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TiktikTerrain",
+      "persistentUuid": "6169712f-52f5-48a8-8226-5462143a2a25",
+      "width": 0,
+      "x": 43926,
+      "y": 722,
+      "zOrder": 221,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TiyanakType",
+      "persistentUuid": "3b673680-3142-445f-b3a7-6f5ec5fcb3f5",
+      "width": 0,
+      "x": 45931,
+      "y": 631,
+      "zOrder": 222,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "TiyanakTerrain",
+      "persistentUuid": "0b678ec4-614a-4d8f-8f22-7ca8a9a95dea",
+      "width": 0,
+      "x": 45931,
+      "y": 705,
+      "zOrder": 223,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -11371,7 +11675,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11390,7 +11694,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11409,7 +11713,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11428,7 +11732,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11447,7 +11751,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11466,7 +11770,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11485,7 +11789,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11504,7 +11808,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11523,7 +11827,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11542,7 +11846,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11561,7 +11865,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11580,7 +11884,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11599,7 +11903,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11618,7 +11922,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11637,7 +11941,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11656,7 +11960,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11675,7 +11979,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11694,7 +11998,7 @@
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
         "textureAtlasResourceName": "KinetWHite.png",
-        "align": "center",
+        "align": "left",
         "wordWrap": true
       }
     },
@@ -11709,6 +12013,728 @@
         "text": "Takes the form of a baby or young child, often luring unsuspecting individuals to help it before revealing its true nature as a vengeful spirit that attacks its victims.",
         "opacity": 255,
         "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "AlunsinaTypes",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "AlunsinaDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Skies",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ApolakiTypes2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ApolakiDomain2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Land, Skies",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "AswangType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Monster",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "AswangDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Cave",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BakunawaType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Boss",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BakunawaTerrain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Dark Forest",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BantongType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BantongDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Land",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BantuganType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BantuganDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Land",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BerberokaType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Monster",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BerberokaTerrain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Forest, Dark Forest",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BernardoCarpioType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BernardoCarpioDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Land",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BungisngisType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Land",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BernardoCarpioDomain3",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Cave, Dark Forest",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "KapreType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Monster",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BernardoCarpioDomain4",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Forest",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LamAngType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LamAngDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Land, Water",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "UdujaType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "UrdujaDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Land",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "RajaType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Hero",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "RajaDomain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Domain: Land, Water",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SarimanokType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Boss",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SarimanokTerrain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Forest",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SigbinType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Monster",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SigbinTerrain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Forest, Dark Forest, Cave",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SitanType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: Boss",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SigbinTerrain2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Cave",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TikbalangType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: monster",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TikbalangTerrain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Forest",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TiktikType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: monster",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TiktikTerrain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Dark Forest, Cave",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TiyanakType",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Type: monster",
+        "opacity": 255,
+        "scale": 0.4,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "KinetWHite.fnt",
+        "textureAtlasResourceName": "KinetWHite.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TiyanakTerrain",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Terrain: Forest, Dark Forest, Cave",
+        "opacity": 255,
+        "scale": 0.4,
         "fontSize": 20,
         "tint": "255;255;255",
         "bitmapFontResourceName": "KinetWHite.fnt",
@@ -12146,6 +13172,120 @@
       },
       {
         "objectName": "Tiyanak2"
+      },
+      {
+        "objectName": "AlunsinaTypes"
+      },
+      {
+        "objectName": "AlunsinaDomain"
+      },
+      {
+        "objectName": "ApolakiTypes2"
+      },
+      {
+        "objectName": "ApolakiDomain2"
+      },
+      {
+        "objectName": "AswangType"
+      },
+      {
+        "objectName": "AswangDomain"
+      },
+      {
+        "objectName": "BakunawaType"
+      },
+      {
+        "objectName": "BakunawaTerrain"
+      },
+      {
+        "objectName": "BantongType"
+      },
+      {
+        "objectName": "BantongDomain"
+      },
+      {
+        "objectName": "BantuganType"
+      },
+      {
+        "objectName": "BantuganDomain"
+      },
+      {
+        "objectName": "BerberokaType"
+      },
+      {
+        "objectName": "BerberokaTerrain"
+      },
+      {
+        "objectName": "BernardoCarpioType"
+      },
+      {
+        "objectName": "BernardoCarpioDomain"
+      },
+      {
+        "objectName": "BungisngisType"
+      },
+      {
+        "objectName": "BernardoCarpioDomain3"
+      },
+      {
+        "objectName": "KapreType"
+      },
+      {
+        "objectName": "BernardoCarpioDomain4"
+      },
+      {
+        "objectName": "LamAngType"
+      },
+      {
+        "objectName": "LamAngDomain"
+      },
+      {
+        "objectName": "UdujaType"
+      },
+      {
+        "objectName": "UrdujaDomain"
+      },
+      {
+        "objectName": "RajaType"
+      },
+      {
+        "objectName": "RajaDomain"
+      },
+      {
+        "objectName": "SarimanokType"
+      },
+      {
+        "objectName": "SarimanokTerrain"
+      },
+      {
+        "objectName": "SigbinType"
+      },
+      {
+        "objectName": "SigbinTerrain"
+      },
+      {
+        "objectName": "SitanType"
+      },
+      {
+        "objectName": "SigbinTerrain2"
+      },
+      {
+        "objectName": "TikbalangType"
+      },
+      {
+        "objectName": "TikbalangTerrain"
+      },
+      {
+        "objectName": "TiktikType"
+      },
+      {
+        "objectName": "TiktikTerrain"
+      },
+      {
+        "objectName": "TiyanakType"
+      },
+      {
+        "objectName": "TiyanakTerrain"
       }
     ]
   },
