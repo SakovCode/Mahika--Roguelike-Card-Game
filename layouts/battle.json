@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.26515387596043427,
+    "snap": false,
+    "zoomFactor": 0.5685495294107282,
     "windowMask": false
   },
   "objectsGroups": [
@@ -540,7 +540,7 @@
       "name": "New3DBox",
       "persistentUuid": "2676edb3-0416-48ab-b0ff-59361a881400",
       "width": 1920,
-      "x": 0,
+      "x": -1984,
       "y": -4,
       "z": -10,
       "zOrder": 23,
@@ -2851,6 +2851,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3253,7 +3254,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "UI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3388,6 +3388,48 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Hero",
+          "conditions": [
+            {
+              "type": {
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "HealthBar",
+                "Hero",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "HealthBar",
+                "=",
+                "Hero.X()+(Hero.Width()/2)",
+                "=",
+                "Hero.Y()-30"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "HealthBar",
+                "=",
+                "Hero.stats.HP",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -3397,7 +3439,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "AT THE BEGINNING",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3457,6 +3498,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "GENERATE CARD\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -3589,17 +3647,6 @@
                         },
                         {
                           "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "EnemySlot",
-                            "isVacant",
-                            "False",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "CreateByName"
                           },
                           "parameters": [
@@ -3663,6 +3710,17 @@
                             "Pathfinding",
                             "no"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "EnemySlot",
+                            "isVacant",
+                            "False",
+                            ""
+                          ]
                         }
                       ],
                       "events": [
@@ -3691,7 +3749,7 @@
                                 "",
                                 "HealthBar",
                                 "Enemy.X()+Enemy.Width()/2",
-                                "Enemy.Y()",
+                                "Enemy.Y()-50",
                                 ""
                               ]
                             },
@@ -3753,7 +3811,7 @@
                                 "HealthBar",
                                 "Resizable",
                                 "=",
-                                "100"
+                                "75"
                               ]
                             },
                             {
@@ -3763,20 +3821,10 @@
                               "parameters": [
                                 "HealthBar",
                                 "+",
-                                "30"
+                                "1000"
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": []
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": []
                         }
                       ]
                     }
@@ -4167,6 +4215,108 @@
                       "conditions": [
                         {
                           "type": {
+                            "inverted": true,
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "HeroTest",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "HeroTest.X()+HeroTest.Width()/2",
+                            "HeroTest.Y()-50",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "HeroTest"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "HeroTest",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "=",
+                            "HeroTest.stats.HP",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "=",
+                            "HeroTest.stats.HP",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "Resizable",
+                            "=",
+                            "75"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "+",
+                            "1000"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
                             "value": "PickNearest"
                           },
                           "parameters": [
@@ -4399,14 +4549,43 @@
               "parameters": [
                 ".5"
               ]
-            },
+            }
+          ],
+          "events": [
             {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Hero",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "HealthBar",
+                    "Hero",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Hero",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -10106,31 +10285,6 @@
                   },
                   "parameters": [
                     "",
-                    "Hero"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Hero",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
                     "Enemy"
                   ]
                 }
@@ -10144,6 +10298,63 @@
                     "Enemy",
                     "attackExecuted",
                     "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Hero",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "HealthBar",
+                    "Hero",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "RedExplosion",
+                    "CardSample.X()",
+                    "CardSample.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "RedExplosion.Duration()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "HealthBar",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Hero",
                     ""
                   ]
                 }

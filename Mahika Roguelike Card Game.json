@@ -1,22 +1,22 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 216,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "default",
     "packageName": "com.example.mahika",
-    "pixelsRounding": true,
+    "pixelsRounding": false,
     "projectUuid": "c5039278-c967-4176-8ae2-963a514d18ff",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -4684,16 +4684,21 @@
           "name": "isMoving",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "CardDeck",
+          "type": "structure",
+          "children": []
         }
       ],
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 9999,
+          "deceleration": 9999,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 800,
           "angularMaxSpeed": 999,
-          "deceleration": 9999,
           "movementAngleOffset": 0,
           "viewpoint": "TopDown",
           "maxSpeed": 200,
@@ -8059,6 +8064,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/dforestboss"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/model-test"
     }
   ],
   "externalEvents": [
@@ -8084,6 +8093,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectstack"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/objectpickingtools"

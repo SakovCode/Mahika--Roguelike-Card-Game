@@ -111,6 +111,14 @@
               "parameters": [
                 "SavePlayer"
               ]
+            },
+            {
+              "type": {
+                "value": "DeleteFichier"
+              },
+              "parameters": [
+                "\"Storage\""
+              ]
             }
           ],
           "events": [
@@ -119,7 +127,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "LEVEL",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -171,7 +178,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "SAVE TERRAIN",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -241,7 +247,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "SAVE ENEMIES",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",

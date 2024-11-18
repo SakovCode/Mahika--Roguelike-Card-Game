@@ -24,7 +24,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "LOAD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -34,6 +33,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "TERRAIN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -143,6 +143,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "ENEMY",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -252,6 +253,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "PLAYER",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -380,7 +382,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Generate Zones",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -447,6 +448,19 @@
                     "640",
                     ""
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "20",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             }

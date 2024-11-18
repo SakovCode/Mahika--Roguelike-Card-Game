@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.25650446087275597,
+    "zoomFactor": 0.7921344117998512,
     "windowMask": false
   },
   "objectsGroups": [
@@ -41,6 +41,10 @@
           "name": "Down"
         }
       ]
+    },
+    {
+      "name": "HeroCards",
+      "objects": []
     }
   ],
   "variables": [
@@ -614,6 +618,39 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DModel",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Alunsina(Card).glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -629,6 +666,9 @@
             "objectName": "ForestFloor"
           }
         ]
+      },
+      {
+        "objectName": "New3DModel"
       }
     ]
   },
@@ -660,6 +700,22 @@
         "includeConfig": 0
       },
       "target": "LvlEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "DebuggerTools::ConsoleLog"
+          },
+          "parameters": [
+            "\"SceneInstancesCount(ForestWall) = \"+ToString(SceneInstancesCount(ForestWall)) + NewLine() +\n\"PORTAL COUNT : \" + ToString(SceneInstancesCount(PortalLight))",
+            "\"info\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
