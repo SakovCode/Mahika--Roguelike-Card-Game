@@ -1292,8 +1292,8 @@
       "name": "Spawner",
       "persistentUuid": "d37f341d-9ada-4598-932a-4ca5a31782f9",
       "width": 0,
-      "x": 704,
-      "y": 576,
+      "x": 604,
+      "y": 384,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1358,7 +1358,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7662947015256395,
+    "zoomFactor": 0.40807287573669443,
     "windowMask": false
   }
 }

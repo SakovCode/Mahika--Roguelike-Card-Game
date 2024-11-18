@@ -1201,8 +1201,8 @@
       "name": "Spawner",
       "persistentUuid": "5df77d2d-e968-4653-8e9d-d9330b67f480",
       "width": 0,
-      "x": 704,
-      "y": 640,
+      "x": 896,
+      "y": 512,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -1217,8 +1217,8 @@
       "name": "Spawner",
       "persistentUuid": "ea3e91e0-0eb3-42e6-abf2-c91b31430cdc",
       "width": 0,
-      "x": 476,
-      "y": 732,
+      "x": 348,
+      "y": 924,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1235,7 +1235,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7662947015256395,
+    "zoomFactor": 0.4507615891327295,
     "windowMask": false
   }
 }

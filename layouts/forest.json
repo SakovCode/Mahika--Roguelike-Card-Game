@@ -18,7 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
+<<<<<<< Updated upstream
     "zoomFactor": 0.7921344117998512,
+=======
+    "zoomFactor": 0.27409495217987984,
+>>>>>>> Stashed changes
     "windowMask": false
   },
   "objectsGroups": [
@@ -621,6 +625,7 @@
     },
     {
       "assetStoreId": "",
+<<<<<<< Updated upstream
       "name": "New3DModel",
       "type": "Scene3D::Model3DObject",
       "variables": [],
@@ -651,6 +656,16 @@
           }
         ]
       }
+=======
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -664,6 +679,9 @@
           },
           {
             "objectName": "ForestFloor"
+          },
+          {
+            "objectName": "NewTiledSprite"
           }
         ]
       },

@@ -1245,8 +1245,8 @@
       "name": "Spawner",
       "persistentUuid": "c39eba50-3766-4fe7-8c88-3cacb5886e6d",
       "width": 0,
-      "x": 384,
-      "y": 704,
+      "x": 341,
+      "y": 758,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -1261,8 +1261,8 @@
       "name": "Spawner",
       "persistentUuid": "61731adb-c41a-4e62-bc2e-bc6a70b9c6bc",
       "width": 0,
-      "x": 412,
-      "y": 156,
+      "x": 390,
+      "y": 78,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -1293,8 +1293,8 @@
       "name": "Spawner",
       "persistentUuid": "ff3897c0-c62c-4cde-9d5d-3da15a283776",
       "width": 0,
-      "x": 704,
-      "y": 540,
+      "x": 184,
+      "y": 639,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1302,7 +1302,7 @@
     }
   ],
   "editionSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -1310,8 +1310,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.6075393603116693,
+    "snap": false,
+    "zoomFactor": 0.3818841323241251,
     "windowMask": false
   }
 }
