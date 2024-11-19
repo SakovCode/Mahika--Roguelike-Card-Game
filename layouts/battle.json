@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.36942693416360484,
+    "zoomFactor": 0.28333752444070753,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2434,92 +2434,6 @@
       }
     },
     {
-      "assetStoreId": "17a00ca25428306c8db067b2dd8379e9fe1cb562c10443ae2f65f3d561e54f1e",
-      "name": "HealthBar",
-      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "PreviousHighValueDuration": 1,
-        "InitialValue": 0,
-        "MaxValue": 100,
-        "BarTopPadding": 7,
-        "BarLeftPadding": 9,
-        "BarBottomPadding": 7,
-        "BarRightPadding": 9,
-        "ShowLabel": true
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 7,
-          "height": 32,
-          "leftMargin": 9,
-          "rightMargin": 9,
-          "texture": "Metal Bar Border.png",
-          "tiled": false,
-          "topMargin": 7,
-          "width": 98
-        },
-        "Buffer": {
-          "bottomMargin": 0,
-          "height": 18,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Pixel Yellow Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 18
-        },
-        "FillBar": {
-          "bottomMargin": 0,
-          "height": 18,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Pixel Red Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 18
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "8 / 16",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 14,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "8 / 16",
-            "font": "",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 14,
-            "color": "255;255;255"
-          }
-        }
-      }
-    },
-    {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
       "name": "EndTurnButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -2940,6 +2854,91 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
+      "name": "HealthBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 8,
+        "MaxValue": 16,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 8,
+          "height": 35,
+          "leftMargin": 10,
+          "rightMargin": 10,
+          "texture": "Wood Bar Border.png",
+          "tiled": true,
+          "topMargin": 8,
+          "width": 397
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Shaded Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 9,
+          "height": 19,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Shaded Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 9,
+          "width": 19
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "8 / 16",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "color": "255;255;255"
+          }
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3036,9 +3035,6 @@
         "objectName": "CardAlunsina"
       },
       {
-        "objectName": "HealthBar"
-      },
-      {
         "objectName": "EndTurnButton"
       },
       {
@@ -3052,6 +3048,9 @@
       },
       {
         "objectName": "ManaBar"
+      },
+      {
+        "objectName": "HealthBar"
       }
     ]
   },
@@ -4269,7 +4268,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "CARD DROPPED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
