@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -4362,19 +4362,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -4723,6 +4723,7 @@
         "text": "Are you sure you want to quit?",
         "font": "NTBrickSans11.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4913,6 +4914,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -5150,6 +5152,7 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -5275,6 +5278,7 @@
         "text": "Music",
         "font": "NTBrickSans2.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5316,6 +5320,7 @@
         "text": "Sound",
         "font": "NTBrickSans3.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5357,6 +5362,7 @@
         "text": "BGM",
         "font": "NTBrickSans4.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5560,9 +5566,9 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior",
-          "isFolded": true
+          "type": "Lighting::LightObstacleBehavior"
         },
         {
           "name": "PathfindingObstacle",
@@ -6385,10 +6391,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 9999,
-          "maxSpeed": 300,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
+          "maxSpeed": 300,
           "angleOffset": 0,
           "allowDiagonals": true,
           "angularMaxSpeed": 360,
@@ -6495,10 +6501,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 9999,
-          "maxSpeed": 400,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
+          "maxSpeed": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -7065,10 +7071,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 9999,
-          "maxSpeed": 300,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
+          "maxSpeed": 300,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -7180,10 +7186,10 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 9999,
-          "maxSpeed": 500,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
+          "maxSpeed": 500,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -7528,6 +7534,7 @@
         "text": "Skip >>",
         "font": "NTBrickSans6.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 34,
         "color": "0;0;0"
       }
@@ -7610,6 +7617,7 @@
             "text": "RESUME",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7704,6 +7712,7 @@
             "text": "OPTIONS",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7798,6 +7807,7 @@
             "text": "EXIT TO\nMAIN MENU",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7892,6 +7902,7 @@
             "text": "SAVE & QUIT",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7986,6 +7997,7 @@
             "text": "SAVE",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8080,6 +8092,7 @@
             "text": "YES",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8174,6 +8187,7 @@
             "text": "NO",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8268,6 +8282,7 @@
             "text": "BACK",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8321,6 +8336,7 @@
         "text": "OBJECTIVES:",
         "font": "NTBrickSans10.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }

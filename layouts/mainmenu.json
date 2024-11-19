@@ -9,7 +9,7 @@
   "title": "",
   "v": 206,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.3235313168576559,
+    "snap": false,
+    "zoomFactor": 0.25650446087276724,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3846,14 +3846,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 27,
+      "height": 140,
       "keepRatio": true,
       "layer": "UI",
       "name": "PlayerText2",
       "persistentUuid": "80bdafe4-a2f7-471f-bd22-a8cde2e5187b",
-      "width": 130,
+      "width": 213,
       "x": -3106,
-      "y": 434,
+      "y": 373,
       "zOrder": 265,
       "numberProperties": [],
       "stringProperties": [],
@@ -3885,8 +3885,8 @@
       "name": "ControlsText",
       "persistentUuid": "c98be0b5-ad08-426d-b070-424c1a83001c",
       "width": 0,
-      "x": -5253,
-      "y": 736,
+      "x": -5307,
+      "y": 741,
       "zOrder": 266,
       "numberProperties": [],
       "stringProperties": [],
@@ -4447,6 +4447,7 @@
         "text": "MAHIKA:",
         "font": "NTBrickSans8.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 130,
         "color": "255;255;255"
       }
@@ -4488,6 +4489,7 @@
         "text": "Roguelike Card Game",
         "font": "NTBrickSans9.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -4618,6 +4620,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -12105,6 +12108,7 @@
             "text": "START",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12199,6 +12203,7 @@
             "text": "ENGKANTOPEDIA",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12293,6 +12298,7 @@
             "text": "CREDITS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12387,6 +12393,7 @@
             "text": "OPTIONS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12481,6 +12488,7 @@
             "text": "EXIT",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12575,6 +12583,7 @@
             "text": "NEW GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12669,6 +12678,7 @@
             "text": "LOAD GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12763,6 +12773,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12857,6 +12868,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12951,6 +12963,7 @@
             "text": "TUTORIALS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -14272,6 +14285,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -14354,6 +14368,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -14626,16 +14641,16 @@
       "textAlignment": "left",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -14647,8 +14662,9 @@
         "text": "PLAYER\nThe character that \nyou are controlling \nthroughout the game",
         "font": "NTBrickSans14.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -15086,16 +15102,16 @@
       "textAlignment": "left",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -15107,8 +15123,9 @@
         "text": "CONTROLS\nMove the player using \nWASD or up, left, down, \n& right keys",
         "font": "NTBrickSans15.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -15366,16 +15383,16 @@
       "textAlignment": "center",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -15387,8 +15404,9 @@
         "text": "W",
         "font": "NTBrickSans16.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -15407,16 +15425,16 @@
       "textAlignment": "center",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -15428,8 +15446,9 @@
         "text": "A",
         "font": "NTBrickSans17.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -15448,16 +15467,16 @@
       "textAlignment": "center",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -15469,8 +15488,9 @@
         "text": "S",
         "font": "NTBrickSans18.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -15489,16 +15509,16 @@
       "textAlignment": "left",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -15510,8 +15530,9 @@
         "text": "D",
         "font": "NTBrickSans19.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -15794,16 +15815,16 @@
       "textAlignment": "left",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -15815,8 +15836,9 @@
         "text": "OBJECTIVES\nGuide for your quest \n& lists of what you \nshould do in game",
         "font": "NTBrickSans20.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -16134,16 +16156,16 @@
       "textAlignment": "left",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -16155,8 +16177,9 @@
         "text": "NAVIGATION\nObserve carefully for \nEngkantos inside \nthe map",
         "font": "NTBrickSans21.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -16412,7 +16435,7 @@
       "string": "Player you are controlling",
       "font": "NTBrickSans22.otf",
       "textAlignment": "left",
-      "characterSize": 15,
+      "characterSize": 25,
       "color": {
         "b": 0,
         "g": 0,
@@ -16435,7 +16458,8 @@
         "text": "Player you are controlling",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "characterSize": 15,
+        "verticalTextAlignment": "top",
+        "characterSize": 25,
         "color": "0;0;0"
       }
     },
@@ -16453,7 +16477,7 @@
       "string": "Guide for\ncontrol keys",
       "font": "NTBrickSans22.otf",
       "textAlignment": "left",
-      "characterSize": 15,
+      "characterSize": 25,
       "color": {
         "b": 0,
         "g": 0,
@@ -16476,7 +16500,8 @@
         "text": "Guide for\ncontrol keys",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "characterSize": 15,
+        "verticalTextAlignment": "top",
+        "characterSize": 25,
         "color": "0;0;0"
       }
     },
@@ -16494,7 +16519,7 @@
       "string": "An Engkanto is about to \nengage the player & will \ntake to the Battle scene",
       "font": "NTBrickSans22.otf",
       "textAlignment": "left",
-      "characterSize": 15,
+      "characterSize": 25,
       "color": {
         "b": 0,
         "g": 0,
@@ -16517,7 +16542,8 @@
         "text": "An Engkanto is about to \nengage the player & will \ntake to the Battle scene",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "characterSize": 15,
+        "verticalTextAlignment": "top",
+        "characterSize": 25,
         "color": "0;0;0"
       }
     },
@@ -16738,6 +16764,7 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16779,6 +16806,7 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16820,6 +16848,7 @@
         "text": "Monsters with HP,\nattacks the enemies\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16861,6 +16890,7 @@
         "text": "Heroes with HP,\nattacks the monsters\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16902,6 +16932,7 @@
         "text": "Allows player to conclude \ncurrent turn & pass the \ninitiative to opponent",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16943,6 +16974,7 @@
         "text": "Hero cards that the \nplayer can summon",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16984,6 +17016,7 @@
         "text": "This represents \nthe player's HP",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17025,6 +17058,7 @@
         "text": "This represents \nmana. Each card \nhas mana cost",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17165,16 +17199,16 @@
       "textAlignment": "left",
       "characterSize": 17,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
         "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 1,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -17186,8 +17220,9 @@
         "text": "BATTLE SCENE\nThis where the battle \ntakes place after you \nencounter an Engkanto",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -17387,6 +17422,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }

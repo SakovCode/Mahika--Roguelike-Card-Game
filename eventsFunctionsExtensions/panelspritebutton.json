@@ -1218,6 +1218,7 @@
       "defaultName": "Button",
       "description": "A button that can be customized.",
       "fullName": "Button (panel sprite)",
+      "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteButton",
       "eventsFunctions": [
         {
@@ -2625,6 +2626,7 @@
             "text": "Text",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
