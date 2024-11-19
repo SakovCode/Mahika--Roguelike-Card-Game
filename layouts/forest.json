@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6075393603116915,
+    "zoomFactor": 0.2102212319417622,
     "windowMask": false
   },
   "objectsGroups": [
@@ -216,23 +216,6 @@
       "x": 7248,
       "y": 462,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 22,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BronzeGreenBar",
-      "persistentUuid": "118be776-7f97-4f1d-bc0b-2109ba81f395",
-      "width": 768,
-      "x": 576,
-      "y": 106,
-      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -515,10 +498,10 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "Objectives",
+      "name": "Objectives_",
       "persistentUuid": "cbd1365e-cde4-42d9-a18a-7b1664300442",
       "width": 0,
-      "x": 59,
+      "x": 64,
       "y": 192,
       "zOrder": 121,
       "numberProperties": [],
@@ -569,6 +552,39 @@
       "x": 5216,
       "y": 704,
       "zOrder": 125,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 37.5,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "WoodRedBar",
+      "persistentUuid": "b6b98eac-a5fb-4a3d-8986-92ba46884bec",
+      "width": 160.15625,
+      "x": 115,
+      "y": 960,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ObjectivesContent",
+      "persistentUuid": "c345312e-146e-4a67-9401-adbdcb0f2932",
+      "width": 0,
+      "x": 64,
+      "y": 231,
+      "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -651,11 +667,144 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
+      "name": "WoodRedBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 100,
+        "MaxValue": 100,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 8,
+          "height": 35,
+          "leftMargin": 10,
+          "rightMargin": 10,
+          "texture": "Wood Bar Border.png",
+          "tiled": true,
+          "topMargin": 8,
+          "width": 397
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Shaded Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 9,
+          "height": 19,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Shaded Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 9,
+          "width": 19
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "8 / 16",
+            "font": "",
+            "textAlignment": "center",
+            "characterSize": 16,
+            "color": "255;255;255"
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ObjectivesContent",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": " - Find a way out\n - Defeat the Engkantos",
+      "font": "NTBrickSans13.otf",
+      "textAlignment": "left",
+      "characterSize": 17,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": " - Find a way out\n - Defeat the Engkantos",
+        "font": "NTBrickSans13.otf",
+        "textAlignment": "left",
+        "characterSize": 17,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "NewFolder",
+        "children": [
+          {
+            "folderName": "NewFolder"
+          }
+        ]
+      },
       {
         "folderName": "Terrain",
         "children": [
@@ -669,6 +818,12 @@
       },
       {
         "objectName": "New3DModel"
+      },
+      {
+        "objectName": "WoodRedBar"
+      },
+      {
+        "objectName": "ObjectivesContent"
       }
     ]
   },

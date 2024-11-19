@@ -534,14 +534,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1092,
+      "height": 1568,
       "keepRatio": true,
       "layer": "",
       "name": "New3DBox",
       "persistentUuid": "2676edb3-0416-48ab-b0ff-59361a881400",
       "width": 1920,
       "x": 0,
-      "y": 0,
+      "y": -320,
       "z": -10,
       "zOrder": 23,
       "numberProperties": [],
@@ -1792,7 +1792,6 @@
         "text": "MANA : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "0;175;255"
       }
@@ -1834,7 +1833,6 @@
         "text": "HEALTH : ",
         "font": "",
         "textAlignment": "right",
-        "verticalTextAlignment": "top",
         "characterSize": 40,
         "color": "255;9;0"
       }
@@ -2023,7 +2021,6 @@
             "text": "RELOAD",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2050,19 +2047,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 17,
+        "b": 17,
         "g": 17,
-        "b": 17
+        "r": 17
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
@@ -2131,7 +2128,6 @@
             "text": "END BATTLE",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 22,
             "color": "255;255;255"
           }
@@ -2215,7 +2211,6 @@
             "text": "TRY\n",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "255;255;255"
           }
@@ -2299,7 +2294,6 @@
             "text": "EXIT TO MAIN MENU",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 15,
             "color": "255;255;255"
           }
@@ -2416,7 +2410,6 @@
             "text": "SPAWN RANDOM ENEMY",
             "font": "ArchitectsDaughter.ttf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2500,7 +2493,6 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2584,7 +2576,6 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2668,7 +2659,6 @@
             "text": "END BATTLE",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "0;0;0"
           }
@@ -2763,7 +2753,6 @@
             "text": "100/100",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2848,7 +2837,6 @@
             "text": "3/3",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2933,7 +2921,6 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -3473,6 +3460,22 @@
           "actions": [
             {
               "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
                 "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
               },
               "parameters": [
@@ -3649,6 +3652,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "AT THE BEGINNING",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4268,6 +4272,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "CARD DROPPED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4713,6 +4718,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4896,6 +4902,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "HERO TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5018,6 +5025,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "HeroTargeting/Attacking/DMG calculation",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -10401,6 +10409,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "END OF ROUND",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

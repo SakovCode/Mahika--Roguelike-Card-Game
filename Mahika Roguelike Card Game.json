@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -3693,6 +3693,352 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/efb17aade7ab227ae611ea6c681413bedfaecd4b661b793675b1dd59ca941d2e_Shaded Blue Fill Bar.png",
           "name": "Shaded Blue Fill Bar.png"
         }
+      },
+      {
+        "file": "NTBrickSans12.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans12.otf",
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans13.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans13.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-19 184842.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-19 184842.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans14.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans14.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
+          "name": "Arrow_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/3cf71e7f385362363c3d97f63fbefc113019cdab6e2bc8638fce270de173225d_Arrow_Shadow.png",
+          "name": "Arrow_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-19 190322.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-19 190322.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Directional Arrow Straight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Directional Arrow Straight.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Arrows/8ffcc15d22436376a80c3e83499c0f917e954d5854c5c0690f3d5c889377edaf_Directional Arrow Straight.png",
+          "name": "Directional Arrow Straight.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Directional Arrow Quarter Circle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Directional Arrow Quarter Circle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Arrows/4a68e1a9523f238f13781dda0b378594f9774da92967cad736ecc9b41244c5ef_Directional Arrow Quarter Circle.png",
+          "name": "Directional Arrow Quarter Circle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square joystick outer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square joystick outer.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Line Light/12f2bcfb5a80e71d3fa37e7ab444a2b2e31d7bcf789f1558b2364b0707312e76_Square joystick outer.png",
+          "name": "Square joystick outer.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/D-pad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "D-pad.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/abcf22fa0891ca4dd898c201b2f5a8e41e547b267ff917d69a3c75f641206406_D-pad.png",
+          "name": "D-pad.png"
+        }
+      },
+      {
+        "file": "NTBrickSans15.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans15.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Wide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Wide.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/Blanks/a9b0648fd337abcc58feabfdaf6964eed0eaf28a93cb23d7d8697c519309c026_Blank Wide.png",
+          "name": "Blank Wide.png"
+        }
+      },
+      {
+        "file": "NTBrickSans16.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans16.otf",
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans17.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans17.otf",
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans18.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans18.otf",
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans19.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans19.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Down.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f06cea76ad61e4faaf5402f71ac03f11e633d8d2c545ca5cf520787f57b89107_Arrow Key_Down.png",
+          "name": "Arrow Key_Down.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6e91d466fa9c499770ed63a04843a82e5b1a2a78d786478017540773f48dd8c3_Arrow Key_Left.png",
+          "name": "Arrow Key_Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f05350dd2750fd1fdcd279f7fb7bd2fa980165ed9816391d885fc57e28189d2c_Arrow Key_Right.png",
+          "name": "Arrow Key_Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow Key_Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrow Key_Up.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/8ab56f2c1d8881a7e29b061847a91f2013f2020a1a69a2e2c91101a9ae1de692_Arrow Key_Up.png",
+          "name": "Arrow Key_Up.png"
+        }
+      },
+      {
+        "file": "assets/Chest Gold.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Chest Gold.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Pirate Kit/Prop/1598fecd224883a7f889e66a392a213ed118302ba14d50ea921eb24fe52ba2e1_Chest Gold.glb",
+          "name": "Chest Gold.glb"
+        }
+      },
+      {
+        "file": "assets/arrows.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "arrows.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Kit/sign/b99828e628efaeaa77377ea52bf7010e5a09f1c9e03c9a93b8f652f2bf6c700a_arrows.glb",
+          "name": "arrows.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green arrow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/e786f19060320e19fab4910f800b4b9b8503e72a642402a9bf2d701c10340dd4_Green arrow.png",
+          "name": "Green arrow.png"
+        }
+      },
+      {
+        "file": "NTBrickSans20.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans20.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-19 204041.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-19 204041.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ArrowSign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ArrowSign.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/Objects/0895d46773c3f70e6d9d3bca4796d7a624cf6df8072174d4ae094cb59427bbe5_ArrowSign.png",
+          "name": "ArrowSign.png"
+        }
+      },
+      {
+        "file": "NTBrickSans21.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans21.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-19 211257.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-19 211257.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans22.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans22.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-19 215103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-19 215103.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans23.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans23.otf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze shield.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze shield.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/c45b123fddb1bb82eb625ced53a065fc59014a9e58d09afdab563d09ce52b2e0_Bronze shield.png",
+          "name": "Bronze shield.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Axe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Axe.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/7698c8153bd2775cc59aaea5004f625105b9aed3216b8cdae73168350947eb06_Axe.png",
+          "name": "Axe.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -4016,19 +4362,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -4377,7 +4723,6 @@
         "text": "Are you sure you want to quit?",
         "font": "NTBrickSans11.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4568,7 +4913,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4806,7 +5150,6 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4932,7 +5275,6 @@
         "text": "Music",
         "font": "NTBrickSans2.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4974,7 +5316,6 @@
         "text": "Sound",
         "font": "NTBrickSans3.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5016,7 +5357,6 @@
         "text": "BGM",
         "font": "NTBrickSans4.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5220,9 +5560,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
+          "type": "Lighting::LightObstacleBehavior",
+          "isFolded": true
         },
         {
           "name": "PathfindingObstacle",
@@ -6045,11 +6385,11 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 9999,
+          "maxSpeed": 300,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
           "angleOffset": 0,
-          "acceleration": 9999,
-          "maxSpeed": 300,
           "allowDiagonals": true,
           "angularMaxSpeed": 360,
           "cellHeight": 20,
@@ -6155,10 +6495,10 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 9999,
+          "maxSpeed": 400,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "maxSpeed": 400,
-          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6725,10 +7065,10 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 9999,
+          "maxSpeed": 300,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "maxSpeed": 300,
-          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -6840,10 +7180,10 @@
       "effects": [],
       "behaviors": [
         {
+          "acceleration": 9999,
+          "maxSpeed": 500,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "maxSpeed": 500,
-          "acceleration": 9999,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 360,
@@ -7188,7 +7528,6 @@
         "text": "Skip >>",
         "font": "NTBrickSans6.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 34,
         "color": "0;0;0"
       }
@@ -7271,7 +7610,6 @@
             "text": "RESUME",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7366,7 +7704,6 @@
             "text": "OPTIONS",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7461,7 +7798,6 @@
             "text": "EXIT TO\nMAIN MENU",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7556,7 +7892,6 @@
             "text": "SAVE & QUIT",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7651,7 +7986,6 @@
             "text": "SAVE",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7746,7 +8080,6 @@
             "text": "YES",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7841,7 +8174,6 @@
             "text": "NO",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7936,7 +8268,6 @@
             "text": "BACK",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7957,7 +8288,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Objectives",
+      "name": "Objectives_",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -7990,7 +8321,6 @@
         "text": "OBJECTIVES:",
         "font": "NTBrickSans10.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -8208,7 +8538,7 @@
         "objectName": "cam"
       },
       {
-        "objectName": "Objectives"
+        "objectName": "Objectives_"
       }
     ]
   },
