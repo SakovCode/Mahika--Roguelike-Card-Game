@@ -521,6 +521,61 @@
         "width": 64,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "RockBoulder",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\rockboulder.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Chess1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 32,
+        "animations": [
+          {
+            "loop": false,
+            "name": "no action",
+            "source": "no action"
+          },
+          {
+            "loop": false,
+            "name": "open",
+            "source": "open"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -531,6 +586,12 @@
       },
       {
         "objectName": "CaveWall"
+      },
+      {
+        "objectName": "RockBoulder"
+      },
+      {
+        "objectName": "Chess1"
       }
     ]
   },
