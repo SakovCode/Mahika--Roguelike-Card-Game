@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 216,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -3321,6 +3321,339 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Apolaki.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apolaki.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Aswang.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Aswang.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Copy of Bakunawa(1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copy of Bakunawa(1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bantong.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bantong.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bantugan.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bantugan.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Berberoka.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Berberoka.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bungisngis.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bungisngis.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Kapre.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Kapre.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lam-Ang.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lam-Ang.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Princess Urduja.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Princess Urduja.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Raja.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Raja.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sarimanok(1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sarimanok(1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sigbin.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sigbin.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tikbalang.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tikbalang.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sitan(1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sitan(1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Alunsina.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Alunsina.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tiyanak.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiyanak.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tiktik.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiktik.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Apolaki.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Apolaki.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Aswang.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Aswang.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Copy of Bakunawa(1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Copy of Bakunawa(1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Bantong.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Bantong.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Bantugan.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Bantugan.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Berberoka.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Berberoka.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Bungisngis.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Bungisngis.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Kapre.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Kapre.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Lam-Ang.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Lam-Ang.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Princess Urduja.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Princess Urduja.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Raja.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Raja.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Sarimanok(1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Sarimanok(1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Sigbin.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Sigbin.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Tikbalang.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Tikbalang.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Tiktik.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Tiktik.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Tiyanak.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Tiyanak.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Sitan(1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Sitan(1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Alunsina.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Alunsina.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cards/Bernardo Carpio.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cards\\Bernardo Carpio.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3644,19 +3977,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -4005,7 +4338,6 @@
         "text": "Are you sure you want to quit?",
         "font": "NTBrickSans11.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4196,7 +4528,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -4434,7 +4765,6 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
@@ -4560,7 +4890,6 @@
         "text": "Music",
         "font": "NTBrickSans2.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4602,7 +4931,6 @@
         "text": "Sound",
         "font": "NTBrickSans3.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4644,7 +4972,6 @@
         "text": "BGM",
         "font": "NTBrickSans4.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -4848,9 +5175,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
+          "type": "Lighting::LightObstacleBehavior",
+          "isFolded": true
         },
         {
           "name": "PathfindingObstacle",
@@ -6816,7 +7143,6 @@
         "text": "Skip >>",
         "font": "NTBrickSans6.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 34,
         "color": "0;0;0"
       }
@@ -6899,7 +7225,6 @@
             "text": "RESUME",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -6994,7 +7319,6 @@
             "text": "OPTIONS",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7089,7 +7413,6 @@
             "text": "EXIT TO\nMAIN MENU",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7184,7 +7507,6 @@
             "text": "SAVE & QUIT",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7279,7 +7601,6 @@
             "text": "SAVE",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7374,7 +7695,6 @@
             "text": "YES",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7469,7 +7789,6 @@
             "text": "NO",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7564,7 +7883,6 @@
             "text": "BACK",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7618,7 +7936,6 @@
         "text": "OBJECTIVES:",
         "font": "NTBrickSans10.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }

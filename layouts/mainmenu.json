@@ -9,7 +9,7 @@
   "title": "",
   "v": 206,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.43605758348370255,
+    "snap": true,
+    "zoomFactor": 0.2481371928255068,
     "windowMask": false
   },
   "objectsGroups": [
@@ -164,7 +164,7 @@
       "width": 672,
       "x": 640,
       "y": -2,
-      "zOrder": 2,
+      "zOrder": 232,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -178,9 +178,9 @@
       "name": "under_title",
       "persistentUuid": "26b1c7b4-0f13-49c5-96ef-0be741cd44f8",
       "width": 0,
-      "x": 628,
+      "x": 633,
       "y": 159,
-      "zOrder": 3,
+      "zOrder": 233,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3076,6 +3076,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "layer": "UI",
+      "name": "NewSprite",
+      "persistentUuid": "f5657d16-b755-4dad-9ec2-5dcedcecfcf4",
+      "width": 736,
+      "x": 608,
+      "y": 32,
+      "zOrder": 225,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3176,7 +3192,6 @@
         "text": "MAHIKA:",
         "font": "NTBrickSans8.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 130,
         "color": "255;255;255"
       }
@@ -3218,7 +3233,6 @@
         "text": "Roguelike Card Game",
         "font": "NTBrickSans9.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -3349,7 +3363,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -3871,7 +3884,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ALUNSINA CARD.jpg",
+                  "image": "Cards\\Alunsina.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4004,7 +4017,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ALUNSINA CARD.jpg",
+                  "image": "Cards\\Alunsina.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5209,7 +5222,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "APOLAKI CARD.jpg",
+                  "image": "Cards\\Apolaki.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5269,7 +5282,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "APOLAKI CARD.jpg",
+                  "image": "Cards\\Apolaki.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5449,7 +5462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ASWANG CARD.jpg",
+                  "image": "Cards\\Aswang.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5629,7 +5642,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BAKUNAWA CARD.jpg",
+                  "image": "Cards\\Copy of Bakunawa(1).jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5809,7 +5822,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BANTONG CARD.jpg",
+                  "image": "Cards\\Bantong.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5989,7 +6002,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BANTUGAN CARD.jpg",
+                  "image": "Cards\\Bantugan.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6169,7 +6182,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BERBEROKA CARD.jpg",
+                  "image": "Cards\\Berberoka.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6349,7 +6362,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BERNARDO CARPIO CARD.jpg",
+                  "image": "Cards\\Bernardo Carpio.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6529,7 +6542,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BUNGISNGIS CARD.jpg",
+                  "image": "Cards\\Bungisngis.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6709,7 +6722,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "KAPRE CARD.jpg",
+                  "image": "Cards\\Kapre.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6889,7 +6902,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "LAM-ANG CARD.jpg",
+                  "image": "Cards\\Lam-Ang.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7069,7 +7082,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "PRINCESS URDAJA CARD.jpg",
+                  "image": "Cards\\Princess Urduja.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7249,7 +7262,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "RAJA CARD.jpg",
+                  "image": "Cards\\Raja.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7429,7 +7442,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SARIMANOK CARD.jpg",
+                  "image": "Cards\\Sarimanok(1).jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7609,7 +7622,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SIGBIN CARD.jpg",
+                  "image": "Cards\\Sigbin.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7789,7 +7802,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SITAN CARD (1).jpg",
+                  "image": "Cards\\Sitan(1).jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7969,7 +7982,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TIKBALANG CARD.jpg",
+                  "image": "Cards\\Tikbalang.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8149,7 +8162,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TIKTIK CARD.jpg",
+                  "image": "Cards\\Tiktik.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8329,7 +8342,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TIYANAK CARD.jpg",
+                  "image": "Cards\\Tiyanak.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8574,7 +8587,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "ASWANG CARD.jpg",
+                  "image": "Cards\\Aswang.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8699,7 +8712,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BAKUNAWA CARD.jpg",
+                  "image": "Cards\\Copy of Bakunawa(1).jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8824,7 +8837,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BANTONG CARD.jpg",
+                  "image": "Cards\\Bantong.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8949,7 +8962,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BANTUGAN CARD.jpg",
+                  "image": "Cards\\Bantugan.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9074,7 +9087,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BERBEROKA CARD.jpg",
+                  "image": "Cards\\Berberoka.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9199,7 +9212,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BERNARDO CARPIO CARD.jpg",
+                  "image": "Cards\\Bernardo Carpio.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9324,7 +9337,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "BUNGISNGIS CARD.jpg",
+                  "image": "Cards\\Bungisngis.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9449,7 +9462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "KAPRE CARD.jpg",
+                  "image": "Cards\\Kapre.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9574,7 +9587,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "LAM-ANG CARD.jpg",
+                  "image": "Cards\\Lam-Ang.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9699,7 +9712,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "PRINCESS URDAJA CARD.jpg",
+                  "image": "Cards\\Princess Urduja.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9824,7 +9837,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "RAJA CARD.jpg",
+                  "image": "Cards\\Raja.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9949,7 +9962,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SARIMANOK CARD.jpg",
+                  "image": "Cards\\Sarimanok(1).jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10074,7 +10087,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SIGBIN CARD.jpg",
+                  "image": "Cards\\Sigbin.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10199,7 +10212,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "SITAN CARD (1).jpg",
+                  "image": "Cards\\Sitan(1).jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10324,7 +10337,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TIKBALANG CARD.jpg",
+                  "image": "Cards\\Tikbalang.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10449,7 +10462,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TIKTIK CARD.jpg",
+                  "image": "Cards\\Tiktik.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10574,7 +10587,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TIYANAK CARD.jpg",
+                  "image": "Cards\\Tiyanak.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -10837,7 +10850,6 @@
             "text": "START",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -10932,7 +10944,6 @@
             "text": "ENGKANTOPEDIA",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11027,7 +11038,6 @@
             "text": "CREDITS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11122,7 +11132,6 @@
             "text": "OPTIONS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11217,7 +11226,6 @@
             "text": "EXIT",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11312,7 +11320,6 @@
             "text": "NEW GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11407,7 +11414,6 @@
             "text": "LOAD GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11502,7 +11508,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11597,7 +11602,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -11692,7 +11696,6 @@
             "text": "TUTORIAL",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13014,7 +13017,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -13097,7 +13099,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -13113,6 +13114,126 @@
           "width": 22
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-10-13104513.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 567,
+                        "y": 0
+                      },
+                      {
+                        "x": 567,
+                        "y": 258
+                      },
+                      {
+                        "x": 0,
+                        "y": 258
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "CardsBg2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 949,
+                        "y": 0
+                      },
+                      {
+                        "x": 949,
+                        "y": 719
+                      },
+                      {
+                        "x": 1,
+                        "y": 719
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13663,6 +13784,12 @@
       },
       {
         "objectName": "TiyanakTerrain"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },
