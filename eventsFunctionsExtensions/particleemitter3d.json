@@ -6762,6 +6762,7 @@
       "description": "Display a large number of particles to create visual effects.",
       "fullName": "3D particle emitter",
       "is3D": true,
+      "isUsingLegacyInstancesRenderer": true,
       "name": "ParticleEmitter3D",
       "eventsFunctions": [
         {
