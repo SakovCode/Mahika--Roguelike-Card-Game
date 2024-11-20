@@ -7,6 +7,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -24,7 +25,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "LOAD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -57,7 +57,26 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "cutsceneGroup"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "cutsceneGroup",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -110,14 +129,6 @@
               },
               "parameters": [
                 "SavePlayer"
-              ]
-            },
-            {
-              "type": {
-                "value": "DeleteFichier"
-              },
-              "parameters": [
-                "\"Storage\""
               ]
             }
           ],

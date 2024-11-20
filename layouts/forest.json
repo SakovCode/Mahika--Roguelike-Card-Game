@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2102212319417622,
+    "zoomFactor": 0.26515387596043977,
     "windowMask": false
   },
   "objectsGroups": [
@@ -98,6 +98,11 @@
       "name": "portalCount",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "DECK",
+      "type": "structure",
+      "children": []
     }
   ],
   "instances": [
@@ -289,7 +294,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "SoundSlider",
+      "name": "Sound",
       "persistentUuid": "1eec49b2-f2b4-4065-a177-20ae13715bde",
       "width": 0,
       "x": 5265,
@@ -388,8 +393,8 @@
       "layer": "Cutscene",
       "name": "txtSkip",
       "persistentUuid": "3bc3d378-e1db-4b61-a3cc-8d99b23d4aba",
-      "width": 192,
-      "x": 1664,
+      "width": 191,
+      "x": 1633,
       "y": 960,
       "zOrder": 112,
       "numberProperties": [],
@@ -563,7 +568,7 @@
       "height": 50,
       "keepRatio": true,
       "layer": "UI",
-      "name": "WoodRedBar",
+      "name": "PlayerHealthBar",
       "persistentUuid": "b6b98eac-a5fb-4a3d-8986-92ba46884bec",
       "width": 160.15625,
       "x": 115,
@@ -670,7 +675,7 @@
     },
     {
       "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
-      "name": "WoodRedBar",
+      "name": "PlayerHealthBar",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -822,7 +827,7 @@
         "objectName": "New3DModel"
       },
       {
-        "objectName": "WoodRedBar"
+        "objectName": "PlayerHealthBar"
       },
       {
         "objectName": "ObjectivesContent"
@@ -857,22 +862,6 @@
         "includeConfig": 0
       },
       "target": "LvlEvents"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "DebuggerTools::ConsoleLog"
-          },
-          "parameters": [
-            "\"SceneInstancesCount(ForestWall) = \"+ToString(SceneInstancesCount(ForestWall)) + NewLine() +\n\"PORTAL COUNT : \" + ToString(SceneInstancesCount(PortalLight))",
-            "\"info\"",
-            ""
-          ]
-        }
-      ]
     }
   ],
   "layers": [
@@ -907,7 +896,7 @@
           "effectType": "Scene3D::ExponentialFog",
           "name": "3D Light",
           "doubleParameters": {
-            "density": 0.003
+            "density": 0.002
           },
           "stringParameters": {
             "color": "0;0;0"
@@ -1022,10 +1011,6 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Health",
-      "type": "Health::Health"
-    },
-    {
       "name": "LightObstacleBehavior",
       "type": "Lighting::LightObstacleBehavior"
     },
@@ -1052,10 +1037,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "SmoothCamera",
-      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

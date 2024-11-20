@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25650446087276724,
+    "zoomFactor": 0.394761391318532,
     "windowMask": false
   },
   "objectsGroups": [
@@ -359,7 +359,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "SoundSlider",
+      "name": "Sound",
       "persistentUuid": "04eb523a-e903-47e1-8f8d-a12562dc4104",
       "width": 0,
       "x": 4993,
@@ -3067,7 +3067,7 @@
       "depth": 48,
       "height": 28,
       "layer": "UI",
-      "name": "SoundSlider2",
+      "name": "SoundSlider",
       "persistentUuid": "520645c7-1754-4dd1-91dd-30ffa51804b2",
       "width": 250,
       "x": 4931,
@@ -14221,7 +14221,7 @@
     },
     {
       "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
-      "name": "SoundSlider2",
+      "name": "SoundSlider",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
       "variables": [],
       "effects": [],
@@ -17546,7 +17546,7 @@
         "objectName": "MusicSlider"
       },
       {
-        "objectName": "SoundSlider2"
+        "objectName": "SoundSlider"
       },
       {
         "objectName": "BGM2"
@@ -18451,6 +18451,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19867,6 +19868,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21642,7 +21644,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Music",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21670,7 +21671,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"Settings\"",
+                    "\"Storage\"",
                     "\"Settings\""
                   ]
                 }
@@ -21701,7 +21702,7 @@
                   "parameters": [
                     "Settings.Sound",
                     "=",
-                    "SoundSlider2.Value()"
+                    "SoundSlider.Value()"
                   ]
                 },
                 {
@@ -21709,9 +21710,9 @@
                     "value": "EcrireFichierTxt"
                   },
                   "parameters": [
-                    "\"SLStorage\"",
-                    "\"SaveSettingsGroup\"",
-                    "GlobalVarToJSON(Settings)"
+                    "\"Storage\"",
+                    "\"Settings\"",
+                    "ToJSON(Settings)"
                   ]
                 }
               ]
@@ -21724,7 +21725,7 @@
                     "value": "GroupExists"
                   },
                   "parameters": [
-                    "\"Settings\"",
+                    "\"Storage\"",
                     "\"Settings\""
                   ]
                 }
@@ -21735,10 +21736,10 @@
                     "value": "ReadStringFromStorage"
                   },
                   "parameters": [
-                    "\"SLStorage\"",
-                    "\"SaveSettingsGroup\"",
+                    "\"Storage\"",
+                    "\"Settings\"",
                     "",
-                    "TnginangYan"
+                    "temp"
                   ]
                 },
                 {
@@ -21746,7 +21747,7 @@
                     "value": "JSONToVariableStructure2"
                   },
                   "parameters": [
-                    "GlobalVariableString(Settings)",
+                    "temp",
                     "Settings"
                   ]
                 },
@@ -21757,7 +21758,7 @@
                   "parameters": [
                     "MusicSlider",
                     "=",
-                    "GlobalVariable(Settings.Music)",
+                    "Settings.Music",
                     ""
                   ]
                 },
@@ -21766,18 +21767,18 @@
                     "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
                   },
                   "parameters": [
-                    "SoundSlider2",
+                    "SoundSlider",
                     "=",
-                    "GlobalVariable(Settings.Sound)",
+                    "Settings.Sound",
                     ""
                   ]
                 }
               ],
               "variables": [
                 {
-                  "name": "TnginangYan",
+                  "name": "temp",
                   "type": "string",
-                  "value": "0"
+                  "value": ""
                 }
               ]
             },
@@ -21810,8 +21811,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Sliders",
+      "name": "MUSIC SOUND SETTINGS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -21860,7 +21860,7 @@
                 "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
               },
               "parameters": [
-                "SoundSlider2",
+                "SoundSlider",
                 ""
               ]
             }
@@ -21873,7 +21873,7 @@
               "parameters": [
                 "Settings.Sound",
                 "=",
-                "SoundSlider2.Value()"
+                "SoundSlider.Value()"
               ]
             },
             {
@@ -21894,82 +21894,24 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "ButtonStates::ButtonFSM::IsClicked"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
-                  },
-                  "parameters": [
-                    "MusicSlider",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
-                  },
-                  "parameters": [
-                    "SoundSlider2",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "Back2MainMenuButton",
+                "ButtonFSM",
+                ""
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"CanSave\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"CanSave\"",
-                ">=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "RemoveTimer"
-              },
-              "parameters": [
-                "",
-                "\"CanSave\""
-              ]
-            },
             {
               "type": {
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"SLStorage\"",
-                "\"SaveSettingsGroup\"",
-                "\"GlobalVarToJSON(Settings)\""
+                "\"Storage\"",
+                "\"Settings\"",
+                "ToJSON(Settings)"
               ]
             }
           ]

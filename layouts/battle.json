@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.28333752444070753,
+    "snap": false,
+    "zoomFactor": 0.532061934600137,
     "windowMask": false
   },
   "objectsGroups": [
@@ -168,40 +168,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 75,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "ManaText",
-      "persistentUuid": "317c903e-0609-49d0-a724-9f7844593f4d",
-      "width": 224,
-      "x": 64,
-      "y": 224,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 75,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "HealthText",
-      "persistentUuid": "1f5d2fb5-5581-48e2-a013-66fefa088ccd",
-      "width": 256,
-      "x": 64,
-      "y": 96,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -537,7 +503,7 @@
       "height": 1568,
       "keepRatio": true,
       "layer": "",
-      "name": "New3DBox",
+      "name": "BG",
       "persistentUuid": "2676edb3-0416-48ab-b0ff-59361a881400",
       "width": 1920,
       "x": 0,
@@ -624,8 +590,8 @@
       "name": "victory",
       "persistentUuid": "2471f18d-f8fe-412e-9d56-401f58c5c764",
       "width": 1016,
-      "x": 2848,
-      "y": -1833,
+      "x": 3799,
+      "y": -1531,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -657,8 +623,8 @@
       "name": "defeat",
       "persistentUuid": "0c9c3e67-5a79-4ddb-85ac-43e23082dbec",
       "width": 992,
-      "x": 4689,
-      "y": -332,
+      "x": 3738,
+      "y": 644,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -689,8 +655,8 @@
       "name": "ExitToMainMenuButton",
       "persistentUuid": "56fdb6e8-ef49-4568-9485-3ab7b324d9b9",
       "width": 0,
-      "x": 5056,
-      "y": 320,
+      "x": 4105,
+      "y": 1296,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -705,8 +671,8 @@
       "name": "EndBattleButton",
       "persistentUuid": "9da793c8-83ea-4137-b8ec-ac64f47abf46",
       "width": 0,
-      "x": 3264,
-      "y": -1184,
+      "x": 4215,
+      "y": -882,
       "zOrder": 51,
       "numberProperties": [],
       "stringProperties": [],
@@ -723,7 +689,7 @@
       "persistentUuid": "2ce2e66d-6f6d-4a7f-8808-7f0a61de404f",
       "width": 333,
       "x": 51,
-      "y": 160,
+      "y": 64,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -740,7 +706,7 @@
       "persistentUuid": "fdda4efe-b7aa-4338-8f2f-22cb4985d96a",
       "width": 333,
       "x": 51,
-      "y": 288,
+      "y": 96,
       "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
@@ -1757,90 +1723,6 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "ManaText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "MANA : ",
-      "font": "",
-      "textAlignment": "right",
-      "characterSize": 40,
-      "color": {
-        "b": 255,
-        "g": 175,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "0;0;0",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "MANA : ",
-        "font": "",
-        "textAlignment": "right",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "color": "0;175;255"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "HealthText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "HEALTH : ",
-      "font": "",
-      "textAlignment": "right",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 9,
-        "r": 255
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "0;0;0",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "HEALTH : ",
-        "font": "",
-        "textAlignment": "right",
-        "verticalTextAlignment": "top",
-        "characterSize": 40,
-        "color": "255;9;0"
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Alunsina",
       "type": "Scene3D::Model3DObject",
       "variables": [
@@ -1923,7 +1805,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "New3DBox",
+      "name": "BG",
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
@@ -1957,90 +1839,6 @@
       }
     },
     {
-      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
-      "name": "BlackDecoratedButton",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 20,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "RELOAD",
-          "font": "ArchitectsDaughter.ttf",
-          "textAlignment": "center",
-          "characterSize": 22,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "RELOAD",
-            "font": "ArchitectsDaughter.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 22,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 22,
-          "width": 192
-        }
-      }
-    },
-    {
       "assetStoreId": "",
       "name": "RaycastLine",
       "type": "PrimitiveDrawing::Drawer",
@@ -2062,375 +1860,6 @@
         "r": 0,
         "g": 0,
         "b": 0
-      }
-    },
-    {
-      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
-      "name": "BlackDecoratedButton2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 20,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "END BATTLE",
-          "font": "ArchitectsDaughter.ttf",
-          "textAlignment": "center",
-          "characterSize": 22,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "END BATTLE",
-            "font": "ArchitectsDaughter.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 22,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 22,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
-      "name": "BlackDecoratedButton3",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 20,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "TRY\n",
-          "font": "ArchitectsDaughter.ttf",
-          "textAlignment": "center",
-          "characterSize": 17,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "TRY\n",
-            "font": "ArchitectsDaughter.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 17,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 22,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
-      "name": "BlackDecoratedButton4",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 20,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "EXIT TO MAIN MENU",
-          "font": "ArchitectsDaughter.ttf",
-          "textAlignment": "center",
-          "characterSize": 15,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "EXIT TO MAIN MENU",
-            "font": "ArchitectsDaughter.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 15,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 22,
-          "width": 192
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardAlunsina",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Alunsina(Card).glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
-      "name": "SPAWN_RANDOM_ENEMY",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 20,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "SPAWN RANDOM ENEMY",
-          "font": "ArchitectsDaughter.ttf",
-          "textAlignment": "center",
-          "characterSize": 16,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "SPAWN RANDOM ENEMY",
-            "font": "ArchitectsDaughter.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 16,
-            "color": "255;255;255"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "Black Decorated Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 22,
-          "width": 192
-        }
       }
     },
     {
@@ -2939,118 +2368,286 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Apolaki",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\apolaki.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 150,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bantong",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\bantong.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 150,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bantugan",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\bantugan.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 150,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BernardoCarpio",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\bernardo carpio.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 150,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LamAng",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\lam-ang.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 150,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Urduja",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\princess urduja.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 150,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Raja",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 150,
+        "height": 150,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Heroes\\raja.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 150,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "folderName": "NewFolder"
+        "folderName": "UI",
+        "children": [
+          {
+            "objectName": "BG"
+          },
+          {
+            "objectName": "EndTurnButton"
+          },
+          {
+            "objectName": "EndBattleButton"
+          },
+          {
+            "objectName": "ExitToMainMenuButton"
+          },
+          {
+            "objectName": "PlayerHealthbar"
+          },
+          {
+            "objectName": "ManaBar"
+          },
+          {
+            "objectName": "HealthBar"
+          }
+        ]
       },
       {
-        "objectName": "Deck"
+        "folderName": "SLOT",
+        "children": [
+          {
+            "objectName": "HandSlot"
+          },
+          {
+            "objectName": "Deck"
+          },
+          {
+            "objectName": "EnemySlot6"
+          },
+          {
+            "objectName": "EnemySlot5"
+          },
+          {
+            "objectName": "EnemySlot4"
+          },
+          {
+            "objectName": "EnemySlot3"
+          },
+          {
+            "objectName": "EnemySlot2"
+          },
+          {
+            "objectName": "EnemySlot1"
+          },
+          {
+            "objectName": "HeroSlot6"
+          },
+          {
+            "objectName": "HeroSlot5"
+          },
+          {
+            "objectName": "HeroSlot4"
+          },
+          {
+            "objectName": "HeroSlot3"
+          },
+          {
+            "objectName": "HeroSlot2"
+          },
+          {
+            "objectName": "HeroSlot1"
+          }
+        ]
       },
       {
-        "objectName": "HandSlot"
+        "folderName": "abubot",
+        "children": [
+          {
+            "objectName": "EnemyTest"
+          },
+          {
+            "objectName": "HeroTest"
+          },
+          {
+            "objectName": "RaycastLine"
+          },
+          {
+            "objectName": "RedExplosion"
+          },
+          {
+            "objectName": "CardSample"
+          }
+        ]
       },
       {
-        "objectName": "CardSample"
-      },
-      {
-        "objectName": "HeroSlot1"
-      },
-      {
-        "objectName": "HeroSlot2"
-      },
-      {
-        "objectName": "HeroSlot3"
-      },
-      {
-        "objectName": "HeroSlot4"
-      },
-      {
-        "objectName": "HeroSlot5"
-      },
-      {
-        "objectName": "HeroSlot6"
-      },
-      {
-        "objectName": "EnemySlot1"
-      },
-      {
-        "objectName": "EnemySlot2"
-      },
-      {
-        "objectName": "EnemySlot3"
-      },
-      {
-        "objectName": "EnemySlot4"
-      },
-      {
-        "objectName": "EnemySlot5"
-      },
-      {
-        "objectName": "EnemySlot6"
-      },
-      {
-        "objectName": "RedExplosion"
-      },
-      {
-        "objectName": "RaycastLine"
-      },
-      {
-        "objectName": "HeroTest"
-      },
-      {
-        "objectName": "EnemyTest"
-      },
-      {
-        "objectName": "ManaText"
-      },
-      {
-        "objectName": "HealthText"
-      },
-      {
-        "objectName": "Alunsina"
-      },
-      {
-        "objectName": "New3DBox"
-      },
-      {
-        "objectName": "BlackDecoratedButton"
-      },
-      {
-        "objectName": "SPAWN_RANDOM_ENEMY"
-      },
-      {
-        "objectName": "BlackDecoratedButton4"
-      },
-      {
-        "objectName": "BlackDecoratedButton2"
-      },
-      {
-        "objectName": "BlackDecoratedButton3"
-      },
-      {
-        "objectName": "CardAlunsina"
-      },
-      {
-        "objectName": "EndTurnButton"
-      },
-      {
-        "objectName": "EndBattleButton"
-      },
-      {
-        "objectName": "ExitToMainMenuButton"
-      },
-      {
-        "objectName": "PlayerHealthbar"
-      },
-      {
-        "objectName": "ManaBar"
-      },
-      {
-        "objectName": "HealthBar"
+        "folderName": "HEROES",
+        "children": [
+          {
+            "objectName": "Alunsina"
+          },
+          {
+            "objectName": "Apolaki"
+          },
+          {
+            "objectName": "Bantong"
+          },
+          {
+            "objectName": "Bantugan"
+          },
+          {
+            "objectName": "BernardoCarpio"
+          },
+          {
+            "objectName": "LamAng"
+          },
+          {
+            "objectName": "Urduja"
+          },
+          {
+            "objectName": "Raja"
+          }
+        ]
       }
     ]
   },
@@ -3060,7 +2657,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3089,32 +2685,6 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "BlackDecoratedButton",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "CurrentSceneName()",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
                 "EndBattleButton",
                 ""
               ]
@@ -3127,42 +2697,6 @@
               },
               "parameters": [
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "BlackDecoratedButton3",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "Enemy"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Enemy",
-                "stats.HP",
-                "=",
-                "0"
               ]
             }
           ]
@@ -4600,6 +4134,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "PREPARATION PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
