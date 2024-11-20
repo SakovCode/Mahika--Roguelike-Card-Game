@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.394761391318532,
+    "zoomFactor": 0.43605758348370394,
     "windowMask": false
   },
   "objectsGroups": [
@@ -130,7 +130,7 @@
           "name": "SaveAndQuitButton"
         },
         {
-          "name": "SaveButton2"
+          "name": "SaveButton"
         },
         {
           "name": "YesButton"
@@ -18183,6 +18183,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "HIDE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21360,87 +21361,183 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "LOAD GAME",
+      "name": "SETTINGS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ReadNumberFromStorage"
-              },
-              "parameters": [
-                "\"Storage\"",
-                "\"SaveExists\"",
-                "",
-                "saveFileExists"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "LoadGameButton",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "SoundBttns",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "ButtonStates::ButtonFSM::IsHovered"
                   },
                   "parameters": [
-                    "saveFileExists",
-                    "=",
-                    "1"
+                    "ButtonShit",
+                    "ButtonFSM",
+                    ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "load",
-                    "=",
-                    "1"
+                    "",
+                    "button-202966.mp3",
+                    "2",
+                    "",
+                    "GlobalVariable(Settings.Sound)",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "ButtonShit",
+                    "ButtonFSM",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "button-202966.mp3",
+                    "2",
+                    "",
+                    "GlobalVariable(Settings.Sound)",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Music",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "BuiltinCommonInstructions::Once"
+                        "inverted": true,
+                        "value": "GroupExists"
                       },
-                      "parameters": []
+                      "parameters": [
+                        "\"Storage\"",
+                        "\"Settings\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Settings.Music",
+                        "=",
+                        "MusicSlider.Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Settings.Sound",
+                        "=",
+                        "SoundSlider.Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Storage\"",
+                        "\"Settings\"",
+                        "ToJSON(Settings)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"Storage\"",
+                        "\"Settings\""
+                      ]
                     }
                   ],
                   "actions": [
@@ -21450,7 +21547,7 @@
                       },
                       "parameters": [
                         "\"Storage\"",
-                        "\"Level\"",
+                        "\"Settings\"",
                         "",
                         "temp"
                       ]
@@ -21461,17 +21558,29 @@
                       },
                       "parameters": [
                         "temp",
-                        "tempArr"
+                        "Settings"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Scene"
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
                       },
                       "parameters": [
-                        "",
-                        "tempArr[0]",
-                        "no"
+                        "MusicSlider",
+                        "=",
+                        "Settings.Music",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                      },
+                      "parameters": [
+                        "SoundSlider",
+                        "=",
+                        "Settings.Sound",
+                        ""
                       ]
                     }
                   ],
@@ -21480,341 +21589,33 @@
                       "name": "temp",
                       "type": "string",
                       "value": ""
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
                     {
-                      "name": "tempArr",
-                      "type": "array",
-                      "children": []
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "KineTSOUND.mp3",
+                        "1",
+                        "yes",
+                        "GlobalVariable(Settings.Music)",
+                        ""
+                      ]
                     }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "NewGameButton",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "load",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "ClearVariableChildren"
-              },
-              "parameters": [
-                "SaveTerrain"
-              ]
-            },
-            {
-              "type": {
-                "value": "ClearVariableChildren"
-              },
-              "parameters": [
-                "SaveEnemy"
-              ]
-            },
-            {
-              "type": {
-                "value": "ClearVariableChildren"
-              },
-              "parameters": [
-                "SavePlayer"
-              ]
-            },
-            {
-              "type": {
-                "value": "DeleteFichier"
-              },
-              "parameters": [
-                "\"Storage\""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "folded": true,
-      "name": "SoundBttns",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsHovered"
-              },
-              "parameters": [
-                "ButtonShit",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "button-202966.mp3",
-                "2",
-                "",
-                "GlobalVariable(Settings.Sound)",
-                "5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "ButtonShit",
-                "ButtonFSM",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "button-202966.mp3",
-                "2",
-                "",
-                "GlobalVariable(Settings.Sound)",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Music",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"Storage\"",
-                    "\"Settings\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Settings.Music",
-                    "=",
-                    "MusicSlider.Value()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Settings.Sound",
-                    "=",
-                    "SoundSlider.Value()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"Storage\"",
-                    "\"Settings\"",
-                    "ToJSON(Settings)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"Storage\"",
-                    "\"Settings\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ReadStringFromStorage"
-                  },
-                  "parameters": [
-                    "\"Storage\"",
-                    "\"Settings\"",
-                    "",
-                    "temp"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "JSONToVariableStructure2"
-                  },
-                  "parameters": [
-                    "temp",
-                    "Settings"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
-                  },
-                  "parameters": [
-                    "MusicSlider",
-                    "=",
-                    "Settings.Music",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
-                  },
-                  "parameters": [
-                    "SoundSlider",
-                    "=",
-                    "Settings.Sound",
-                    ""
-                  ]
-                }
-              ],
-              "variables": [
-                {
-                  "name": "temp",
-                  "type": "string",
-                  "value": ""
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "KineTSOUND.mp3",
-                    "1",
-                    "yes",
-                    "GlobalVariable(Settings.Music)",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "MUSIC SOUND SETTINGS",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -21913,6 +21714,128 @@
                 "\"Settings\"",
                 "ToJSON(Settings)"
               ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "NEW/LOAD",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "NewGameButton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "load",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "LoadGameButton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "load",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"Progress\"",
+                "\"Progress\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "tempArr"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "tempArr[0]",
+                ""
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "temp",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "tempArr",
+              "type": "structure",
+              "children": []
             }
           ]
         }

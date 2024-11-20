@@ -7,447 +7,31 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "LOAD",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "AjoutObjConcern"
               },
               "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "load",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "cutsceneGroup"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "cutsceneGroup",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "SAVE",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "SaveButton2",
-                "ButtonFSM",
-                ""
+                "",
+                "Enemy"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "ClearVariableChildren"
+                "value": "Montre"
               },
               "parameters": [
-                "SaveTerrain"
-              ]
-            },
-            {
-              "type": {
-                "value": "ClearVariableChildren"
-              },
-              "parameters": [
-                "SaveEnemy"
-              ]
-            },
-            {
-              "type": {
-                "value": "ClearVariableChildren"
-              },
-              "parameters": [
-                "SavePlayer"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "LEVEL",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PushString"
-                      },
-                      "parameters": [
-                        "Variable",
-                        "CurrentSceneName()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "EcrireFichierTxt"
-                      },
-                      "parameters": [
-                        "\"Storage\"",
-                        "\"Level\"",
-                        "ToJSON(Variable)"
-                      ]
-                    }
-                  ],
-                  "variables": [
-                    {
-                      "name": "Variable",
-                      "type": "array",
-                      "children": []
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "SAVE TERRAIN",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Terrain",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PushString"
-                      },
-                      "parameters": [
-                        "SaveTerrain",
-                        "Terrain.ObjectName()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SaveTerrain",
-                        "Terrain.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SaveTerrain",
-                        "Terrain.Y()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EcrireFichierTxt"
-                      },
-                      "parameters": [
-                        "\"Storage\"",
-                        "\"Terrain\"",
-                        "ToJSON(SaveTerrain)"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "SAVE ENEMIES",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemy",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PushString"
-                      },
-                      "parameters": [
-                        "SaveEnemy",
-                        "Enemy.ObjectName()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SaveEnemy",
-                        "Enemy.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SaveEnemy",
-                        "Enemy.Y()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EcrireFichierTxt"
-                      },
-                      "parameters": [
-                        "\"Storage\"",
-                        "\"Enemy\"",
-                        "ToJSON(SaveEnemy)"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "SAVE PLAYER",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Player",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PushString"
-                      },
-                      "parameters": [
-                        "SavePlayer",
-                        "Player.ObjectName()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SavePlayer",
-                        "Player.X()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SavePlayer",
-                        "Player.Y()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SavePlayer",
-                        "PlayerHP"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PushNumber"
-                      },
-                      "parameters": [
-                        "SavePlayer",
-                        "PlayerMaxMana"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "EcrireFichierTxt"
-                      },
-                      "parameters": [
-                        "\"Storage\"",
-                        "\"Player\"",
-                        "ToJSON(SavePlayer)"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "Variable",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"Storage\"",
-                    "\"SaveExists\"",
-                    "Variable"
-                  ]
-                }
-              ],
-              "variables": [
-                {
-                  "name": "Variable",
-                  "type": "boolean",
-                  "value": false
-                }
+                "Enemy",
+                ""
               ]
             }
           ]
@@ -460,7 +44,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "EnemyLOS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -555,7 +138,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "EnemyMovement/Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -677,7 +259,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "EnemyEncounter",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -737,7 +318,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "LVL CLEAR CONDITION",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -807,7 +387,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
+      "disabled": true,
       "name": "ENEMY VISIBILITY",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

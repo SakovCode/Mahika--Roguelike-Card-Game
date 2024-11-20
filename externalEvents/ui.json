@@ -157,15 +157,6 @@
             "=",
             "1"
           ]
-        },
-        {
-          "type": {
-            "value": "ChangeTimeScale"
-          },
-          "parameters": [
-            "",
-            "0"
-          ]
         }
       ]
     },
@@ -241,6 +232,15 @@
             "\"Both\"",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeTimeScale"
+          },
+          "parameters": [
+            "",
+            "0"
           ]
         }
       ]

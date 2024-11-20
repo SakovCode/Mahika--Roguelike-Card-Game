@@ -390,7 +390,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "SaveButton2",
+      "name": "SaveButton",
       "persistentUuid": "e2385f9d-b973-46e7-9a4f-65a6d781e1ef",
       "width": 0,
       "x": 3040,
@@ -463,6 +463,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "Light",
+      "persistentUuid": "1ed2aa53-e454-4566-be4c-66e73fcda53c",
+      "width": 0,
+      "x": -320,
+      "y": 512,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -488,7 +504,18 @@
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "content": {
         "centerLocation": "ModelOrigin",
         "depth": 100,
@@ -569,6 +596,13 @@
         "includeConfig": 0
       },
       "target": "LvlEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "SAVE"
     }
   ],
   "layers": [
@@ -615,6 +649,23 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     },
     {
       "ambientLightColorB": 200,
@@ -705,10 +756,6 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Health",
-      "type": "Health::Health"
-    },
-    {
       "name": "LightObstacleBehavior",
       "type": "Lighting::LightObstacleBehavior"
     },
@@ -735,10 +782,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "SmoothCamera",
-      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

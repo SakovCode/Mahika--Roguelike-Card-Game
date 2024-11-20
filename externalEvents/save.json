@@ -1,0 +1,586 @@
+{
+  "associatedLayout": "Forest",
+  "name": "SAVE",
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "SAVE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "SaveButton",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "TERRAIN",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Terrain",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "SaveTerrain",
+                        "Terrain.ObjectName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveTerrain",
+                        "Terrain.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveTerrain",
+                        "Terrain.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Progress\"",
+                        "\"Terrain\"",
+                        "ToJSON(SaveTerrain)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "ENEMY",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemy",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "SaveEnemy",
+                        "Enemy.ObjectName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveEnemy",
+                        "Enemy.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveEnemy",
+                        "Enemy.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Progress\"",
+                        "\"Enemy\"",
+                        "ToJSON(SaveEnemy)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "SAVE PROGRESS",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "SaveProgress",
+                        "CurrentSceneName()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveProgress",
+                        "Player.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveProgress",
+                        "Player.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveProgress",
+                        "PlayerHP"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveProgress",
+                        "PlayerMaxMana"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Progress\"",
+                        "\"Progress\"",
+                        "ToJSON(SaveProgress)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Inventory::SerializeToVariable"
+                      },
+                      "parameters": [
+                        "",
+                        "\"DECK\"",
+                        "DECK"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Progress\"",
+                        "\"Inventory\"",
+                        "ToJSON(DECK)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "variables": [
+            {
+              "name": "SaveTerrain",
+              "type": "structure",
+              "children": []
+            },
+            {
+              "name": "SaveEnemy",
+              "type": "structure",
+              "children": []
+            },
+            {
+              "name": "SaveProgress",
+              "type": "structure",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "LOAD",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "load",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "TERRAIN",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ReadStringFromStorage"
+                      },
+                      "parameters": [
+                        "\"Progress\"",
+                        "\"Terrain\"",
+                        "",
+                        "temp"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "JSONToVariableStructure2"
+                      },
+                      "parameters": [
+                        "temp",
+                        "tempArr"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "VariableChildCount(tempArr)",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "CreateByName"
+                          },
+                          "parameters": [
+                            "",
+                            "Terrain",
+                            "tempArr[i]",
+                            "tempArr[i+1]",
+                            "tempArr[i+2]",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "i",
+                            "+",
+                            "3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AjoutObjConcern"
+                          },
+                          "parameters": [
+                            "",
+                            "Lighting"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ChangeLayer"
+                          },
+                          "parameters": [
+                            "Lighting",
+                            "\"Lighting\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "temp",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "name": "tempArr",
+                      "type": "structure",
+                      "children": []
+                    },
+                    {
+                      "name": "i",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "ENEMY",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ReadStringFromStorage"
+                      },
+                      "parameters": [
+                        "\"Progress\"",
+                        "\"Enemy\"",
+                        "",
+                        "temp"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "JSONToVariableStructure2"
+                      },
+                      "parameters": [
+                        "temp",
+                        "tempArr"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "VariableChildCount(tempArr)",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "CreateByName"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemy",
+                            "tempArr[i]",
+                            "tempArr[i+1]",
+                            "tempArr[i+2]",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "i",
+                            "+",
+                            "3"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "temp",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "name": "tempArr",
+                      "type": "structure",
+                      "children": []
+                    },
+                    {
+                      "name": "i",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "PROGRESS",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ReadStringFromStorage"
+                      },
+                      "parameters": [
+                        "\"Progress\"",
+                        "\"Progress\"",
+                        "",
+                        "temp"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "JSONToVariableStructure2"
+                      },
+                      "parameters": [
+                        "temp",
+                        "tempArr"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Player",
+                        "tempArr[1]",
+                        "tempArr[2]",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerHP",
+                        "=",
+                        "tempArr[3]"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlayerMaxMana",
+                        "=",
+                        "tempArr[4]"
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "temp",
+                      "type": "string",
+                      "value": ""
+                    },
+                    {
+                      "name": "tempArr",
+                      "type": "structure",
+                      "children": []
+                    },
+                    {
+                      "name": "i",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ]
+}

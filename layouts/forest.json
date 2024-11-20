@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.26515387596043977,
+    "zoomFactor": 0.2740949521798805,
     "windowMask": false
   },
   "objectsGroups": [
@@ -487,7 +487,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "SaveButton2",
+      "name": "SaveButton",
       "persistentUuid": "1bef4d32-d734-4b74-82de-88a98ace1aa7",
       "width": 0,
       "x": 3040,
@@ -674,91 +674,6 @@
       }
     },
     {
-      "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
-      "name": "PlayerHealthBar",
-      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "InitialValue": 100,
-        "MaxValue": 100,
-        "BarTopPadding": 8,
-        "BarRightPadding": 10,
-        "BarBottomPadding": 8,
-        "BarLeftPadding": 10,
-        "PreviousHighValueDuration": 0
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 8,
-          "height": 35,
-          "leftMargin": 10,
-          "rightMargin": 10,
-          "texture": "Wood Bar Border.png",
-          "tiled": true,
-          "topMargin": 8,
-          "width": 397
-        },
-        "Buffer": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Shaded Red Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "FillBar": {
-          "bottomMargin": 9,
-          "height": 19,
-          "leftMargin": 6,
-          "rightMargin": 6,
-          "texture": "Shaded Red Fill Bar.png",
-          "tiled": false,
-          "topMargin": 9,
-          "width": 19
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "8 / 16",
-          "font": "",
-          "textAlignment": "center",
-          "characterSize": 16,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "8 / 16",
-            "font": "",
-            "textAlignment": "center",
-            "verticalTextAlignment": "top",
-            "characterSize": 16,
-            "color": "255;255;255"
-          }
-        }
-      }
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -827,9 +742,6 @@
         "objectName": "New3DModel"
       },
       {
-        "objectName": "PlayerHealthBar"
-      },
-      {
         "objectName": "ObjectivesContent"
       }
     ]
@@ -862,6 +774,13 @@
         "includeConfig": 0
       },
       "target": "LvlEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "SAVE"
     }
   ],
   "layers": [

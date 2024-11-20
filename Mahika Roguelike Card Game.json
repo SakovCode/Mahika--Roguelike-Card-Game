@@ -5625,125 +5625,6 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "bf00a710e6d700150063e38e775eddec9525c6aab19a52195f5e8d996215b56b",
-      "name": "SaveButton",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Save button.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 48,
-                        "y": 0
-                      },
-                      {
-                        "x": 48,
-                        "y": 48
-                      },
-                      {
-                        "x": 0,
-                        "y": 48
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "4e9d8e144c509f4fb84513c6fffe98de92f5bb33f1c5717b2abb333525d0ed18_Save button.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 48,
-                        "y": 0
-                      },
-                      {
-                        "x": 48,
-                        "y": 48
-                      },
-                      {
-                        "x": 0,
-                        "y": 48
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "victoryMarker",
       "type": "Sprite",
@@ -7712,7 +7593,7 @@
     },
     {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
-      "name": "SaveButton2",
+      "name": "SaveButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -8515,6 +8396,91 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "d68a7f09fb9a6a3b183e43e1132b13d6ef13a5cc0988dd148dd22819876a463c",
+      "name": "PlayerHealthBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 100,
+        "MaxValue": 100,
+        "BarTopPadding": 8,
+        "BarRightPadding": 10,
+        "BarBottomPadding": 8,
+        "BarLeftPadding": 10,
+        "PreviousHighValueDuration": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 8,
+          "height": 35,
+          "leftMargin": 10,
+          "rightMargin": 10,
+          "texture": "Wood Bar Border.png",
+          "tiled": true,
+          "topMargin": 8,
+          "width": 397
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Shaded Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 9,
+          "height": 19,
+          "leftMargin": 6,
+          "rightMargin": 6,
+          "texture": "Shaded Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 9,
+          "width": 19
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "8 / 16",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "color": "255;255;255"
+          }
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -8582,7 +8548,7 @@
             "objectName": "SaveAndQuitButton"
           },
           {
-            "objectName": "SaveButton2"
+            "objectName": "SaveButton"
           },
           {
             "objectName": "BackToPauseButton"
@@ -8601,9 +8567,6 @@
           },
           {
             "objectName": "rolledPaper"
-          },
-          {
-            "objectName": "SaveButton"
           },
           {
             "objectName": "BGM"
@@ -8707,6 +8670,9 @@
       },
       {
         "objectName": "ViewDefeat"
+      },
+      {
+        "objectName": "PlayerHealthBar"
       },
       {
         "objectName": "Objectives_"
@@ -8863,6 +8829,12 @@
         },
         {
           "name": "EnemyTiyanak"
+        },
+        {
+          "name": "CaveWall"
+        },
+        {
+          "name": "DarkForestWall"
         }
       ]
     },
@@ -8877,6 +8849,32 @@
         },
         {
           "name": "Portal"
+        },
+        {
+          "name": "PortalLight"
+        },
+        {
+          "name": "CaveFloor"
+        },
+        {
+          "name": "CaveWall"
+        },
+        {
+          "name": "DarkForestWall"
+        },
+        {
+          "name": "DarkForestFloor"
+        },
+        {
+          "name": "Light"
+        }
+      ]
+    },
+    {
+      "name": "Lighting",
+      "objects": [
+        {
+          "name": "Light"
         },
         {
           "name": "PortalLight"
@@ -8910,7 +8908,7 @@
     {
       "name": "PlayerMaxMana",
       "type": "number",
-      "value": 3
+      "value": 6
     },
     {
       "name": "encounterID",
@@ -8963,21 +8961,7 @@
       "value": 0
     },
     {
-      "name": "SaveEnemy",
-      "type": "array",
-      "children": []
-    },
-    {
-      "name": "SaveTerrain",
-      "type": "array",
-      "children": []
-    },
-    {
-      "name": "SavePlayer",
-      "type": "array",
-      "children": []
-    },
-    {
+      "folded": true,
       "name": "Settings",
       "type": "structure",
       "children": [
@@ -8992,6 +8976,11 @@
           "value": 50
         }
       ]
+    },
+    {
+      "name": "DECK",
+      "type": "structure",
+      "children": []
     }
   ],
   "layouts": [
@@ -9052,6 +9041,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/lvlevents"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/cardsystemwtf"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/save"
     }
   ],
   "eventsFunctionsExtensions": [
