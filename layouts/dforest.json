@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.17228927016997783,
+    "zoomFactor": 0.24813719282548863,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -510,10 +510,10 @@
           "type": "Lighting::LightObstacleBehavior"
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "content": {

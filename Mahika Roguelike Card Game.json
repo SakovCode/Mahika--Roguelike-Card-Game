@@ -4122,8 +4122,8 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "width": 64,
-        "height": 64,
+        "width": 1152,
+        "height": 1152,
         "depth": 1,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",

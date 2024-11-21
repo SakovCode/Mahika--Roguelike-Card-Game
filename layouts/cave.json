@@ -511,17 +511,17 @@
           "type": "Lighting::LightObstacleBehavior"
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 100,
+        "depth": 64,
         "height": 64,
-        "keepAspectRatio": true,
+        "keepAspectRatio": false,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\caveWall.glb",
         "originLocation": "ModelOrigin",
