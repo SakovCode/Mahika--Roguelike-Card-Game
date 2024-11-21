@@ -4109,6 +4109,259 @@
         "metadata": "",
         "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Raja.glb",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Leather Pouch_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Leather Pouch_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Clothing & Armor/a5ebb647c5836be8e358a61377c54d5e9d2298c3acade86da02938428aa2522e_Leather Pouch_No Shadow.png",
+          "name": "Leather Pouch_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Leather Pouch_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Leather Pouch_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Clothing & Armor/2bdd57e1a6703a46a00e155020d7f2bfeb4e7412917de935e00a518aae0453b7_Leather Pouch_Shadow.png",
+          "name": "Leather Pouch_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/InventoryMarker.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "InventoryMarker",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewPanelSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Inventory_9Slices.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Inventory_9Slices.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/9d76e6e4af68637d689d7b0904b46fdd3b3eed4363d7140e757b8b14cfdcd7cd_Inventory_9Slices.png",
+          "name": "Inventory_9Slices.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Return.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/c7c1b0a7a6c0d005c7d7b50d6914d0fb13f84729fb493e4d4f58ce320685eb30_Return.png",
+          "name": "Return.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Blue Bordered with White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Blue Bordered with White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/c6aafabcee7775724150205315f8655043be58d2526aa7b97bad2e51fa36a5fd_Icon Background_Blue Bordered with White Border.png",
+          "name": "Icon Background_Blue Bordered with White Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Brown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Brown.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/7939ba85fba14815cef5709f093ca958c9399b7c4cf5b3dfd884c039f61e9932_Icon Background_Brown.png",
+          "name": "Icon Background_Brown.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Circle White.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Circle White.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/4b7f93237faf966acde30ad6e093e8eed9dd0b2990d95936dfc5451427d07bea_Icon Background_Circle White.png",
+          "name": "Icon Background_Circle White.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Dark Wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Dark Wood.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/74288ffdafa8785eae1d2f9aea454acea55352176be25ffc927d5d6eee31972f_Icon Background_Dark Wood.png",
+          "name": "Icon Background_Dark Wood.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Green.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/3df6ed53ffcc6c8366cfaf47de5b8b902690ecc38c43c952ddc864654f6a5224_Icon Background_Green.png",
+          "name": "Icon Background_Green.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Purple Angled Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Purple Angled Corner.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/3ebd5b354f3b00ce2204ae21dabe31a597ccb77ac5829f19245409be9f5d105d_Icon Background_Purple Angled Corner.png",
+          "name": "Icon Background_Purple Angled Corner.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Stone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Stone.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/1e854416e1ae7956f9fc68fba46f488b28081586a4a4185d407ccfcba814b39a_Icon Background_Stone.png",
+          "name": "Icon Background_Stone.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_White Angled Corner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White Angled Corner.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/c0f4d32632e30451af5cb7a00843e02f1d6118e54e1d97319a811f5cee29d5cb_Icon Background_White Angled Corner.png",
+          "name": "Icon Background_White Angled Corner.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_White With Blue Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White With Blue Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/6554ad52c2adb7c7cbf5683e6dcfd2647b89e6749c48689f79748a4200005fc6_Icon Background_White With Blue Border.png",
+          "name": "Icon Background_White With Blue Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_White With Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White With Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/37ba67f6b8f684fe33685a38374640cc43984d8b41fa8c0cd407df543c023464_Icon Background_White With Border.png",
+          "name": "Icon Background_White With Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_White.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_White.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/435079c9f089c9e1d6ebffaaf912afd4089735ece823c2a0ce79ae5b56a31725_Icon Background_White.png",
+          "name": "Icon Background_White.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Icon Background_Wood.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/70d79b102342faacf75e05d9e47d317522e070b5d55b0be8ccf90ee3ff5e09b4_Icon Background_Wood.png",
+          "name": "Icon Background_Wood.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewPanelSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/InvSlot.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "InvSlot",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hand_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Hand_Front",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5011,28 +5264,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "name": "Cards_Deck",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Card5.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": []
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "New_bg",
@@ -5853,148 +6084,6 @@
                       {
                         "x": 283,
                         "y": 1337
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "186ab2c857621a6d65536ca578f2109bd7d7da4395904d7fbfff155a95ce75b5",
-      "name": "ViewVictory",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Green Check.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 10
-                      },
-                      {
-                        "x": 26,
-                        "y": 10
-                      },
-                      {
-                        "x": 26,
-                        "y": 24
-                      },
-                      {
-                        "x": 7,
-                        "y": 24
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "e08e2030f5d7b6068718c5fbe4f80f614eac2b3f60985d6a1659f977243a9ded",
-      "name": "ViewDefeat",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Red X.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 5
-                      },
-                      {
-                        "x": 25,
-                        "y": 5
-                      },
-                      {
-                        "x": 25,
-                        "y": 23
-                      },
-                      {
-                        "x": 9,
-                        "y": 23
                       }
                     ]
                   ]
@@ -8017,79 +8106,84 @@
       "assetStoreId": "",
       "name": "CardAlunsina",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Alunsina"
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "checkCollisionMask": true,
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 100,
+        "depth": 1,
         "height": 100,
-        "keepAspectRatio": true,
+        "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Alunsina.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
         "rotationZ": 0,
-        "width": 100,
+        "width": 64,
         "animations": [
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
           {
             "loop": false,
             "name": "Idle Back",
             "source": "Idle Back"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardApolaki",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Apolaki.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           },
           {
             "loop": false,
@@ -8098,301 +8192,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardBantong",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bantong.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
-          },
-          {
-            "loop": false,
             "name": "Idle",
             "source": "Idle"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardBantugan",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bantugan.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardBernardoCarpio",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bernardo Carpio.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardLamAng",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Lam-Ang.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardUrduja",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Princess Urduja.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "CardRaja",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Raja.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 180,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Flip",
-            "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
           }
         ]
       }
@@ -8481,11 +8282,692 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CardRaja",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Raja"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 1,
+        "height": 100,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Raja.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 180,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Idle Back",
+            "source": "Idle Back"
+          },
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": false,
+            "name": "Idle",
+            "source": "Idle"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CardUrduja",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Urduja"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 1,
+        "height": 100,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Princess Urduja.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 180,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
+          {
+            "loop": false,
+            "name": "Idle Back",
+            "source": "Idle Back"
+          },
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": false,
+            "name": "Idle",
+            "source": "Idle"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CardLamAng",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "LamAng"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 1,
+        "height": 100,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Lam-Ang.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 180,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
+          {
+            "loop": false,
+            "name": "Idle Back",
+            "source": "Idle Back"
+          },
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": false,
+            "name": "Idle",
+            "source": "Idle"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CardBernardoCarpio",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "BernardoCarpio"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 1,
+        "height": 100,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bernardo Carpio.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 180,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
+          {
+            "loop": false,
+            "name": "Idle Back",
+            "source": "Idle Back"
+          },
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": false,
+            "name": "Idle",
+            "source": "Idle"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CardBantugan",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Bantugan"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 1,
+        "height": 100,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bantugan.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 180,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
+          {
+            "loop": false,
+            "name": "Idle Back",
+            "source": "Idle Back"
+          },
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": false,
+            "name": "Idle",
+            "source": "Idle"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CardBantong",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Bantong"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 1,
+        "height": 100,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bantong.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 180,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
+          {
+            "loop": false,
+            "name": "Idle Back",
+            "source": "Idle Back"
+          },
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": false,
+            "name": "Idle",
+            "source": "Idle"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CardApolaki",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "cost",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "Name",
+          "type": "string",
+          "value": "Apolaki"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        },
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 1,
+        "height": 100,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Apolaki.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 180,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Idle Front",
+            "source": "Idle Front"
+          },
+          {
+            "loop": false,
+            "name": "Idle Back",
+            "source": "Idle Back"
+          },
+          {
+            "loop": false,
+            "name": "Flip",
+            "source": "Flip"
+          },
+          {
+            "loop": false,
+            "name": "Disappear.001",
+            "source": "Disappear.001"
+          },
+          {
+            "loop": false,
+            "name": "Idle",
+            "source": "Idle"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "PlayerHealthBar"
+      },
+      {
+        "objectName": "ForestWall"
+      },
+      {
+        "objectName": "Player"
+      },
       {
         "folderName": "Cutscenes",
         "children": [
@@ -8581,9 +9063,6 @@
             "objectName": "New_bg"
           },
           {
-            "objectName": "Cards_Deck"
-          },
-          {
             "objectName": "plain_bg"
           },
           {
@@ -8660,21 +9139,6 @@
         ]
       },
       {
-        "objectName": "Player"
-      },
-      {
-        "objectName": "ForestWall"
-      },
-      {
-        "objectName": "ViewVictory"
-      },
-      {
-        "objectName": "ViewDefeat"
-      },
-      {
-        "objectName": "PlayerHealthBar"
-      },
-      {
         "objectName": "Objectives_"
       },
       {
@@ -8692,28 +9156,28 @@
         "folderName": "CARDS",
         "children": [
           {
-            "objectName": "CardRaja"
-          },
-          {
-            "objectName": "CardUrduja"
-          },
-          {
-            "objectName": "CardLamAng"
-          },
-          {
-            "objectName": "CardBernardoCarpio"
-          },
-          {
-            "objectName": "CardBantugan"
-          },
-          {
-            "objectName": "CardBantong"
+            "objectName": "CardAlunsina"
           },
           {
             "objectName": "CardApolaki"
           },
           {
-            "objectName": "CardAlunsina"
+            "objectName": "CardBantong"
+          },
+          {
+            "objectName": "CardBantugan"
+          },
+          {
+            "objectName": "CardBernardoCarpio"
+          },
+          {
+            "objectName": "CardLamAng"
+          },
+          {
+            "objectName": "CardUrduja"
+          },
+          {
+            "objectName": "CardRaja"
           }
         ]
       }
@@ -8902,83 +9366,99 @@
   "variables": [
     {
       "name": "PlayerHP",
+      "persistentUuid": "0622bdc4-af7f-4a15-a1c7-c64c2efce62c",
       "type": "number",
       "value": 100
     },
     {
       "name": "PlayerMaxMana",
+      "persistentUuid": "da3aa7d4-1493-4335-8eb5-22f5dde847fd",
       "type": "number",
       "value": 6
     },
     {
       "name": "encounterID",
+      "persistentUuid": "6389772d-f73f-4f88-bff6-0130445521ba",
       "type": "string",
       "value": "0"
     },
     {
       "name": "enemyDefeated",
+      "persistentUuid": "7d9b2e96-8780-4d66-b477-d73bc6dcdabd",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
       "name": "Forest",
+      "persistentUuid": "26a66613-4e6c-4b62-8608-0f3775661dae",
       "type": "string",
       "value": "Forest"
     },
     {
       "folded": true,
       "name": "DForest",
+      "persistentUuid": "5091ec50-0a38-4d04-924a-a3040202ebf7",
       "type": "string",
       "value": "DForest"
     },
     {
       "folded": true,
       "name": "Cave",
+      "persistentUuid": "4644ed17-25bf-4327-a8a3-d8a600dfc2ff",
       "type": "string",
       "value": "Cave"
     },
     {
       "folded": true,
       "name": "CaveBoss",
+      "persistentUuid": "f69ed255-2436-4e44-8652-a32ab99ae935",
       "type": "string",
       "value": "CaveBoss"
     },
     {
       "folded": true,
       "name": "ForestBoss",
+      "persistentUuid": "9a1c7860-d93b-4b88-b59c-723a8b27253f",
       "type": "string",
       "value": "ForestBoss"
     },
     {
       "name": "DForestBoss",
+      "persistentUuid": "92ee7d5f-f5f4-4246-9940-f1525b84aab0",
       "type": "string",
       "value": "DForestBoss"
     },
     {
       "name": "load",
+      "persistentUuid": "01c85dc0-1325-4e1f-8de1-59c4e622c438",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
       "name": "Settings",
+      "persistentUuid": "cf9c278c-887f-411d-a1b5-2fdfb6530be4",
       "type": "structure",
       "children": [
         {
           "name": "Music",
+          "persistentUuid": "17bf97b0-95de-4f06-9360-ec147832083b",
           "type": "number",
           "value": 50
         },
         {
           "name": "Sound",
+          "persistentUuid": "b69c3cfb-1713-4f81-b3ad-4c8b65e816d3",
           "type": "number",
           "value": 50
         }
       ]
     },
     {
-      "name": "DECK",
+      "folded": true,
+      "name": "PlayerDeck",
+      "persistentUuid": "9967534b-cdc0-4b79-ab1e-bccc472ae8e5",
       "type": "structure",
       "children": []
     }
@@ -9044,11 +9524,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/cardsystemwtf"
+      "referenceTo": "/externalEvents/save"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/save"
+      "referenceTo": "/externalEvents/updatecardposition"
     }
   ],
   "eventsFunctionsExtensions": [

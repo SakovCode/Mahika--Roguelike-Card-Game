@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43605758348370394,
+    "zoomFactor": 0.6075393603117181,
     "windowMask": false
   },
   "objectsGroups": [
@@ -18160,6 +18160,44 @@
       "conditions": [
         {
           "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "F1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DeleteFichier"
+          },
+          "parameters": [
+            "\"Progress\""
+          ]
+        },
+        {
+          "type": {
+            "value": "DeleteFichier"
+          },
+          "parameters": [
+            "\"Storage\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "DepartScene"
           },
           "parameters": [
@@ -20698,6 +20736,14 @@
           "actions": [
             {
               "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -21360,7 +21406,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "SETTINGS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21729,20 +21774,6 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": []
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [

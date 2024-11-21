@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.532061934600137,
+    "zoomFactor": 0.3694269341636073,
     "windowMask": false
   },
   "objectsGroups": [
@@ -26,7 +26,7 @@
       "name": "Slot",
       "objects": [
         {
-          "name": "HandSlot"
+          "name": "Hand"
         },
         {
           "name": "HeroSlot1"
@@ -40,10 +40,28 @@
       "name": "Hero",
       "objects": [
         {
-          "name": "HeroTest"
+          "name": "Alunsina"
         },
         {
-          "name": "Alunsina"
+          "name": "Apolaki"
+        },
+        {
+          "name": "Bantong"
+        },
+        {
+          "name": "Bantugan"
+        },
+        {
+          "name": "BernardoCarpio"
+        },
+        {
+          "name": "LamAng"
+        },
+        {
+          "name": "Urduja"
+        },
+        {
+          "name": "Raja"
         }
       ]
     },
@@ -97,7 +115,39 @@
       "name": "Card",
       "objects": [
         {
-          "name": "CardSample"
+          "name": "CardAlunsina"
+        },
+        {
+          "name": "CardRaja"
+        },
+        {
+          "name": "CardUrduja"
+        },
+        {
+          "name": "CardLamAng"
+        },
+        {
+          "name": "CardBernardoCarpio"
+        },
+        {
+          "name": "CardBantugan"
+        },
+        {
+          "name": "CardBantong"
+        },
+        {
+          "name": "CardApolaki"
+        }
+      ]
+    },
+    {
+      "name": "CardStack",
+      "objects": [
+        {
+          "name": "Deck"
+        },
+        {
+          "name": "Hand"
         }
       ]
     }
@@ -105,57 +155,68 @@
   "variables": [
     {
       "name": "DEBUG",
+      "persistentUuid": "cb3995d1-e8c8-4027-82de-0eae13014679",
       "type": "number",
       "value": 0
     },
     {
       "name": "WIN_CONDITION",
+      "persistentUuid": "9f453ef1-5cf7-4511-a621-ac3a85703454",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
       "name": "Phase",
+      "persistentUuid": "88c97c22-1854-4b67-ae77-101cc65bada7",
       "type": "number",
       "value": 0
     },
     {
       "name": "waitSec",
+      "persistentUuid": "e153a825-5f71-4c87-a318-2c82503fe697",
       "type": "number",
       "value": 2
     },
     {
       "folded": true,
       "name": "EnemyCount",
+      "persistentUuid": "ae3cd326-3c5e-4321-ac57-ce15c09eaa17",
       "type": "number",
       "value": 0
     },
     {
       "name": "CurrentOrder",
+      "persistentUuid": "2d80d705-2521-4149-9fad-c379695be787",
       "type": "number",
       "value": 0
     },
     {
       "name": "mana",
+      "persistentUuid": "2a8c932b-76e7-49be-b6a8-c28e817eadd6",
       "type": "number",
       "value": 3
     },
     {
       "name": "health",
+      "persistentUuid": "b4b1b1cf-19b1-4557-b795-a263d51c3ee8",
       "type": "number",
       "value": 30
     },
     {
       "name": "Intersection",
+      "persistentUuid": "f55c1ae6-5322-4755-8317-95a4a800b7ca",
       "type": "structure",
       "children": [
         {
           "name": "X",
+          "persistentUuid": "8f9fe7a4-e28a-466c-8513-cb47e4d8bcbd",
           "type": "number",
           "value": 0
         },
         {
           "name": "Y",
+          "persistentUuid": "1059aea7-414b-40c7-adb8-73eacb10adf3",
           "type": "number",
           "value": 0
         }
@@ -163,8 +224,15 @@
     },
     {
       "name": "targetAvailable",
+      "persistentUuid": "9387c0c6-6521-484e-aff1-8f091776bd1d",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "topOrder",
+      "persistentUuid": "fcbc79b9-7c3d-4a94-9592-81c150b71b69",
+      "type": "number",
+      "value": 1
     }
   ],
   "instances": [
@@ -172,14 +240,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "HandSlot",
+      "name": "Hand",
       "persistentUuid": "6f53d3c8-d0e2-4374-8eee-5834aa191b4e",
       "width": 64,
       "x": 608,
-      "y": 896,
+      "y": 992,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,99 +257,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "d8102706-740f-4590-8ad6-273ed3744da2",
-      "width": 64,
-      "x": 704,
-      "y": 896,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "cad62f69-ea9b-414f-acda-a54e2131224d",
-      "width": 64,
-      "x": 800,
-      "y": 896,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "0ce3bcdf-8fbc-409b-9de2-03958d453b3d",
-      "width": 64,
-      "x": 896,
-      "y": 896,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "33e51553-760d-4330-8bfe-0d33dcc6f3b7",
-      "width": 64,
-      "x": 992,
-      "y": 896,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "56d53766-7b08-4c49-856e-35a86df28f26",
-      "width": 64,
-      "x": 1088,
-      "y": 896,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "Deck",
       "persistentUuid": "326d0af7-e33d-4b67-9504-1efdc108158e",
       "width": 64,
-      "x": 1312,
-      "y": 896,
+      "x": 1536,
+      "y": 992,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -507,7 +490,7 @@
       "persistentUuid": "2676edb3-0416-48ab-b0ff-59361a881400",
       "width": 1920,
       "x": 0,
-      "y": -320,
+      "y": -224,
       "z": -10,
       "zOrder": 23,
       "numberProperties": [],
@@ -542,23 +525,6 @@
       "x": 32,
       "y": -4,
       "zOrder": 40,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "HandSlot",
-      "persistentUuid": "500a6cb5-caa4-4875-b98d-d3399f42e9b7",
-      "width": 64,
-      "x": 1184,
-      "y": 896,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -711,12 +677,28 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "7bf677ae-aa51-4787-a21f-cd91e2f057d4",
+      "width": 0,
+      "x": 391,
+      "y": 318,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "assetStoreId": "",
-      "name": "HandSlot",
+      "name": "Hand",
       "type": "Scene3D::Cube3DObject",
       "variables": [
         {
@@ -732,14 +714,19 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ObjectStack",
+          "type": "ObjectStack::ObjectStack"
+        }
+      ],
       "content": {
         "width": 64,
         "height": 96,
         "depth": 1,
         "enableTextureTransparency": true,
         "facesOrientation": "Y",
-        "frontFaceResourceName": "HandSlot2",
+        "frontFaceResourceName": "Hand_Front",
         "backFaceResourceName": "",
         "backFaceUpThroughWhichAxisRotation": "X",
         "leftFaceResourceName": "",
@@ -767,7 +754,12 @@
       "type": "Scene3D::Cube3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ObjectStack",
+          "type": "ObjectStack::ObjectStack"
+        }
+      ],
       "content": {
         "width": 64,
         "height": 64,
@@ -846,6 +838,10 @@
           "gridOffsetY": 0,
           "rotateObject": false,
           "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "content": {
@@ -2373,7 +2369,42 @@
       "assetStoreId": "",
       "name": "Apolaki",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "stats",
+          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2395,7 +2426,42 @@
       "assetStoreId": "",
       "name": "Bantong",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "stats",
+          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2417,7 +2483,42 @@
       "assetStoreId": "",
       "name": "Bantugan",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "stats",
+          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2439,7 +2540,42 @@
       "assetStoreId": "",
       "name": "BernardoCarpio",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "stats",
+          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2461,7 +2597,42 @@
       "assetStoreId": "",
       "name": "LamAng",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "stats",
+          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2483,7 +2654,42 @@
       "assetStoreId": "",
       "name": "Urduja",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "stats",
+          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2505,7 +2711,42 @@
       "assetStoreId": "",
       "name": "Raja",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "stats",
+          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "X",
+              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Y",
+              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -2522,11 +2763,28 @@
         "width": 150,
         "animations": []
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "CardSample"
+      },
+      {
+        "objectName": "NewSprite"
+      },
       {
         "folderName": "UI",
         "children": [
@@ -2557,7 +2815,7 @@
         "folderName": "SLOT",
         "children": [
           {
-            "objectName": "HandSlot"
+            "objectName": "Hand"
           },
           {
             "objectName": "Deck"
@@ -2614,9 +2872,6 @@
           },
           {
             "objectName": "RedExplosion"
-          },
-          {
-            "objectName": "CardSample"
           }
         ]
       },
@@ -2653,10 +2908,23 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "TODO:\nSUMMONING\nHOVER CARD PREVIEW"
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2997,6 +3265,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "UI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3259,23 +3528,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "GENERATE CARD\n"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Comment",
@@ -3603,71 +3855,132 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "PRE DRAW"
+              "comment": "GENERATE CARD"
             },
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "HandSlot",
-              "conditions": [],
-              "actions": [
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "PREDRAW????????",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "CardSample",
-                    "Deck.X()",
-                    "Deck.Y()",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "VariableChildCount(PlayerDeck)",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "CreateByName"
+                          },
+                          "parameters": [
+                            "",
+                            "Card",
+                            "PlayerDeck[i]",
+                            "Deck.X()",
+                            "Deck.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectStack::ObjectStack::AddOnTop"
+                          },
+                          "parameters": [
+                            "Deck",
+                            "ObjectStack",
+                            "Card",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "i",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "i",
+                      "type": "number",
+                      "value": 0
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "CardSample",
-                    "Pathfinding",
-                    "",
-                    "HandSlot.X()",
-                    "HandSlot.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "HandSlot",
-                    "isVacant",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "CardSample",
-                    "boundPos.X",
-                    "=",
-                    "HandSlot.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "CardSample",
-                    "boundPos.Y",
-                    "=",
-                    "HandSlot.Y()"
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "7",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectStack::HasOnTop"
+                      },
+                      "parameters": [
+                        "",
+                        "Deck",
+                        "ObjectStack",
+                        "Card",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectStack::ObjectStack::Remove"
+                      },
+                      "parameters": [
+                        "Deck",
+                        "ObjectStack",
+                        "Card",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectStack::ObjectStack::AddOnTop"
+                      },
+                      "parameters": [
+                        "Hand",
+                        "ObjectStack",
+                        "Card",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Link",
+                      "include": {
+                        "includeConfig": 0
+                      },
+                      "target": "UpdateCardPosition"
+                    }
                   ]
                 }
-              ]
+              ],
+              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3689,6 +4002,86 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectStack::Contains"
+          },
+          "parameters": [
+            "",
+            "Hand",
+            "ObjectStack",
+            "Card",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Card",
+            "Draggable",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Card",
+            "Animation",
+            "=",
+            "\"Idle Back\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ObjectStack::Contains"
+          },
+          "parameters": [
+            "",
+            "Deck",
+            "ObjectStack",
+            "Card",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Card",
+            "Draggable",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Card",
+            "Animation",
+            "=",
+            "\"Idle Front\""
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -3734,17 +4127,29 @@
           ],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "HandSlot",
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanObjectVariable"
+                    "value": "ObjectStack::ObjectStack::Height"
                   },
                   "parameters": [
-                    "HandSlot",
-                    "isVacant",
-                    "True",
+                    "Hand",
+                    "ObjectStack",
+                    "<",
+                    "7",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectStack::HasOnTop"
+                  },
+                  "parameters": [
+                    "",
+                    "Deck",
+                    "ObjectStack",
+                    "Card",
                     ""
                   ]
                 }
@@ -3752,60 +4157,34 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "ObjectStack::ObjectStack::Remove"
                   },
                   "parameters": [
-                    "",
-                    "CardSample",
-                    "Deck.X()",
-                    "Deck.Y()",
+                    "Deck",
+                    "ObjectStack",
+                    "Card",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "PathfindingBehavior::SetDestination"
+                    "value": "ObjectStack::ObjectStack::AddOnTop"
                   },
                   "parameters": [
-                    "CardSample",
-                    "Pathfinding",
-                    "",
-                    "HandSlot.X()",
-                    "HandSlot.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "HandSlot",
-                    "isVacant",
-                    "False",
+                    "Hand",
+                    "ObjectStack",
+                    "Card",
                     ""
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
                   },
-                  "parameters": [
-                    "CardSample",
-                    "boundPos.X",
-                    "=",
-                    "HandSlot.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "CardSample",
-                    "boundPos.Y",
-                    "=",
-                    "HandSlot.Y()"
-                  ]
+                  "target": "UpdateCardPosition"
                 }
               ]
             }
@@ -3820,7 +4199,7 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
-      "name": "CARD DROPPED",
+      "name": "HOVER, DRAG, DROPPED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -3847,7 +4226,7 @@
                     "value": "Distance"
                   },
                   "parameters": [
-                    "CardSample",
+                    "Card",
                     "HeroSlot",
                     "32",
                     ""
@@ -3875,8 +4254,8 @@
                       },
                       "parameters": [
                         "HeroSlot",
-                        "CardSample.X()",
-                        "CardSample.Y()",
+                        "Card.X()",
+                        "Card.Y()",
                         ""
                       ]
                     },
@@ -3892,236 +4271,104 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "HeroTest",
-                        "HeroSlot.CenterX()",
-                        "HeroSlot.CenterY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "RedExplosion",
-                        "HeroSlot.CenterX()",
-                        "HeroSlot.CenterY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "HeroTest",
-                        "boundPos.X",
-                        "=",
-                        "HeroSlot.CenterX()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "HeroTest",
-                        "boundPos.Y",
-                        "=",
-                        "HeroSlot.CenterY()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "CardSample",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "mana",
-                        "-",
-                        "CardSample.cost"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "HeroSlot",
-                        "isVacant",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "LinkedObjects::PickObjectsLinkedTo"
-                          },
-                          "parameters": [
-                            "",
-                            "HealthBar",
-                            "HeroTest",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "HealthBar",
-                            "HeroTest.X()+HeroTest.Width()/2",
-                            "HeroTest.Y()-50",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "LinkedObjects::LinkObjects"
-                          },
-                          "parameters": [
-                            "",
-                            "HealthBar",
-                            "HeroTest"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "LinkedObjects::PickObjectsLinkedTo"
-                          },
-                          "parameters": [
-                            "",
-                            "HealthBar",
-                            "HeroTest",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                          },
-                          "parameters": [
-                            "HealthBar",
-                            "=",
-                            "HeroTest.stats.HP",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                          },
-                          "parameters": [
-                            "HealthBar",
-                            "=",
-                            "HeroTest.stats.HP",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                          },
-                          "parameters": [
-                            "HealthBar",
-                            "Resizable",
-                            "=",
-                            "75"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangePlan"
-                          },
-                          "parameters": [
-                            "HealthBar",
-                            "+",
-                            "1000"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PickNearest"
-                          },
-                          "parameters": [
-                            "HandSlot",
-                            "CardSample.boundPos.X",
-                            "CardSample.boundPos.Y",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "HandSlot",
-                            "isVacant",
-                            "True",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
+                  "actions": []
                 }
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "CardSample",
-                    "Pathfinding",
-                    "",
-                    "CardSample.boundPos.X",
-                    "CardSample.boundPos.Y"
-                  ]
-                }
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "UpdateCardPosition"
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "Card",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectStack::Contains"
+              },
+              "parameters": [
+                "",
+                "Hand",
+                "ObjectStack",
+                "Card",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionZTween2"
+              },
+              "parameters": [
+                "Card",
+                "Tween",
+                "Object3D",
+                "\"IS HOVERED\"",
+                "50",
+                "\"easeInOutQuad\"",
+                ".1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "Card",
+                "ButtonFSM",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectStack::Contains"
+              },
+              "parameters": [
+                "",
+                "Hand",
+                "ObjectStack",
+                "Card",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionZTween2"
+              },
+              "parameters": [
+                "Card",
+                "Tween",
+                "Object3D",
+                "\"NOT HOVERED\"",
+                "Hand.Object3D::Z()",
+                "\"easeInOutQuad\"",
+                ".1",
+                ""
               ]
             }
           ]
@@ -9987,7 +10234,7 @@
                   },
                   "parameters": [
                     "",
-                    "HandSlot"
+                    "Hand"
                   ]
                 }
               ],
@@ -9997,7 +10244,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "HandSlot",
+                    "Hand",
                     "isVacant",
                     "True",
                     ""
@@ -10307,16 +10554,16 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Health",
-      "type": "Health::Health"
-    },
-    {
       "name": "LightObstacleBehavior",
       "type": "Lighting::LightObstacleBehavior"
     },
     {
       "name": "Object3D",
       "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "ObjectStack",
+      "type": "ObjectStack::ObjectStack"
     },
     {
       "name": "Opacity",
@@ -10339,16 +10586,16 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
-      "name": "SmoothCamera",
-      "type": "SmoothCamera::SmoothCamera"
-    },
-    {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

@@ -1,0 +1,246 @@
+{
+  "associatedLayout": "Battle",
+  "name": "UpdateCardPosition",
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "UPDATE CARD POSITION",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Card"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "topOrder",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "CardStack",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectStack::Contains"
+                  },
+                  "parameters": [
+                    "",
+                    "CardStack",
+                    "ObjectStack",
+                    "Card",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Card",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectStack::Contains"
+                          },
+                          "parameters": [
+                            "",
+                            "Hand",
+                            "ObjectStack",
+                            "Card",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectStack::Contains"
+                          },
+                          "parameters": [
+                            "",
+                            "CardStack",
+                            "ObjectStack",
+                            "Card",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "Card",
+                                "=",
+                                "CardStack.Y()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "Card",
+                                "=",
+                                "100"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                              },
+                              "parameters": [
+                                "Card",
+                                "Tween",
+                                "\"SwapCard\"",
+                                "CardStack.X() + CardStack.ObjectStack::HeightOf(Card) * 100",
+                                "CardStack.Y()",
+                                "\"easeInOutQuad\"",
+                                ".1",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "Card",
+                                "!=",
+                                "CardStack.Y()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Tween::IsPlaying"
+                              },
+                              "parameters": [
+                                "Card",
+                                "Tween",
+                                "\"MoveTo\" + CardStack.ObjectName()"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ChangePlan"
+                              },
+                              "parameters": [
+                                "Card",
+                                "+",
+                                "topOrder"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                              },
+                              "parameters": [
+                                "Card",
+                                "Tween",
+                                "\"MoveTo\" + CardStack.ObjectName()",
+                                "CardStack.X() + CardStack.ObjectStack::HeightOf(Card) * 100",
+                                "CardStack.Y()",
+                                "\"easeInOutQuad\"",
+                                ".1",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectStack::Contains"
+                          },
+                          "parameters": [
+                            "",
+                            "Deck",
+                            "ObjectStack",
+                            "Card",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Tween::IsPlaying"
+                          },
+                          "parameters": [
+                            "Card",
+                            "Tween",
+                            "\"MoveTo\" + CardStack.ObjectName()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                          },
+                          "parameters": [
+                            "Card",
+                            "Tween",
+                            "\"MoveTo\" + CardStack.ObjectName()",
+                            "Deck.X()",
+                            "CardStack.Y()",
+                            "\"easeInOutQuad\"",
+                            ".1",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ]
+}

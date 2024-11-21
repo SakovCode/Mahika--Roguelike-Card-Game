@@ -117,7 +117,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Right",
           "conditions": [],
@@ -146,16 +145,6 @@
                     "random",
                     "=",
                     "RandomInRange(1,6)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"RIGHT RN: \" + Right.random",
-                    "\"info\"",
-                    ""
                   ]
                 }
               ],
@@ -376,7 +365,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Down",
           "conditions": [],
@@ -405,16 +393,6 @@
                     "random",
                     "=",
                     "RandomInRange(1,6)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"DOWN RN: \" + Down.random",
-                    "\"info\"",
-                    ""
                   ]
                 }
               ],
@@ -635,7 +613,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Up",
           "conditions": [],
@@ -664,16 +641,6 @@
                     "random",
                     "=",
                     "RandomInRange(1,6)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"UP RN: \" + Up.random",
-                    "\"info\"",
-                    ""
                   ]
                 }
               ],
@@ -732,16 +699,6 @@
                             "Up.Y()",
                             "Up.Z()"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"UPDOWN\"",
-                            "\"info\"",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -783,16 +740,6 @@
                             "Up.Y()",
                             "Up.Z()"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"DOWNEND\"",
-                            "\"info\"",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -822,16 +769,6 @@
                             "Up.X()",
                             "Up.Y()",
                             "Up.Z()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"FOURWAY\"",
-                            "\"info\"",
-                            ""
                           ]
                         }
                       ]
@@ -863,16 +800,6 @@
                         "Up.X()",
                         "Up.Y()",
                         "Up.Z()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\"GENERATED ROOM: \" + CurrentSceneName() + \"DOWNEND\"",
-                        "\"info\"",
-                        ""
                       ]
                     }
                   ]
@@ -934,7 +861,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Left",
           "conditions": [],
@@ -963,16 +889,6 @@
                     "random",
                     "=",
                     "RandomInRange(1,6)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"LEFT RN: \" + Left.random",
-                    "\"info\"",
-                    ""
                   ]
                 }
               ],
@@ -1031,16 +947,6 @@
                             "Left.Y()",
                             "Left.Z()"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"LEFTRIGHT\"",
-                            "\"info\"",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -1082,16 +988,6 @@
                             "Left.Y()",
                             "Left.Z()"
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"RIGHTEND\"",
-                            "\"info\"",
-                            ""
-                          ]
                         }
                       ]
                     },
@@ -1121,16 +1017,6 @@
                             "Left.X()",
                             "Left.Y()",
                             "Left.Z()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "DebuggerTools::ConsoleLog"
-                          },
-                          "parameters": [
-                            "\"GENERATED ROOM: \" + CurrentSceneName() + \"FOURWAY\"",
-                            "\"info\"",
-                            ""
                           ]
                         }
                       ]
@@ -1162,16 +1048,6 @@
                         "Left.X()",
                         "Left.Y()",
                         "Left.Z()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "DebuggerTools::ConsoleLog"
-                      },
-                      "parameters": [
-                        "\"GENERATED ROOM: \" + CurrentSceneName() + \"RIGHTEND\"",
-                        "\"info\"",
-                        ""
                       ]
                     }
                   ]
@@ -1233,7 +1109,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "interiorGenerator",
           "conditions": [],
@@ -1293,6 +1168,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "GenerateEnemies/PORTAL",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1358,6 +1234,16 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "portalCount",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Create"
                       },
                       "parameters": [
@@ -1396,16 +1282,6 @@
                       "parameters": [
                         "Spawner",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "portalCount",
-                        "+",
-                        "1"
                       ]
                     }
                   ]
@@ -1803,6 +1679,292 @@
                   ]
                 }
               ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "GENERATE CARDS",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VariableChildCount"
+              },
+              "parameters": [
+                "PlayerDeck",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "12",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "random",
+                    "=",
+                    "RandomInRange(1,8)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardAlunsina\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardApolaki\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardBantong\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardBantugan\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardBernardoCarpio\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardLamAng\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardUrduja\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "8"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardRaja\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Progress\"",
+                    "\"DECK\"",
+                    "ToJSON(PlayerDeck)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "random",
+              "type": "number",
+              "value": 0
             }
           ]
         }

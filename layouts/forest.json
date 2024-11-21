@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.2740949521798805,
+    "snap": false,
+    "zoomFactor": 0.17809892122940002,
     "windowMask": false
   },
   "objectsGroups": [
@@ -100,9 +100,9 @@
       "value": 0
     },
     {
-      "name": "DECK",
-      "type": "structure",
-      "children": []
+      "name": "zero",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -117,7 +117,7 @@
       "persistentUuid": "eaa2eb48-8ae4-4383-8eb3-312fb643f2b0",
       "width": 1920,
       "x": 0,
-      "y": 0,
+      "y": -64,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -571,7 +571,7 @@
       "name": "PlayerHealthBar",
       "persistentUuid": "b6b98eac-a5fb-4a3d-8986-92ba46884bec",
       "width": 160.15625,
-      "x": 115,
+      "x": 64,
       "y": 960,
       "zOrder": 126,
       "numberProperties": [],
@@ -590,6 +590,23 @@
       "x": 64,
       "y": 231,
       "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "LeatherPouch",
+      "persistentUuid": "ca761020-8e30-464f-8794-d22fe88b7f74",
+      "width": 128,
+      "x": 64,
+      "y": 832,
+      "zOrder": 128,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -714,19 +731,281 @@
         "characterSize": 17,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "ced0002914bf5743f450f5f2a95e586465ef9e29537e933817515c365f1b63c9",
+      "name": "LeatherPouch",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Leather Pouch_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Leather Pouch_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 3
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 1080,
+      "leftMargin": 0,
+      "name": "InventoryHeightMarker",
+      "rightMargin": 0,
+      "texture": "NewPanelSprite",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "aa86fd51d050e2faa8655dd370da1c31d4dc345b549300b1d881d0a2379e9ec2",
+      "bottomMargin": 5,
+      "height": 32,
+      "leftMargin": 5,
+      "name": "InventoryEmpty",
+      "rightMargin": 5,
+      "texture": "Inventory_9Slices.png",
+      "tiled": true,
+      "topMargin": 6,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5acbd94a938c1ce336f2bb122b54cfb3c8001331c9c8e083203473c187466427",
+      "name": "Return",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Return.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 4
+                      },
+                      {
+                        "x": 27,
+                        "y": 4
+                      },
+                      {
+                        "x": 27,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 1080,
+      "leftMargin": 0,
+      "name": "DefaultHeightMarker",
+      "rightMargin": 0,
+      "texture": "NewPanelSprite",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "NewPanelSprite",
+      "rightMargin": 0,
+      "texture": "NewPanelSprite2",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "InvSlot",
+      "rightMargin": 0,
+      "texture": "InvSlot",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "folderName": "NewFolder",
-        "children": [
-          {
-            "folderName": "NewFolder"
-          }
-        ]
-      },
       {
         "folderName": "Terrain",
         "children": [
@@ -743,6 +1022,27 @@
       },
       {
         "objectName": "ObjectivesContent"
+      },
+      {
+        "objectName": "LeatherPouch"
+      },
+      {
+        "objectName": "InventoryHeightMarker"
+      },
+      {
+        "objectName": "DefaultHeightMarker"
+      },
+      {
+        "objectName": "InventoryEmpty"
+      },
+      {
+        "objectName": "Return"
+      },
+      {
+        "objectName": "NewPanelSprite"
+      },
+      {
+        "objectName": "InvSlot"
       }
     ]
   },
@@ -781,6 +1081,65 @@
         "includeConfig": 0
       },
       "target": "SAVE"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DebuggerTools::ConsoleLog"
+          },
+          "parameters": [
+            "ToString(VariableChildCount(PlayerDeck))",
+            "\"info\"",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "VariableChildCount(PlayerDeck)",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "DebuggerTools::ConsoleLog"
+              },
+              "parameters": [
+                "PlayerDeck[i]",
+                "\"info\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "i",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "i",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layers": [

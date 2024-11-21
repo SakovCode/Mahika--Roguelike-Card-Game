@@ -104,6 +104,15 @@
           "parameters": [
             "NewGameCutscene"
           ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "cutsceneGroup",
+            ""
+          ]
         }
       ]
     },
@@ -583,98 +592,7 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "ViewVictory",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenCameraPosition2"
-          },
-          "parameters": [
-            "",
-            "\"CameraMoves\"",
-            "victoryMarker.CenterX()",
-            "pause_bg.CenterY()",
-            "\"UI\"",
-            "\"elastic\"",
-            ".01"
-          ]
-        },
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "Transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            ".1",
-            "\"Flash\"",
-            "\"Both\"",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "ViewDefeat",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenCameraPosition2"
-          },
-          "parameters": [
-            "",
-            "\"CameraMoves\"",
-            "defeatMarker.CenterX()",
-            "pause_bg.CenterY()",
-            "\"UI\"",
-            "\"elastic\"",
-            ".01"
-          ]
-        },
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "Transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            ".1",
-            "\"Flash\"",
-            "\"Both\"",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -798,6 +716,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "HP",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -827,6 +746,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Skip Cutscene",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

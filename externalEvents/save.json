@@ -230,7 +230,7 @@
                       "parameters": [
                         "\"Progress\"",
                         "\"Inventory\"",
-                        "ToJSON(DECK)"
+                        "ToJSON(PlayerDeck)"
                       ]
                     }
                   ]
