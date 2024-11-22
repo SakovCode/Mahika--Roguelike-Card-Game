@@ -8148,9 +8148,9 @@
           "Index": 2.0247e-320
         },
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         },
         {
           "name": "Tween",
