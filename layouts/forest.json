@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.15088497698397554,
+    "zoomFactor": 0.17809892122940002,
     "windowMask": false
   },
   "objectsGroups": [
@@ -45,6 +45,38 @@
     {
       "name": "HeroCards",
       "objects": []
+    },
+    {
+      "name": "Buttons",
+      "objects": [
+        {
+          "name": "ResumeButton"
+        },
+        {
+          "name": "OptionsButton2"
+        },
+        {
+          "name": "ExitToMainMenuButton2"
+        },
+        {
+          "name": "SaveAndQuitButton"
+        },
+        {
+          "name": "SaveButton"
+        },
+        {
+          "name": "YesButton"
+        },
+        {
+          "name": "NoButton"
+        },
+        {
+          "name": "BackToPauseButton"
+        },
+        {
+          "name": "Pause_button"
+        }
+      ]
     }
   ],
   "variables": [

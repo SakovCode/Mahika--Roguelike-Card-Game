@@ -61,7 +61,7 @@
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "Screenshot_2024-09-29_230352-removebg-preview.png",
+      "backgroundImageResourceName": "cards.jpg",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
@@ -3728,7 +3728,7 @@
         "alwaysLoaded": false,
         "file": "assets/Arrow_No Shadow.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Arrow_No Shadow.png\",\"extension\":\".png\"}",
         "name": "Arrow_No Shadow.png",
         "smoothed": true,
         "userAdded": false,
@@ -4410,6 +4410,110 @@
         "name": "Screenshot 2024-11-23 161149.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation Emote_Style 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation Emote_Style 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/256fedf59a6f0e1a4f7b49fbb85c6571fb8566d026f07a10c8f657ab1c36a0f8_Exclamation Emote_Style 1.png",
+          "name": "Exclamation Emote_Style 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation Emote_Style 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation Emote_Style 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/39b3501f048347f526f9361d939f42ce70f64993ac0b6cfdf1038df0f661e271_Exclamation Emote_Style 2.png",
+          "name": "Exclamation Emote_Style 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation Emote_Style 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation Emote_Style 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/9d379bd573db4449787f6c9530fccb73bbfaba4bd0f8440005435ed5ba8f2543_Exclamation Emote_Style 3.png",
+          "name": "Exclamation Emote_Style 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation Emote_Style 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation Emote_Style 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/848c3c12bdc7ab2f64303f383700b96bf852e02c994ec47d068b09447d02fa05_Exclamation Emote_Style 4.png",
+          "name": "Exclamation Emote_Style 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation Emote_Style 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation Emote_Style 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/a5a20b75f9f6a8ce070139583fb0d1951e6a09805c0eb8e2d31e42846f9dd134_Exclamation Emote_Style 5.png",
+          "name": "Exclamation Emote_Style 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation Emote_Style 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation Emote_Style 6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/15b99acc43aebeee0c98016a82aa56adf9077ad5babec350ae274b92494be2af_Exclamation Emote_Style 6.png",
+          "name": "Exclamation Emote_Style 6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation Emote_Style 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation Emote_Style 7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Normal/30ed1ba00bda668ec76805bac3e8a3675b27e8f06627cce8d077d466473dcd6f_Exclamation Emote_Style 7.png",
+          "name": "Exclamation Emote_Style 7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Arrow_No Shadow2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

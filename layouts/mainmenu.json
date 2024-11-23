@@ -9,7 +9,7 @@
   "title": "",
   "v": 206,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.2740949521798928,
+    "snap": true,
+    "zoomFactor": 0.5147058823529869,
     "windowMask": false
   },
   "objectsGroups": [
@@ -81,6 +81,27 @@
         },
         {
           "name": "TiyanakCard"
+        },
+        {
+          "name": "PlayerArrow"
+        },
+        {
+          "name": "ControlsArrow"
+        },
+        {
+          "name": "ObjectivesArrow"
+        },
+        {
+          "name": "NavigationArrow"
+        },
+        {
+          "name": "BattleSceneArrow"
+        },
+        {
+          "name": "ChestArrow"
+        },
+        {
+          "name": "NextArrow"
         }
       ]
     },
@@ -2180,7 +2201,7 @@
       "layer": "UI",
       "name": "Lam_ang2",
       "persistentUuid": "1510c537-01e6-44be-a0a2-71bbee38ed25",
-      "width": 558,
+      "width": 630,
       "x": 29569,
       "y": 320,
       "zOrder": 177,
@@ -2495,7 +2516,7 @@
       "persistentUuid": "99160432-63fc-4f26-892d-960f74213f45",
       "width": 0,
       "x": 10982,
-      "y": 537,
+      "y": 544,
       "zOrder": 188,
       "numberProperties": [],
       "stringProperties": [],
@@ -3999,8 +4020,8 @@
       "name": "DirectionalArrowQuarterCircle",
       "persistentUuid": "33638012-8cc2-433d-bb26-61078bd11a17",
       "width": 0,
-      "x": -11040,
-      "y": 224,
+      "x": -11114,
+      "y": 192,
       "zOrder": 272,
       "numberProperties": [],
       "stringProperties": [],
@@ -4015,15 +4036,15 @@
       "name": "BattleSceneInfo4",
       "persistentUuid": "fa1b3fad-685b-4896-898f-08b898c10215",
       "width": 0,
-      "x": -11008,
-      "y": 326,
+      "x": -11104,
+      "y": 294,
       "zOrder": 273,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 135,
+      "angle": 105,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -4031,8 +4052,8 @@
       "name": "DirectionalArrowStraight",
       "persistentUuid": "036f50bc-f5ae-43c3-bab2-cec9c73acd12",
       "width": 0,
-      "x": -11099,
-      "y": 647,
+      "x": -11139,
+      "y": 648,
       "zOrder": 274,
       "numberProperties": [],
       "stringProperties": [],
@@ -4047,25 +4068,9 @@
       "name": "BattleSceneInfo5",
       "persistentUuid": "90fe4028-aafc-4a0b-81f2-9f91804550ab",
       "width": 0,
-      "x": -11072,
-      "y": 582,
+      "x": -11168,
+      "y": 576,
       "zOrder": 275,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "DirectionalArrowStraight",
-      "persistentUuid": "5e143c22-08f8-4e2a-9c94-61703e1644a6",
-      "width": 0,
-      "x": -10794,
-      "y": 813,
-      "zOrder": 276,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4079,8 +4084,8 @@
       "name": "BattleSceneInfo6",
       "persistentUuid": "dfe0713d-0b84-4d81-a76f-37a7f6b18d20",
       "width": 0,
-      "x": -10848,
-      "y": 736,
+      "x": -10990,
+      "y": 800,
       "zOrder": 277,
       "numberProperties": [],
       "stringProperties": [],
@@ -4606,6 +4611,57 @@
       "x": -11182,
       "y": 848,
       "zOrder": 298,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DirectionalArrowQuarterCircle",
+      "persistentUuid": "ec4587b4-3c21-43c8-aad1-f120ba5f41e4",
+      "width": 64,
+      "x": -10912,
+      "y": 864,
+      "zOrder": 270,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BattleScenePhases",
+      "persistentUuid": "744b5044-d5c1-46f9-9634-4db8c31583ea",
+      "width": 192,
+      "x": -10848,
+      "y": 352,
+      "zOrder": 299,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ExclamationEmote",
+      "persistentUuid": "0b6492e0-c637-46f0-ae43-c30ca682a3cb",
+      "width": 64,
+      "x": -10816,
+      "y": 288,
+      "zOrder": 300,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13526,7 +13582,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Legendary strongman, trapped between two\nmountains and symbolizing Filipino resilience and\nresistance against oppression.",
+        "text": "Legendary strongman, trapped between two mountains and symbolizing Filipino resilience and resistance against oppression.",
         "opacity": 255,
         "scale": 0.6,
         "fontSize": 20,
@@ -13545,7 +13601,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Legendary strongman, trapped between two mountains and symbolizing Filipino resilience and resistance against oppression.",
+        "text": "One-eyed giant known for its incredible strength, loud laughter, and playful yet dangerous nature.",
         "opacity": 255,
         "scale": 0.6,
         "fontSize": 20,
@@ -13564,7 +13620,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Legendary strongman, trapped between two mountains and symbolizing Filipino resilience and resistance against oppression.",
+        "text": "Giant tree-dwelling creature, typically depicted as a tall, dark-skinned man smoking a large cigar, known for his mischievous behavior and for guarding the trees he inhabits.",
         "opacity": 255,
         "scale": 0.6,
         "fontSize": 20,
@@ -13583,7 +13639,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Legendary strongman, trapped between two mountains and symbolizing Filipino resilience and resistance against oppression.",
+        "text": "Legendary hero of the Ilocano epic Biag ni Lam-ang, known for his extraordinary strength, bravery, and adventures from birth, including defeating monsters and winning great battles.",
         "opacity": 255,
         "scale": 0.6,
         "fontSize": 20,
@@ -14919,7 +14975,13 @@
       "name": "PlayerArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -14944,7 +15006,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15379,7 +15441,13 @@
       "name": "ControlsArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -15404,7 +15472,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16087,7 +16155,13 @@
       "name": "ObjectivesArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -16112,7 +16186,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16427,7 +16501,13 @@
       "name": "NavigationArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -16452,7 +16532,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17458,7 +17538,13 @@
       "name": "BattleSceneArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -17483,7 +17569,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17791,7 +17877,13 @@
       "name": "ChestArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -17816,7 +17908,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -17951,7 +18043,13 @@
       "name": "NextArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -17976,7 +18074,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -18114,125 +18212,6 @@
                       {
                         "x": 0,
                         "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "37c5cb062aac4fe7f5b73efbe8e3003e0973645f496e78fca775ff2fdc13ad93",
-      "name": "PreviousArrow",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ButtonFSM",
-          "type": "ButtonStates::ButtonFSM",
-          "ShouldCheckHovering": true,
-          "State": "Idle",
-          "TouchId": 0,
-          "TouchIsInside": false,
-          "MouseIsInside": false,
-          "Index": 2.0247e-320
-        }
-      ],
-      "animations": [
-        {
-          "name": "No Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow_No Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 62,
-                        "y": 0
-                      },
-                      {
-                        "x": 62,
-                        "y": 108
-                      },
-                      {
-                        "x": 0,
-                        "y": 108
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Shadow",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Arrow_Shadow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 62,
-                        "y": 0
-                      },
-                      {
-                        "x": 62,
-                        "y": 108
-                      },
-                      {
-                        "x": 0,
-                        "y": 108
                       }
                     ]
                   ]
@@ -18413,6 +18392,232 @@
                       {
                         "x": 0,
                         "y": 2245
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "BattleScenePhases",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Draw Phase:\nDraw cards until your hand is full\n\nPreparation Phase:\nSummon heroes at the cost of your mana to defend yourself\n\nBattle Phase:\nHeroes & Monsters fight each other. If there's no hero in front of the monster, the player can be attacked directly\n\nEnd Phase:\nYour heroes returns to rest on their respective cards and you regain your mana",
+      "font": "NTBrickSans23.otf",
+      "textAlignment": "left",
+      "characterSize": 12,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Draw Phase:\nDraw cards until your hand is full\n\nPreparation Phase:\nSummon heroes at the cost of your mana to defend yourself\n\nBattle Phase:\nHeroes & Monsters fight each other. If there's no hero in front of the monster, the player can be attacked directly\n\nEnd Phase:\nYour heroes returns to rest on their respective cards and you regain your mana",
+        "font": "NTBrickSans23.otf",
+        "textAlignment": "left",
+        "characterSize": 12,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "11ebcf1ddcad0160dfb7cd44f3a9875cff2eec8abcd373081d92aa2a5adad6e2",
+      "name": "ExclamationEmote",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Style 2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Exclamation Emote_Style 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 38
+                      },
+                      {
+                        "x": 0,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "37c5cb062aac4fe7f5b73efbe8e3003e0973645f496e78fca775ff2fdc13ad93",
+      "name": "PreviousArrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arrow_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
                       }
                     ]
                   ]
@@ -19136,6 +19341,9 @@
         "objectName": "ChestText"
       },
       {
+        "objectName": "BattleScenePhases"
+      },
+      {
         "objectName": "BronzeShield"
       },
       {
@@ -19149,6 +19357,9 @@
       },
       {
         "objectName": "BackCard"
+      },
+      {
+        "objectName": "ExclamationEmote"
       }
     ]
   },
@@ -23094,7 +23305,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "NEW/LOAD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
