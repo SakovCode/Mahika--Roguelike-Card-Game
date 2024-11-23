@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6075393603117181,
+    "zoomFactor": 0.2740949521798928,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3138,7 +3138,7 @@
       "persistentUuid": "20bc879a-e8fb-4035-b42e-99d4624998f8",
       "width": 128,
       "x": -1408,
-      "y": 64,
+      "y": 128,
       "zOrder": 235,
       "numberProperties": [],
       "stringProperties": [],
@@ -3154,7 +3154,7 @@
       "persistentUuid": "4c96d865-fb22-4963-81f1-a5c21263fd62",
       "width": 0,
       "x": -1184,
-      "y": 64,
+      "y": 139,
       "zOrder": 236,
       "numberProperties": [],
       "stringProperties": [],
@@ -3165,13 +3165,12 @@
       "customSize": true,
       "depth": 1,
       "height": 64,
-      "keepRatio": true,
       "layer": "UI",
       "name": "PlayerArrow",
       "persistentUuid": "dfb261fb-e142-48e1-aa90-516716e78d8f",
-      "width": 41,
-      "x": -832,
-      "y": 96,
+      "width": 32,
+      "x": -864,
+      "y": 160,
       "zOrder": 237,
       "numberProperties": [],
       "stringProperties": [],
@@ -3256,7 +3255,7 @@
       "persistentUuid": "06f4115e-9368-4e9a-bb89-f9550f4af797",
       "width": 128,
       "x": -1408,
-      "y": 224,
+      "y": 320,
       "zOrder": 241,
       "numberProperties": [],
       "stringProperties": [],
@@ -3273,7 +3272,7 @@
       "persistentUuid": "4f88bf13-3040-437e-b74f-2865b872552b",
       "width": 65,
       "x": -1377,
-      "y": 255,
+      "y": 352,
       "zOrder": 242,
       "numberProperties": [],
       "stringProperties": [],
@@ -3289,7 +3288,7 @@
       "persistentUuid": "64780bb6-9f4f-418c-a310-239338e29a00",
       "width": 0,
       "x": -1184,
-      "y": 224,
+      "y": 331,
       "zOrder": 243,
       "numberProperties": [],
       "stringProperties": [],
@@ -3303,9 +3302,9 @@
       "layer": "UI",
       "name": "ControlsArrow",
       "persistentUuid": "fb78c246-20e6-4e33-bc68-10e6249aaf3c",
-      "width": 41,
-      "x": -832,
-      "y": 256,
+      "width": 32,
+      "x": -864,
+      "y": 352,
       "zOrder": 244,
       "numberProperties": [],
       "stringProperties": [],
@@ -3568,7 +3567,7 @@
       "persistentUuid": "98849982-2b7c-462f-a10a-fc201d98f6ac",
       "width": 0,
       "x": -1184,
-      "y": 960,
+      "y": 896,
       "zOrder": 159,
       "numberProperties": [],
       "stringProperties": [],
@@ -3585,7 +3584,7 @@
       "persistentUuid": "835edd86-ead5-44a9-ac50-f8beb0950373",
       "width": 128,
       "x": -1408,
-      "y": 384,
+      "y": 512,
       "zOrder": 241,
       "numberProperties": [],
       "stringProperties": [],
@@ -3602,7 +3601,7 @@
       "persistentUuid": "08739b3f-6f11-4f1f-a1dc-37e91354d20a",
       "width": 128,
       "x": -1408,
-      "y": 384,
+      "y": 512,
       "zOrder": 253,
       "numberProperties": [],
       "stringProperties": [],
@@ -3618,7 +3617,7 @@
       "persistentUuid": "82b60e9c-9c9a-4e27-ba1d-2306cb15b929",
       "width": 0,
       "x": -1184,
-      "y": 384,
+      "y": 524,
       "zOrder": 254,
       "numberProperties": [],
       "stringProperties": [],
@@ -3632,9 +3631,9 @@
       "layer": "UI",
       "name": "ObjectivesArrow",
       "persistentUuid": "60013c05-e105-4a07-bf37-7ee7a968273e",
-      "width": 41,
-      "x": -832,
-      "y": 416,
+      "width": 32,
+      "x": -864,
+      "y": 544,
       "zOrder": 255,
       "numberProperties": [],
       "stringProperties": [],
@@ -3719,7 +3718,7 @@
       "persistentUuid": "93cf15e4-058b-48c5-a493-7fab27e9bcf4",
       "width": 128,
       "x": -1408,
-      "y": 544,
+      "y": 704,
       "zOrder": 241,
       "numberProperties": [],
       "stringProperties": [],
@@ -3736,7 +3735,7 @@
       "persistentUuid": "c0d96715-3387-4cda-8d38-32cdb75a920e",
       "width": 64,
       "x": -1376,
-      "y": 576,
+      "y": 736,
       "zOrder": 259,
       "numberProperties": [],
       "stringProperties": [],
@@ -3752,7 +3751,7 @@
       "persistentUuid": "323c82ba-0f91-456f-90e1-7843f66016bb",
       "width": 0,
       "x": -1184,
-      "y": 546,
+      "y": 715,
       "zOrder": 260,
       "numberProperties": [],
       "stringProperties": [],
@@ -3761,14 +3760,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 64,
       "layer": "UI",
       "name": "NavigationArrow",
       "persistentUuid": "d03f89be-c8a7-41ab-9d4b-39cdc93310b2",
-      "width": 41,
-      "x": -832,
-      "y": 576,
+      "width": 32,
+      "x": -864,
+      "y": 736,
       "zOrder": 261,
       "numberProperties": [],
       "stringProperties": [],
@@ -4187,89 +4186,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SquareJoystickOuter",
-      "persistentUuid": "76b78839-6c5b-4eb7-a61e-af4ed0cc4bf8",
-      "width": 128,
-      "x": -1408,
-      "y": 704,
-      "zOrder": 241,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 3,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BronzeShield",
-      "persistentUuid": "1e7b2aa3-0b68-47d0-81bc-9a6d51906de5",
-      "width": 96,
-      "x": -1392,
-      "y": 720,
-      "zOrder": 282,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 300,
-      "customSize": true,
-      "depth": 1,
-      "height": 49,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Axe",
-      "persistentUuid": "0d5d3384-a0ec-4ef8-950a-44c4044cde78",
-      "width": 119,
-      "x": -1405,
-      "y": 743,
-      "zOrder": 283,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BattleSceneText",
-      "persistentUuid": "5846a5b5-8be6-4dfa-beb4-e4ddaaae99e6",
-      "width": 0,
-      "x": -1186,
-      "y": 704,
-      "zOrder": 284,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "layer": "UI",
-      "name": "BattleSceneArrow",
-      "persistentUuid": "73f10ecb-5ade-4508-b842-15e61dc8baa5",
-      "width": 41,
-      "x": -832,
-      "y": 736,
-      "zOrder": 285,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -4344,6 +4260,352 @@
       "x": -11392,
       "y": 960,
       "zOrder": 286,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 300,
+      "customSize": true,
+      "depth": 1,
+      "height": 36,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Axe",
+      "persistentUuid": "e6cd8f42-d80d-4dc4-b0ac-40c3723ef5d8",
+      "width": 90,
+      "x": -1395,
+      "y": 1374,
+      "zOrder": 283,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SquareJoystickOuter",
+      "persistentUuid": "a1dafb57-5088-4417-a180-28d961a6be4f",
+      "width": 128,
+      "x": -1408,
+      "y": 1344,
+      "zOrder": 241,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BronzeShield",
+      "persistentUuid": "9fa04e00-7c0a-4655-b576-9b7f9a1dc0e5",
+      "width": 64,
+      "x": -1376,
+      "y": 1376,
+      "zOrder": 282,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BattleSceneText",
+      "persistentUuid": "10e199bf-ce18-4f0e-8435-eee6200249ed",
+      "width": 0,
+      "x": -1184,
+      "y": 1355,
+      "zOrder": 284,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "UI",
+      "name": "BattleSceneArrow",
+      "persistentUuid": "f3f644b9-d0b3-44bd-b5ed-7b77e4ce5ebc",
+      "width": 32,
+      "x": -864,
+      "y": 1376,
+      "zOrder": 285,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2MainMenuButton",
+      "persistentUuid": "369ab80d-390c-414c-b765-83abc77bcf92",
+      "width": 0,
+      "x": -1184,
+      "y": 2176,
+      "zOrder": 159,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SquareJoystickOuter",
+      "persistentUuid": "d7ab65e1-0973-417a-ac4b-e52e3b8f6295",
+      "width": 128,
+      "x": -1408,
+      "y": 1536,
+      "zOrder": 241,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Chest",
+      "persistentUuid": "5f308d13-caaa-43e0-afc8-5730d19a9335",
+      "width": 64,
+      "x": -1376,
+      "y": 1568,
+      "zOrder": 289,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "UI",
+      "name": "ChestArrow",
+      "persistentUuid": "85f0ff56-b56b-497d-87ba-7ee6979eca25",
+      "width": 32,
+      "x": -864,
+      "y": 1568,
+      "zOrder": 290,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ChestText",
+      "persistentUuid": "27d0508b-3019-44f0-91d7-ca5e9ddc8c76",
+      "width": 0,
+      "x": -1184,
+      "y": 1533,
+      "zOrder": 291,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "UI",
+      "name": "NextArrow",
+      "persistentUuid": "ebf3e128-4e97-408d-b534-d5b8d6f611a6",
+      "width": 64,
+      "x": -704,
+      "y": 416,
+      "zOrder": 292,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper3",
+      "persistentUuid": "2c78fbd7-6e41-4250-a748-77fa3575103a",
+      "width": 0,
+      "x": -2048,
+      "y": 1216,
+      "zOrder": -13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "UI",
+      "name": "PreviousArrow",
+      "persistentUuid": "664b2625-55b8-4411-b700-6203700ed7be",
+      "width": 64,
+      "x": -1568,
+      "y": 1632,
+      "zOrder": 293,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Oldpaper4",
+      "persistentUuid": "b712e7e6-783d-4a26-9983-3a7b63f23249",
+      "width": 0,
+      "x": -2048,
+      "y": 2432,
+      "zOrder": 294,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 899,
+      "layer": "UI",
+      "name": "ChestInfo",
+      "persistentUuid": "9cd31380-f482-4468-aafc-a8862605175d",
+      "width": 960,
+      "x": -1568,
+      "y": 2528,
+      "zOrder": 295,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 300,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DirectionalArrowQuarterCircle",
+      "persistentUuid": "271410c4-9f3b-4513-b3ec-19d833b44177",
+      "width": 67,
+      "x": -1144,
+      "y": 2863,
+      "zOrder": 296,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Back2TutorialsButton",
+      "persistentUuid": "8b379fd8-fb55-4e2a-bd0b-dcf816f9c3f3",
+      "width": 0,
+      "x": -1184,
+      "y": 3392,
+      "zOrder": 297,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BackCard",
+      "persistentUuid": "3e72c52b-f265-47e0-94a6-4cc8c1856997",
+      "width": 64,
+      "x": -11456,
+      "y": 848,
+      "zOrder": 298,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BackCard",
+      "persistentUuid": "673550b5-ac4d-4068-921a-9c0e4d45f6e1",
+      "width": 64,
+      "x": -11377,
+      "y": 848,
+      "zOrder": 298,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BackCard",
+      "persistentUuid": "5d8c6a17-8727-4f80-a742-ef544727b887",
+      "width": 64,
+      "x": -11297,
+      "y": 848,
+      "zOrder": 298,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BackCard",
+      "persistentUuid": "81d4e1d6-2ba6-4372-8081-a9cab5a015b2",
+      "width": 64,
+      "x": -11182,
+      "y": 848,
+      "zOrder": 298,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4447,7 +4709,6 @@
         "text": "MAHIKA:",
         "font": "NTBrickSans8.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 130,
         "color": "255;255;255"
       }
@@ -4489,7 +4750,6 @@
         "text": "Roguelike Card Game",
         "font": "NTBrickSans9.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -4620,7 +4880,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -12108,7 +12367,6 @@
             "text": "START",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12203,7 +12461,6 @@
             "text": "ENGKANTOPEDIA",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12298,7 +12555,6 @@
             "text": "CREDITS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12393,7 +12649,6 @@
             "text": "OPTIONS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12488,7 +12743,6 @@
             "text": "EXIT",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12583,7 +12837,6 @@
             "text": "NEW GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12678,7 +12931,6 @@
             "text": "LOAD GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12773,7 +13025,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12868,7 +13119,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12963,7 +13213,6 @@
             "text": "TUTORIALS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -14285,7 +14534,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -14368,7 +14616,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -14662,7 +14909,6 @@
         "text": "PLAYER\nThe character that \nyou are controlling \nthroughout the game",
         "font": "NTBrickSans14.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15123,7 +15369,6 @@
         "text": "CONTROLS\nMove the player using \nWASD or up, left, down, \n& right keys",
         "font": "NTBrickSans15.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15404,7 +15649,6 @@
         "text": "W",
         "font": "NTBrickSans16.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15446,7 +15690,6 @@
         "text": "A",
         "font": "NTBrickSans17.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15488,7 +15731,6 @@
         "text": "S",
         "font": "NTBrickSans18.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15530,7 +15772,6 @@
         "text": "D",
         "font": "NTBrickSans19.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15836,7 +16077,6 @@
         "text": "OBJECTIVES\nGuide for your quest \n& lists of what you \nshould do in game",
         "font": "NTBrickSans20.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16177,7 +16417,6 @@
         "text": "NAVIGATION\nObserve carefully for \nEngkantos inside \nthe map",
         "font": "NTBrickSans21.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16458,7 +16697,6 @@
         "text": "Player you are controlling",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16500,7 +16738,6 @@
         "text": "Guide for\ncontrol keys",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16542,7 +16779,6 @@
         "text": "An Engkanto is about to \nengage the player & will \ntake to the Battle scene",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16764,7 +17000,6 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16806,7 +17041,6 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16848,7 +17082,6 @@
         "text": "Monsters with HP,\nattacks the enemies\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16890,7 +17123,6 @@
         "text": "Heroes with HP,\nattacks the monsters\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16932,7 +17164,6 @@
         "text": "Allows player to conclude \ncurrent turn & pass the \ninitiative to opponent",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16974,7 +17205,6 @@
         "text": "Hero cards that the \nplayer can summon",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17016,7 +17246,6 @@
         "text": "This represents \nthe player's HP",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17058,7 +17287,6 @@
         "text": "This represents \nmana. Each card \nhas mana cost",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17220,7 +17448,6 @@
         "text": "BATTLE SCENE\nThis where the battle \ntakes place after you \nencounter an Engkanto",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -17422,7 +17649,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -17438,6 +17664,764 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TutorialsMarker2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-10-11 004618.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 0
+                      },
+                      {
+                        "x": 657,
+                        "y": 670
+                      },
+                      {
+                        "x": 0,
+                        "y": 670
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "699d7d0d5fe6cc738e6e5b76e6ad1a055c55caed92714549909dfd2f3a854c64",
+      "name": "Chest",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chest_Open_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "x": 29,
+                        "y": 8
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 0,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "37c5cb062aac4fe7f5b73efbe8e3003e0973645f496e78fca775ff2fdc13ad93",
+      "name": "ChestArrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arrow_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arrow_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ChestText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "CHEST\nPlayer will  receive \nspell cards by opening \nthe chest that can be \nfound in map",
+      "font": "NTBrickSans23.otf",
+      "textAlignment": "left",
+      "characterSize": 17,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "CHEST\nPlayer will  receive \nspell cards by opening \nthe chest that can be \nfound in map",
+        "font": "NTBrickSans23.otf",
+        "textAlignment": "left",
+        "characterSize": 17,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "37c5cb062aac4fe7f5b73efbe8e3003e0973645f496e78fca775ff2fdc13ad93",
+      "name": "NextArrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arrow_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arrow_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Oldpaper3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bghik.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "37c5cb062aac4fe7f5b73efbe8e3003e0973645f496e78fca775ff2fdc13ad93",
+      "name": "PreviousArrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arrow_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Arrow_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 0
+                      },
+                      {
+                        "x": 62,
+                        "y": 108
+                      },
+                      {
+                        "x": 0,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Oldpaper4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bghik.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ChestInfo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Screenshot 2024-11-23 161149.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 292,
+                        "y": 0
+                      },
+                      {
+                        "x": 292,
+                        "y": 277
+                      },
+                      {
+                        "x": 0,
+                        "y": 277
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BackCard",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Card BG.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1587,
+                        "y": 0
+                      },
+                      {
+                        "x": 1587,
+                        "y": 2245
+                      },
+                      {
+                        "x": 0,
+                        "y": 2245
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -17526,6 +18510,9 @@
       },
       {
         "objectName": "TutorialsMarker"
+      },
+      {
+        "objectName": "TutorialsMarker2"
       },
       {
         "objectName": "PlayerMarker"
@@ -17840,6 +18827,12 @@
         "objectName": "Oldpaper2"
       },
       {
+        "objectName": "Oldpaper3"
+      },
+      {
+        "objectName": "Oldpaper4"
+      },
+      {
         "objectName": "Alunsina2"
       },
       {
@@ -18038,6 +19031,15 @@
         "objectName": "BattleSceneArrow"
       },
       {
+        "objectName": "ChestArrow"
+      },
+      {
+        "objectName": "NextArrow"
+      },
+      {
+        "objectName": "PreviousArrow"
+      },
+      {
         "objectName": "PlayerInfo"
       },
       {
@@ -18131,10 +19133,22 @@
         "objectName": "BattleSceneText"
       },
       {
+        "objectName": "ChestText"
+      },
+      {
         "objectName": "BronzeShield"
       },
       {
         "objectName": "Axe"
+      },
+      {
+        "objectName": "Chest"
+      },
+      {
+        "objectName": "ChestInfo"
+      },
+      {
+        "objectName": "BackCard"
       }
     ]
   },
@@ -18490,7 +19504,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19898,6 +20911,177 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "NextArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "NextArrow",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "NextArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "NextArrow",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "PreviousArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "PreviousArrow",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "PreviousArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "PreviousArrow",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "ChestArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "ChestArrow",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "ButtonStates::ButtonFSM::IsHovered"
+              },
+              "parameters": [
+                "ChestArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "ChestArrow",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -19907,7 +21091,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21397,6 +22580,144 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "NextArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "Oldpaper3.CenterX()",
+                "Oldpaper3.CenterY()",
+                "\"UI\"",
+                "\"elastic\"",
+                ".01"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".05",
+                "\"Flash\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "PreviousArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "TutorialsMarker.CenterX()",
+                "CameraCenterY()",
+                "\"UI\"",
+                "\"elastic\"",
+                ".01"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".05",
+                "\"Flash\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "ChestArrow",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMove\"",
+                "Oldpaper4.CenterX()",
+                "Oldpaper4.CenterY()",
+                "\"UI\"",
+                "\"elastic\"",
+                ".01"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".05",
+                "\"Flash\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -21415,6 +22736,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SoundBttns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21499,11 +22821,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Music",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -21770,6 +23094,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "NEW/LOAD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21975,10 +23300,6 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Health",
-      "type": "Health::Health"
-    },
-    {
       "name": "LightObstacleBehavior",
       "type": "Lighting::LightObstacleBehavior"
     },
@@ -22005,10 +23326,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "SmoothCamera",
-      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

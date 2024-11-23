@@ -1,5 +1,6 @@
 {
   "associatedLayout": "Forest",
+  "lastChangeTimeStamp": 0,
   "name": "UI",
   "events": [
     {
@@ -746,7 +747,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Skip Cutscene",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

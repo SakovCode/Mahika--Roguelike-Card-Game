@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -4362,6 +4362,54 @@
         "name": "Hand_Front",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/8d1812b20e6800fc749b07028f1b169130a32c3a255ee106431327e3a3a62a36_Chest_Closed.png",
+          "name": "Chest_Closed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Open_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Open_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/383c3c76f0122268d67b1c90936a2e528a6c497a2f0a10882db17f9b3c5c3542_Chest_Open_1.png",
+          "name": "Chest_Open_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chest_Open_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chest_Open_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/3699dc000b48dc6cc9925b682f546e97230e26233c021c93a42ed08dfba683bf_Chest_Open_2.png",
+          "name": "Chest_Open_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screenshot 2024-11-23 161149.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2024-11-23 161149.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4634,19 +4682,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -4995,7 +5043,6 @@
         "text": "Are you sure you want to quit?",
         "font": "NTBrickSans11.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5186,7 +5233,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -5360,7 +5406,6 @@
         "text": "Music",
         "font": "NTBrickSans2.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5402,7 +5447,6 @@
         "text": "Sound",
         "font": "NTBrickSans3.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5444,7 +5488,6 @@
         "text": "BGM",
         "font": "NTBrickSans4.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5648,9 +5691,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
+          "type": "Lighting::LightObstacleBehavior",
+          "isFolded": true
         },
         {
           "name": "PathfindingObstacle",
@@ -7295,7 +7338,6 @@
         "text": "Skip >>",
         "font": "NTBrickSans6.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 34,
         "color": "0;0;0"
       }
@@ -7378,7 +7420,6 @@
             "text": "RESUME",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7473,7 +7514,6 @@
             "text": "OPTIONS",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7568,7 +7608,6 @@
             "text": "EXIT TO\nMAIN MENU",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7663,7 +7702,6 @@
             "text": "SAVE & QUIT",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7758,7 +7796,6 @@
             "text": "SAVE",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7853,7 +7890,6 @@
             "text": "YES",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7948,7 +7984,6 @@
             "text": "NO",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8043,7 +8078,6 @@
             "text": "BACK",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8097,7 +8131,6 @@
         "text": "OBJECTIVES:",
         "font": "NTBrickSans10.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -8276,7 +8309,6 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -8954,6 +8986,34 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Chest",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 32,
+        "height": 32,
+        "keepAspectRatio": true,
+        "materialType": "Basic",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 4.6683907445e-313,
+        "rotationZ": 4.66839074457e-313,
+        "width": 32,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Cylinder.002Action",
+            "source": "Cylinder.002Action"
+          }
+        ]
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9017,6 +9077,9 @@
       {
         "folderName": "idk",
         "children": [
+          {
+            "objectName": "Chest"
+          },
           {
             "objectName": "ResumeButton"
           },

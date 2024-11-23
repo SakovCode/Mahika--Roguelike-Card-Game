@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.17809892122940002,
+    "zoomFactor": 0.15088497698397554,
     "windowMask": false
   },
   "objectsGroups": [
@@ -631,34 +631,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "Chest",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 4.6683907445e-313,
-        "rotationZ": 4.66839074457e-313,
-        "width": 32,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Cylinder.002Action",
-            "source": "Cylinder.002Action"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "New3DModel",
       "type": "Scene3D::Model3DObject",
       "variables": [],
@@ -727,7 +699,6 @@
         "text": " - Find a way out\n - Defeat the Engkantos",
         "font": "NTBrickSans13.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -1009,9 +980,6 @@
       {
         "folderName": "Terrain",
         "children": [
-          {
-            "objectName": "Chest"
-          },
           {
             "objectName": "ForestFloor"
           }

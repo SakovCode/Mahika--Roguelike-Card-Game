@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3694269341636073,
+    "zoomFactor": 0.19031253932802264,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1844,19 +1844,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 17,
+        "b": 17,
         "g": 17,
-        "b": 17
+        "r": 17
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
@@ -1925,7 +1925,6 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2009,7 +2008,6 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2093,7 +2091,6 @@
             "text": "END BATTLE",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "0;0;0"
           }
@@ -2188,7 +2185,6 @@
             "text": "100/100",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2273,7 +2269,6 @@
             "text": "3/3",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2358,7 +2353,6 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -3030,7 +3024,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "WIN/LOSE CONDITION",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3265,7 +3258,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "UI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
