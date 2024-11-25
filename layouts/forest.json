@@ -731,6 +731,7 @@
         "text": " - Find a way out\n - Defeat the Engkantos",
         "font": "NTBrickSans13.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }

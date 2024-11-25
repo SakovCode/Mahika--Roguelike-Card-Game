@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.32353131685763825,
+    "zoomFactor": 0.4816737915492071,
     "windowMask": false
   },
   "objectsGroups": [
@@ -33,35 +33,6 @@
         },
         {
           "name": "EnemySlot1"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "objects": [
-        {
-          "name": "Alunsina"
-        },
-        {
-          "name": "Apolaki"
-        },
-        {
-          "name": "Bantong"
-        },
-        {
-          "name": "Bantugan"
-        },
-        {
-          "name": "BernardoCarpio"
-        },
-        {
-          "name": "LamAng"
-        },
-        {
-          "name": "Urduja"
-        },
-        {
-          "name": "Raja"
         }
       ]
     },
@@ -124,7 +95,7 @@
           "name": "CardUrduja"
         },
         {
-          "name": "CardLamAng"
+          "name": "CardLam_Ang"
         },
         {
           "name": "CardBernardoCarpio"
@@ -674,22 +645,6 @@
       "x": 51,
       "y": 96,
       "zOrder": 53,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "7bf677ae-aa51-4787-a21f-cd91e2f057d4",
-      "width": 0,
-      "x": 391,
-      "y": 318,
-      "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1727,16 +1682,14 @@
           "type": "structure",
           "children": [
             {
-              "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 2
+              "value": 10
             },
             {
-              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 2
+              "value": 10
             }
           ]
         },
@@ -1844,19 +1797,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 17,
-        "g": 17,
-        "r": 17
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 17,
+        "g": 17,
+        "b": 17
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
@@ -1925,6 +1878,7 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2008,6 +1962,7 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2091,6 +2046,7 @@
             "text": "END BATTLE",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "0;0;0"
           }
@@ -2185,6 +2141,7 @@
             "text": "100/100",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2269,6 +2226,7 @@
             "text": "3/3",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2353,6 +2311,7 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2366,33 +2325,39 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "ATK",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "folded": true,
           "name": "attackExecuted",
-          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
           "type": "boolean",
           "value": false
         },
         {
           "name": "boundPos",
-          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "X",
-              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
               "name": "Y",
-              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
               "type": "number",
               "value": 0
             }
@@ -2423,33 +2388,39 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "ATK",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "folded": true,
           "name": "attackExecuted",
-          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
           "type": "boolean",
           "value": false
         },
         {
           "name": "boundPos",
-          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "X",
-              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
               "name": "Y",
-              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
               "type": "number",
               "value": 0
             }
@@ -2480,33 +2451,39 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "ATK",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "folded": true,
           "name": "attackExecuted",
-          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
           "type": "boolean",
           "value": false
         },
         {
           "name": "boundPos",
-          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "X",
-              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
               "name": "Y",
-              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
               "type": "number",
               "value": 0
             }
@@ -2537,33 +2514,39 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "ATK",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "folded": true,
           "name": "attackExecuted",
-          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
           "type": "boolean",
           "value": false
         },
         {
           "name": "boundPos",
-          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "X",
-              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
               "name": "Y",
-              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
               "type": "number",
               "value": 0
             }
@@ -2594,33 +2577,39 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "ATK",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "folded": true,
           "name": "attackExecuted",
-          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
           "type": "boolean",
           "value": false
         },
         {
           "name": "boundPos",
-          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "X",
-              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
               "name": "Y",
-              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
               "type": "number",
               "value": 0
             }
@@ -2651,33 +2640,39 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "ATK",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "folded": true,
           "name": "attackExecuted",
-          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
           "type": "boolean",
           "value": false
         },
         {
           "name": "boundPos",
-          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "X",
-              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
               "name": "Y",
-              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
               "type": "number",
               "value": 0
             }
@@ -2708,33 +2703,39 @@
       "variables": [
         {
           "name": "stats",
-          "persistentUuid": "855b2714-2692-4b92-a3a0-755932b94972",
           "type": "structure",
-          "children": []
+          "children": [
+            {
+              "name": "ATK",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "HP",
+              "type": "number",
+              "value": 10
+            }
+          ]
         },
         {
           "folded": true,
           "name": "attackExecuted",
-          "persistentUuid": "9071e0f9-8f00-4e7a-a58a-80771ed75abb",
           "type": "boolean",
           "value": false
         },
         {
           "name": "boundPos",
-          "persistentUuid": "8a82f68a-37a2-439b-b403-8f25018b4c65",
           "type": "structure",
           "children": [
             {
               "folded": true,
               "name": "X",
-              "persistentUuid": "2320d323-6418-4a3e-b6a3-eae0a0b0240e",
               "type": "number",
               "value": 0
             },
             {
               "folded": true,
               "name": "Y",
-              "persistentUuid": "0b132711-f13d-405f-8f17-5c98c959c7d9",
               "type": "number",
               "value": 0
             }
@@ -2757,17 +2758,6 @@
         "width": 150,
         "animations": []
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -2775,9 +2765,6 @@
     "children": [
       {
         "objectName": "CardSample"
-      },
-      {
-        "objectName": "NewSprite"
       },
       {
         "folderName": "UI",
@@ -2918,12 +2905,12 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -2968,6 +2955,32 @@
           "conditions": [
             {
               "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "F2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "CurrentSceneName()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
@@ -2986,6 +2999,280 @@
                 "\"MainMenu\"",
                 ""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VariableChildCount"
+              },
+              "parameters": [
+                "PlayerDeck",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "12",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "random",
+                    "=",
+                    "RandomInRange(1,8)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardAlunsina\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardApolaki\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardBantong\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardBantugan\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardBernardoCarpio\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardLamAng\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardUrduja\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random",
+                        "=",
+                        "8"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushString"
+                      },
+                      "parameters": [
+                        "PlayerDeck",
+                        "\"CardRaja\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Progress\"",
+                    "\"DECK\"",
+                    "ToJSON(PlayerDeck)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "random",
+              "type": "number",
+              "value": 0
             }
           ]
         },
@@ -3412,7 +3699,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Hero",
+          "object": "Heroes",
           "conditions": [
             {
               "type": {
@@ -3421,7 +3708,7 @@
               "parameters": [
                 "",
                 "HealthBar",
-                "Hero",
+                "Heroes",
                 ""
               ]
             }
@@ -3434,9 +3721,9 @@
               "parameters": [
                 "HealthBar",
                 "=",
-                "Hero.X()+(Hero.Width()/2)",
+                "Heroes.X() + (Heroes.Width() / 2)",
                 "=",
-                "Hero.Y()-30"
+                "Heroes.Y() - 30"
               ]
             },
             {
@@ -3446,7 +3733,7 @@
               "parameters": [
                 "HealthBar",
                 "=",
-                "Hero.stats.HP",
+                "Heroes.stats.HP",
                 ""
               ]
             }
@@ -4268,7 +4555,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "HOVER, DRAG, DROPPED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4298,7 +4584,7 @@
                   "parameters": [
                     "Card",
                     "HeroSlot",
-                    "32",
+                    "64",
                     ""
                   ]
                 },
@@ -4341,7 +4627,177 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "Card.name",
+                        "\"info\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CreateByName"
+                      },
+                      "parameters": [
+                        "",
+                        "Heroes",
+                        "Card.name",
+                        "HeroSlot.CenterX()",
+                        "HeroSlot.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectStack::ObjectStack::Remove"
+                      },
+                      "parameters": [
+                        "Hand",
+                        "ObjectStack",
+                        "Card",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Card",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Heroes",
+                        "boundPos.X",
+                        "=",
+                        "HeroSlot.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Heroes",
+                        "boundPos.Y",
+                        "=",
+                        "HeroSlot.CenterY()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "Heroes",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "Heroes.X() + 64",
+                            "Heroes.Y() - 50",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "Heroes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "HealthBar",
+                            "Heroes",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "=",
+                            "Heroes.stats.HP",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "=",
+                            "Heroes.stats.HP",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "Resizable",
+                            "=",
+                            "75"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "HealthBar",
+                            "+",
+                            "1000"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -4451,6 +4907,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "PREPARATION PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4595,7 +5052,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
-                "Hero",
+                "Heroes",
                 "stats.HP",
                 "<=",
                 "0"
@@ -4616,8 +5073,8 @@
               "parameters": [
                 "",
                 "RedExplosion",
-                "Hero.boundPos.X",
-                "Hero.boundPos.Y",
+                "Heroes.boundPos.X",
+                "Heroes.boundPos.Y",
                 ""
               ]
             },
@@ -4641,7 +5098,7 @@
                   "parameters": [
                     "",
                     "HealthBar",
-                    "Hero",
+                    "Heroes",
                     ""
                   ]
                 }
@@ -4661,7 +5118,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Hero",
+                    "Heroes",
                     ""
                   ]
                 }
@@ -4802,7 +5259,7 @@
                       },
                       "parameters": [
                         "",
-                        "Hero",
+                        "Heroes",
                         "=",
                         "0"
                       ]
@@ -4829,7 +5286,7 @@
                         "value": "PickNearest"
                       },
                       "parameters": [
-                        "Hero",
+                        "Heroes",
                         "HeroSlot1.X()",
                         "HeroSlot1.Y()",
                         ""
@@ -4847,7 +5304,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot1",
                             "20",
                             ""
@@ -4875,7 +5332,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot1",
                             "20",
                             ""
@@ -4903,8 +5360,8 @@
                                   },
                                   "parameters": [
                                     "Enemy",
-                                    "Hero.X()",
-                                    "Hero.Y()",
+                                    "Heroes.X()",
+                                    "Heroes.Y()",
                                     ""
                                   ]
                                 },
@@ -4913,7 +5370,7 @@
                                     "value": "BooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "False",
                                     ""
@@ -4926,7 +5383,7 @@
                                     "value": "PathfindingBehavior::SetDestination"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Pathfinding",
                                     "",
                                     "Enemy.X()",
@@ -4938,7 +5395,7 @@
                                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Animation",
                                     "=",
                                     "\"attack\""
@@ -4949,7 +5406,7 @@
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "Hero.Animation::Duration()"
+                                    "Heroes.Animation::Duration()"
                                   ]
                                 },
                                 {
@@ -4957,7 +5414,7 @@
                                     "value": "SetBooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "True",
                                     ""
@@ -4971,7 +5428,7 @@
                                     "Enemy",
                                     "stats.HP",
                                     "-",
-                                    "Hero.stats.ATK"
+                                    "Heroes.stats.ATK"
                                   ]
                                 }
                               ],
@@ -4984,7 +5441,7 @@
                                         "value": "Distance"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Enemy",
                                         "200",
                                         ""
@@ -4995,7 +5452,7 @@
                                         "value": "BooleanObjectVariable"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "attackExecuted",
                                         "False",
                                         ""
@@ -5012,7 +5469,7 @@
                                         "value": "BooleanObjectVariable"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "attackExecuted",
                                         "True",
                                         ""
@@ -5025,11 +5482,11 @@
                                         "value": "PathfindingBehavior::SetDestination"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Pathfinding",
                                         "",
-                                        "Hero.boundPos.X",
-                                        "Hero.boundPos.Y"
+                                        "Heroes.boundPos.X",
+                                        "Heroes.boundPos.Y"
                                       ]
                                     },
                                     {
@@ -5037,7 +5494,7 @@
                                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Animation",
                                         "=",
                                         "\"idle\""
@@ -5105,7 +5562,7 @@
                       },
                       "parameters": [
                         "",
-                        "Hero",
+                        "Heroes",
                         "=",
                         "0"
                       ]
@@ -5132,7 +5589,7 @@
                         "value": "PickNearest"
                       },
                       "parameters": [
-                        "Hero",
+                        "Heroes",
                         "HeroSlot2.X()",
                         "HeroSlot2.Y()",
                         ""
@@ -5150,7 +5607,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot2",
                             "20",
                             ""
@@ -5178,7 +5635,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot2",
                             "20",
                             ""
@@ -5196,8 +5653,8 @@
                               },
                               "parameters": [
                                 "Enemy",
-                                "Hero.X()",
-                                "Hero.Y()",
+                                "Heroes.X()",
+                                "Heroes.Y()",
                                 ""
                               ]
                             },
@@ -5206,7 +5663,7 @@
                                 "value": "BooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "False",
                                 ""
@@ -5219,7 +5676,7 @@
                                 "value": "PathfindingBehavior::SetDestination"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Pathfinding",
                                 "",
                                 "Enemy.X()",
@@ -5231,7 +5688,7 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Animation",
                                 "=",
                                 "\"attack\""
@@ -5242,7 +5699,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "Hero.Animation::Duration()"
+                                "Heroes.Animation::Duration()"
                               ]
                             },
                             {
@@ -5250,7 +5707,7 @@
                                 "value": "SetBooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "True",
                                 ""
@@ -5264,7 +5721,7 @@
                                 "Enemy",
                                 "stats.HP",
                                 "-",
-                                "Hero.stats.ATK"
+                                "Heroes.stats.ATK"
                               ]
                             }
                           ],
@@ -5277,7 +5734,7 @@
                                     "value": "Distance"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Enemy",
                                     "200",
                                     ""
@@ -5288,7 +5745,7 @@
                                     "value": "BooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "False",
                                     ""
@@ -5305,7 +5762,7 @@
                                     "value": "BooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "True",
                                     ""
@@ -5318,11 +5775,11 @@
                                     "value": "PathfindingBehavior::SetDestination"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Hero.boundPos.X",
-                                    "Hero.boundPos.Y"
+                                    "Heroes.boundPos.X",
+                                    "Heroes.boundPos.Y"
                                   ]
                                 },
                                 {
@@ -5330,7 +5787,7 @@
                                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Animation",
                                     "=",
                                     "\"idle\""
@@ -5395,7 +5852,7 @@
                       },
                       "parameters": [
                         "",
-                        "Hero",
+                        "Heroes",
                         "=",
                         "0"
                       ]
@@ -5422,7 +5879,7 @@
                         "value": "PickNearest"
                       },
                       "parameters": [
-                        "Hero",
+                        "Heroes",
                         "HeroSlot3.X()",
                         "HeroSlot3.Y()",
                         ""
@@ -5440,7 +5897,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot3",
                             "20",
                             ""
@@ -5468,7 +5925,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot3",
                             "20",
                             ""
@@ -5486,8 +5943,8 @@
                               },
                               "parameters": [
                                 "Enemy",
-                                "Hero.X()",
-                                "Hero.Y()",
+                                "Heroes.X()",
+                                "Heroes.Y()",
                                 ""
                               ]
                             },
@@ -5496,7 +5953,7 @@
                                 "value": "BooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "False",
                                 ""
@@ -5509,7 +5966,7 @@
                                 "value": "PathfindingBehavior::SetDestination"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Pathfinding",
                                 "",
                                 "Enemy.X()",
@@ -5521,7 +5978,7 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Animation",
                                 "=",
                                 "\"attack\""
@@ -5532,7 +5989,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "Hero.Animation::Duration()"
+                                "Heroes.Animation::Duration()"
                               ]
                             },
                             {
@@ -5543,7 +6000,7 @@
                                 "Enemy",
                                 "stats.HP",
                                 "-",
-                                "Hero.stats.ATK"
+                                "Heroes.stats.ATK"
                               ]
                             },
                             {
@@ -5551,7 +6008,7 @@
                                 "value": "SetBooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "True",
                                 ""
@@ -5567,7 +6024,7 @@
                                     "value": "BooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "True",
                                     ""
@@ -5580,11 +6037,11 @@
                                     "value": "PathfindingBehavior::SetDestination"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Hero.boundPos.X",
-                                    "Hero.boundPos.Y"
+                                    "Heroes.boundPos.X",
+                                    "Heroes.boundPos.Y"
                                   ]
                                 },
                                 {
@@ -5592,7 +6049,7 @@
                                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Animation",
                                     "=",
                                     "\"idle\""
@@ -5658,7 +6115,7 @@
                       },
                       "parameters": [
                         "",
-                        "Hero",
+                        "Heroes",
                         "=",
                         "0"
                       ]
@@ -5685,7 +6142,7 @@
                         "value": "PickNearest"
                       },
                       "parameters": [
-                        "Hero",
+                        "Heroes",
                         "HeroSlot4.X()",
                         "HeroSlot4.Y()",
                         ""
@@ -5703,7 +6160,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot4",
                             "20",
                             ""
@@ -5731,7 +6188,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot4",
                             "20",
                             ""
@@ -5749,8 +6206,8 @@
                               },
                               "parameters": [
                                 "Enemy",
-                                "Hero.X()",
-                                "Hero.Y()",
+                                "Heroes.X()",
+                                "Heroes.Y()",
                                 ""
                               ]
                             },
@@ -5759,7 +6216,7 @@
                                 "value": "BooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "False",
                                 ""
@@ -5772,7 +6229,7 @@
                                 "value": "PathfindingBehavior::SetDestination"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Pathfinding",
                                 "",
                                 "Enemy.X()",
@@ -5784,7 +6241,7 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Animation",
                                 "=",
                                 "\"attack\""
@@ -5795,7 +6252,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "Hero.Animation::Duration()"
+                                "Heroes.Animation::Duration()"
                               ]
                             },
                             {
@@ -5806,7 +6263,7 @@
                                 "Enemy",
                                 "stats.HP",
                                 "-",
-                                "Hero.stats.ATK"
+                                "Heroes.stats.ATK"
                               ]
                             },
                             {
@@ -5814,7 +6271,7 @@
                                 "value": "SetBooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "True",
                                 ""
@@ -5830,7 +6287,7 @@
                                     "value": "BooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "True",
                                     ""
@@ -5843,11 +6300,11 @@
                                     "value": "PathfindingBehavior::SetDestination"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Hero.boundPos.X",
-                                    "Hero.boundPos.Y"
+                                    "Heroes.boundPos.X",
+                                    "Heroes.boundPos.Y"
                                   ]
                                 },
                                 {
@@ -5855,7 +6312,7 @@
                                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Animation",
                                     "=",
                                     "\"idle\""
@@ -5921,7 +6378,7 @@
                       },
                       "parameters": [
                         "",
-                        "Hero",
+                        "Heroes",
                         "=",
                         "0"
                       ]
@@ -5948,7 +6405,7 @@
                         "value": "PickNearest"
                       },
                       "parameters": [
-                        "Hero",
+                        "Heroes",
                         "HeroSlot5.X()",
                         "HeroSlot5.Y()",
                         ""
@@ -5966,7 +6423,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot5",
                             "20",
                             ""
@@ -5994,7 +6451,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot5",
                             "20",
                             ""
@@ -6012,8 +6469,8 @@
                               },
                               "parameters": [
                                 "Enemy",
-                                "Hero.X()",
-                                "Hero.Y()",
+                                "Heroes.X()",
+                                "Heroes.Y()",
                                 ""
                               ]
                             },
@@ -6022,7 +6479,7 @@
                                 "value": "BooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "False",
                                 ""
@@ -6035,7 +6492,7 @@
                                 "value": "PathfindingBehavior::SetDestination"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Pathfinding",
                                 "",
                                 "Enemy.X()",
@@ -6047,7 +6504,7 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Animation",
                                 "=",
                                 "\"attack\""
@@ -6058,7 +6515,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "Hero.Animation::Duration()"
+                                "Heroes.Animation::Duration()"
                               ]
                             },
                             {
@@ -6069,7 +6526,7 @@
                                 "Enemy",
                                 "stats.HP",
                                 "-",
-                                "Hero.stats.ATK"
+                                "Heroes.stats.ATK"
                               ]
                             },
                             {
@@ -6077,7 +6534,7 @@
                                 "value": "SetBooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "True",
                                 ""
@@ -6093,7 +6550,7 @@
                                     "value": "BooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "True",
                                     ""
@@ -6106,11 +6563,11 @@
                                     "value": "PathfindingBehavior::SetDestination"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Hero.boundPos.X",
-                                    "Hero.boundPos.Y"
+                                    "Heroes.boundPos.X",
+                                    "Heroes.boundPos.Y"
                                   ]
                                 },
                                 {
@@ -6118,7 +6575,7 @@
                                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Animation",
                                     "=",
                                     "\"idle\""
@@ -6184,7 +6641,7 @@
                       },
                       "parameters": [
                         "",
-                        "Hero",
+                        "Heroes",
                         "=",
                         "0"
                       ]
@@ -6211,7 +6668,7 @@
                         "value": "PickNearest"
                       },
                       "parameters": [
-                        "Hero",
+                        "Heroes",
                         "HeroSlot6.X()",
                         "HeroSlot6.Y()",
                         ""
@@ -6229,7 +6686,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot6",
                             "20",
                             ""
@@ -6257,7 +6714,7 @@
                             "value": "Distance"
                           },
                           "parameters": [
-                            "Hero",
+                            "Heroes",
                             "HeroSlot6",
                             "20",
                             ""
@@ -6275,8 +6732,8 @@
                               },
                               "parameters": [
                                 "Enemy",
-                                "Hero.X()",
-                                "Hero.Y()",
+                                "Heroes.X()",
+                                "Heroes.Y()",
                                 ""
                               ]
                             },
@@ -6285,7 +6742,7 @@
                                 "value": "BooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "False",
                                 ""
@@ -6298,7 +6755,7 @@
                                 "value": "PathfindingBehavior::SetDestination"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Pathfinding",
                                 "",
                                 "Enemy.X()",
@@ -6310,7 +6767,7 @@
                                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "Animation",
                                 "=",
                                 "\"attack\""
@@ -6321,7 +6778,7 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "Hero.Animation::Duration()"
+                                "Heroes.Animation::Duration()"
                               ]
                             },
                             {
@@ -6332,7 +6789,7 @@
                                 "Enemy",
                                 "stats.HP",
                                 "-",
-                                "Hero.stats.ATK"
+                                "Heroes.stats.ATK"
                               ]
                             },
                             {
@@ -6340,7 +6797,7 @@
                                 "value": "SetBooleanObjectVariable"
                               },
                               "parameters": [
-                                "Hero",
+                                "Heroes",
                                 "attackExecuted",
                                 "True",
                                 ""
@@ -6356,7 +6813,7 @@
                                     "value": "BooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "attackExecuted",
                                     "True",
                                     ""
@@ -6369,11 +6826,11 @@
                                     "value": "PathfindingBehavior::SetDestination"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Hero.boundPos.X",
-                                    "Hero.boundPos.Y"
+                                    "Heroes.boundPos.X",
+                                    "Heroes.boundPos.Y"
                                   ]
                                 },
                                 {
@@ -6381,7 +6838,7 @@
                                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                   },
                                   "parameters": [
-                                    "Hero",
+                                    "Heroes",
                                     "Animation",
                                     "=",
                                     "\"idle\""
@@ -6546,7 +7003,7 @@
                                         "value": "Raycast"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Enemy.X()",
                                         "Enemy.Y()",
                                         "90",
@@ -6619,7 +7076,7 @@
                                             "value": "PickNearest"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Intersection.X",
                                             "Intersection.Y",
                                             ""
@@ -6635,8 +7092,8 @@
                                             "Enemy",
                                             "Pathfinding",
                                             "",
-                                            "Hero.X()",
-                                            "Hero.Y() - 64 - 32"
+                                            "Heroes.X()",
+                                            "Heroes.Y() - 64 - 32"
                                           ]
                                         },
                                         {
@@ -6663,7 +7120,7 @@
                                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Animation",
                                             "=",
                                             "\"hit\""
@@ -6674,7 +7131,7 @@
                                             "value": "SetNumberObjectVariable"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "stats.HP",
                                             "-",
                                             "Enemy.stats.ATK"
@@ -7185,7 +7642,7 @@
                                         "value": "Raycast"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Enemy.X()",
                                         "Enemy.Y()",
                                         "90",
@@ -7258,7 +7715,7 @@
                                             "value": "PickNearest"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Intersection.X",
                                             "Intersection.Y",
                                             ""
@@ -7274,8 +7731,8 @@
                                             "Enemy",
                                             "Pathfinding",
                                             "",
-                                            "Hero.X()",
-                                            "Hero.Y() - 64 - 32"
+                                            "Heroes.X()",
+                                            "Heroes.Y() - 64 - 32"
                                           ]
                                         },
                                         {
@@ -7302,7 +7759,7 @@
                                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Animation",
                                             "=",
                                             "\"hit\""
@@ -7313,7 +7770,7 @@
                                             "value": "SetNumberObjectVariable"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "stats.HP",
                                             "-",
                                             "Enemy.stats.ATK"
@@ -7824,7 +8281,7 @@
                                         "value": "Raycast"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Enemy.X()",
                                         "Enemy.Y()",
                                         "90",
@@ -7897,7 +8354,7 @@
                                             "value": "PickNearest"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Intersection.X",
                                             "Intersection.Y",
                                             ""
@@ -7913,8 +8370,8 @@
                                             "Enemy",
                                             "Pathfinding",
                                             "",
-                                            "Hero.X()",
-                                            "Hero.Y() - 64 - 32"
+                                            "Heroes.X()",
+                                            "Heroes.Y() - 64 - 32"
                                           ]
                                         },
                                         {
@@ -7941,7 +8398,7 @@
                                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Animation",
                                             "=",
                                             "\"hit\""
@@ -7952,7 +8409,7 @@
                                             "value": "SetNumberObjectVariable"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "stats.HP",
                                             "-",
                                             "Enemy.stats.ATK"
@@ -8463,7 +8920,7 @@
                                         "value": "Raycast"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Enemy.X()",
                                         "Enemy.Y()",
                                         "90",
@@ -8536,7 +8993,7 @@
                                             "value": "PickNearest"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Intersection.X",
                                             "Intersection.Y",
                                             ""
@@ -8552,8 +9009,8 @@
                                             "Enemy",
                                             "Pathfinding",
                                             "",
-                                            "Hero.X()",
-                                            "Hero.Y() - 64 - 32"
+                                            "Heroes.X()",
+                                            "Heroes.Y() - 64 - 32"
                                           ]
                                         },
                                         {
@@ -8580,7 +9037,7 @@
                                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Animation",
                                             "=",
                                             "\"hit\""
@@ -8591,7 +9048,7 @@
                                             "value": "SetNumberObjectVariable"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "stats.HP",
                                             "-",
                                             "Enemy.stats.ATK"
@@ -9102,7 +9559,7 @@
                                         "value": "Raycast"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Enemy.X()",
                                         "Enemy.Y()",
                                         "90",
@@ -9175,7 +9632,7 @@
                                             "value": "PickNearest"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Intersection.X",
                                             "Intersection.Y",
                                             ""
@@ -9191,8 +9648,8 @@
                                             "Enemy",
                                             "Pathfinding",
                                             "",
-                                            "Hero.X()",
-                                            "Hero.Y() - 64 - 32"
+                                            "Heroes.X()",
+                                            "Heroes.Y() - 64 - 32"
                                           ]
                                         },
                                         {
@@ -9219,7 +9676,7 @@
                                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Animation",
                                             "=",
                                             "\"hit\""
@@ -9230,7 +9687,7 @@
                                             "value": "SetNumberObjectVariable"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "stats.HP",
                                             "-",
                                             "Enemy.stats.ATK"
@@ -9741,7 +10198,7 @@
                                         "value": "Raycast"
                                       },
                                       "parameters": [
-                                        "Hero",
+                                        "Heroes",
                                         "Enemy.X()",
                                         "Enemy.Y()",
                                         "90",
@@ -9814,7 +10271,7 @@
                                             "value": "PickNearest"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Intersection.X",
                                             "Intersection.Y",
                                             ""
@@ -9830,8 +10287,8 @@
                                             "Enemy",
                                             "Pathfinding",
                                             "",
-                                            "Hero.X()",
-                                            "Hero.Y() - 64 - 32"
+                                            "Heroes.X()",
+                                            "Heroes.Y() - 64 - 32"
                                           ]
                                         },
                                         {
@@ -9858,7 +10315,7 @@
                                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "Animation",
                                             "=",
                                             "\"hit\""
@@ -9869,7 +10326,7 @@
                                             "value": "SetNumberObjectVariable"
                                           },
                                           "parameters": [
-                                            "Hero",
+                                            "Heroes",
                                             "stats.HP",
                                             "-",
                                             "Enemy.stats.ATK"
@@ -10387,7 +10844,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Hero",
+              "object": "Heroes",
               "conditions": [
                 {
                   "type": {
@@ -10396,7 +10853,7 @@
                   "parameters": [
                     "",
                     "HealthBar",
-                    "Hero",
+                    "Heroes",
                     ""
                   ]
                 }
@@ -10436,7 +10893,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Hero",
+                    "Heroes",
                     ""
                   ]
                 }
