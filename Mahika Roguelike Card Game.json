@@ -8718,7 +8718,7 @@
         {
           "name": "cost",
           "type": "number",
-          "value": 1
+          "value": 2
         },
         {
           "name": "name",
@@ -8804,7 +8804,7 @@
         {
           "name": "cost",
           "type": "number",
-          "value": 1
+          "value": 2
         },
         {
           "name": "name",
@@ -8890,7 +8890,7 @@
         {
           "name": "cost",
           "type": "number",
-          "value": 1
+          "value": 2
         },
         {
           "name": "name",
@@ -9062,7 +9062,7 @@
         {
           "name": "cost",
           "type": "number",
-          "value": 1
+          "value": 2
         },
         {
           "name": "name",
@@ -9148,7 +9148,7 @@
         {
           "name": "cost",
           "type": "number",
-          "value": 1
+          "value": 2
         },
         {
           "name": "name",
