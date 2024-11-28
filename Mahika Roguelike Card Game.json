@@ -8381,7 +8381,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Alunsina.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8552,7 +8552,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Raja.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8638,7 +8638,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Princess Urduja.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8724,7 +8724,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Lam-Ang.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8810,7 +8810,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bernardo Carpio.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8896,7 +8896,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantugan.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8982,7 +8982,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantong.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -9068,7 +9068,7 @@
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Apolaki.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 180,
+        "rotationY": 0,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -9561,90 +9561,76 @@
   "variables": [
     {
       "name": "PlayerHP",
-      "persistentUuid": "0622bdc4-af7f-4a15-a1c7-c64c2efce62c",
       "type": "number",
       "value": 100
     },
     {
       "name": "PlayerMaxMana",
-      "persistentUuid": "da3aa7d4-1493-4335-8eb5-22f5dde847fd",
       "type": "number",
       "value": 6
     },
     {
       "name": "encounterID",
-      "persistentUuid": "6389772d-f73f-4f88-bff6-0130445521ba",
       "type": "string",
-      "value": "0"
+      "value": "EnemyAswang"
     },
     {
       "name": "enemyDefeated",
-      "persistentUuid": "7d9b2e96-8780-4d66-b477-d73bc6dcdabd",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
       "name": "Forest",
-      "persistentUuid": "26a66613-4e6c-4b62-8608-0f3775661dae",
       "type": "string",
       "value": "Forest"
     },
     {
       "folded": true,
       "name": "DForest",
-      "persistentUuid": "5091ec50-0a38-4d04-924a-a3040202ebf7",
       "type": "string",
       "value": "DForest"
     },
     {
       "folded": true,
       "name": "Cave",
-      "persistentUuid": "4644ed17-25bf-4327-a8a3-d8a600dfc2ff",
       "type": "string",
       "value": "Cave"
     },
     {
       "folded": true,
       "name": "CaveBoss",
-      "persistentUuid": "f69ed255-2436-4e44-8652-a32ab99ae935",
       "type": "string",
       "value": "CaveBoss"
     },
     {
       "folded": true,
       "name": "ForestBoss",
-      "persistentUuid": "9a1c7860-d93b-4b88-b59c-723a8b27253f",
       "type": "string",
       "value": "ForestBoss"
     },
     {
       "name": "DForestBoss",
-      "persistentUuid": "92ee7d5f-f5f4-4246-9940-f1525b84aab0",
       "type": "string",
       "value": "DForestBoss"
     },
     {
       "name": "load",
-      "persistentUuid": "01c85dc0-1325-4e1f-8de1-59c4e622c438",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
       "name": "Settings",
-      "persistentUuid": "cf9c278c-887f-411d-a1b5-2fdfb6530be4",
       "type": "structure",
       "children": [
         {
           "name": "Music",
-          "persistentUuid": "17bf97b0-95de-4f06-9360-ec147832083b",
           "type": "number",
           "value": 50
         },
         {
           "name": "Sound",
-          "persistentUuid": "b69c3cfb-1713-4f81-b3ad-4c8b65e816d3",
           "type": "number",
           "value": 50
         }
@@ -9653,7 +9639,6 @@
     {
       "folded": true,
       "name": "PlayerDeck",
-      "persistentUuid": "9967534b-cdc0-4b79-ab1e-bccc472ae8e5",
       "type": "structure",
       "children": []
     }

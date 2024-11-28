@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4816737915492071,
+    "zoomFactor": 0.6075393603116882,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1749,7 +1749,28 @@
         "rotationY": 0,
         "rotationZ": -137,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -2330,12 +2351,12 @@
             {
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 15
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 30
             }
           ]
         },
@@ -2378,7 +2399,28 @@
         "rotationY": 0,
         "rotationZ": 180,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -2393,12 +2435,12 @@
             {
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 20
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 15
             }
           ]
         },
@@ -2441,7 +2483,28 @@
         "rotationY": 0,
         "rotationZ": 180,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -2456,12 +2519,12 @@
             {
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 15
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 15
             }
           ]
         },
@@ -2504,7 +2567,28 @@
         "rotationY": 0,
         "rotationZ": 180,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -2519,12 +2603,12 @@
             {
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 15
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 20
             }
           ]
         },
@@ -2567,7 +2651,28 @@
         "rotationY": 0,
         "rotationZ": 180,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -2582,12 +2687,12 @@
             {
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 15
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 25
             }
           ]
         },
@@ -2630,7 +2735,28 @@
         "rotationY": 0,
         "rotationZ": 180,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -2645,12 +2771,12 @@
             {
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 20
             },
             {
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 20
             }
           ]
         },
@@ -2693,7 +2819,28 @@
         "rotationY": 0,
         "rotationZ": 180,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     },
     {
@@ -2756,7 +2903,28 @@
         "rotationY": 0,
         "rotationZ": 180,
         "width": 150,
-        "animations": []
+        "animations": [
+          {
+            "loop": true,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "t-pose",
+            "source": "t-pose"
+          }
+        ]
       }
     }
   ],
@@ -2905,6 +3073,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4292,7 +4461,7 @@
                         "Card",
                         "Animation",
                         "=",
-                        "\"Idle Front\""
+                        "\"Back\""
                       ]
                     }
                   ]
@@ -4332,7 +4501,7 @@
                         "Card",
                         "Animation",
                         "=",
-                        "\"Idle Back\""
+                        "\"Front\""
                       ]
                     }
                   ]
@@ -4691,6 +4860,16 @@
                         "boundPos.Y",
                         "=",
                         "HeroSlot.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "mana",
+                        "-",
+                        "Card.cost"
                       ]
                     }
                   ],
