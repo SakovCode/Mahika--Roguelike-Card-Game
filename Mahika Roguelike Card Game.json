@@ -4577,6 +4577,125 @@
         "metadata": "",
         "name": "..\\CAPSTONE\\AA1\\Bakunawa Intro.mp4",
         "userAdded": false
+      },
+      {
+        "file": "Alunsina2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Alunsina2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Apolaki2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Apolaki2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Bantong2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bantong2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Bernardo Carpio.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bernardo Carpio.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Lam-Ang.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Lam-Ang.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Princess Urduja.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Princess Urduja.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Raja.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Raja.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Bantugan2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bantugan2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Testcard1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Testcard1.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Alunsina3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Alunsina3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Apolaki3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Apolaki3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Bantong3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bantong3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Bantugan3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bantugan3.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Bernardo Carpio2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bernardo Carpio2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Lam-Ang2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Lam-Ang2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Princess Urduja2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Princess Urduja2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Raja2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Raja2.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -8378,10 +8497,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Alunsina.glb",
+        "modelResourceName": "Alunsina3.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8397,8 +8516,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
@@ -8549,10 +8668,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Raja.glb",
+        "modelResourceName": "Raja2.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8568,8 +8687,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
@@ -8635,10 +8754,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Princess Urduja.glb",
+        "modelResourceName": "Princess Urduja2.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8654,8 +8773,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
@@ -8721,10 +8840,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Lam-Ang.glb",
+        "modelResourceName": "Lam-Ang2.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8740,8 +8859,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
@@ -8807,10 +8926,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bernardo Carpio.glb",
+        "modelResourceName": "Bernardo Carpio2.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8826,8 +8945,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
@@ -8893,10 +9012,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantugan.glb",
+        "modelResourceName": "Bantugan3.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8912,8 +9031,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
@@ -8979,10 +9098,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantong.glb",
+        "modelResourceName": "Bantong3.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -8998,8 +9117,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
@@ -9065,10 +9184,10 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Apolaki.glb",
+        "modelResourceName": "Apolaki3.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
-        "rotationY": 0,
+        "rotationY": 180,
         "rotationZ": 0,
         "width": 64,
         "animations": [
@@ -9084,8 +9203,8 @@
           },
           {
             "loop": false,
-            "name": "Flip",
-            "source": "Flip"
+            "name": "Flip.001",
+            "source": "Flip.001"
           }
         ]
       }
