@@ -4514,6 +4514,69 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/a244d33823c5a59d2d996a7b64358a0bae8c7282c2db68f1e101e49d285b493d_Arrow_No Shadow.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Alunsina.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Alunsina.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Apolaki.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Apolaki.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Bantong.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantong.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Bantugan.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantugan.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Bernardo Carpio.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bernardo Carpio.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Lam-Ang.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Lam-Ang.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Princess Urduja.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Princess Urduja.glb",
+        "userAdded": false
+      },
+      {
+        "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/Cards/Raja.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Raja.glb",
+        "userAdded": false
+      },
+      {
+        "file": "../CAPSTONE/AA1/Bakunawa Intro.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "..\\CAPSTONE\\AA1\\Bakunawa Intro.mp4",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -8315,7 +8378,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Alunsina.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Alunsina.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -8323,29 +8386,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }
@@ -8496,7 +8549,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Raja.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Raja.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -8504,29 +8557,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }
@@ -8592,7 +8635,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Princess Urduja.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Princess Urduja.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -8600,29 +8643,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }
@@ -8688,7 +8721,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Lam-Ang.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Lam-Ang.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -8696,29 +8729,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }
@@ -8784,7 +8807,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bernardo Carpio.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bernardo Carpio.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -8792,29 +8815,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }
@@ -8880,7 +8893,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bantugan.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantugan.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -8888,29 +8901,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }
@@ -8976,7 +8979,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Bantong.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Bantong.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -8984,29 +8987,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }
@@ -9072,7 +9065,7 @@
         "height": 100,
         "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Apolaki.glb",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\Cards\\Apolaki.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 0,
         "rotationY": 180,
@@ -9080,29 +9073,19 @@
         "width": 64,
         "animations": [
           {
-            "loop": false,
-            "name": "Idle Front",
-            "source": "Idle Front"
+            "loop": true,
+            "name": "Back",
+            "source": "Back"
           },
           {
-            "loop": false,
-            "name": "Idle Back",
-            "source": "Idle Back"
+            "loop": true,
+            "name": "Front",
+            "source": "Front"
           },
           {
             "loop": false,
             "name": "Flip",
             "source": "Flip"
-          },
-          {
-            "loop": false,
-            "name": "Disappear.001",
-            "source": "Disappear.001"
-          },
-          {
-            "loop": false,
-            "name": "Idle",
-            "source": "Idle"
           }
         ]
       }

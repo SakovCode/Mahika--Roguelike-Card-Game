@@ -159,6 +159,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CardAlunsina",
+      "persistentUuid": "6d4ec10a-5dc8-4b50-8454-52d81080c5dd",
+      "width": 0,
+      "x": 796,
+      "y": 794,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
