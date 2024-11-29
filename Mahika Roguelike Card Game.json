@@ -7541,7 +7541,7 @@
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
-        "rotationZ": 0,
+        "rotationZ": 90,
         "width": 100,
         "animations": [
           {
@@ -9236,6 +9236,90 @@
           }
         ]
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ObjectivesContent",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": " - Find the portal\n - Open the portal by defeating enemies",
+      "font": "NTBrickSans13.otf",
+      "textAlignment": "left",
+      "characterSize": 17,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": " - Find the portal\n - Open the portal by defeating enemies",
+        "font": "NTBrickSans13.otf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 17,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ObjectivesContent2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "    - Defeated Enemies: (0/0)",
+      "font": "NTBrickSans13.otf",
+      "textAlignment": "left",
+      "characterSize": 17,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "    - Defeated Enemies: (0/0)",
+        "font": "NTBrickSans13.otf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 17,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9425,6 +9509,12 @@
       },
       {
         "objectName": "Objectives_"
+      },
+      {
+        "objectName": "ObjectivesContent"
+      },
+      {
+        "objectName": "ObjectivesContent2"
       },
       {
         "folderName": "Lightshit",
@@ -9692,11 +9782,6 @@
       "name": "encounterID",
       "type": "string",
       "value": "EnemyAswang"
-    },
-    {
-      "name": "enemyDefeated",
-      "type": "number",
-      "value": 0
     },
     {
       "folded": true,

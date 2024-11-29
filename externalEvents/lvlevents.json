@@ -301,11 +301,46 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "numberOfEnemiesDefeated",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "PushScene"
               },
               "parameters": [
                 "",
                 "\"Battle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ObjectivesContent2",
+                "Text",
+                "=",
+                "\"    - Defeated Enemies: (\"+numberOfEnemiesDefeated+\"/\"+numberOfEnemiesToDefeat+\")\""
               ]
             }
           ]
@@ -330,9 +365,9 @@
                 "value": "NumberVariable"
               },
               "parameters": [
-                "enemyDefeated",
+                "numberOfEnemiesDefeated",
                 ">=",
-                "3"
+                "numberOfEnemiesToDefeat"
               ]
             }
           ],
@@ -387,7 +422,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": true,
       "name": "ENEMY VISIBILITY",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

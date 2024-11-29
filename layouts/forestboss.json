@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.20069741314550077,
+    "zoomFactor": 0.4448515998886734,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2130,22 +2130,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chess1",
-      "persistentUuid": "304ade72-69ab-4666-8c78-f9a6898236a4",
-      "width": 0,
-      "x": 959,
-      "y": -292,
-      "zOrder": 126,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 98,
       "height": 75,
@@ -2613,6 +2597,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "5d4694bf-d76a-4ad8-871c-4345c67a7853",
+      "width": 0,
+      "x": 1024,
+      "y": 832,
+      "zOrder": 131,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2728,34 +2728,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "Chess",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\chess.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "Cylinder.002Action",
-            "source": "Cylinder.002Action"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
       "height": 64,
       "name": "Grass2",
       "texture": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\Forest_Floor.jpg",
@@ -2786,39 +2758,6 @@
         "width": 100,
         "animations": []
       }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Chess1",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\CardandChess\\Chess(1).glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 32,
-        "animations": [
-          {
-            "loop": false,
-            "name": "no action",
-            "source": "no action"
-          },
-          {
-            "loop": false,
-            "name": "open",
-            "source": "open"
-          }
-        ]
-      }
     }
   ],
   "objectsFolderStructure": {
@@ -2843,16 +2782,10 @@
         "objectName": "Grass8"
       },
       {
-        "objectName": "Chess"
-      },
-      {
         "objectName": "Grass2"
       },
       {
         "objectName": "New3DModel2"
-      },
-      {
-        "objectName": "Chess1"
       }
     ]
   },
@@ -2863,11 +2796,6 @@
         "includeConfig": 0
       },
       "target": "PlayerMovement"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -2899,6 +2827,57 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "LVL CLEAR CONDITION",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Portal",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Cave\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "load",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -3035,10 +3014,6 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Health",
-      "type": "Health::Health"
-    },
-    {
       "name": "LightObstacleBehavior",
       "type": "Lighting::LightObstacleBehavior"
     },
@@ -3065,10 +3040,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "SmoothCamera",
-      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

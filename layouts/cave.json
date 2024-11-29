@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2740949521798724,
+    "zoomFactor": 0.8750000000000089,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -57,6 +57,16 @@
       "name": "portalCount",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "numberOfEnemiesDefeated",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "numberOfEnemiesToDefeat",
+      "type": "number",
+      "value": 6
     }
   ],
   "instances": [
@@ -477,6 +487,38 @@
       "x": -288,
       "y": -160,
       "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ObjectivesContent",
+      "persistentUuid": "6e409aa4-2a71-4dae-bfd7-361961ac2ab2",
+      "width": 0,
+      "x": 64,
+      "y": 224,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ObjectivesContent2",
+      "persistentUuid": "6c1e1313-3b37-4075-afaf-9405801c2389",
+      "width": 0,
+      "x": 64,
+      "y": 288,
+      "zOrder": 128,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

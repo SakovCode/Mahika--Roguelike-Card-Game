@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.514705882352958,
+    "snap": true,
+    "zoomFactor": 0.48167379154920853,
     "windowMask": false
   },
   "objectsGroups": [
@@ -126,68 +126,57 @@
   "variables": [
     {
       "name": "DEBUG",
-      "persistentUuid": "cb3995d1-e8c8-4027-82de-0eae13014679",
       "type": "number",
       "value": 0
     },
     {
       "name": "WIN_CONDITION",
-      "persistentUuid": "9f453ef1-5cf7-4511-a621-ac3a85703454",
       "type": "number",
       "value": 0
     },
     {
       "folded": true,
       "name": "Phase",
-      "persistentUuid": "88c97c22-1854-4b67-ae77-101cc65bada7",
       "type": "number",
       "value": 0
     },
     {
       "name": "waitSec",
-      "persistentUuid": "e153a825-5f71-4c87-a318-2c82503fe697",
       "type": "number",
       "value": 2
     },
     {
       "folded": true,
       "name": "EnemyCount",
-      "persistentUuid": "ae3cd326-3c5e-4321-ac57-ce15c09eaa17",
       "type": "number",
       "value": 0
     },
     {
       "name": "CurrentOrder",
-      "persistentUuid": "2d80d705-2521-4149-9fad-c379695be787",
       "type": "number",
       "value": 0
     },
     {
       "name": "mana",
-      "persistentUuid": "2a8c932b-76e7-49be-b6a8-c28e817eadd6",
       "type": "number",
       "value": 3
     },
     {
       "name": "health",
-      "persistentUuid": "b4b1b1cf-19b1-4557-b795-a263d51c3ee8",
       "type": "number",
       "value": 30
     },
     {
       "name": "Intersection",
-      "persistentUuid": "f55c1ae6-5322-4755-8317-95a4a800b7ca",
       "type": "structure",
       "children": [
         {
           "name": "X",
-          "persistentUuid": "8f9fe7a4-e28a-466c-8513-cb47e4d8bcbd",
           "type": "number",
           "value": 0
         },
         {
           "name": "Y",
-          "persistentUuid": "1059aea7-414b-40c7-adb8-73eacb10adf3",
           "type": "number",
           "value": 0
         }
@@ -195,13 +184,11 @@
     },
     {
       "name": "targetAvailable",
-      "persistentUuid": "9387c0c6-6521-484e-aff1-8f091776bd1d",
       "type": "boolean",
       "value": false
     },
     {
       "name": "topOrder",
-      "persistentUuid": "fcbc79b9-7c3d-4a94-9592-81c150b71b69",
       "type": "number",
       "value": 1
     }
@@ -354,7 +341,7 @@
       "persistentUuid": "d416fa4e-a68d-4bf9-afdd-f6ffbd850ea5",
       "width": 128,
       "x": 608,
-      "y": 256,
+      "y": 288,
       "z": -5,
       "zOrder": 32,
       "numberProperties": [],
@@ -372,7 +359,7 @@
       "persistentUuid": "a6c37070-5f4a-46d1-8bdf-a090578cc3c6",
       "width": 128,
       "x": 608,
-      "y": 64,
+      "y": 96,
       "z": -5,
       "zOrder": 33,
       "numberProperties": [],
@@ -389,7 +376,7 @@
       "persistentUuid": "060b9305-2435-4727-a671-cc40b1a6f405",
       "width": 0,
       "x": 864,
-      "y": 256,
+      "y": 288,
       "z": -5,
       "zOrder": 34,
       "numberProperties": [],
@@ -407,7 +394,7 @@
       "persistentUuid": "36248422-8ae8-4f86-a5d2-a28bb8de1c5c",
       "width": 128,
       "x": 864,
-      "y": 64,
+      "y": 96,
       "z": -5,
       "zOrder": 35,
       "numberProperties": [],
@@ -425,7 +412,7 @@
       "persistentUuid": "dbe45496-0614-4d18-9f82-22487c26f223",
       "width": 128,
       "x": 1120,
-      "y": 256,
+      "y": 288,
       "z": -5,
       "zOrder": 36,
       "numberProperties": [],
@@ -443,7 +430,7 @@
       "persistentUuid": "05c87cf8-247f-4ddf-b618-5e8713542d00",
       "width": 128,
       "x": 1120,
-      "y": 64,
+      "y": 96,
       "z": -5,
       "zOrder": 37,
       "numberProperties": [],
@@ -1721,11 +1708,11 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
@@ -2388,6 +2375,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2398,10 +2387,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -2489,6 +2476,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2499,10 +2488,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -2590,6 +2577,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2600,10 +2589,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -2691,6 +2678,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2701,10 +2690,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -2792,6 +2779,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2802,10 +2791,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -2893,6 +2880,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2903,10 +2892,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -2994,6 +2981,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 20000,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -3004,10 +2993,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 10000,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         }
       ],
       "content": {
@@ -3185,20 +3172,18 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "TODO:\nSUMMONING\nHOVER CARD PREVIEW"
+      "comment": "TODO:\nHOVER CARD PREVIEW"
     },
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -3711,16 +3696,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "enemyDefeated",
-                "+",
-                "1"
-              ]
             }
           ]
         },
@@ -3867,6 +3842,17 @@
                 "mana",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "ManaBar",
+                "=",
+                "PlayerMaxMana",
+                ""
+              ]
             }
           ]
         },
@@ -3967,9 +3953,9 @@
               "parameters": [
                 "HealthBar",
                 "=",
-                "Enemy.X()+(Enemy.Width()/2)",
+                "Enemy.X()+96",
                 "=",
-                "Enemy.Y()-30"
+                "Enemy.Y()+32"
               ]
             },
             {
@@ -4051,7 +4037,18 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "mana",
+                "=",
+                "PlayerMaxMana"
+              ]
+            }
+          ],
           "events": [
             {
               "disabled": true,
@@ -4065,7 +4062,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "30",
+                    "20",
                     "",
                     ""
                   ]
@@ -4267,7 +4264,7 @@
                             "Enemy",
                             "Scale",
                             "=",
-                            "5"
+                            "4"
                           ]
                         },
                         {
@@ -4327,8 +4324,8 @@
                               "parameters": [
                                 "",
                                 "HealthBar",
-                                "Enemy.X()+Enemy.Width()/2",
-                                "Enemy.Y()-50",
+                                "Enemy.X()+32",
+                                "Enemy.Y()-30",
                                 ""
                               ]
                             },
@@ -4670,12 +4667,6 @@
                 "=",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -4772,64 +4763,60 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "ObjectStack::ObjectStack::Height"
-                  },
-                  "parameters": [
-                    "Hand",
-                    "ObjectStack",
-                    "<=",
-                    "7",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectStack::HasOnTop"
-                  },
-                  "parameters": [
-                    "",
-                    "Deck",
-                    "ObjectStack",
-                    "Card",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ObjectStack::ObjectStack::Remove"
-                  },
-                  "parameters": [
-                    "Deck",
-                    "ObjectStack",
-                    "Card",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectStack::ObjectStack::AddOnTop"
-                  },
-                  "parameters": [
-                    "Hand",
-                    "ObjectStack",
-                    "Card",
-                    ""
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::Repeat",
+              "repeatExpression": "7 - Hand.ObjectStack::Height()",
+              "conditions": [],
+              "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Link",
-                  "include": {
-                    "includeConfig": 0
-                  },
-                  "target": "UpdateCardPosition"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectStack::HasOnTop"
+                      },
+                      "parameters": [
+                        "",
+                        "Deck",
+                        "ObjectStack",
+                        "Card",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ObjectStack::ObjectStack::Remove"
+                      },
+                      "parameters": [
+                        "Deck",
+                        "ObjectStack",
+                        "Card",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectStack::ObjectStack::AddOnTop"
+                      },
+                      "parameters": [
+                        "Hand",
+                        "ObjectStack",
+                        "Card",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Link",
+                      "include": {
+                        "includeConfig": 0
+                      },
+                      "target": "UpdateCardPosition"
+                    }
+                  ]
                 }
               ]
             }
@@ -5032,9 +5019,11 @@
                     },
                     {
                       "type": {
-                        "value": "Delete"
+                        "value": "ObjectStack::ObjectStack::AddOnTop"
                       },
                       "parameters": [
+                        "Deck",
+                        "ObjectStack",
                         "Card",
                         ""
                       ]
@@ -5285,7 +5274,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PREPARATION PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5417,7 +5405,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11108,7 +11095,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "END OF ROUND",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -11161,7 +11147,7 @@
                   "parameters": [
                     "mana",
                     "=",
-                    "3"
+                    "PlayerMaxMana"
                   ]
                 }
               ]
@@ -11244,8 +11230,8 @@
                   "parameters": [
                     "",
                     "RedExplosion",
-                    "CardSample.X()",
-                    "CardSample.Y()",
+                    "Heroes.X()",
+                    "Heroes.Y()",
                     ""
                   ]
                 },
@@ -11254,7 +11240,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "RedExplosion.Duration()"
+                    "1"
                   ]
                 },
                 {
@@ -11279,45 +11265,53 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "CardSample",
-              "conditions": [],
-              "actions": [
+              "object": "Card",
+              "conditions": [
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "ObjectStack::Contains"
                   },
                   "parameters": [
                     "",
-                    "RedExplosion",
-                    "CardSample.X()",
-                    "CardSample.Y()",
+                    "Hand",
+                    "ObjectStack",
+                    "Card",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ObjectStack::ObjectStack::MoveAllInto"
+                  },
+                  "parameters": [
+                    "Deck",
+                    "ObjectStack",
+                    "0",
+                    "Hand",
+                    "ObjectStack",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "ObjectStack::ObjectStack::Shuffle"
                   },
                   "parameters": [
-                    "RedExplosion.Duration()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "CardSample",
+                    "Deck",
+                    "ObjectStack",
                     ""
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "Wait"
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
                   },
-                  "parameters": [
-                    "1"
-                  ]
+                  "target": "UpdateCardPosition"
                 }
               ]
             },
@@ -11337,6 +11331,14 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"

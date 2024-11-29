@@ -9,7 +9,7 @@
   "title": "",
   "v": 255,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.3694269341636148,
+    "snap": true,
+    "zoomFactor": 0.7921344117998587,
     "windowMask": false
   },
   "objectsGroups": [
@@ -135,6 +135,16 @@
       "name": "zero",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "numberOfEnemiesDefeated",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "numberOfEnemiesToDefeat",
+      "type": "number",
+      "value": 4
     }
   ],
   "instances": [
@@ -620,8 +630,24 @@
       "persistentUuid": "c345312e-146e-4a67-9401-adbdcb0f2932",
       "width": 0,
       "x": 64,
-      "y": 231,
+      "y": 256,
       "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ObjectivesContent2",
+      "persistentUuid": "c067a8f8-aae4-4759-a9f9-cad7ea8551d7",
+      "width": 0,
+      "x": 64,
+      "y": 320,
+      "zOrder": 128,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -675,48 +701,6 @@
             "source": "Disappear.001"
           }
         ]
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "ObjectivesContent",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": " - Find a way out\n - Defeat the Engkantos",
-      "font": "NTBrickSans13.otf",
-      "textAlignment": "left",
-      "characterSize": 17,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 1,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": " - Find a way out\n - Defeat the Engkantos",
-        "font": "NTBrickSans13.otf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 17,
-        "color": "0;0;0"
       }
     },
     {
@@ -1005,9 +989,6 @@
         "objectName": "New3DModel"
       },
       {
-        "objectName": "ObjectivesContent"
-      },
-      {
         "objectName": "LeatherPouch"
       },
       {
@@ -1065,65 +1046,6 @@
         "includeConfig": 0
       },
       "target": "SAVE"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DebuggerTools::ConsoleLog"
-          },
-          "parameters": [
-            "ToString(VariableChildCount(PlayerDeck))",
-            "\"info\"",
-            ""
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "VariableChildCount(PlayerDeck)",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "DebuggerTools::ConsoleLog"
-              },
-              "parameters": [
-                "PlayerDeck[i]",
-                "\"info\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "i",
-                "+",
-                "1"
-              ]
-            }
-          ]
-        }
-      ],
-      "variables": [
-        {
-          "name": "i",
-          "type": "number",
-          "value": 0
-        }
-      ]
     }
   ],
   "layers": [
@@ -1230,7 +1152,7 @@
       "isLocked": false,
       "name": "Cutscene",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
