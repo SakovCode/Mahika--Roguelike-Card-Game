@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.48167379154920853,
+    "zoomFactor": 0.27409495217987867,
     "windowMask": false
   },
   "objectsGroups": [
@@ -632,6 +632,40 @@
       "x": 51,
       "y": 96,
       "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackSpace",
+      "persistentUuid": "53cc84b4-6287-4440-b8b4-f93fe5bd153c",
+      "width": 1920,
+      "x": 3232,
+      "y": 576,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 4,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackSpace",
+      "persistentUuid": "be672cf9-c764-405d-a918-badf5bf01a78",
+      "width": 1920,
+      "x": 3360,
+      "y": -1568,
+      "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -11371,7 +11405,7 @@
       "isLocked": false,
       "name": "",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [
         {
           "defaultSize": true,

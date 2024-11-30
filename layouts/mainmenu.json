@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5147058823529869,
+    "zoomFactor": 0.40807287573673,
     "windowMask": false
   },
   "objectsGroups": [
@@ -12338,17 +12338,6 @@
       }
     },
     {
-      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
-      "height": 256,
-      "name": "BlackSpace",
-      "texture": "tiled_black space.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 256,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
       "name": "StartButton",
       "type": "PanelSpriteButton::PanelSpriteButton",
@@ -14431,7 +14420,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Type: monster",
+        "text": "Type: Monster",
         "opacity": 255,
         "scale": 0.4,
         "fontSize": 20,
@@ -14469,7 +14458,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Type: monster",
+        "text": "Type: Monster",
         "opacity": 255,
         "scale": 0.4,
         "fontSize": 20,
@@ -14507,7 +14496,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "Type: monster",
+        "text": "Type: Monster",
         "opacity": 255,
         "scale": 0.4,
         "fontSize": 20,
@@ -18262,66 +18251,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Oldpaper4",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "bghik.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "ChestInfo",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -18656,6 +18585,186 @@
                       {
                         "x": 0,
                         "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bghik.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bghik.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bg3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bghik.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
                       }
                     ]
                   ]
@@ -19022,9 +19131,6 @@
         "objectName": "NewVideo"
       },
       {
-        "objectName": "BlackSpace"
-      },
-      {
         "objectName": "StartButton"
       },
       {
@@ -19073,7 +19179,13 @@
         "objectName": "Oldpaper3"
       },
       {
-        "objectName": "Oldpaper4"
+        "objectName": "bg3"
+      },
+      {
+        "objectName": "bg2"
+      },
+      {
+        "objectName": "bg"
       },
       {
         "objectName": "Alunsina2"

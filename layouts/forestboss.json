@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4448515998886734,
+    "zoomFactor": 0.23689563725447038,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2121,26 +2121,9 @@
       "name": "Grass1",
       "persistentUuid": "c0b24d95-f676-4554-af5d-9ab663734896",
       "width": 2597,
-      "x": -357,
-      "y": -647,
+      "x": -421,
+      "y": -640,
       "zOrder": 124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 98,
-      "height": 75,
-      "keepRatio": true,
-      "layer": "",
-      "name": "SarimanokBoss",
-      "persistentUuid": "219deed4-3794-4709-8519-ba02b93c7542",
-      "width": 128,
-      "x": 958,
-      "y": -174,
-      "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2613,6 +2596,39 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1088,
+      "layer": "Cutscene",
+      "name": "EntryForest",
+      "persistentUuid": "a7c381be-f5ed-4205-8a23-989da813517a",
+      "width": 1934,
+      "x": -14,
+      "y": 0,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 98,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SarimanokBoss",
+      "persistentUuid": "ab7a66ba-92e3-48fa-8dba-158c8e659a18",
+      "width": 75,
+      "x": 958,
+      "y": -217,
+      "zOrder": 133,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2758,6 +2774,20 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EntryForest",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Entry ForestBoss.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2786,6 +2816,9 @@
       },
       {
         "objectName": "New3DModel2"
+      },
+      {
+        "objectName": "EntryForest"
       }
     ]
   },
@@ -2900,6 +2933,143 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "EntryForest"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "EntryForest"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "EntryForest",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "SarimanokBoss",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMoves\"",
+            "SarimanokCutscene.CenterX()",
+            "SarimanokCutscene.CenterY()",
+            "\"Cutscene\"",
+            "\"elastic\"",
+            ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            ".1",
+            "\"Flash\"",
+            "\"Both\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "SarimanokCutscene"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "SarimanokCutscene"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "SarimanokCutscene",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Battle\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

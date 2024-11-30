@@ -4696,6 +4696,41 @@
         "metadata": "",
         "name": "Raja2.glb",
         "userAdded": false
+      },
+      {
+        "file": "Sarimanok Boss.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Sarimanok Boss.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Entry ForestBoss.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Entry ForestBoss.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "First Cutscene.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "First Cutscene.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Bakunawa Intro.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Bakunawa Intro.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "EntryCaveBoss.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "EntryCaveBoss.mp4",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7380,7 +7415,7 @@
         "opacity": 255,
         "loop": false,
         "volume": 100,
-        "videoResource": "Bakunawa - Made with Clipchamp3.mp4"
+        "videoResource": "Bakunawa Intro.mp4"
       }
     },
     {
@@ -7454,7 +7489,7 @@
         "opacity": 255,
         "loop": false,
         "volume": 100,
-        "videoResource": "Sarimanok - Made with Clipchamp.mp4"
+        "videoResource": "Sarimanok Boss.mp4"
       }
     },
     {
@@ -7578,7 +7613,7 @@
         "opacity": 255,
         "loop": false,
         "volume": 100,
-        "videoResource": "incomplete11 - Made with Clipchamp.mp4"
+        "videoResource": "First Cutscene.mp4"
       }
     },
     {
@@ -9320,6 +9355,77 @@
         "characterSize": 17,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Oldpaper4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bghik.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 256,
+      "name": "BlackSpace",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -9555,6 +9661,12 @@
             "objectName": "CardRaja"
           }
         ]
+      },
+      {
+        "objectName": "Oldpaper4"
+      },
+      {
+        "objectName": "BlackSpace"
       }
     ]
   },
@@ -9845,6 +9957,11 @@
       "name": "PlayerDeck",
       "type": "structure",
       "children": []
+    },
+    {
+      "name": "SoundStart",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
