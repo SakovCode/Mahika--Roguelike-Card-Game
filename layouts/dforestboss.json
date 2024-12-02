@@ -3199,6 +3199,7 @@
         "text": " - Defeat the Dark Forest Boss (Sitan)",
         "font": "NTBrickSans26.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -3453,7 +3454,7 @@
               "parameters": [
                 "encounterID",
                 "=",
-                "\"Sitan\""
+                "\"SitanBoss\""
               ]
             },
             {

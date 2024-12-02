@@ -2843,6 +2843,7 @@
         "text": " - Defeat the Forest Boss (Sarimanok)",
         "font": "NTBrickSans24.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -2921,18 +2922,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "TODO: \nFIX CUTSCENE\nDEBUG*"
     },
     {
       "colorB": 228,
