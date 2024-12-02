@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.12615340253748672,
+    "zoomFactor": 0.2705012603962574,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1838,23 +1838,6 @@
       "angle": 270,
       "customSize": true,
       "depth": 100,
-      "height": 154,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tree",
-      "persistentUuid": "0c585414-f832-4907-bac9-474c2c2241e1",
-      "width": 141,
-      "x": 661,
-      "y": 231,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 100,
       "height": 96,
       "keepRatio": true,
       "layer": "",
@@ -2361,57 +2344,6 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
-      "customSize": true,
-      "depth": 100,
-      "height": 154,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tree",
-      "persistentUuid": "347165b2-0399-438f-8d95-94438a15a368",
-      "width": 141,
-      "x": 1260,
-      "y": 230,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 100,
-      "height": 154,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tree",
-      "persistentUuid": "20e9bd3a-4462-4cb7-ae0a-ca5cfdca0b87",
-      "width": 141,
-      "x": 630,
-      "y": 655,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 270,
-      "customSize": true,
-      "depth": 100,
-      "height": 154,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Tree",
-      "persistentUuid": "2acbb04f-3c63-4571-960f-683b30fff0a3",
-      "width": 141,
-      "x": 1280,
-      "y": 660,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "depth": 99,
@@ -2429,13 +2361,13 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
       "depth": 158,
       "height": 121,
       "keepRatio": true,
       "layer": "",
-      "name": "Sitan",
+      "name": "SitanBoss",
       "persistentUuid": "95f0dec5-f106-4e2d-a5c3-9860b3036c34",
       "width": 127,
       "x": 960,
@@ -2686,7 +2618,7 @@
       "persistentUuid": "64a9e9b6-dce9-47e4-b2b0-e58fec053db1",
       "width": 0,
       "x": 5265,
-      "y": 540,
+      "y": 551,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -2717,8 +2649,8 @@
       "name": "Sound",
       "persistentUuid": "c5b1a7ee-2fd0-487e-94c8-b1338c4200c9",
       "width": 0,
-      "x": 5265,
-      "y": 430,
+      "x": 5244,
+      "y": 441,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -2748,8 +2680,8 @@
       "name": "Music",
       "persistentUuid": "0c2432dd-fd32-4405-a0d1-9cfd1ac050e0",
       "width": 0,
-      "x": 5143,
-      "y": 320,
+      "x": 5247,
+      "y": 331,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -2930,6 +2862,104 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "Cutscene",
+      "name": "EntryDForest",
+      "persistentUuid": "0b77799e-253c-4181-9932-aa8ef5a3c429",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1088,
+      "layer": "Cutscene",
+      "name": "SitanCutscene",
+      "persistentUuid": "f4a9a046-bb21-4369-9ceb-077e6f997386",
+      "width": 1920,
+      "x": -2176,
+      "y": 0,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "45c95493-0dfb-46c8-840a-aa467af66200",
+      "width": 0,
+      "x": 960,
+      "y": 384,
+      "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DForestBossObjective",
+      "persistentUuid": "237f72f2-6553-4a5b-9785-507f6a2d725e",
+      "width": 320,
+      "x": 64,
+      "y": 229,
+      "zOrder": 129,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "layer": "Cutscene",
+      "name": "Ending",
+      "persistentUuid": "ac9fbbd2-615a-4a74-b5c1-10a1941ab799",
+      "width": 1920,
+      "x": 0,
+      "y": 1344,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1072,
+      "layer": "Cutscene",
+      "name": "TheEnd",
+      "persistentUuid": "3e2becaa-17ec-46de-843e-3865878d5082",
+      "width": 1920,
+      "x": 0,
+      "y": 2688,
+      "zOrder": 131,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -3023,49 +3053,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "Sitan",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\sitan.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": false,
-            "name": "attack",
-            "source": "attack"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "walk",
-            "source": "walk"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Chess",
       "type": "Scene3D::Model3DObject",
       "variables": [],
@@ -3146,6 +3133,103 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EntryDForest",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Entry DforestBoss.mp4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SitanCutscene",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Sitan Boss.mp4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DForestBossObjective",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": " - Defeat the Dark Forest Boss (Sitan)",
+      "font": "NTBrickSans26.otf",
+      "textAlignment": "center",
+      "characterSize": 17,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": " - Defeat the Dark Forest Boss (Sitan)",
+        "font": "NTBrickSans26.otf",
+        "textAlignment": "center",
+        "characterSize": 17,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Ending",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Dforest Ending(1).mp4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TheEnd",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "THE END.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3164,9 +3248,6 @@
         "objectName": "Ground"
       },
       {
-        "objectName": "Sitan"
-      },
-      {
         "objectName": "Chess"
       },
       {
@@ -3177,6 +3258,21 @@
       },
       {
         "objectName": "New3DModel"
+      },
+      {
+        "objectName": "EntryDForest"
+      },
+      {
+        "objectName": "SitanCutscene"
+      },
+      {
+        "objectName": "DForestBossObjective"
+      },
+      {
+        "objectName": "Ending"
+      },
+      {
+        "objectName": "TheEnd"
       }
     ]
   },
@@ -3189,6 +3285,224 @@
       "target": "PlayerMovement"
     },
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "UI"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "DForestBoss",
+            "=",
+            "CurrentSceneName()"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "EntryDForest"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "EntryDForest"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "DForest - Night Sound Ambience3.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EntryDForest",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "SitanBoss",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMoves\"",
+                "SitanCutscene.CenterX()",
+                "SitanCutscene.CenterY()",
+                "\"Cutscene\"",
+                "\"elastic\"",
+                ".01"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".1",
+                "\"Flash\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "SitanCutscene"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SitanBoss",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "SitanCutscene.Duration()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SitanCutscene",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "encounterID",
+                "=",
+                "\"Sitan\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Battle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "DForest - Night Sound Ambience4.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3197,7 +3511,7 @@
           },
           "parameters": [
             "Player",
-            "Sitan",
+            "Portal",
             "",
             "",
             ""
@@ -3207,12 +3521,100 @@
       "actions": [
         {
           "type": {
-            "value": "Scene"
+            "value": "Tween::TweenCameraPosition2"
           },
           "parameters": [
             "",
-            "\"DForestScene\"",
+            "\"CameraMoves\"",
+            "Ending.CenterX()",
+            "Ending.CenterY()",
+            "\"Cutscene\"",
+            "\"elastic\"",
+            ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            ".1",
+            "\"Flash\"",
+            "\"Both\"",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "Ending"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "Ending"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Ending",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMoves\"",
+            "TheEnd.CenterX()",
+            "TheEnd.CenterY()",
+            "\"Cutscene\"",
+            "\"elastic\"",
+            ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            ".1",
+            "\"Flash\"",
+            "\"Both\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "TheEnd"
           ]
         }
       ]
@@ -3295,6 +3697,39 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Cutscene",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -3317,10 +3752,6 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
-    },
-    {
-      "name": "Health",
-      "type": "Health::Health"
     },
     {
       "name": "LightObstacleBehavior",
@@ -3349,10 +3780,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "SmoothCamera",
-      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

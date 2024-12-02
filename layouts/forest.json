@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.27409495217988233,
+    "zoomFactor": 0.3235313168576451,
     "windowMask": false
   },
   "objectsGroups": [
@@ -308,7 +308,7 @@
       "persistentUuid": "78ec80b7-c38e-42c2-8086-4d189059d100",
       "width": 0,
       "x": 5265,
-      "y": 540,
+      "y": 548,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -339,8 +339,8 @@
       "name": "Sound",
       "persistentUuid": "1eec49b2-f2b4-4065-a177-20ae13715bde",
       "width": 0,
-      "x": 5265,
-      "y": 430,
+      "x": 5246,
+      "y": 441,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -370,8 +370,8 @@
       "name": "Music",
       "persistentUuid": "d070b879-ed5b-490c-8b39-1195cf77bffb",
       "width": 0,
-      "x": 5143,
-      "y": 320,
+      "x": 5246,
+      "y": 324,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -1046,6 +1046,108 @@
         "includeConfig": 0
       },
       "target": "SAVE"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "load",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Video::Play"
+          },
+          "parameters": [
+            "NewGameCutscene"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "NewGameCutscene"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Forest - The Vault of Ambience.mp3",
+            "yes",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NewGameCutscene",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Forest - The Vault of Ambience.mp3",
+            "yes",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

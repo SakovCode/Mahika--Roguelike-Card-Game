@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.26167741169921904,
+    "zoomFactor": 0.319289458969022,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,14 +35,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 2,
-      "height": 1104,
+      "height": 1088,
       "keepRatio": true,
       "layer": "Cutscene",
       "name": "BakunawaCutscene",
       "persistentUuid": "cd908c58-88c1-4d88-a93c-10a0a1bdf16c",
       "width": 1920,
-      "x": -2304,
-      "y": -16,
+      "x": -2176,
+      "y": 0,
       "zOrder": 110,
       "numberProperties": [],
       "stringProperties": [],
@@ -1893,17 +1893,17 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
       "depth": 237,
-      "height": 159,
+      "height": 125,
       "keepRatio": true,
       "layer": "",
-      "name": "Bakunawa",
+      "name": "BakunawaBoss",
       "persistentUuid": "aa5d2f7a-4521-4d24-9cf7-3ce5c38d467d",
-      "width": 137,
-      "x": 963,
-      "y": -242,
+      "width": 128,
+      "x": 961,
+      "y": -239,
       "zOrder": 122,
       "numberProperties": [],
       "stringProperties": [],
@@ -1985,7 +1985,7 @@
       "width": 2675,
       "x": 952,
       "y": 192,
-      "zOrder": 124,
+      "zOrder": 110,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2405,7 +2405,7 @@
       "persistentUuid": "e76ab9a2-da8e-4717-ad97-3c02ddec9612",
       "width": 0,
       "x": 5265,
-      "y": 540,
+      "y": 550,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -2436,8 +2436,8 @@
       "name": "Sound",
       "persistentUuid": "19542c69-8127-4999-af3c-c9dc0c81547f",
       "width": 0,
-      "x": 5265,
-      "y": 430,
+      "x": 5247,
+      "y": 440,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -2467,8 +2467,8 @@
       "name": "Music",
       "persistentUuid": "7393a3db-60ab-40b4-b010-7f859e34c087",
       "width": 0,
-      "x": 5143,
-      "y": 320,
+      "x": 5244,
+      "y": 326,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -2681,6 +2681,39 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "layer": "Cutscene",
+      "name": "EntryCave",
+      "persistentUuid": "6021e5f3-570b-424f-9a18-495efe2813c4",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "CaveBossObjective",
+      "persistentUuid": "5b6c9f81-6f79-4183-95e5-95c069e6397b",
+      "width": 256,
+      "x": 64,
+      "y": 229,
+      "zOrder": 131,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2770,49 +2803,6 @@
         "rotationZ": 0,
         "width": 64,
         "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Bakunawa",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\bakunawa.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": [
-          {
-            "loop": false,
-            "name": "idle",
-            "source": "idle"
-          },
-          {
-            "loop": false,
-            "name": "attack",
-            "source": "attack"
-          },
-          {
-            "loop": false,
-            "name": "hit",
-            "source": "hit"
-          },
-          {
-            "loop": false,
-            "name": "walk",
-            "source": "walk"
-          }
-        ]
       }
     },
     {
@@ -2933,6 +2923,47 @@
         "volume": 100,
         "videoResource": "EntryCaveBoss.mp4"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CaveBossObjective",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": " - Defeat the Cave Boss (Bakunawa)",
+      "font": "NTBrickSans25.otf",
+      "textAlignment": "center",
+      "characterSize": 17,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": " - Defeat the Cave Boss (Bakunawa)",
+        "font": "NTBrickSans25.otf",
+        "textAlignment": "center",
+        "characterSize": 17,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2951,9 +2982,6 @@
         "objectName": "Decor"
       },
       {
-        "objectName": "Bakunawa"
-      },
-      {
         "objectName": "Chess"
       },
       {
@@ -2964,6 +2992,9 @@
       },
       {
         "objectName": "EntryCave"
+      },
+      {
+        "objectName": "CaveBossObjective"
       }
     ]
   },
@@ -2997,17 +3028,11 @@
       "target": "UI"
     },
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "LvlEvents"
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "LVL CLEAR CONDITION",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3065,170 +3090,282 @@
       "parameters": []
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "StringVariable"
           },
           "parameters": [
-            ""
+            "CaveBoss",
+            "=",
+            "CurrentSceneName()"
           ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "Video::Play"
-          },
-          "parameters": [
-            "EntryCave"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "EntryCave"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "EntryCave"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Cave - enviro ambient.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EntryCave",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "BakunawaBoss",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMoves\"",
+                "BakunawaCutscene.CenterX()",
+                "BakunawaCutscene.CenterY()",
+                "\"Cutscene\"",
+                "\"elastic\"",
+                ".01"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".1",
+                "\"Flash\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "BakunawaCutscene"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BakunawaBoss",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "BakunawaCutscene.Duration()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BakunawaCutscene",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "encounterID",
+                "=",
+                "\"Bakunawa\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Battle\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Cave - enviro ambient2.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
           ]
         }
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "EnemyEncounter",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "Video::Ended"
-          },
-          "parameters": [
-            "EntryCave"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Enemy",
+                "Player",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "encounterID",
+                "=",
+                "Enemy.ObjectName()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Battle\""
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "EntryCave",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "Bakunawa",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenCameraPosition2"
-          },
-          "parameters": [
-            "",
-            "\"CameraMoves\"",
-            "BakunawaCutscene.CenterX()",
-            "BakunawaCutscene.CenterY()",
-            "\"Cutscene\"",
-            "\"elastic\"",
-            ".01"
-          ]
-        },
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "Transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            ".1",
-            "\"Flash\"",
-            "\"Both\"",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::Play"
-          },
-          "parameters": [
-            "BakunawaCutscene"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Video::Ended"
-          },
-          "parameters": [
-            "BakunawaCutscene"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenCameraPosition2"
-          },
-          "parameters": [
-            "",
-            "\"CameraMoves\"",
-            "Marker.CenterX()",
-            "pause_bg.CenterY()",
-            "",
-            "\"elastic\"",
-            ".01"
-          ]
-        },
-        {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "Transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            ".1",
-            "\"Flash\"",
-            "\"Both\"",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "BakunawaCutscene",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Battle\"",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [

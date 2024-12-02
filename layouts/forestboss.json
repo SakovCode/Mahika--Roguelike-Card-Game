@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.23689563725447038,
+    "zoomFactor": 0.389585627382737,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,8 +33,8 @@
       "layer": "Cutscene",
       "name": "SarimanokCutscene",
       "persistentUuid": "8a4c079e-35e7-4b87-ab32-c3700a26d4d5",
-      "width": 1934,
-      "x": -2190,
+      "width": 1920,
+      "x": -2176,
       "y": 0,
       "zOrder": 110,
       "numberProperties": [],
@@ -2319,8 +2319,8 @@
       "name": "BGM",
       "persistentUuid": "6308bf8e-bff5-451b-b4ad-f2045b430f34",
       "width": 0,
-      "x": 5265,
-      "y": 540,
+      "x": 5264,
+      "y": 549,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -2351,8 +2351,8 @@
       "name": "Sound",
       "persistentUuid": "f74047e2-af0c-4488-8851-5a6dfbe72cf3",
       "width": 0,
-      "x": 5265,
-      "y": 430,
+      "x": 5241,
+      "y": 443,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -2382,7 +2382,7 @@
       "name": "Music",
       "persistentUuid": "7dfabbd0-872a-482f-8d14-24389820f153",
       "width": 0,
-      "x": 5143,
+      "x": 5248,
       "y": 320,
       "zOrder": 50,
       "numberProperties": [],
@@ -2600,13 +2600,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 1088,
       "layer": "Cutscene",
       "name": "EntryForest",
       "persistentUuid": "a7c381be-f5ed-4205-8a23-989da813517a",
-      "width": 1934,
-      "x": -14,
+      "width": 1920,
+      "x": 0,
       "y": 0,
       "zOrder": 132,
       "numberProperties": [],
@@ -2626,6 +2626,23 @@
       "x": 958,
       "y": -217,
       "zOrder": 133,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 25,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ForestBossObjective",
+      "persistentUuid": "7c7fa840-efba-4ab9-a45b-78a946216d3d",
+      "width": 256,
+      "x": 64,
+      "y": 231,
+      "zOrder": 134,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2788,6 +2805,47 @@
         "volume": 100,
         "videoResource": "Entry ForestBoss.mp4"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ForestBossObjective",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": " - Defeat the Forest Boss (Sarimanok)",
+      "font": "NTBrickSans24.otf",
+      "textAlignment": "center",
+      "characterSize": 17,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 1,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": " - Defeat the Forest Boss (Sarimanok)",
+        "font": "NTBrickSans24.otf",
+        "textAlignment": "center",
+        "characterSize": 17,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2819,6 +2877,9 @@
       },
       {
         "objectName": "EntryForest"
+      },
+      {
+        "objectName": "ForestBossObjective"
       }
     ]
   },
@@ -2939,134 +3000,208 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "StringVariable"
           },
           "parameters": [
-            ""
+            "ForestBoss",
+            "=",
+            "CurrentSceneName()"
           ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "Video::Play"
-          },
-          "parameters": [
-            "EntryForest"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Video::Ended"
-          },
-          "parameters": [
-            "EntryForest"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "EntryForest",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Player",
-            "SarimanokBoss",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenCameraPosition2"
-          },
-          "parameters": [
-            "",
-            "\"CameraMoves\"",
-            "SarimanokCutscene.CenterX()",
-            "SarimanokCutscene.CenterY()",
-            "\"Cutscene\"",
-            "\"elastic\"",
-            ".01"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "EntryForest"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-          },
-          "parameters": [
-            "Transition",
-            "FlashTransitionPainter",
-            "\"0;0;0\"",
-            ".1",
-            "\"Flash\"",
-            "\"Both\"",
-            "",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "EntryForest"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Forest - The Vault of Ambience.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EntryForest",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Video::Play"
-          },
-          "parameters": [
-            "SarimanokCutscene"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Video::Ended"
-          },
-          "parameters": [
-            "SarimanokCutscene"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "SarimanokCutscene",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "SarimanokBoss",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenCameraPosition2"
+              },
+              "parameters": [
+                "",
+                "\"CameraMoves\"",
+                "SarimanokCutscene.CenterX()",
+                "SarimanokCutscene.CenterY()",
+                "\"Cutscene\"",
+                "\"elastic\"",
+                ".01"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+              },
+              "parameters": [
+                "Transition",
+                "FlashTransitionPainter",
+                "\"0;0;0\"",
+                ".1",
+                "\"Flash\"",
+                "\"Both\"",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "SarimanokCutscene"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SarimanokBoss",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "SarimanokCutscene.Duration()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SarimanokCutscene",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "encounterID",
+                "=",
+                "\"SarimanokBoss\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Battle\""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Battle\"",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Forest - The Vault of Ambience.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            }
           ]
         }
       ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8750000000000089,
+    "zoomFactor": 0.3573760943009857,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -230,7 +230,7 @@
       "persistentUuid": "72404a11-5698-4257-aa8e-f6b7fa1c2450",
       "width": 0,
       "x": 5273,
-      "y": 540,
+      "y": 549,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -261,8 +261,8 @@
       "name": "Sound",
       "persistentUuid": "92c7b2e6-e672-45ed-b309-e45fc8bc00a8",
       "width": 0,
-      "x": 5273,
-      "y": 430,
+      "x": 5247,
+      "y": 440,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -292,8 +292,8 @@
       "name": "Music",
       "persistentUuid": "88dc133a-a98c-470e-a063-1381af98bbce",
       "width": 0,
-      "x": 5144,
-      "y": 320,
+      "x": 5247,
+      "y": 332,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -682,6 +682,76 @@
         "includeConfig": 0
       },
       "target": "SAVE"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "load",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Cave - enviro ambient3.mp3",
+            "yes",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustResumed"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Cave - enviro ambient3.mp3",
+            "yes",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

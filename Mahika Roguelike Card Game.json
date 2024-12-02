@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -4731,6 +4731,251 @@
         "metadata": "",
         "name": "EntryCaveBoss.mp4",
         "userAdded": false
+      },
+      {
+        "file": "Entry DforestBoss.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Entry DforestBoss.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Sitan Boss.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Sitan Boss.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans24.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans24.otf",
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans25.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans25.otf",
+        "userAdded": true
+      },
+      {
+        "file": "NTBrickSans26.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "NTBrickSans26.otf",
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Project_V1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Untitled_Project_V1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Project_V3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Untitled_Project_V3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Untitled_Project_V4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Untitled_Project_V4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled_Project_V5.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Untitled_Project_V5.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ForestSound - Free Audio Zone-VEED.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ForestSound - Free Audio Zone-VEED.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wally Bayola's Video - Dec 1, 2024-VEED.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Wally Bayola's Video - Dec 1, 2024-VEED.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wally Bayola's Video - Dec 1, 2024-VEED2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Wally Bayola's Video - Dec 1, 2024-VEED2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Wally Bayola's Video - Dec 1, 2024-VEED (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Wally Bayola's Video - Dec 1, 2024-VEED (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "cutteryt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cutteryt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Forest - The Vault of Ambience.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Forest - The Vault of Ambience.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Cave - enviro ambient.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cave - enviro ambient.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Cave - enviro ambient2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cave - enviro ambient2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Cave - enviro ambient3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cave - enviro ambient3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "DForest - Night Sound Ambience.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "DForest - Night Sound Ambience.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "DForest - Night Sound Ambience2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "DForest - Night Sound Ambience2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "DForest - Night Sound Ambience3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "DForest - Night Sound Ambience3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "DForest - Night Sound Ambience4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "DForest - Night Sound Ambience4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dforest Ending(1).mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Dforest Ending(1).mp4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e10d4d02f445ddc7daf068b27546f89a8fe1f2ecb3e5c8ce21a73c8dbc8234b7_tiled_Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Background/e10d4d02f445ddc7daf068b27546f89a8fe1f2ecb3e5c8ce21a73c8dbc8234b7_tiled_Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_dark purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "59a7d361a270a586a7079a0b2b074758f56d5a1d9f9b83811686cfe95fdfce9a_tiled_dark purple space.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/59a7d361a270a586a7079a0b2b074758f56d5a1d9f9b83811686cfe95fdfce9a_tiled_dark purple space.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "THE END.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "THE END.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5003,19 +5248,19 @@
       "fillOpacity": 255,
       "outlineSize": 1,
       "outlineOpacity": 255,
-      "absoluteCoordinates": false,
-      "clearBetweenFrames": true,
-      "antialiasing": "none",
       "fillColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
+        "r": 0
       },
       "outlineColor": {
-        "r": 0,
+        "b": 0,
         "g": 0,
-        "b": 0
-      }
+        "r": 0
+      },
+      "absoluteCoordinates": false,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -5364,7 +5609,6 @@
         "text": "Are you sure you want to quit?",
         "font": "NTBrickSans11.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5555,7 +5799,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -5729,7 +5972,6 @@
         "text": "Music",
         "font": "NTBrickSans2.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5771,7 +6013,6 @@
         "text": "Sound",
         "font": "NTBrickSans3.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -5813,7 +6054,6 @@
         "text": "BGM",
         "font": "NTBrickSans4.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 35,
         "color": "0;0;0"
       }
@@ -6017,9 +6257,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
+          "type": "Lighting::LightObstacleBehavior",
+          "isFolded": true
         },
         {
           "name": "PathfindingObstacle",
@@ -6476,12 +6716,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 0
             }
           ]
         },
@@ -6586,12 +6827,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 7
+              "value": 0
             }
           ]
         },
@@ -6701,12 +6943,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 15
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 15
+              "value": 0
             }
           ]
         },
@@ -6816,12 +7059,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 20
+              "value": 0
             }
           ]
         },
@@ -6931,12 +7175,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 20
+              "value": 0
             }
           ]
         },
@@ -7041,12 +7286,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 20
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 10
+              "value": 0
             }
           ]
         },
@@ -7156,12 +7402,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 5
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 15
+              "value": 0
             }
           ]
         },
@@ -7271,12 +7518,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 3
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 7
+              "value": 0
             }
           ]
         },
@@ -7505,12 +7753,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 10
+              "value": 0
             },
             {
+              "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 50
+              "value": 0
             }
           ]
         },
@@ -7664,7 +7913,6 @@
         "text": "Skip >>",
         "font": "NTBrickSans6.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 34,
         "color": "0;0;0"
       }
@@ -7747,7 +7995,6 @@
             "text": "RESUME",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7842,7 +8089,6 @@
             "text": "OPTIONS",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -7937,7 +8183,6 @@
             "text": "EXIT TO\nMAIN MENU",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8032,7 +8277,6 @@
             "text": "SAVE & QUIT",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8127,7 +8371,6 @@
             "text": "SAVE",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8222,7 +8465,6 @@
             "text": "YES",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8317,7 +8559,6 @@
             "text": "NO",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8412,7 +8653,6 @@
             "text": "BACK",
             "font": "NTBrickSans7.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -8466,7 +8706,6 @@
         "text": "OBJECTIVES:",
         "font": "NTBrickSans10.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -8635,7 +8874,6 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -9309,7 +9547,6 @@
         "text": " - Find the portal\n - Open the portal by defeating enemies",
         "font": "NTBrickSans13.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -9351,7 +9588,6 @@
         "text": "    - Defeated Enemies: (0/0)",
         "font": "NTBrickSans13.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -9426,6 +9662,242 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "BakunawaBoss",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "stats",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "ATK",
+              "type": "number",
+              "value": 15
+            },
+            {
+              "folded": true,
+              "name": "HP",
+              "type": "number",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isSpotted",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 500,
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\bakunawa.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": [
+          {
+            "loop": false,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "SitanBoss",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "stats",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "ATK",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "folded": true,
+              "name": "HP",
+              "type": "number",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "attackExecuted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "boundPos",
+          "type": "structure",
+          "children": [
+            {
+              "name": "X",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Y",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "isAlerted",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "isSpotted",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9999,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 500,
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Bosses\\sitan.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": [
+          {
+            "loop": false,
+            "name": "idle",
+            "source": "idle"
+          },
+          {
+            "loop": false,
+            "name": "attack",
+            "source": "attack"
+          },
+          {
+            "loop": false,
+            "name": "hit",
+            "source": "hit"
+          },
+          {
+            "loop": false,
+            "name": "walk",
+            "source": "walk"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BG_testing",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": true,
+        "volume": 100,
+        "videoResource": "KinetNoSOund.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9585,6 +10057,12 @@
         "folderName": "Enemies",
         "children": [
           {
+            "objectName": "SitanBoss"
+          },
+          {
+            "objectName": "BakunawaBoss"
+          },
+          {
             "objectName": "EnemyAswang"
           },
           {
@@ -9667,6 +10145,9 @@
       },
       {
         "objectName": "BlackSpace"
+      },
+      {
+        "objectName": "BG_testing"
       }
     ]
   },
@@ -9731,6 +10212,12 @@
         },
         {
           "name": "SarimanokBoss"
+        },
+        {
+          "name": "BakunawaBoss"
+        },
+        {
+          "name": "SitanBoss"
         }
       ]
     },
