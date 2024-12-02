@@ -56,6 +56,11 @@
       "name": "portalCount",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "numberOfEnemiesDefeated",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
