@@ -6275,9 +6275,9 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 70.4,
+        "depth": 64,
         "height": 64.00000000000001,
-        "keepAspectRatio": true,
+        "keepAspectRatio": false,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\forest\\forestWall.glb",
         "originLocation": "ModelOrigin",
@@ -6721,13 +6721,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 15
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 30
             }
           ]
         },
@@ -6832,13 +6832,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 30
             }
           ]
         },
@@ -6948,13 +6948,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 60
             }
           ]
         },
@@ -7064,13 +7064,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 40
             }
           ]
         },
@@ -7180,13 +7180,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 15
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 60
             }
           ]
         },
@@ -7291,13 +7291,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 15
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 50
             }
           ]
         },
@@ -7407,13 +7407,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 30
             }
           ]
         },
@@ -7523,13 +7523,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 10
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 20
             }
           ]
         },
@@ -7758,13 +7758,13 @@
               "folded": true,
               "name": "ATK",
               "type": "number",
-              "value": 0
+              "value": 20
             },
             {
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 0
+              "value": 70
             }
           ]
         },
@@ -9700,7 +9700,7 @@
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 50
+              "value": 75
             }
           ]
         },
@@ -9811,7 +9811,7 @@
               "folded": true,
               "name": "HP",
               "type": "number",
-              "value": 60
+              "value": 80
             }
           ]
         },
@@ -9916,6 +9916,50 @@
         "volume": 100,
         "videoResource": "KinetNoSOund.mp4"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "DForestWall",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 64,
+        "height": 64,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\dark forest\\Darkforestwall.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "CaveWall",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 64,
+        "height": 64,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Terrain\\cave\\caveWall.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 64,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -9926,6 +9970,12 @@
       },
       {
         "objectName": "ForestWall"
+      },
+      {
+        "objectName": "DForestWall"
+      },
+      {
+        "objectName": "CaveWall"
       },
       {
         "objectName": "Player"
@@ -10184,6 +10234,9 @@
         },
         {
           "name": "Wall"
+        },
+        {
+          "name": "DForestWall"
         }
       ]
     },
