@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6710943652415096,
+    "zoomFactor": 0.3818841323241594,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4814,7 +4814,6 @@
         "text": "MAHIKA:",
         "font": "NTBrickSans8.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 130,
         "color": "255;255;255"
       }
@@ -4856,7 +4855,6 @@
         "text": "Roguelike Card Game",
         "font": "NTBrickSans9.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -4920,89 +4918,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
-      "name": "MusicSlider",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "BarTopPadding": 6,
-        "BarLeftPadding": 6,
-        "BarRightPadding": 6,
-        "BarBottomPadding": 6,
-        "LabelMargin": 6
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 4,
-          "height": 28,
-          "leftMargin": 2,
-          "rightMargin": 2,
-          "texture": "Square White Slider Border.png",
-          "tiled": false,
-          "topMargin": 4,
-          "width": 265
-        },
-        "FillBar": {
-          "bottomMargin": 2,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Square White Slider Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 16
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "It displays the value when it changes.",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 221,
-            "g": 221,
-            "r": 221
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "It displays the value when it changes.",
-            "font": "",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "color": "221;221;221"
-          }
-        },
-        "Thumb": {
-          "bottomMargin": 2,
-          "height": 36,
-          "leftMargin": 1,
-          "rightMargin": 1,
-          "texture": "Square White Slider Thumb.png",
-          "tiled": false,
-          "topMargin": 2,
-          "width": 22
-        }
-      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -12464,7 +12379,6 @@
             "text": "START",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12559,7 +12473,6 @@
             "text": "ENGKANTOPEDIA",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12654,7 +12567,6 @@
             "text": "CREDITS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12749,7 +12661,6 @@
             "text": "OPTIONS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12844,7 +12755,6 @@
             "text": "EXIT",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12939,7 +12849,6 @@
             "text": "NEW GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13034,7 +12943,6 @@
             "text": "LOAD GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13129,7 +13037,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13224,7 +13131,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13319,7 +13225,6 @@
             "text": "TUTORIALS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -14563,89 +14468,6 @@
     },
     {
       "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
-      "name": "SoundSlider",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "BarTopPadding": 6,
-        "BarLeftPadding": 6,
-        "BarRightPadding": 6,
-        "BarBottomPadding": 6,
-        "LabelMargin": 6
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 4,
-          "height": 28,
-          "leftMargin": 2,
-          "rightMargin": 2,
-          "texture": "Square White Slider Border.png",
-          "tiled": false,
-          "topMargin": 4,
-          "width": 265
-        },
-        "FillBar": {
-          "bottomMargin": 2,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Square White Slider Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 16
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "It displays the value when it changes.",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 221,
-            "g": 221,
-            "r": 221
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "It displays the value when it changes.",
-            "font": "",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "color": "221;221;221"
-          }
-        },
-        "Thumb": {
-          "bottomMargin": 2,
-          "height": 36,
-          "leftMargin": 1,
-          "rightMargin": 1,
-          "texture": "Square White Slider Thumb.png",
-          "tiled": false,
-          "topMargin": 2,
-          "width": 22
-        }
-      }
-    },
-    {
-      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
       "name": "BGM2",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
       "variables": [],
@@ -14710,7 +14532,6 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -15004,7 +14825,6 @@
         "text": "PLAYER\nThe character that \nyou are controlling \nthroughout the game",
         "font": "NTBrickSans14.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15471,7 +15291,6 @@
         "text": "CONTROLS\nMove the player using \nWASD or up, left, down, \n& right keys",
         "font": "NTBrickSans15.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15758,7 +15577,6 @@
         "text": "W",
         "font": "NTBrickSans16.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15800,7 +15618,6 @@
         "text": "A",
         "font": "NTBrickSans17.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15842,7 +15659,6 @@
         "text": "S",
         "font": "NTBrickSans18.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15884,7 +15700,6 @@
         "text": "D",
         "font": "NTBrickSans19.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16190,7 +16005,6 @@
         "text": "OBJECTIVES\nGuide for your quest \n& lists of what you \nshould do in game",
         "font": "NTBrickSans20.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16537,7 +16351,6 @@
         "text": "NAVIGATION\nObserve carefully for \nEngkantos inside \nthe map",
         "font": "NTBrickSans21.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16824,7 +16637,6 @@
         "text": "Player you are controlling",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16866,7 +16678,6 @@
         "text": "Guide for\ncontrol keys",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16908,7 +16719,6 @@
         "text": "An Engkanto is about to \nengage the player & will \ntake to the Battle scene",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -17130,7 +16940,6 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17172,7 +16981,6 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17214,7 +17022,6 @@
         "text": "Monsters with HP,\nattacks the enemies\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17256,7 +17063,6 @@
         "text": "Heroes with HP,\nattacks the monsters\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17298,7 +17104,6 @@
         "text": "Allows player to conclude \ncurrent turn & pass the \ninitiative to opponent",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17340,7 +17145,6 @@
         "text": "Hero cards that the \nplayer can summon",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17382,7 +17186,6 @@
         "text": "This represents \nthe player's HP",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17424,7 +17227,6 @@
         "text": "This represents \nmana. Each card \nhas mana cost",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17586,7 +17388,6 @@
         "text": "BATTLE SCENE\nThis where the battle \ntakes place after you \nencounter an Engkanto",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -17794,7 +17595,6 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -18093,7 +17893,6 @@
         "text": "CHEST\nPlayer will  receive \nspell cards by opening \nthe chest that can be \nfound in map",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -18440,7 +18239,6 @@
         "text": "Draw Phase:\nDraw cards until your hand is full\n\nPreparation Phase:\nSummon heroes at the cost of your mana to defend yourself\n\nBattle Phase:\nHeroes & Monsters fight each other. If there's no hero in front of the monster, the player can be attacked directly\n\nEnd Phase:\nYour heroes returns to rest on their respective cards and you regain your mana",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -18821,7 +18619,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNER\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience\n\nMAIN MENU BACKGROUND ART\nRalph Jusuah \"Peter\" Sanque",
+      "string": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNERS\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience\n\nMAIN MENU BACKGROUND ART\nRalph Jusuah \"Peter\" Sanque",
       "font": "NTBrickSans23.otf",
       "textAlignment": "center",
       "characterSize": 23,
@@ -18844,10 +18642,9 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNER\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience\n\nMAIN MENU BACKGROUND ART\nRalph Jusuah \"Peter\" Sanque",
+        "text": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNERS\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience\n\nMAIN MENU BACKGROUND ART\nRalph Jusuah \"Peter\" Sanque",
         "font": "NTBrickSans23.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 23,
         "color": "255;255;255"
       }
@@ -19017,12 +18814,6 @@
       },
       {
         "objectName": "BattleSceneMarker"
-      },
-      {
-        "objectName": "MusicSlider"
-      },
-      {
-        "objectName": "SoundSlider"
       },
       {
         "objectName": "BGM2"
@@ -20005,6 +19796,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21592,6 +21384,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23283,6 +23076,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "SoundBttns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23367,6 +23161,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Music",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23564,6 +23359,76 @@
                 "=",
                 "Settings.Music"
               ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SitanCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "NewGameCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryForest",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SarimanokCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryCave",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "BakunawaCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryDForest",
+                "=",
+                "Settings.Music"
+              ]
             }
           ]
         },
@@ -23639,6 +23504,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "NEW/LOAD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

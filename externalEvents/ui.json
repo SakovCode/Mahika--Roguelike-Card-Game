@@ -1,5 +1,6 @@
 {
   "associatedLayout": "Forest",
+  "lastChangeTimeStamp": 0,
   "name": "UI",
   "events": [
     {
@@ -745,13 +746,14 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
                 "Forest - The Vault of Ambience.mp3",
+                "1",
                 "yes",
-                "",
+                "GlobalVariable(Settings.Music)",
                 ""
               ]
             }

@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.38958562738273295,
+    "snap": true,
+    "zoomFactor": 0.33005600491659676,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -79,394 +79,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Marker",
-      "persistentUuid": "cf50267f-6634-4071-a209-1b2b182aa4fa",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Pause_button",
-      "persistentUuid": "57d092c3-9ede-4662-a5ac-163dff91fe73",
-      "width": 64,
-      "x": 64,
-      "y": 64,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "pause_marker",
-      "persistentUuid": "c3c7c975-4138-42a5-b1b9-205dba3ab676",
-      "width": 768,
-      "x": 2752,
-      "y": 192,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "options_maker",
-      "persistentUuid": "5a070855-fcda-4935-8640-cc245499c293",
-      "width": 768,
-      "x": 4928,
-      "y": 192,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "quit_marker",
-      "persistentUuid": "d7314db1-208e-4e33-8fcb-14d7d0f0ef79",
-      "width": 768,
-      "x": 7104,
-      "y": 192,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 50,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "quit_options",
-      "persistentUuid": "ddc4c355-8d7d-46e0-87bc-797702025df4",
-      "width": 479,
-      "x": 7248,
-      "y": 462,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 576,
-      "layer": "UI",
-      "name": "pause_bg",
-      "persistentUuid": "13d83dce-de83-4cd8-9509-fcdfec80cd9a",
-      "width": 640,
-      "x": 4992,
-      "y": 256,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "07ebaa5f-4d11-44a2-87be-7c83466e917f",
-      "width": 250,
-      "x": 5186,
-      "y": 610,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "BGM",
-      "persistentUuid": "64a9e9b6-dce9-47e4-b2b0-e58fec053db1",
-      "width": 0,
-      "x": 5265,
-      "y": 551,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "8b4e146e-2ee8-4677-b98c-f91778e882c1",
-      "width": 250,
-      "x": 5186,
-      "y": 500,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Sound",
-      "persistentUuid": "c5b1a7ee-2fd0-487e-94c8-b1338c4200c9",
-      "width": 0,
-      "x": 5244,
-      "y": 441,
-      "zOrder": 49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "bba6e699-ff69-47de-81aa-e881d1678ecb",
-      "width": 250,
-      "x": 5186,
-      "y": 390,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "Music",
-      "persistentUuid": "0c2432dd-fd32-4405-a0d1-9cfd1ac050e0",
-      "width": 0,
-      "x": 5247,
-      "y": 331,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 704,
-      "layer": "UI",
-      "name": "pause_bg",
-      "persistentUuid": "1e28d9b4-f8d2-4b32-90e9-b0024486a772",
-      "width": 384,
-      "x": 2944,
-      "y": 192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "UI",
-      "name": "pause_bg",
-      "persistentUuid": "16c84289-e83e-4258-9ff2-6798a206ca0c",
-      "width": 640,
-      "x": 7168,
-      "y": 384,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "ResumeButton",
-      "persistentUuid": "99903ba1-ce96-40dd-b5d4-05ea6ad14b9a",
-      "width": 0,
-      "x": 3040,
-      "y": 256,
-      "zOrder": 114,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "OptionsButton2",
-      "persistentUuid": "4ede5b88-f358-437e-99fb-a32a8f79c505",
-      "width": 0,
-      "x": 3040,
-      "y": 384,
-      "zOrder": 115,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "ExitToMainMenuButton2",
-      "persistentUuid": "822d5e6e-eb18-435d-a370-573abdc71c53",
-      "width": 0,
-      "x": 3040,
-      "y": 640,
-      "zOrder": 117,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SaveAndQuitButton",
-      "persistentUuid": "c23e0a6d-b9d4-46a6-8a44-46e6da191ff7",
-      "width": 0,
-      "x": 3040,
-      "y": 768,
-      "zOrder": 118,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SaveButton",
-      "persistentUuid": "e37fce5e-d841-4a28-aca5-76c96dbdc6eb",
-      "width": 0,
-      "x": 3040,
-      "y": 512,
-      "zOrder": 120,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Objectives_",
-      "persistentUuid": "fc1ab487-9d49-4c28-8a0c-7425ffe6e081",
-      "width": 0,
-      "x": 64,
-      "y": 192,
-      "zOrder": 121,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "YesButton",
-      "persistentUuid": "7048fdc8-6c2b-4df3-a916-f83532372154",
-      "width": 0,
-      "x": 7264,
-      "y": 576,
-      "zOrder": 123,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "NoButton",
-      "persistentUuid": "77794021-27b1-42c6-8cb5-bc527a2684d1",
-      "width": 0,
-      "x": 7520,
-      "y": 576,
-      "zOrder": 124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BackToPauseButton",
-      "persistentUuid": "c9787baf-ef22-4118-8743-b4f8df51e2be",
-      "width": 0,
-      "x": 5216,
-      "y": 704,
-      "zOrder": 125,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1088,
       "keepRatio": true,
       "layer": "Cutscene",
@@ -508,23 +120,6 @@
       "x": 953,
       "y": 521,
       "zOrder": 128,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 27,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "DForestBossObjective",
-      "persistentUuid": "237f72f2-6553-4a5b-9785-507f6a2d725e",
-      "width": 320,
-      "x": 64,
-      "y": 229,
-      "zOrder": 129,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2013,6 +1608,415 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Marker",
+      "persistentUuid": "4197a81f-22e7-4aa3-bd4b-739664eb1043",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Pause_button",
+      "persistentUuid": "c16b6787-b0d3-4c35-9c67-018fcbbcadb4",
+      "width": 64,
+      "x": 64,
+      "y": 128,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Transition",
+      "persistentUuid": "0ecb49b0-b16b-496a-9775-b3e919793b34",
+      "width": 64,
+      "x": 1856,
+      "y": -64,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "pause_marker",
+      "persistentUuid": "6c5a0bb3-d1d5-4590-845a-58db73337149",
+      "width": 768,
+      "x": 2752,
+      "y": 256,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "options_maker",
+      "persistentUuid": "35d305f6-aea9-4ee4-8f5b-f845d46bc2c7",
+      "width": 768,
+      "x": 4928,
+      "y": 256,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_marker",
+      "persistentUuid": "77826f11-2c02-4740-ba4f-8f8a38e08154",
+      "width": 768,
+      "x": 7104,
+      "y": 256,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_options",
+      "persistentUuid": "94b05430-6b49-4adf-85a8-472c783e54a1",
+      "width": 479,
+      "x": 7248,
+      "y": 519,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 576,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "45c4ff21-b1db-4e64-98b0-d525c6731291",
+      "width": 640,
+      "x": 4992,
+      "y": 320,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Sound",
+      "persistentUuid": "3fbd553e-73b5-4600-9cdc-6172689eb471",
+      "width": 256,
+      "x": 5184,
+      "y": 640,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "MusicSlider2",
+      "persistentUuid": "b745e53c-7ad0-4bb8-b20a-44a4da617fb1",
+      "width": 250,
+      "x": 5187,
+      "y": 485,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "UI",
+      "name": "Music",
+      "persistentUuid": "cfd67591-d544-4a22-ae87-87f20f55ddb0",
+      "width": 256,
+      "x": 5184,
+      "y": 512,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 704,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "03e9493f-05c1-448a-9f72-4605e98b8c34",
+      "width": 384,
+      "x": 2944,
+      "y": 256,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "548388b9-7ff9-432e-a685-a1529ac2d281",
+      "width": 640,
+      "x": 7168,
+      "y": 448,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ResumeButton",
+      "persistentUuid": "7a09c958-8000-42a7-8d79-d997032c473e",
+      "width": 0,
+      "x": 3040,
+      "y": 320,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "OptionsButton2",
+      "persistentUuid": "1e278776-2fa8-45af-b63c-9889ef7a3a0b",
+      "width": 0,
+      "x": 3040,
+      "y": 448,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ExitToMainMenuButton2",
+      "persistentUuid": "6809efa4-5fe3-493f-8bbd-d2b85288de11",
+      "width": 0,
+      "x": 3040,
+      "y": 704,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SaveAndQuitButton",
+      "persistentUuid": "0d9659f6-c9b0-4c03-93de-3964f4fe18d8",
+      "width": 0,
+      "x": 3040,
+      "y": 832,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SaveButton",
+      "persistentUuid": "71a5cec3-dc1a-49d2-b9da-6c063b23c0d7",
+      "width": 0,
+      "x": 3040,
+      "y": 576,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Objectives_",
+      "persistentUuid": "263e2f62-10f2-4e56-a401-77397040ea60",
+      "width": 0,
+      "x": 64,
+      "y": 256,
+      "zOrder": 121,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "YesButton",
+      "persistentUuid": "908b82a0-af3a-419c-9572-57885915ba30",
+      "width": 0,
+      "x": 7296,
+      "y": 640,
+      "zOrder": 123,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "NoButton",
+      "persistentUuid": "86e260a1-35e9-4c59-a2c8-343e468e0300",
+      "width": 0,
+      "x": 7552,
+      "y": 640,
+      "zOrder": 124,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BackToPauseButton",
+      "persistentUuid": "2ca94437-8c73-4485-9215-3937654af538",
+      "width": 0,
+      "x": 5216,
+      "y": 768,
+      "zOrder": 125,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 37.5,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PlayerHealthBar",
+      "persistentUuid": "15a343ad-2661-4e6b-801a-7d1fc926c92e",
+      "width": 160.15625,
+      "x": 64,
+      "y": 960,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ObjectivesContent",
+      "persistentUuid": "2b5b482b-f2ff-4201-b541-a5573d507b30",
+      "width": 0,
+      "x": 64,
+      "y": 320,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SoundSlider2",
+      "persistentUuid": "f2aac986-34ba-4566-a9ae-2a2c2692af55",
+      "width": 250,
+      "x": 5187,
+      "y": 614,
+      "zOrder": 129,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2167,34 +2171,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "EntryDForest",
-      "type": "Video::VideoObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "opacity": 255,
-        "loop": false,
-        "volume": 100,
-        "videoResource": "Entry DforestBoss.mp4"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "SitanCutscene",
-      "type": "Video::VideoObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "opacity": 255,
-        "loop": false,
-        "volume": 100,
-        "videoResource": "Sitan Boss.mp4"
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "DForestBossObjective",
@@ -2230,7 +2206,6 @@
         "text": " - Defeat the Dark Forest Boss (Sitan)",
         "font": "NTBrickSans26.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -2287,12 +2262,6 @@
       },
       {
         "objectName": "New3DModel"
-      },
-      {
-        "objectName": "EntryDForest"
-      },
-      {
-        "objectName": "SitanCutscene"
       },
       {
         "objectName": "DForestBossObjective"
@@ -2357,6 +2326,128 @@
                 "EntryDForest"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Music",
+                    "=",
+                    "MusicSlider2.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Sound",
+                    "=",
+                    "SoundSlider2.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\"",
+                    "ToJSON(Settings)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "Settings"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "MusicSlider2",
+                    "=",
+                    "Settings.Music",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "SoundSlider2",
+                    "=",
+                    "Settings.Sound",
+                    ""
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "temp",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            }
           ]
         },
         {
@@ -2374,13 +2465,14 @@
           "actions": [
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
-                "DForest - Night Sound Ambience3.mp3",
+                "DForest - Night Sound Ambience.mp3",
+                "1",
                 "yes",
-                "",
+                "GlobalVariable(Settings.Music)",
                 ""
               ]
             },
@@ -2517,14 +2609,186 @@
           "actions": [
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "PlaySoundCanal"
               },
               "parameters": [
                 "",
-                "DForest - Night Sound Ambience4.mp3",
+                "DForest - Night Sound Ambience.mp3",
+                "1",
                 "yes",
-                "",
+                "GlobalVariable(Settings.Music)",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicSlider2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Music",
+                "=",
+                "MusicSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SitanCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "NewGameCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryForest",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SarimanokCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryCave",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "BakunawaCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryDForest",
+                "=",
+                "Settings.Music"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "SoundSlider2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Sound",
+                "=",
+                "SoundSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "Settings.Sound"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "BackToPauseButton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Storage\"",
+                "\"Settings\"",
+                "ToJSON(Settings)"
               ]
             }
           ]

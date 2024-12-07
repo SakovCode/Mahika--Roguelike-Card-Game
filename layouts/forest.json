@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3235313168576451,
+    "zoomFactor": 0.34571835718202404,
     "windowMask": false
   },
   "objectsGroups": [
@@ -286,61 +286,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "907f0e9a-f722-4f72-bd4f-4633502d409d",
-      "width": 250,
-      "x": 5186,
-      "y": 610,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "BGM",
-      "persistentUuid": "78ec80b7-c38e-42c2-8086-4d189059d100",
-      "width": 0,
-      "x": 5265,
-      "y": 548,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "df4c5861-6986-4562-9c99-1029cc27df29",
-      "width": 250,
-      "x": 5186,
-      "y": 500,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "Sound",
       "persistentUuid": "1eec49b2-f2b4-4065-a177-20ae13715bde",
-      "width": 0,
-      "x": 5246,
-      "y": 441,
+      "width": 256,
+      "x": 5184,
+      "y": 576,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -352,11 +306,11 @@
       "depth": 48,
       "height": 25,
       "layer": "UI",
-      "name": "SquareWhiteSlider1",
+      "name": "MusicSlider2",
       "persistentUuid": "9a3eaadf-f924-437f-aee6-379180f801b9",
       "width": 250,
-      "x": 5186,
-      "y": 390,
+      "x": 5188,
+      "y": 424,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -364,14 +318,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "UI",
       "name": "Music",
       "persistentUuid": "d070b879-ed5b-490c-8b39-1195cf77bffb",
-      "width": 0,
-      "x": 5246,
-      "y": 324,
+      "width": 256,
+      "x": 5184,
+      "y": 448,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -648,6 +603,22 @@
       "x": 64,
       "y": 320,
       "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SoundSlider2",
+      "persistentUuid": "2c92c961-f0aa-4db8-91b2-b04f27843924",
+      "width": 250,
+      "x": 5188,
+      "y": 551,
+      "zOrder": 129,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1048,106 +1019,413 @@
       "target": "SAVE"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Music & Sound",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "load",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "NewGameCutscene"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Music",
+                    "=",
+                    "MusicSlider2.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Sound",
+                    "=",
+                    "SoundSlider2.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\"",
+                    "ToJSON(Settings)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\"",
+                    "",
+                    "temp"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp",
+                    "Settings"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "MusicSlider2",
+                    "=",
+                    "Settings.Music",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                  },
+                  "parameters": [
+                    "SoundSlider2",
+                    "=",
+                    "Settings.Sound",
+                    ""
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "temp",
+                  "type": "string",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Video::Ended"
+                  },
+                  "parameters": [
+                    "NewGameCutscene"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "NewGameCutscene",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Forest - The Vault of Ambience.mp3",
+                    "1",
+                    "yes",
+                    "GlobalVariable(Settings.Music)",
+                    ""
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "load",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Video::Play"
-          },
-          "parameters": [
-            "NewGameCutscene"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Video::Ended"
-          },
-          "parameters": [
-            "NewGameCutscene"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "Forest - The Vault of Ambience.mp3",
-            "yes",
-            "",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Forest - The Vault of Ambience.mp3",
+                "1",
+                "yes",
+                "GlobalVariable(Settings.Music)",
+                ""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NewGameCutscene",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustResumed"
-          },
-          "parameters": [
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicSlider2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Music",
+                "=",
+                "MusicSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "NewGameCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryForest",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SarimanokCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryCave",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "BakunawaCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryDForest",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SitanCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "SoundSlider2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Sound",
+                "=",
+                "SoundSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "Settings.Sound"
+              ]
+            }
+          ]
+        },
         {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "Forest - The Vault of Ambience.mp3",
-            "yes",
-            "",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "BackToPauseButton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Storage\"",
+                "\"Settings\"",
+                "ToJSON(Settings)"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "parameters": []
     }
   ],
   "layers": [

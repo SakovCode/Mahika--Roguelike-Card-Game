@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.475358508712705,
+    "zoomFactor": 0.5995738389111241,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -96,410 +96,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Marker",
-      "persistentUuid": "f4e14641-527b-4128-a8c4-71d17e8f560b",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Pause_button",
-      "persistentUuid": "8a04766d-fb65-4d8d-af32-3371e24b204a",
-      "width": 64,
-      "x": 64,
-      "y": 64,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "pause_marker",
-      "persistentUuid": "08013580-6b73-4a04-9ff0-cfc072fbaa85",
-      "width": 768,
-      "x": 2752,
-      "y": 192,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "options_maker",
-      "persistentUuid": "11d26cb9-3e9f-47f2-8cb5-0d22dd885543",
-      "width": 768,
-      "x": 4928,
-      "y": 192,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "quit_marker",
-      "persistentUuid": "8bdc0e5d-a37e-4fb3-8f57-c48ffaeb1b7d",
-      "width": 768,
-      "x": 7104,
-      "y": 192,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 50,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "quit_options",
-      "persistentUuid": "56bba76a-2162-44d1-b397-61ea713710b5",
-      "width": 479,
-      "x": 7248,
-      "y": 462,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 576,
-      "layer": "UI",
-      "name": "pause_bg",
-      "persistentUuid": "cf6242bb-07ef-48d1-8730-636e1118e990",
-      "width": 640,
-      "x": 4992,
-      "y": 256,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "dc678da1-5a59-455a-a647-00b0df50396f",
-      "width": 250,
-      "x": 5186,
-      "y": 610,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "BGM",
-      "persistentUuid": "6308bf8e-bff5-451b-b4ad-f2045b430f34",
-      "width": 0,
-      "x": 5264,
-      "y": 549,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "4c554b35-e598-47c7-a2cc-cc93efad9f58",
-      "width": 250,
-      "x": 5186,
-      "y": 500,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Sound",
-      "persistentUuid": "f74047e2-af0c-4488-8851-5a6dfbe72cf3",
-      "width": 0,
-      "x": 5241,
-      "y": 443,
-      "zOrder": 49,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "SquareWhiteSlider1",
-      "persistentUuid": "37c1a54d-86d7-44bd-8717-47e327faa42c",
-      "width": 250,
-      "x": 5186,
-      "y": 390,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "Music",
-      "persistentUuid": "7dfabbd0-872a-482f-8d14-24389820f153",
-      "width": 0,
-      "x": 5248,
-      "y": 320,
-      "zOrder": 50,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 704,
-      "layer": "UI",
-      "name": "pause_bg",
-      "persistentUuid": "959c6f9a-f77f-44ec-908f-1371944cd384",
-      "width": 384,
-      "x": 2944,
-      "y": 192,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "UI",
-      "name": "pause_bg",
-      "persistentUuid": "8b40a203-a737-45e8-8672-0d6dd7bf5e33",
-      "width": 640,
-      "x": 7168,
-      "y": 384,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "ResumeButton",
-      "persistentUuid": "095d29b0-af21-46de-96f6-b0bd19ec8b5f",
-      "width": 0,
-      "x": 3040,
-      "y": 256,
-      "zOrder": 114,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "OptionsButton2",
-      "persistentUuid": "28eab627-cecb-48d8-a9a8-9a0409e6a9ec",
-      "width": 0,
-      "x": 3040,
-      "y": 384,
-      "zOrder": 115,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "ExitToMainMenuButton2",
-      "persistentUuid": "c7098376-f2ed-4084-b5c3-b5846af77a9a",
-      "width": 0,
-      "x": 3040,
-      "y": 640,
-      "zOrder": 117,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SaveAndQuitButton",
-      "persistentUuid": "ca48a8e8-1773-4a31-bd50-1acc7765e69f",
-      "width": 0,
-      "x": 3040,
-      "y": 768,
-      "zOrder": 118,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SaveButton",
-      "persistentUuid": "3101ef73-8794-4901-b87e-def5695fe51b",
-      "width": 0,
-      "x": 3040,
-      "y": 512,
-      "zOrder": 120,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Objectives_",
-      "persistentUuid": "3f00448e-79cd-458e-bce4-120ea69585d0",
-      "width": 0,
-      "x": 64,
-      "y": 192,
-      "zOrder": 121,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "YesButton",
-      "persistentUuid": "76c69e34-fa07-4d96-8455-96a8648a1f8a",
-      "width": 0,
-      "x": 7264,
-      "y": 576,
-      "zOrder": 123,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "NoButton",
-      "persistentUuid": "98b356b2-6b5f-4037-aad8-f05d143fffee",
-      "width": 0,
-      "x": 7520,
-      "y": 576,
-      "zOrder": 124,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BackToPauseButton",
-      "persistentUuid": "fec9394a-7c86-4676-bf9e-6bd5db64aa25",
-      "width": 0,
-      "x": 5216,
-      "y": 704,
-      "zOrder": 125,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Transition",
-      "persistentUuid": "00fa489e-bc20-4d3e-bb01-588c5e5a10d6",
-      "width": 0,
-      "x": 1856,
-      "y": -96,
-      "zOrder": 130,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 1088,
       "layer": "Cutscene",
       "name": "EntryForest",
@@ -525,23 +121,6 @@
       "x": 959,
       "y": -154,
       "zOrder": 133,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 25,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "ForestBossObjective",
-      "persistentUuid": "7c7fa840-efba-4ab9-a45b-78a946216d3d",
-      "width": 256,
-      "x": 64,
-      "y": 231,
-      "zOrder": 134,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1697,6 +1276,415 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Marker",
+      "persistentUuid": "78a0d489-4cd3-4f60-acc9-d9d2da97fcdc",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Pause_button",
+      "persistentUuid": "f8437088-1c7a-408b-950c-0cebce317832",
+      "width": 64,
+      "x": 64,
+      "y": 128,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Transition",
+      "persistentUuid": "6552fa85-27ed-4e3c-adbb-ecd3d86bdbf6",
+      "width": 64,
+      "x": 1856,
+      "y": -64,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "pause_marker",
+      "persistentUuid": "158b12d9-8fde-4f60-835a-92bee8e0cf24",
+      "width": 768,
+      "x": 2752,
+      "y": 256,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "options_maker",
+      "persistentUuid": "d07c6967-ed71-4298-aa2b-b3aa8378cef6",
+      "width": 768,
+      "x": 4928,
+      "y": 256,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_marker",
+      "persistentUuid": "30d2a39c-5f53-468b-bbc1-0fa1c72eedba",
+      "width": 768,
+      "x": 7104,
+      "y": 256,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "quit_options",
+      "persistentUuid": "752c17b2-075f-4e90-8c6a-319ca09723a7",
+      "width": 479,
+      "x": 7296,
+      "y": 512,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 576,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "14e966f3-ddb6-4ae5-b456-abcd7bfcd147",
+      "width": 640,
+      "x": 4992,
+      "y": 320,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Sound",
+      "persistentUuid": "3320bf6e-b0de-44a0-9293-67560f614941",
+      "width": 256,
+      "x": 5184,
+      "y": 640,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "MusicSlider2",
+      "persistentUuid": "b5e5e9e1-e552-465c-8dc2-3b9187cba17b",
+      "width": 250,
+      "x": 5187,
+      "y": 489,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "UI",
+      "name": "Music",
+      "persistentUuid": "d24e7051-1bc2-4628-a7d9-3232a079bd9d",
+      "width": 256,
+      "x": 5184,
+      "y": 512,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 704,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "cb1e6cb6-3153-4d96-9080-bdaf757005ff",
+      "width": 384,
+      "x": 2944,
+      "y": 256,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "UI",
+      "name": "pause_bg",
+      "persistentUuid": "99d538d9-362b-48ac-9a9a-340bf7825435",
+      "width": 640,
+      "x": 7168,
+      "y": 448,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ResumeButton",
+      "persistentUuid": "af3b1901-9a6e-4add-9fec-403368adafb2",
+      "width": 0,
+      "x": 3040,
+      "y": 320,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "OptionsButton2",
+      "persistentUuid": "480f88b2-9710-4e1f-82fc-a7d8f9aa3f85",
+      "width": 0,
+      "x": 3040,
+      "y": 448,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ExitToMainMenuButton2",
+      "persistentUuid": "8098b4e9-0221-44bc-9fdb-e775ebd06587",
+      "width": 0,
+      "x": 3040,
+      "y": 704,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SaveAndQuitButton",
+      "persistentUuid": "8aaefb23-5c67-42e1-9afc-392282154202",
+      "width": 0,
+      "x": 3040,
+      "y": 832,
+      "zOrder": 118,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "SaveButton",
+      "persistentUuid": "7eb82966-db49-47ba-a5d8-35c483786d44",
+      "width": 0,
+      "x": 3040,
+      "y": 576,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Objectives_",
+      "persistentUuid": "13a3ac81-3398-4112-8a4b-9cd46c7b1289",
+      "width": 0,
+      "x": 64,
+      "y": 256,
+      "zOrder": 121,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "YesButton",
+      "persistentUuid": "2afb071f-c765-41a3-8865-cefbe9dca968",
+      "width": 0,
+      "x": 7296,
+      "y": 640,
+      "zOrder": 123,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "NoButton",
+      "persistentUuid": "5588449a-ef61-43d6-a54b-310ffa8772ab",
+      "width": 0,
+      "x": 7552,
+      "y": 640,
+      "zOrder": 124,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BackToPauseButton",
+      "persistentUuid": "b918a69a-273b-4bab-94d7-459d19ac025d",
+      "width": 0,
+      "x": 5216,
+      "y": 768,
+      "zOrder": 125,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 37.5,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PlayerHealthBar",
+      "persistentUuid": "427c9106-2fdc-495b-bf09-824e40112d31",
+      "width": 160.15625,
+      "x": 96,
+      "y": 960,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ObjectivesContent",
+      "persistentUuid": "62e682ee-d562-44f0-b623-76a1be409b9f",
+      "width": 0,
+      "x": 64,
+      "y": 320,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SoundSlider2",
+      "persistentUuid": "189fa957-706d-42e5-903f-19db40f0a492",
+      "width": 250,
+      "x": 5187,
+      "y": 614,
+      "zOrder": 129,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1845,20 +1833,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "EntryForest",
-      "type": "Video::VideoObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "opacity": 255,
-        "loop": false,
-        "volume": 100,
-        "videoResource": "Entry ForestBoss.mp4"
-      }
-    },
-    {
-      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "ForestBossObjective",
@@ -1894,7 +1868,6 @@
         "text": " - Defeat the Forest Boss (Sarimanok)",
         "font": "NTBrickSans24.otf",
         "textAlignment": "center",
-        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -1926,9 +1899,6 @@
       },
       {
         "objectName": "New3DModel2"
-      },
-      {
-        "objectName": "EntryForest"
       },
       {
         "objectName": "ForestBossObjective"
@@ -1979,6 +1949,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "LVL CLEAR CONDITION",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2036,215 +2007,522 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "StringVariable"
-          },
-          "parameters": [
-            "ForestBoss",
-            "=",
-            "CurrentSceneName()"
-          ]
-        }
-      ],
-      "actions": [],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Music & Sound",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "StringVariable"
               },
               "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Video::Play"
-              },
-              "parameters": [
-                "EntryForest"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Video::Ended"
-              },
-              "parameters": [
-                "EntryForest"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "Forest - The Vault of Ambience.mp3",
-                "yes",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "EntryForest",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "SarimanokBoss",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenCameraPosition2"
-              },
-              "parameters": [
-                "",
-                "\"CameraMoves\"",
-                "SarimanokCutscene.CenterX()",
-                "SarimanokCutscene.CenterY()",
-                "\"Cutscene\"",
-                "\"elastic\"",
-                ".01"
-              ]
-            },
-            {
-              "type": {
-                "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
-              },
-              "parameters": [
-                "Transition",
-                "FlashTransitionPainter",
-                "\"0;0;0\"",
-                ".1",
-                "\"Flash\"",
-                "\"Both\"",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Video::Play"
-              },
-              "parameters": [
-                "SarimanokCutscene"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "SarimanokBoss",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "SarimanokCutscene.Duration()"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "SarimanokCutscene",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "encounterID",
+                "ForestBoss",
                 "=",
-                "\"SarimanokBoss\""
+                "CurrentSceneName()"
               ]
-            },
-            {
-              "type": {
-                "value": "PushScene"
-              },
-              "parameters": [
-                "",
-                "\"Battle\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneJustResumed"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "Forest - The Vault of Ambience.mp3",
-                "yes",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Video::Play"
+                  },
+                  "parameters": [
+                    "EntryForest"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"Storage\"",
+                        "\"Settings\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Settings.Music",
+                        "=",
+                        "MusicSlider2.Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Settings.Sound",
+                        "=",
+                        "SoundSlider2.Value()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"Storage\"",
+                        "\"Settings\"",
+                        "ToJSON(Settings)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GroupExists"
+                      },
+                      "parameters": [
+                        "\"Storage\"",
+                        "\"Settings\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ReadStringFromStorage"
+                      },
+                      "parameters": [
+                        "\"Storage\"",
+                        "\"Settings\"",
+                        "",
+                        "temp"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "JSONToVariableStructure2"
+                      },
+                      "parameters": [
+                        "temp",
+                        "Settings"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                      },
+                      "parameters": [
+                        "MusicSlider2",
+                        "=",
+                        "Settings.Music",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+                      },
+                      "parameters": [
+                        "SoundSlider2",
+                        "=",
+                        "Settings.Sound",
+                        ""
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "temp",
+                      "type": "string",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Video::Ended"
+                  },
+                  "parameters": [
+                    "EntryForest"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "EntryForest",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Forest - The Vault of Ambience.mp3",
+                    "1",
+                    "yes",
+                    "GlobalVariable(Settings.Music)",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "SarimanokBoss",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenCameraPosition2"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CameraMoves\"",
+                    "SarimanokCutscene.CenterX()",
+                    "SarimanokCutscene.CenterY()",
+                    "\"Cutscene\"",
+                    "\"elastic\"",
+                    ".01"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+                  },
+                  "parameters": [
+                    "Transition",
+                    "FlashTransitionPainter",
+                    "\"0;0;0\"",
+                    ".1",
+                    "\"Flash\"",
+                    "\"Both\"",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::Play"
+                  },
+                  "parameters": [
+                    "SarimanokCutscene"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SarimanokBoss",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "SarimanokCutscene.Duration()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SarimanokCutscene",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "encounterID",
+                    "=",
+                    "\"SarimanokBoss\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Battle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneJustResumed"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Forest - The Vault of Ambience.mp3",
+                    "1",
+                    "yes",
+                    "GlobalVariable(Settings.Music)",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "MusicSlider2",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Music",
+                    "=",
+                    "MusicSlider2.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "Settings.Music"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::SetVolume"
+                  },
+                  "parameters": [
+                    "SitanCutscene",
+                    "=",
+                    "Settings.Music"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::SetVolume"
+                  },
+                  "parameters": [
+                    "NewGameCutscene",
+                    "=",
+                    "Settings.Music"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::SetVolume"
+                  },
+                  "parameters": [
+                    "EntryForest",
+                    "=",
+                    "Settings.Music"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::SetVolume"
+                  },
+                  "parameters": [
+                    "SarimanokCutscene",
+                    "=",
+                    "Settings.Music"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::SetVolume"
+                  },
+                  "parameters": [
+                    "EntryCave",
+                    "=",
+                    "Settings.Music"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::SetVolume"
+                  },
+                  "parameters": [
+                    "BakunawaCutscene",
+                    "=",
+                    "Settings.Music"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Video::SetVolume"
+                  },
+                  "parameters": [
+                    "EntryDForest",
+                    "=",
+                    "Settings.Music"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "SoundSlider2",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Settings.Sound",
+                    "=",
+                    "SoundSlider2.Value()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "Settings.Sound"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "BackToPauseButton",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"Storage\"",
+                    "\"Settings\"",
+                    "ToJSON(Settings)"
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -2305,7 +2583,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -2338,7 +2616,7 @@
       "isLocked": false,
       "name": "Cutscene",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
