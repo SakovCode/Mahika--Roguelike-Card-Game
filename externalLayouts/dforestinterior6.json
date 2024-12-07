@@ -1185,8 +1185,8 @@
       "name": "Spawner",
       "persistentUuid": "cbdbb01b-63f6-46bc-914f-791e588b60a8",
       "width": 0,
-      "x": 256,
-      "y": 348,
+      "x": 298,
+      "y": 300,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -1217,8 +1217,8 @@
       "name": "Spawner",
       "persistentUuid": "ea3e91e0-0eb3-42e6-abf2-c91b31430cdc",
       "width": 0,
-      "x": 576,
-      "y": 896,
+      "x": 556,
+      "y": 884,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1226,7 +1226,7 @@
     }
   ],
   "editionSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 64,
     "gridHeight": 64,
@@ -1234,8 +1234,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.4507615891327295,
+    "snap": false,
+    "zoomFactor": 0.5500032386579704,
     "windowMask": false
   }
 }

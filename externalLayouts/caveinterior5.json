@@ -963,22 +963,6 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chess1",
-      "persistentUuid": "a0511956-2b0c-4b19-99ad-57a820a3da9f",
-      "width": 0,
-      "x": 153,
-      "y": 192,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": false,
       "height": 0,
@@ -1629,7 +1613,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6075393603116701,
+    "zoomFactor": 0.6075393603116704,
     "windowMask": false
   }
 }

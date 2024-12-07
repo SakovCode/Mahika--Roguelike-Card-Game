@@ -1345,22 +1345,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 180,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chess1",
-      "persistentUuid": "f7882ed3-9352-4e10-b0aa-69bcf3f5edff",
-      "width": 0,
-      "x": 269,
-      "y": 431,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -1373,7 +1357,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.607539360311671,
+    "zoomFactor": 0.9991260522560024,
     "windowMask": false
   }
 }

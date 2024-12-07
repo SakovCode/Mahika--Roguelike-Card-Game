@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 218,
+    "build": 219,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -93,7 +93,6 @@
   "resources": {
     "resources": [
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -127,7 +126,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New3DBox_Front.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -136,7 +134,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New3DBox_Front2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -145,7 +142,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New3DBox_Front3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -168,7 +164,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New3DBox_Front4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -177,7 +172,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/New3DBox_Front5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -193,7 +187,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "forrest_ground_01_diff_1k.jpg",
         "kind": "image",
         "metadata": "",
@@ -230,7 +223,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/cave/cave_floor.jpg",
         "kind": "image",
         "metadata": "",
@@ -271,7 +263,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/dark forest/darkForest_floor.jpg",
         "kind": "image",
         "metadata": "",
@@ -287,7 +278,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blank Playing Card.png",
         "kind": "image",
         "metadata": "",
@@ -300,7 +290,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Playing Card Deck_Blank.png",
         "kind": "image",
         "metadata": "",
@@ -313,7 +302,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Playing Card Deck_Blue.png",
         "kind": "image",
         "metadata": "",
@@ -326,7 +314,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Playing Card Deck_Red.png",
         "kind": "image",
         "metadata": "",
@@ -339,7 +326,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Card Selected.png",
         "kind": "image",
         "metadata": "",
@@ -352,7 +338,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/HandSlot.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HandSlot.png\",\"pskl\":{}}",
@@ -361,7 +346,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/HandSlot2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/HandSlot2.png\"}",
@@ -370,7 +354,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blank Playing Card2.png",
         "kind": "image",
         "metadata": "",
@@ -383,7 +366,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/HeroSlot.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -392,7 +374,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/EnemySlot.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -401,7 +382,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Hero.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -410,7 +390,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Hero2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -419,7 +398,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Knight Female_Hit.png",
         "kind": "image",
         "metadata": "",
@@ -432,7 +410,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Knight Male_Idle_1.png",
         "kind": "image",
         "metadata": "",
@@ -480,7 +457,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/LightGlow.png",
         "kind": "image",
         "metadata": "",
@@ -493,7 +469,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Red Button With Metal Frame_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -506,7 +481,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Red Button With Metal Frame_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -519,7 +493,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Red Button With Metal Frame_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -543,7 +516,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Main menu bg.jpg",
         "kind": "image",
         "metadata": "",
@@ -573,7 +545,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Mouse Cursor.png",
         "kind": "image",
         "metadata": "",
@@ -586,7 +557,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "DALL·E 2024-10-10 17.29.29 - A vibrant animated scene inspired by Philippine mythology, featuring iconic creatures and deities. A fierce Manananggal, a winged, dismembered female .webp",
         "kind": "image",
         "metadata": "",
@@ -595,7 +565,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "DALL·E 2024-10-10 17.29.29 - A vibrant animated scene inspired by Philippine mythology, featuring iconic creatures and deities. A fierce Manananggal, a winged, dismembered female1.webp",
         "kind": "image",
         "metadata": "",
@@ -604,7 +573,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki.png",
         "kind": "image",
         "metadata": "",
@@ -613,7 +581,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki2.png",
         "kind": "image",
         "metadata": "",
@@ -622,7 +589,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Start button.png",
         "kind": "image",
         "metadata": "",
@@ -635,7 +601,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Start.png",
         "kind": "image",
         "metadata": "",
@@ -648,7 +613,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Transparent Button With White Blue Border_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -661,7 +625,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Start button2.png",
         "kind": "image",
         "metadata": "",
@@ -674,7 +637,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/67518336539938a40e89dc0cd62158e4734abd706c9307a30244c879c4829225_Start button.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -683,7 +645,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Start button3.png",
         "kind": "image",
         "metadata": "",
@@ -696,7 +657,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "START.png",
         "kind": "image",
         "metadata": "",
@@ -705,7 +665,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 183043.png",
         "kind": "image",
         "metadata": "",
@@ -714,7 +673,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 183451.png",
         "kind": "image",
         "metadata": "",
@@ -723,7 +681,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "tutorials button new.png",
         "kind": "image",
         "metadata": "",
@@ -732,7 +689,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 184513.png",
         "kind": "image",
         "metadata": "",
@@ -741,7 +697,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 184937.png",
         "kind": "image",
         "metadata": "",
@@ -750,7 +705,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 185206.png",
         "kind": "image",
         "metadata": "",
@@ -759,7 +713,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 190102.png",
         "kind": "image",
         "metadata": "",
@@ -768,7 +721,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 190213.png",
         "kind": "image",
         "metadata": "",
@@ -777,7 +729,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 190321.png",
         "kind": "image",
         "metadata": "",
@@ -786,7 +737,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 190426.png",
         "kind": "image",
         "metadata": "",
@@ -795,7 +745,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 190523.png",
         "kind": "image",
         "metadata": "",
@@ -804,7 +753,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10190214.png",
         "kind": "image",
         "metadata": "",
@@ -813,7 +761,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 194010.png",
         "kind": "image",
         "metadata": "",
@@ -822,7 +769,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10190322.png",
         "kind": "image",
         "metadata": "",
@@ -831,7 +777,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10194011.png",
         "kind": "image",
         "metadata": "",
@@ -840,7 +785,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "tutorials button.png",
         "kind": "image",
         "metadata": "",
@@ -849,7 +793,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10194012.png",
         "kind": "image",
         "metadata": "",
@@ -858,7 +801,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki3.png",
         "kind": "image",
         "metadata": "",
@@ -867,7 +809,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 200507.png",
         "kind": "image",
         "metadata": "",
@@ -876,7 +817,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 200403.png",
         "kind": "image",
         "metadata": "",
@@ -885,7 +825,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 201458.png",
         "kind": "image",
         "metadata": "",
@@ -894,7 +833,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 201646.png",
         "kind": "image",
         "metadata": "",
@@ -903,7 +841,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki4.png",
         "kind": "image",
         "metadata": "",
@@ -912,7 +849,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "back.png",
         "kind": "image",
         "metadata": "",
@@ -921,7 +857,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "START2.png",
         "kind": "image",
         "metadata": "",
@@ -930,7 +865,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "START.jpg",
         "kind": "image",
         "metadata": "",
@@ -939,7 +873,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 204243.png",
         "kind": "image",
         "metadata": "",
@@ -948,7 +881,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 205949.png",
         "kind": "image",
         "metadata": "",
@@ -957,7 +889,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10 210102.png",
         "kind": "image",
         "metadata": "",
@@ -966,7 +897,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10205950.png",
         "kind": "image",
         "metadata": "",
@@ -975,7 +905,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10210103.png",
         "kind": "image",
         "metadata": "",
@@ -984,7 +913,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Philippine mythology featuring duwende, bakunawa, alunsina, and apolaki5.png",
         "kind": "image",
         "metadata": "",
@@ -993,7 +921,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Square White Slider Border.png",
         "kind": "image",
         "metadata": "",
@@ -1006,7 +933,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Square White Slider Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1019,7 +945,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Square White Slider Thumb.png",
         "kind": "image",
         "metadata": "",
@@ -1032,7 +957,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10200508.png",
         "kind": "image",
         "metadata": "",
@@ -1041,7 +965,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10200404.png",
         "kind": "image",
         "metadata": "",
@@ -1050,7 +973,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10201459.png",
         "kind": "image",
         "metadata": "",
@@ -1059,7 +981,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10201647.png",
         "kind": "image",
         "metadata": "",
@@ -1068,7 +989,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10205951.png",
         "kind": "image",
         "metadata": "",
@@ -1077,7 +997,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-10210104.png",
         "kind": "image",
         "metadata": "",
@@ -1086,7 +1005,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-11 004618.png",
         "kind": "image",
         "metadata": "",
@@ -1095,7 +1013,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Small Plastic Green Square Slider Border.png",
         "kind": "image",
         "metadata": "",
@@ -1108,7 +1025,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Transparent.png",
         "kind": "image",
         "metadata": "",
@@ -1121,7 +1037,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Small Plastic Green Square Slider Thumb.png",
         "kind": "image",
         "metadata": "",
@@ -1134,7 +1049,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot_2024-10-13_095426-removebg-preview.png",
         "kind": "image",
         "metadata": "",
@@ -1143,7 +1057,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot_2024-10-13_101508-removebg-preview.png",
         "kind": "image",
         "metadata": "",
@@ -1152,7 +1065,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot_2024-10-13_095426-removebg-preview2.png",
         "kind": "image",
         "metadata": "",
@@ -1161,7 +1073,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Untitled design.jpg",
         "kind": "image",
         "metadata": "",
@@ -1170,7 +1081,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Untitled design (1).jpg",
         "kind": "image",
         "metadata": "",
@@ -1179,7 +1089,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Untitled design (2).jpg",
         "kind": "image",
         "metadata": "",
@@ -1188,7 +1097,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Untitled design (3).jpg",
         "kind": "image",
         "metadata": "",
@@ -1197,7 +1105,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 104512.png",
         "kind": "image",
         "metadata": "",
@@ -1206,7 +1113,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 110236.png",
         "kind": "image",
         "metadata": "",
@@ -1215,7 +1121,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 110448.png",
         "kind": "image",
         "metadata": "",
@@ -1224,7 +1129,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 111842.png",
         "kind": "image",
         "metadata": "",
@@ -1233,7 +1137,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 112047.png",
         "kind": "image",
         "metadata": "",
@@ -1242,7 +1145,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 112943.png",
         "kind": "image",
         "metadata": "",
@@ -1251,7 +1153,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 113115.png",
         "kind": "image",
         "metadata": "",
@@ -1260,7 +1161,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 113534.png",
         "kind": "image",
         "metadata": "",
@@ -1269,7 +1169,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 113615.png",
         "kind": "image",
         "metadata": "",
@@ -1278,7 +1177,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 115035.png",
         "kind": "image",
         "metadata": "",
@@ -1287,7 +1185,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 115103.png",
         "kind": "image",
         "metadata": "",
@@ -1296,7 +1193,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 115321.png",
         "kind": "image",
         "metadata": "",
@@ -1305,7 +1201,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13 121217.png",
         "kind": "image",
         "metadata": "",
@@ -1314,7 +1209,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Copper Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -1327,7 +1221,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Framed Pixel Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -1340,7 +1233,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-13104513.png",
         "kind": "image",
         "metadata": "",
@@ -1349,7 +1241,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze bar background.png",
         "kind": "image",
         "metadata": "",
@@ -1362,7 +1253,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Brown LCD Bar Fill.png",
         "kind": "image",
         "metadata": "",
@@ -1375,7 +1265,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green LCD Bar Fill.png",
         "kind": "image",
         "metadata": "",
@@ -1458,7 +1347,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "bg.jpg",
         "kind": "image",
         "metadata": "",
@@ -1569,7 +1457,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Grass1.png",
         "kind": "image",
         "metadata": "",
@@ -1582,7 +1469,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Grass8.png",
         "kind": "image",
         "metadata": "",
@@ -1595,7 +1481,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Tree 3.png",
         "kind": "image",
         "metadata": "",
@@ -1615,7 +1500,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Spawner_Front.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -1677,7 +1561,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "grass_01.png",
         "kind": "image",
         "metadata": "",
@@ -1721,7 +1604,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "cards.jpg",
         "kind": "image",
         "metadata": "",
@@ -1730,7 +1612,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-27 173934.png",
         "kind": "image",
         "metadata": "",
@@ -1739,7 +1620,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-10-27 174014.png",
         "kind": "image",
         "metadata": "",
@@ -1748,7 +1628,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "CardsBg2.png",
         "kind": "image",
         "metadata": "",
@@ -1757,7 +1636,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Card BG.png",
         "kind": "image",
         "metadata": "",
@@ -1766,7 +1644,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "ALUNSINA CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1775,7 +1652,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Paper.png",
         "kind": "image",
         "metadata": "",
@@ -1784,7 +1660,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Alunsina3.png",
         "kind": "image",
         "metadata": "",
@@ -1793,7 +1668,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Alunsina info.png",
         "kind": "image",
         "metadata": "",
@@ -1802,7 +1676,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "APOLAKI CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1811,7 +1684,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Apolaki.png",
         "kind": "image",
         "metadata": "",
@@ -1820,7 +1692,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Apolaki info.png",
         "kind": "image",
         "metadata": "",
@@ -1829,7 +1700,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "ASWANG CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1838,7 +1708,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Aswang.png",
         "kind": "image",
         "metadata": "",
@@ -1847,7 +1716,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "AswangInfo2.png",
         "kind": "image",
         "metadata": "",
@@ -1856,7 +1724,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BAKUNAWA CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1865,7 +1732,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bakunawa.png",
         "kind": "image",
         "metadata": "",
@@ -1874,7 +1740,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BakunawaInfo.png",
         "kind": "image",
         "metadata": "",
@@ -1883,7 +1748,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BANTONG CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1892,7 +1756,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bantong.png",
         "kind": "image",
         "metadata": "",
@@ -1901,7 +1764,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bantong info.png",
         "kind": "image",
         "metadata": "",
@@ -1910,7 +1772,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BANTUGAN CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1919,7 +1780,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bantugan.png",
         "kind": "image",
         "metadata": "",
@@ -1928,7 +1788,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bantugan info.png",
         "kind": "image",
         "metadata": "",
@@ -1937,7 +1796,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BERBEROKA CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1946,7 +1804,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Berberoka.png",
         "kind": "image",
         "metadata": "",
@@ -1955,7 +1812,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BerberokaInfo.png",
         "kind": "image",
         "metadata": "",
@@ -1964,7 +1820,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BERNARDO CARPIO CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -1973,7 +1828,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bernardo Carpio.png",
         "kind": "image",
         "metadata": "",
@@ -1982,7 +1836,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bernardo Carpio info.png",
         "kind": "image",
         "metadata": "",
@@ -1991,7 +1844,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BUNGISNGIS CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2000,7 +1852,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bungisngis.png",
         "kind": "image",
         "metadata": "",
@@ -2009,7 +1860,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "BungisngisInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2018,7 +1868,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "KAPRE CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2027,7 +1876,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Kapre.png",
         "kind": "image",
         "metadata": "",
@@ -2036,7 +1884,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "KapreInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2045,7 +1892,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "LAM-ANG CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2054,7 +1900,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Lam-ang.png",
         "kind": "image",
         "metadata": "",
@@ -2063,7 +1908,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Lam-ang info.png",
         "kind": "image",
         "metadata": "",
@@ -2072,7 +1916,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "PRINCESS URDAJA CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2081,7 +1924,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "PrincessUrduja.png",
         "kind": "image",
         "metadata": "",
@@ -2090,7 +1932,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Princess Urduja info.png",
         "kind": "image",
         "metadata": "",
@@ -2099,7 +1940,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "RAJA CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2108,7 +1948,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Raja.png",
         "kind": "image",
         "metadata": "",
@@ -2117,7 +1956,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Raja info.png",
         "kind": "image",
         "metadata": "",
@@ -2126,7 +1964,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "SARIMANOK CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2135,7 +1972,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Sarimanok.png",
         "kind": "image",
         "metadata": "",
@@ -2144,7 +1980,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "SarimanokInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2153,7 +1988,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "SIGBIN CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2162,7 +1996,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Sigbin.png",
         "kind": "image",
         "metadata": "",
@@ -2171,7 +2004,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "SigbinInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2180,7 +2012,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "SITAN CARD (1).jpg",
         "kind": "image",
         "metadata": "",
@@ -2189,7 +2020,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Sitan.png",
         "kind": "image",
         "metadata": "",
@@ -2198,7 +2028,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "SitanInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2207,7 +2036,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "TIKBALANG CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2216,7 +2044,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tikbalang.png",
         "kind": "image",
         "metadata": "",
@@ -2225,7 +2052,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "TikbalangInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2234,7 +2060,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "TIKTIK CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2243,7 +2068,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tiktik.png",
         "kind": "image",
         "metadata": "",
@@ -2252,7 +2076,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "TiktikInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2261,7 +2084,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "TIYANAK CARD.jpg",
         "kind": "image",
         "metadata": "",
@@ -2270,7 +2092,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tiyanak.png",
         "kind": "image",
         "metadata": "",
@@ -2279,7 +2100,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "TiyanakInfo.png",
         "kind": "image",
         "metadata": "",
@@ -2288,7 +2108,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/floor checkered blue.png",
         "kind": "image",
         "metadata": "",
@@ -2312,7 +2131,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -2321,7 +2139,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "PSX_Seamless_ForestWildGround_128px.png",
         "kind": "image",
         "metadata": "",
@@ -2398,7 +2215,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Mission1.png",
         "kind": "image",
         "metadata": "",
@@ -2407,7 +2223,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Mission1 (1).png",
         "kind": "image",
         "metadata": "",
@@ -2416,7 +2231,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Mission2.png",
         "kind": "image",
         "metadata": "",
@@ -2425,7 +2239,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "rolled paper.png",
         "kind": "image",
         "metadata": "",
@@ -2434,7 +2247,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "rolled paper2.png",
         "kind": "image",
         "metadata": "",
@@ -2443,7 +2255,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Mission1 (1920 x 1080 px).png",
         "kind": "image",
         "metadata": "",
@@ -2452,7 +2263,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-08 234304.png",
         "kind": "image",
         "metadata": "",
@@ -2461,7 +2271,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "../../../Pictures/Screenshots 1/Screenshot 2024-11-08 234326.png",
         "kind": "image",
         "metadata": "",
@@ -2470,7 +2279,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-08234305.png",
         "kind": "image",
         "metadata": "",
@@ -2479,7 +2287,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-08 234326.png",
         "kind": "image",
         "metadata": "",
@@ -2488,7 +2295,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "resizable_image.png",
         "kind": "image",
         "metadata": "",
@@ -2504,7 +2310,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Parallax Forest Trees Dark.png",
         "kind": "image",
         "metadata": "",
@@ -2517,7 +2322,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_black space.png",
         "kind": "image",
         "metadata": "",
@@ -2530,7 +2334,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-09 043528.png",
         "kind": "image",
         "metadata": "",
@@ -2539,7 +2342,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-09 043549.png",
         "kind": "image",
         "metadata": "",
@@ -2548,7 +2350,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-0943550.png",
         "kind": "image",
         "metadata": "",
@@ -2557,7 +2358,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "rolled paper (1080 x 720 px).png",
         "kind": "image",
         "metadata": "",
@@ -2566,7 +2366,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "missions (1080 x 720 px).png",
         "kind": "image",
         "metadata": "",
@@ -2575,7 +2374,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Missons (1080 x 720 px).png",
         "kind": "image",
         "metadata": "",
@@ -2584,7 +2382,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "missions (1080 x 720 px)2.png",
         "kind": "image",
         "metadata": "",
@@ -2593,7 +2390,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "missions (1080 x 720 px) (1).png",
         "kind": "image",
         "metadata": "",
@@ -2602,7 +2398,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Okay button.png",
         "kind": "image",
         "metadata": "",
@@ -2611,7 +2406,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Okay button (2).png",
         "kind": "image",
         "metadata": "",
@@ -2620,7 +2414,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/rolled paper (1080 x 720 px).png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -2629,7 +2422,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "resizable_image2.png",
         "kind": "image",
         "metadata": "",
@@ -2638,7 +2430,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -2651,7 +2442,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -2664,7 +2454,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -2688,7 +2477,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Save button.png",
         "kind": "image",
         "metadata": "",
@@ -2701,7 +2489,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Save button2.png",
         "kind": "image",
         "metadata": "",
@@ -2714,7 +2501,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "big font mission (1080 x 720 px).png",
         "kind": "image",
         "metadata": "",
@@ -2744,7 +2530,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "vicotry.png",
         "kind": "image",
         "metadata": "",
@@ -2753,7 +2538,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "defeat (1).png",
         "kind": "image",
         "metadata": "",
@@ -2762,7 +2546,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green Check.png",
         "kind": "image",
         "metadata": "",
@@ -2775,7 +2558,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Red X.png",
         "kind": "image",
         "metadata": "",
@@ -2823,7 +2605,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -2832,7 +2613,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-14 133252.png",
         "kind": "image",
         "metadata": "",
@@ -2841,7 +2621,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-14 133405.png",
         "kind": "image",
         "metadata": "",
@@ -2864,7 +2643,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Metal Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -2877,7 +2655,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Pixel Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -2890,7 +2667,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Pixel Yellow Fill Bar.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pixel Yellow Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
@@ -2903,7 +2679,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "LAGAY NIYO GAWA NIYONG ASSETS DITO/3D ASSETS/Terrain/forest/Forest_Floor.jpg",
         "kind": "image",
         "metadata": "",
@@ -2912,7 +2687,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Grass5.png",
         "kind": "image",
         "metadata": "",
@@ -2925,7 +2699,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medieval Button Beige_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -2938,7 +2711,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medieval Button Beige_Idle.png",
         "kind": "image",
         "metadata": "",
@@ -2951,7 +2723,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medieval Button Beige_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -2975,7 +2746,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medieval Button Brown_Hovered2.png",
         "kind": "image",
         "metadata": "",
@@ -2988,7 +2758,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medieval Button Brown_Idle2.png",
         "kind": "image",
         "metadata": "",
@@ -3001,7 +2770,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Medieval Button Brown_Pressed2.png",
         "kind": "image",
         "metadata": "",
@@ -3154,7 +2922,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-17 192041.png",
         "kind": "image",
         "metadata": "",
@@ -3184,7 +2951,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "OldPaper.png",
         "kind": "image",
         "metadata": "",
@@ -3193,7 +2959,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "pngtree-old-paper-png-image_11744294-removebg-preview.png",
         "kind": "image",
         "metadata": "",
@@ -3202,7 +2967,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "cceeeee051f052d1bce22aa3c33fcdcb-removebg-preview.png",
         "kind": "image",
         "metadata": "",
@@ -3211,7 +2975,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot_2024-09-29_230352-removebg-preview.png",
         "kind": "image",
         "metadata": "",
@@ -3220,7 +2983,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "bghik.png",
         "kind": "image",
         "metadata": "",
@@ -3236,7 +2998,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "TestingFont.png",
         "kind": "image",
         "metadata": "",
@@ -3252,7 +3013,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "asdqwdaadsad.png",
         "kind": "image",
         "metadata": "",
@@ -3268,7 +3028,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Kinet.png",
         "kind": "image",
         "metadata": "",
@@ -3284,7 +3043,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "KinetWHite.png",
         "kind": "image",
         "metadata": "",
@@ -3323,7 +3081,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "Apolaki.jpg",
         "kind": "image",
         "metadata": "",
@@ -3332,7 +3089,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Aswang.jpg",
         "kind": "image",
         "metadata": "",
@@ -3341,7 +3097,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Copy of Bakunawa(1).jpg",
         "kind": "image",
         "metadata": "",
@@ -3350,7 +3105,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bantong.jpg",
         "kind": "image",
         "metadata": "",
@@ -3359,7 +3113,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bantugan.jpg",
         "kind": "image",
         "metadata": "",
@@ -3368,7 +3121,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Berberoka.jpg",
         "kind": "image",
         "metadata": "",
@@ -3377,7 +3129,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Bungisngis.jpg",
         "kind": "image",
         "metadata": "",
@@ -3386,7 +3137,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Kapre.jpg",
         "kind": "image",
         "metadata": "",
@@ -3395,7 +3145,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Lam-Ang.jpg",
         "kind": "image",
         "metadata": "",
@@ -3404,7 +3153,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Princess Urduja.jpg",
         "kind": "image",
         "metadata": "",
@@ -3413,7 +3161,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Raja.jpg",
         "kind": "image",
         "metadata": "",
@@ -3422,7 +3169,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Sarimanok(1).jpg",
         "kind": "image",
         "metadata": "",
@@ -3431,7 +3177,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Sigbin.jpg",
         "kind": "image",
         "metadata": "",
@@ -3440,7 +3185,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tikbalang.jpg",
         "kind": "image",
         "metadata": "",
@@ -3449,7 +3193,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Sitan(1).jpg",
         "kind": "image",
         "metadata": "",
@@ -3458,7 +3201,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Alunsina.jpg",
         "kind": "image",
         "metadata": "",
@@ -3467,7 +3209,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tiyanak.jpg",
         "kind": "image",
         "metadata": "",
@@ -3476,7 +3217,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Tiktik.jpg",
         "kind": "image",
         "metadata": "",
@@ -3485,7 +3225,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Apolaki.jpg",
         "kind": "image",
         "metadata": "",
@@ -3494,7 +3233,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Aswang.jpg",
         "kind": "image",
         "metadata": "",
@@ -3503,7 +3241,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Copy of Bakunawa(1).jpg",
         "kind": "image",
         "metadata": "",
@@ -3512,7 +3249,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Bantong.jpg",
         "kind": "image",
         "metadata": "",
@@ -3521,7 +3257,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Bantugan.jpg",
         "kind": "image",
         "metadata": "",
@@ -3530,7 +3265,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Berberoka.jpg",
         "kind": "image",
         "metadata": "",
@@ -3539,7 +3273,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Bungisngis.jpg",
         "kind": "image",
         "metadata": "",
@@ -3548,7 +3281,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Kapre.jpg",
         "kind": "image",
         "metadata": "",
@@ -3557,7 +3289,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Lam-Ang.jpg",
         "kind": "image",
         "metadata": "",
@@ -3566,7 +3297,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Princess Urduja.jpg",
         "kind": "image",
         "metadata": "",
@@ -3575,7 +3305,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Raja.jpg",
         "kind": "image",
         "metadata": "",
@@ -3584,7 +3313,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Sarimanok(1).jpg",
         "kind": "image",
         "metadata": "",
@@ -3593,7 +3321,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Sigbin.jpg",
         "kind": "image",
         "metadata": "",
@@ -3602,7 +3329,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Tikbalang.jpg",
         "kind": "image",
         "metadata": "",
@@ -3611,7 +3337,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Tiktik.jpg",
         "kind": "image",
         "metadata": "",
@@ -3620,7 +3345,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Tiyanak.jpg",
         "kind": "image",
         "metadata": "",
@@ -3629,7 +3353,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Sitan(1).jpg",
         "kind": "image",
         "metadata": "",
@@ -3638,7 +3361,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Alunsina.jpg",
         "kind": "image",
         "metadata": "",
@@ -3647,7 +3369,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Cards/Bernardo Carpio.jpg",
         "kind": "image",
         "metadata": "",
@@ -3656,7 +3377,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded Red Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -3669,7 +3389,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Wood Bar Border.png",
         "kind": "image",
         "metadata": "",
@@ -3682,7 +3401,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Shaded Blue Fill Bar.png",
         "kind": "image",
         "metadata": "",
@@ -3709,7 +3427,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-19 184842.png",
         "kind": "image",
         "metadata": "",
@@ -3725,7 +3442,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow_No Shadow.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Arrow_No Shadow.png\",\"extension\":\".png\"}",
@@ -3738,7 +3454,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow_Shadow.png",
         "kind": "image",
         "metadata": "",
@@ -3751,7 +3466,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-19 190322.png",
         "kind": "image",
         "metadata": "",
@@ -3760,7 +3474,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Directional Arrow Straight.png",
         "kind": "image",
         "metadata": "",
@@ -3773,7 +3486,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Directional Arrow Quarter Circle.png",
         "kind": "image",
         "metadata": "",
@@ -3786,7 +3498,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Square joystick outer.png",
         "kind": "image",
         "metadata": "",
@@ -3799,7 +3510,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/D-pad.png",
         "kind": "image",
         "metadata": "",
@@ -3819,7 +3529,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Blank Wide.png",
         "kind": "image",
         "metadata": "",
@@ -3860,7 +3569,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Down.png",
         "kind": "image",
         "metadata": "",
@@ -3873,7 +3581,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Left.png",
         "kind": "image",
         "metadata": "",
@@ -3886,7 +3593,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Right.png",
         "kind": "image",
         "metadata": "",
@@ -3899,7 +3605,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow Key_Up.png",
         "kind": "image",
         "metadata": "",
@@ -3934,7 +3639,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Green arrow.png",
         "kind": "image",
         "metadata": "",
@@ -3954,7 +3658,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-19 204041.png",
         "kind": "image",
         "metadata": "",
@@ -3963,7 +3666,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/ArrowSign.png",
         "kind": "image",
         "metadata": "",
@@ -3983,7 +3685,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-19 211257.png",
         "kind": "image",
         "metadata": "",
@@ -3999,7 +3700,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-19 215103.png",
         "kind": "image",
         "metadata": "",
@@ -4015,7 +3715,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Bronze shield.png",
         "kind": "image",
         "metadata": "",
@@ -4028,7 +3727,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Axe.png",
         "kind": "image",
         "metadata": "",
@@ -4111,7 +3809,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leather Pouch_No Shadow.png",
         "kind": "image",
         "metadata": "",
@@ -4124,7 +3821,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Leather Pouch_Shadow.png",
         "kind": "image",
         "metadata": "",
@@ -4137,7 +3833,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/InventoryMarker.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -4146,7 +3841,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewPanelSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -4155,7 +3849,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Inventory_9Slices.png",
         "kind": "image",
         "metadata": "",
@@ -4168,7 +3861,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Return.png",
         "kind": "image",
         "metadata": "",
@@ -4181,7 +3873,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Blue Bordered with White Border.png",
         "kind": "image",
         "metadata": "",
@@ -4194,7 +3885,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Brown.png",
         "kind": "image",
         "metadata": "",
@@ -4207,7 +3897,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Circle White.png",
         "kind": "image",
         "metadata": "",
@@ -4220,7 +3909,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Dark Wood.png",
         "kind": "image",
         "metadata": "",
@@ -4233,7 +3921,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Green.png",
         "kind": "image",
         "metadata": "",
@@ -4246,7 +3933,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Purple Angled Corner.png",
         "kind": "image",
         "metadata": "",
@@ -4259,7 +3945,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Stone.png",
         "kind": "image",
         "metadata": "",
@@ -4272,7 +3957,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_White Angled Corner.png",
         "kind": "image",
         "metadata": "",
@@ -4285,7 +3969,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_White With Blue Border.png",
         "kind": "image",
         "metadata": "",
@@ -4298,7 +3981,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_White With Border.png",
         "kind": "image",
         "metadata": "",
@@ -4311,7 +3993,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_White.png",
         "kind": "image",
         "metadata": "",
@@ -4324,7 +4005,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Icon Background_Wood.png",
         "kind": "image",
         "metadata": "",
@@ -4337,7 +4017,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/NewPanelSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -4346,7 +4025,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/InvSlot.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -4355,7 +4033,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Hand_Front.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -4364,7 +4041,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Chest_Closed.png",
         "kind": "image",
         "metadata": "",
@@ -4377,7 +4053,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Chest_Open_1.png",
         "kind": "image",
         "metadata": "",
@@ -4390,7 +4065,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Chest_Open_2.png",
         "kind": "image",
         "metadata": "",
@@ -4403,7 +4077,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "Screenshot 2024-11-23 161149.png",
         "kind": "image",
         "metadata": "",
@@ -4412,7 +4085,6 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Exclamation Emote_Style 1.png",
         "kind": "image",
         "metadata": "",
@@ -4425,7 +4097,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Exclamation Emote_Style 2.png",
         "kind": "image",
         "metadata": "",
@@ -4438,7 +4109,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Exclamation Emote_Style 3.png",
         "kind": "image",
         "metadata": "",
@@ -4451,7 +4121,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Exclamation Emote_Style 4.png",
         "kind": "image",
         "metadata": "",
@@ -4464,7 +4133,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Exclamation Emote_Style 5.png",
         "kind": "image",
         "metadata": "",
@@ -4477,7 +4145,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Exclamation Emote_Style 6.png",
         "kind": "image",
         "metadata": "",
@@ -4490,7 +4157,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Exclamation Emote_Style 7.png",
         "kind": "image",
         "metadata": "",
@@ -4503,7 +4169,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/Arrow_No Shadow2.png",
         "kind": "image",
         "metadata": "",
@@ -4945,7 +4610,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Background.png",
         "kind": "image",
         "metadata": "",
@@ -4958,7 +4622,6 @@
         }
       },
       {
-        "alwaysLoaded": false,
         "file": "assets/tiled_dark purple space.png",
         "kind": "image",
         "metadata": "",
