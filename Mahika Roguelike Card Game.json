@@ -10427,6 +10427,38 @@
       ]
     },
     {
+      "name": "Buttons",
+      "objects": [
+        {
+          "name": "ResumeButton"
+        },
+        {
+          "name": "OptionsButton2"
+        },
+        {
+          "name": "ExitToMainMenuButton2"
+        },
+        {
+          "name": "SaveAndQuitButton"
+        },
+        {
+          "name": "SaveButton"
+        },
+        {
+          "name": "YesButton"
+        },
+        {
+          "name": "NoButton"
+        },
+        {
+          "name": "BackToPauseButton"
+        },
+        {
+          "name": "Pause_button"
+        }
+      ]
+    },
+    {
       "name": "checker",
       "objects": [
         {
@@ -10598,6 +10630,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/discordrichpresence"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/objectstack"

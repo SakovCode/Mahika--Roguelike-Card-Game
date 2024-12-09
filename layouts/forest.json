@@ -45,38 +45,6 @@
     {
       "name": "HeroCards",
       "objects": []
-    },
-    {
-      "name": "Buttons",
-      "objects": [
-        {
-          "name": "ResumeButton"
-        },
-        {
-          "name": "OptionsButton2"
-        },
-        {
-          "name": "ExitToMainMenuButton2"
-        },
-        {
-          "name": "SaveAndQuitButton"
-        },
-        {
-          "name": "SaveButton"
-        },
-        {
-          "name": "YesButton"
-        },
-        {
-          "name": "NoButton"
-        },
-        {
-          "name": "BackToPauseButton"
-        },
-        {
-          "name": "Pause_button"
-        }
-      ]
     }
   ],
   "variables": [
