@@ -25,7 +25,7 @@
     "author": "TanginangCapstoneTo",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "C:\\Users\\Kenneth\\Desktop\\builds\\2",
+    "latestCompilationDirectory": "C:\\Users\\Kenneth\\Desktop\\builds\\5",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -10630,10 +10630,6 @@
     }
   ],
   "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/discordrichpresence"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/objectstack"
