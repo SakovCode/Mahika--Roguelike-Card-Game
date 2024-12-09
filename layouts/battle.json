@@ -2228,19 +2228,19 @@
       "fillOpacity": 255,
       "outlineSize": 3,
       "outlineOpacity": 255,
-      "fillColor": {
-        "b": 17,
-        "g": 17,
-        "r": 17
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "absoluteCoordinates": false,
       "clearBetweenFrames": true,
-      "antialiasing": "none"
+      "antialiasing": "none",
+      "fillColor": {
+        "r": 17,
+        "g": 17,
+        "b": 17
+      },
+      "outlineColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
     },
     {
       "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
@@ -2309,6 +2309,7 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2392,6 +2393,7 @@
             "text": "END TURN",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 30,
             "color": "0;0;0"
           }
@@ -2475,6 +2477,7 @@
             "text": "END BATTLE",
             "font": "NTBrickSans5.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "0;0;0"
           }
@@ -2569,6 +2572,7 @@
             "text": "100/100",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2653,6 +2657,7 @@
             "text": "3/3",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2737,6 +2742,7 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }

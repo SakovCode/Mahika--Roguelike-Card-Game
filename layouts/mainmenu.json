@@ -4814,6 +4814,7 @@
         "text": "MAHIKA:",
         "font": "NTBrickSans8.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 130,
         "color": "255;255;255"
       }
@@ -4855,6 +4856,7 @@
         "text": "Roguelike Card Game",
         "font": "NTBrickSans9.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -12379,6 +12381,7 @@
             "text": "START",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12473,6 +12476,7 @@
             "text": "ENGKANTOPEDIA",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12567,6 +12571,7 @@
             "text": "CREDITS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12661,6 +12666,7 @@
             "text": "OPTIONS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12755,6 +12761,7 @@
             "text": "EXIT",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12849,6 +12856,7 @@
             "text": "NEW GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -12943,6 +12951,7 @@
             "text": "LOAD GAME",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13037,6 +13046,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13131,6 +13141,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -13225,6 +13236,7 @@
             "text": "TUTORIALS",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -14532,6 +14544,7 @@
             "text": "It displays the value when it changes.",
             "font": "",
             "textAlignment": "",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "221;221;221"
           }
@@ -14825,6 +14838,7 @@
         "text": "PLAYER\nThe character that \nyou are controlling \nthroughout the game",
         "font": "NTBrickSans14.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15291,6 +15305,7 @@
         "text": "CONTROLS\nMove the player using \nWASD or up, left, down, \n& right keys",
         "font": "NTBrickSans15.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15577,6 +15592,7 @@
         "text": "W",
         "font": "NTBrickSans16.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15618,6 +15634,7 @@
         "text": "A",
         "font": "NTBrickSans17.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15659,6 +15676,7 @@
         "text": "S",
         "font": "NTBrickSans18.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -15700,6 +15718,7 @@
         "text": "D",
         "font": "NTBrickSans19.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16005,6 +16024,7 @@
         "text": "OBJECTIVES\nGuide for your quest \n& lists of what you \nshould do in game",
         "font": "NTBrickSans20.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16351,6 +16371,7 @@
         "text": "NAVIGATION\nObserve carefully for \nEngkantos inside \nthe map",
         "font": "NTBrickSans21.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -16637,6 +16658,7 @@
         "text": "Player you are controlling",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16678,6 +16700,7 @@
         "text": "Guide for\ncontrol keys",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16719,6 +16742,7 @@
         "text": "An Engkanto is about to \nengage the player & will \ntake to the Battle scene",
         "font": "NTBrickSans22.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 25,
         "color": "0;0;0"
       }
@@ -16940,6 +16964,7 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -16981,6 +17006,7 @@
         "text": "This player can be attacked \nby monsters when there \nis no hero infront of it",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17022,6 +17048,7 @@
         "text": "Monsters with HP,\nattacks the enemies\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17063,6 +17090,7 @@
         "text": "Heroes with HP,\nattacks the monsters\ninfront of them",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17104,6 +17132,7 @@
         "text": "Allows player to conclude \ncurrent turn & pass the \ninitiative to opponent",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17145,6 +17174,7 @@
         "text": "Hero cards that the \nplayer can summon",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17186,6 +17216,7 @@
         "text": "This represents \nthe player's HP",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17227,6 +17258,7 @@
         "text": "This represents \nmana. Each card \nhas mana cost",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -17388,6 +17420,7 @@
         "text": "BATTLE SCENE\nThis where the battle \ntakes place after you \nencounter an Engkanto",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -17595,6 +17628,7 @@
             "text": "BACK",
             "font": "NTBrickSans.otf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 17,
             "color": "0;0;0"
           }
@@ -17893,6 +17927,7 @@
         "text": "CHEST\nPlayer will  receive \nspell cards by opening \nthe chest that can be \nfound in map",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 17,
         "color": "255;255;255"
       }
@@ -18239,6 +18274,7 @@
         "text": "Draw Phase:\nDraw cards until your hand is full\n\nPreparation Phase:\nSummon heroes at the cost of your mana to defend yourself\n\nBattle Phase:\nHeroes & Monsters fight each other. If there's no hero in front of the monster, the player can be attacked directly\n\nEnd Phase:\nYour heroes returns to rest on their respective cards and you regain your mana",
         "font": "NTBrickSans23.otf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 12,
         "color": "0;0;0"
       }
@@ -18645,6 +18681,7 @@
         "text": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNERS\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience\n\nMAIN MENU BACKGROUND ART\nRalph Jusuah \"Peter\" Sanque",
         "font": "NTBrickSans23.otf",
         "textAlignment": "center",
+        "verticalTextAlignment": "top",
         "characterSize": 23,
         "color": "255;255;255"
       }

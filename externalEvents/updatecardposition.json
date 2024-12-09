@@ -1,6 +1,5 @@
 {
   "associatedLayout": "Battle",
-  "lastChangeTimeStamp": 0,
   "name": "UpdateCardPosition",
   "events": [
     {
