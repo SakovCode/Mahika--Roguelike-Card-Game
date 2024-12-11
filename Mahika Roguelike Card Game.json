@@ -4654,6 +4654,26 @@
         "metadata": "",
         "name": "THE END.mp4",
         "userAdded": true
+      },
+      {
+        "file": "Battle Scene bg music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Battle Scene bg music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Battle Scene bg music2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Battle Scene bg music2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

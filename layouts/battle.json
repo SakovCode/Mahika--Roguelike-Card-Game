@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.265153875960438,
+    "zoomFactor": 0.3694269341636101,
     "windowMask": false
   },
   "objectsGroups": [
@@ -611,8 +611,8 @@
       "layer": "UI",
       "name": "PlayerHealthbar",
       "persistentUuid": "2ce2e66d-6f6d-4a7f-8808-7f0a61de404f",
-      "width": 333,
-      "x": 179,
+      "width": 320,
+      "x": 192,
       "y": 96,
       "zOrder": 52,
       "numberProperties": [],
@@ -628,8 +628,8 @@
       "layer": "UI",
       "name": "ManaBar",
       "persistentUuid": "fdda4efe-b7aa-4338-8f2f-22cb4985d96a",
-      "width": 333,
-      "x": 179,
+      "width": 320,
+      "x": 192,
       "y": 128,
       "zOrder": 53,
       "numberProperties": [],
@@ -678,7 +678,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "Marker",
-      "persistentUuid": "b9a29843-be1a-420b-943c-7e880475efb9",
+      "persistentUuid": "fae3afa8-1762-4551-8b0e-87b260c9213b",
       "width": 1920,
       "x": 0,
       "y": 0,
@@ -695,10 +695,10 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "Pause_button",
-      "persistentUuid": "88733c7f-f684-4601-9f47-43efffe5e42a",
+      "persistentUuid": "9e721239-843b-4137-9355-0706cb9552d2",
       "width": 64,
       "x": 64,
-      "y": 128,
+      "y": 96,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -712,7 +712,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "Transition",
-      "persistentUuid": "94c9324e-546b-4b91-8382-43b6fd9dcb85",
+      "persistentUuid": "d8f84745-c335-489f-ab4b-136aea4ab666",
       "width": 64,
       "x": 1856,
       "y": -64,
@@ -729,7 +729,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "pause_marker",
-      "persistentUuid": "ccd2398a-c68f-4de3-b46c-5a7c2f751f41",
+      "persistentUuid": "e649691d-94bb-43ce-8289-ebe509d5a3bf",
       "width": 768,
       "x": 2752,
       "y": 256,
@@ -746,7 +746,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "options_maker",
-      "persistentUuid": "4d2531c1-5452-4062-b3df-1aca04558566",
+      "persistentUuid": "813ebd8e-bf12-4e9b-80b2-754338912b08",
       "width": 768,
       "x": 4928,
       "y": 256,
@@ -763,7 +763,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "quit_marker",
-      "persistentUuid": "682265ab-2fdc-403c-a6d7-a646b77d490a",
+      "persistentUuid": "11027440-c35b-4d57-86c4-b10d744610c3",
       "width": 768,
       "x": 7104,
       "y": 256,
@@ -780,10 +780,10 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "quit_options",
-      "persistentUuid": "1ee82c32-8f77-4d81-9575-7abbba3e443c",
+      "persistentUuid": "a81b46d8-f42b-40f4-9f62-832566fa5879",
       "width": 479,
-      "x": 7264,
-      "y": 512,
+      "x": 7248,
+      "y": 519,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -796,7 +796,7 @@
       "height": 576,
       "layer": "UI",
       "name": "pause_bg",
-      "persistentUuid": "fd7ba7d5-d2de-40d2-b519-a6db5b7b0b1d",
+      "persistentUuid": "99281d03-8413-4cd4-8430-eab401a343ca",
       "width": 640,
       "x": 4992,
       "y": 320,
@@ -808,61 +808,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "MusicSlider2",
-      "persistentUuid": "96486128-b5ba-4612-8c22-8f11acac93b6",
-      "width": 250,
-      "x": 5184,
-      "y": 672,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "BGM",
-      "persistentUuid": "c69e1d75-ca5c-48a9-9a5c-e87492e0a2f6",
-      "width": 0,
-      "x": 5280,
-      "y": 608,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 25,
-      "layer": "UI",
-      "name": "MusicSlider2",
-      "persistentUuid": "72c664e2-e318-4147-b941-f0aa4f1af83f",
-      "width": 250,
-      "x": 5184,
-      "y": 544,
-      "zOrder": 46,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "Sound",
-      "persistentUuid": "9f77dcf3-92fd-413b-a757-e8aa9bbcd84a",
-      "width": 0,
-      "x": 5280,
-      "y": 480,
+      "persistentUuid": "f82f1155-e222-451b-a4f9-21978758ab01",
+      "width": 256,
+      "x": 5184,
+      "y": 640,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -875,10 +829,10 @@
       "height": 25,
       "layer": "UI",
       "name": "MusicSlider2",
-      "persistentUuid": "84c5441e-414b-4502-899a-5036bf1fe754",
+      "persistentUuid": "09ce6eb1-8b63-4734-8209-1e45957ec5db",
       "width": 250,
-      "x": 5184,
-      "y": 448,
+      "x": 5187,
+      "y": 486,
       "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
@@ -886,14 +840,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "layer": "UI",
       "name": "Music",
-      "persistentUuid": "4203356a-f63b-49e0-9611-543c25b98ee3",
-      "width": 0,
-      "x": 5152,
-      "y": 384,
+      "persistentUuid": "86865df4-3c95-491e-a803-c7f6d725d89c",
+      "width": 256,
+      "x": 5184,
+      "y": 512,
       "zOrder": 50,
       "numberProperties": [],
       "stringProperties": [],
@@ -906,7 +861,7 @@
       "height": 704,
       "layer": "UI",
       "name": "pause_bg",
-      "persistentUuid": "49c36667-90ad-493f-b668-cd25975d17a1",
+      "persistentUuid": "097b591d-e6df-4411-a754-dee95fcc869d",
       "width": 384,
       "x": 2944,
       "y": 256,
@@ -922,7 +877,7 @@
       "height": 320,
       "layer": "UI",
       "name": "pause_bg",
-      "persistentUuid": "27bdcf12-f849-4544-ae40-0b6ecc0333da",
+      "persistentUuid": "43130424-800d-4601-b8b1-e9f94a0e7641",
       "width": 640,
       "x": 7168,
       "y": 448,
@@ -938,7 +893,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "ResumeButton",
-      "persistentUuid": "d2c8c496-6374-4008-af25-435f3e46640e",
+      "persistentUuid": "8d6a52cc-7ffd-4c49-8a3c-714c43c8444d",
       "width": 0,
       "x": 3040,
       "y": 320,
@@ -954,7 +909,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "OptionsButton2",
-      "persistentUuid": "a0ec7e67-ae52-4b8a-ac8d-d5931b80c4dd",
+      "persistentUuid": "3cefa4be-7a42-4d8a-87d7-ad3ad06da669",
       "width": 0,
       "x": 3040,
       "y": 448,
@@ -970,7 +925,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "ExitToMainMenuButton2",
-      "persistentUuid": "bed08f7e-9d80-4119-ae66-0b0b9d3cc0b1",
+      "persistentUuid": "0ffc3f4f-bb84-496f-943e-2e14ab2c5fd3",
       "width": 0,
       "x": 3040,
       "y": 704,
@@ -986,7 +941,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "SaveAndQuitButton",
-      "persistentUuid": "b3c3b9dd-d72f-461b-bf62-ed9cdd2f900e",
+      "persistentUuid": "ebefa56e-cb1d-4618-8e2b-c2c85e0326c7",
       "width": 0,
       "x": 3040,
       "y": 832,
@@ -1002,7 +957,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "SaveButton",
-      "persistentUuid": "669aba3d-fe58-4fae-9904-286ea3872f5c",
+      "persistentUuid": "64aa6e9b-8ed1-4cc1-857a-50c9c879326e",
       "width": 0,
       "x": 3040,
       "y": 576,
@@ -1018,7 +973,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "YesButton",
-      "persistentUuid": "04e34273-806c-452d-8d96-84f67be9e1e2",
+      "persistentUuid": "47ce95a5-87e5-4674-9eb3-5b0f7e82b920",
       "width": 0,
       "x": 7264,
       "y": 640,
@@ -1034,7 +989,7 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "NoButton",
-      "persistentUuid": "c324b1c2-4fb7-47a3-ac25-37f93e7a2e99",
+      "persistentUuid": "621c2698-8c25-4a81-93fa-5860d6aab593",
       "width": 0,
       "x": 7520,
       "y": 640,
@@ -1050,11 +1005,27 @@
       "keepRatio": true,
       "layer": "UI",
       "name": "BackToPauseButton",
-      "persistentUuid": "c962edf5-0eac-4a45-a763-c24c945e1b9c",
+      "persistentUuid": "a7dfe1d3-e684-4816-a537-302cbd30b92d",
       "width": 0,
       "x": 5216,
       "y": 768,
       "zOrder": 125,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 25,
+      "layer": "UI",
+      "name": "SoundSlider2",
+      "persistentUuid": "315844cf-2c81-43b7-8b7e-c67681fc5d65",
+      "width": 250,
+      "x": 5187,
+      "y": 612,
+      "zOrder": 129,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3602,6 +3573,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4232,6 +4204,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "UI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4445,11 +4418,13 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "AT THE BEGINNING",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -11793,6 +11768,342 @@
         "includeConfig": 0
       },
       "target": "UI"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "load",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"Storage\"",
+                "\"Settings\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Music",
+                "=",
+                "MusicSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Sound",
+                "=",
+                "SoundSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"Storage\"",
+                "\"Settings\"",
+                "ToJSON(Settings)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"Storage\"",
+                "\"Settings\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadStringFromStorage"
+              },
+              "parameters": [
+                "\"Storage\"",
+                "\"Settings\"",
+                "",
+                "temp"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "temp",
+                "Settings"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "MusicSlider2",
+                "=",
+                "Settings.Music",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "SoundSlider2",
+                "=",
+                "Settings.Sound",
+                ""
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "temp",
+              "type": "string",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Battle Scene bg music2.mp3",
+                "1",
+                "yes",
+                "GlobalVariable(Settings.Music)",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "MusicSlider2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Settings.Music",
+            "=",
+            "MusicSlider2.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1",
+            "=",
+            "Settings.Music"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::SetVolume"
+          },
+          "parameters": [
+            "SitanCutscene",
+            "=",
+            "Settings.Music"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::SetVolume"
+          },
+          "parameters": [
+            "NewGameCutscene",
+            "=",
+            "Settings.Music"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::SetVolume"
+          },
+          "parameters": [
+            "EntryForest",
+            "=",
+            "Settings.Music"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::SetVolume"
+          },
+          "parameters": [
+            "SarimanokCutscene",
+            "=",
+            "Settings.Music"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::SetVolume"
+          },
+          "parameters": [
+            "EntryCave",
+            "=",
+            "Settings.Music"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::SetVolume"
+          },
+          "parameters": [
+            "BakunawaCutscene",
+            "=",
+            "Settings.Music"
+          ]
+        },
+        {
+          "type": {
+            "value": "Video::SetVolume"
+          },
+          "parameters": [
+            "EntryDForest",
+            "=",
+            "Settings.Music"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+          },
+          "parameters": [
+            "SoundSlider2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Settings.Sound",
+            "=",
+            "SoundSlider2.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVolumeSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2",
+            "=",
+            "Settings.Sound"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "BackToPauseButton",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"Storage\"",
+            "\"Settings\"",
+            "ToJSON(Settings)"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
