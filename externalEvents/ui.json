@@ -672,6 +672,23 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "ButtonStates::ButtonFSM::IsHovered"
+          },
+          "parameters": [
+            "ResumeButton",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,

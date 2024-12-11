@@ -9,7 +9,7 @@
   "title": "",
   "v": 206,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.2033637395188462,
+    "snap": true,
+    "zoomFactor": 0.30276816608999435,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3159,7 +3159,7 @@
       "persistentUuid": "20bc879a-e8fb-4035-b42e-99d4624998f8",
       "width": 128,
       "x": -1408,
-      "y": 128,
+      "y": 256,
       "zOrder": 235,
       "numberProperties": [],
       "stringProperties": [],
@@ -3175,7 +3175,7 @@
       "persistentUuid": "4c96d865-fb22-4963-81f1-a5c21263fd62",
       "width": 0,
       "x": -1184,
-      "y": 139,
+      "y": 267,
       "zOrder": 236,
       "numberProperties": [],
       "stringProperties": [],
@@ -3191,7 +3191,7 @@
       "persistentUuid": "dfb261fb-e142-48e1-aa90-516716e78d8f",
       "width": 32,
       "x": -864,
-      "y": 160,
+      "y": 288,
       "zOrder": 237,
       "numberProperties": [],
       "stringProperties": [],
@@ -3276,7 +3276,7 @@
       "persistentUuid": "06f4115e-9368-4e9a-bb89-f9550f4af797",
       "width": 128,
       "x": -1408,
-      "y": 320,
+      "y": 480,
       "zOrder": 241,
       "numberProperties": [],
       "stringProperties": [],
@@ -3292,8 +3292,8 @@
       "name": "DPad",
       "persistentUuid": "4f88bf13-3040-437e-b74f-2865b872552b",
       "width": 65,
-      "x": -1377,
-      "y": 352,
+      "x": -1376,
+      "y": 512,
       "zOrder": 242,
       "numberProperties": [],
       "stringProperties": [],
@@ -3309,7 +3309,7 @@
       "persistentUuid": "64780bb6-9f4f-418c-a310-239338e29a00",
       "width": 0,
       "x": -1184,
-      "y": 331,
+      "y": 491,
       "zOrder": 243,
       "numberProperties": [],
       "stringProperties": [],
@@ -3325,7 +3325,7 @@
       "persistentUuid": "fb78c246-20e6-4e33-bc68-10e6249aaf3c",
       "width": 32,
       "x": -864,
-      "y": 352,
+      "y": 512,
       "zOrder": 244,
       "numberProperties": [],
       "stringProperties": [],
@@ -3605,7 +3605,7 @@
       "persistentUuid": "835edd86-ead5-44a9-ac50-f8beb0950373",
       "width": 128,
       "x": -1408,
-      "y": 512,
+      "y": 704,
       "zOrder": 241,
       "numberProperties": [],
       "stringProperties": [],
@@ -3622,7 +3622,7 @@
       "persistentUuid": "08739b3f-6f11-4f1f-a1dc-37e91354d20a",
       "width": 128,
       "x": -1408,
-      "y": 512,
+      "y": 704,
       "zOrder": 253,
       "numberProperties": [],
       "stringProperties": [],
@@ -3638,7 +3638,7 @@
       "persistentUuid": "82b60e9c-9c9a-4e27-ba1d-2306cb15b929",
       "width": 0,
       "x": -1184,
-      "y": 524,
+      "y": 714,
       "zOrder": 254,
       "numberProperties": [],
       "stringProperties": [],
@@ -3654,7 +3654,7 @@
       "persistentUuid": "60013c05-e105-4a07-bf37-7ee7a968273e",
       "width": 32,
       "x": -864,
-      "y": 544,
+      "y": 736,
       "zOrder": 255,
       "numberProperties": [],
       "stringProperties": [],
@@ -3739,7 +3739,7 @@
       "persistentUuid": "93cf15e4-058b-48c5-a493-7fab27e9bcf4",
       "width": 128,
       "x": -1408,
-      "y": 704,
+      "y": 1568,
       "zOrder": 241,
       "numberProperties": [],
       "stringProperties": [],
@@ -3756,7 +3756,7 @@
       "persistentUuid": "c0d96715-3387-4cda-8d38-32cdb75a920e",
       "width": 64,
       "x": -1376,
-      "y": 736,
+      "y": 1600,
       "zOrder": 259,
       "numberProperties": [],
       "stringProperties": [],
@@ -3772,7 +3772,7 @@
       "persistentUuid": "323c82ba-0f91-456f-90e1-7843f66016bb",
       "width": 0,
       "x": -1184,
-      "y": 715,
+      "y": 1579,
       "zOrder": 260,
       "numberProperties": [],
       "stringProperties": [],
@@ -3788,7 +3788,7 @@
       "persistentUuid": "d03f89be-c8a7-41ab-9d4b-39cdc93310b2",
       "width": 32,
       "x": -864,
-      "y": 736,
+      "y": 1600,
       "zOrder": 261,
       "numberProperties": [],
       "stringProperties": [],
@@ -4280,7 +4280,7 @@
       "persistentUuid": "e6cd8f42-d80d-4dc4-b0ac-40c3723ef5d8",
       "width": 90,
       "x": -1395,
-      "y": 1374,
+      "y": 1854,
       "zOrder": 283,
       "numberProperties": [],
       "stringProperties": [],
@@ -4297,7 +4297,7 @@
       "persistentUuid": "a1dafb57-5088-4417-a180-28d961a6be4f",
       "width": 128,
       "x": -1408,
-      "y": 1344,
+      "y": 1824,
       "zOrder": 241,
       "numberProperties": [],
       "stringProperties": [],
@@ -4314,7 +4314,7 @@
       "persistentUuid": "9fa04e00-7c0a-4655-b576-9b7f9a1dc0e5",
       "width": 64,
       "x": -1376,
-      "y": 1376,
+      "y": 1856,
       "zOrder": 282,
       "numberProperties": [],
       "stringProperties": [],
@@ -4330,7 +4330,7 @@
       "persistentUuid": "10e199bf-ce18-4f0e-8435-eee6200249ed",
       "width": 0,
       "x": -1184,
-      "y": 1355,
+      "y": 1836,
       "zOrder": 284,
       "numberProperties": [],
       "stringProperties": [],
@@ -4346,7 +4346,7 @@
       "persistentUuid": "f3f644b9-d0b3-44bd-b5ed-7b77e4ce5ebc",
       "width": 32,
       "x": -864,
-      "y": 1376,
+      "y": 1856,
       "zOrder": 285,
       "numberProperties": [],
       "stringProperties": [],
@@ -4373,78 +4373,12 @@
       "customSize": true,
       "depth": 1,
       "height": 128,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "SquareJoystickOuter",
-      "persistentUuid": "d7ab65e1-0973-417a-ac4b-e52e3b8f6295",
-      "width": 128,
-      "x": -1408,
-      "y": 1536,
-      "zOrder": 241,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Chest",
-      "persistentUuid": "5f308d13-caaa-43e0-afc8-5730d19a9335",
-      "width": 64,
-      "x": -1376,
-      "y": 1568,
-      "zOrder": 289,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "ChestArrow",
-      "persistentUuid": "85f0ff56-b56b-497d-87ba-7ee6979eca25",
-      "width": 32,
-      "x": -864,
-      "y": 1568,
-      "zOrder": 290,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "ChestText",
-      "persistentUuid": "27d0508b-3019-44f0-91d7-ca5e9ddc8c76",
-      "width": 0,
-      "x": -1184,
-      "y": 1533,
-      "zOrder": 291,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
       "layer": "UI",
       "name": "NextArrow",
       "persistentUuid": "ebf3e128-4e97-408d-b534-d5b8d6f611a6",
       "width": 64,
       "x": -704,
-      "y": 416,
+      "y": 480,
       "zOrder": 292,
       "numberProperties": [],
       "stringProperties": [],
@@ -4476,73 +4410,8 @@
       "persistentUuid": "664b2625-55b8-4411-b700-6203700ed7be",
       "width": 64,
       "x": -1568,
-      "y": 1632,
+      "y": 1696,
       "zOrder": 293,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Oldpaper4",
-      "persistentUuid": "b712e7e6-783d-4a26-9983-3a7b63f23249",
-      "width": 0,
-      "x": -2048,
-      "y": 2432,
-      "zOrder": 294,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 899,
-      "layer": "UI",
-      "name": "ChestInfo",
-      "persistentUuid": "9cd31380-f482-4468-aafc-a8862605175d",
-      "width": 960,
-      "x": -1568,
-      "y": 2528,
-      "zOrder": 295,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 300,
-      "customSize": true,
-      "depth": 1,
-      "height": 57,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "DirectionalArrowQuarterCircle",
-      "persistentUuid": "271410c4-9f3b-4513-b3ec-19d833b44177",
-      "width": 67,
-      "x": -1144,
-      "y": 2863,
-      "zOrder": 296,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "Back2TutorialsButton",
-      "persistentUuid": "8b379fd8-fb55-4e2a-bd0b-dcf816f9c3f3",
-      "width": 0,
-      "x": -1184,
-      "y": 3392,
-      "zOrder": 297,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -19513,92 +19382,6 @@
       "actions": [
         {
           "type": {
-            "value": "DiscordRichPresence::ConnectToDiscord"
-          },
-          "parameters": [
-            "",
-            "\"PLAYING TANGINAMO\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "DiscordRichPresence::UpdateRichPresence"
-          },
-          "parameters": [
-            "",
-            "\"Playing\"",
-            "\"Is Playing\"",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "F1"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DeleteFichier"
-          },
-          "parameters": [
-            "\"Progress\""
-          ]
-        },
-        {
-          "type": {
-            "value": "DeleteFichier"
-          },
-          "parameters": [
-            "\"Storage\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
             "value": "Video::Play"
           },
           "parameters": [
@@ -19881,7 +19664,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

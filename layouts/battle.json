@@ -640,14 +640,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 4,
-      "height": 1152,
+      "height": 1216,
       "keepRatio": true,
       "layer": "UI",
       "name": "BlackSpace",
       "persistentUuid": "53cc84b4-6287-4440-b8b4-f93fe5bd153c",
       "width": 1984,
       "x": 3392,
-      "y": 1664,
+      "y": 1600,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -5807,7 +5807,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5891,6 +5890,60 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                ">",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Card",
+                "Draggable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Phase",
+                "<=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Card",
+                "Draggable",
+                "yes"
               ]
             }
           ]
@@ -5993,7 +6046,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "HERO TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6116,7 +6168,6 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
                           "name": "HeroTargeting/Attacking/DMG calculation",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -6169,6 +6220,18 @@
                                     "Animation",
                                     "=",
                                     "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Hit sound.mp3",
+                                    "",
+                                    "",
+                                    ""
                                   ]
                                 },
                                 {
@@ -6415,98 +6478,25 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PickNearest"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "Heroes.X()",
-                                "Heroes.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Pathfinding",
-                                "",
-                                "Enemy.X()",
-                                "Enemy.Y()+64+32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Animation",
-                                "=",
-                                "\"attack\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "Heroes.Animation::Duration()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "True",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "stats.HP",
-                                "-",
-                                "Heroes.stats.ATK"
-                              ]
-                            }
-                          ],
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "HeroTargeting/Attacking/DMG calculation",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
                                   "type": {
-                                    "value": "Distance"
+                                    "value": "PickNearest"
                                   },
                                   "parameters": [
-                                    "Heroes",
                                     "Enemy",
-                                    "200",
+                                    "Heroes.X()",
+                                    "Heroes.Y()",
                                     ""
                                   ]
                                 },
@@ -6522,23 +6512,6 @@
                                   ]
                                 }
                               ],
-                              "actions": []
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "BooleanObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Heroes",
-                                    "attackExecuted",
-                                    "True",
-                                    ""
-                                  ]
-                                }
-                              ],
                               "actions": [
                                 {
                                   "type": {
@@ -6548,8 +6521,8 @@
                                     "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Heroes.boundPos.X",
-                                    "Heroes.boundPos.Y"
+                                    "Enemy.X()",
+                                    "Enemy.Y()+64+32"
                                   ]
                                 },
                                 {
@@ -6560,7 +6533,19 @@
                                     "Heroes",
                                     "Animation",
                                     "=",
-                                    "\"idle\""
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Hit sound.mp3",
+                                    "",
+                                    "",
+                                    ""
                                   ]
                                 },
                                 {
@@ -6568,22 +6553,124 @@
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "1"
+                                    "Heroes.Animation::Duration()"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "SetNumberVariable"
+                                    "value": "SetBooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Phase",
-                                    "+",
-                                    "1"
+                                    "Heroes",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "stats.HP",
+                                    "-",
+                                    "Heroes.stats.ATK"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Distance"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Enemy",
+                                        "200",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PathfindingBehavior::SetDestination"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Pathfinding",
+                                        "",
+                                        "Heroes.boundPos.X",
+                                        "Heroes.boundPos.Y"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Animation",
+                                        "=",
+                                        "\"idle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Phase",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
                             }
-                          ]
+                          ],
+                          "parameters": []
                         }
                       ]
                     }
@@ -6705,90 +6792,28 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PickNearest"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "Heroes.X()",
-                                "Heroes.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Pathfinding",
-                                "",
-                                "Enemy.X()",
-                                "Enemy.Y()+64+32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Animation",
-                                "=",
-                                "\"attack\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "Heroes.Animation::Duration()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "stats.HP",
-                                "-",
-                                "Heroes.stats.ATK"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "True",
-                                ""
-                              ]
-                            }
-                          ],
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "HeroTargeting/Attacking/DMG calculation",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PickNearest"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "Heroes.X()",
+                                    "Heroes.Y()",
+                                    ""
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "BooleanObjectVariable"
@@ -6796,7 +6821,7 @@
                                   "parameters": [
                                     "Heroes",
                                     "attackExecuted",
-                                    "True",
+                                    "False",
                                     ""
                                   ]
                                 }
@@ -6810,8 +6835,8 @@
                                     "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Heroes.boundPos.X",
-                                    "Heroes.boundPos.Y"
+                                    "Enemy.X()",
+                                    "Enemy.Y()+64+32"
                                   ]
                                 },
                                 {
@@ -6822,7 +6847,19 @@
                                     "Heroes",
                                     "Animation",
                                     "=",
-                                    "\"idle\""
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Hit sound.mp3",
+                                    "",
+                                    "",
+                                    ""
                                   ]
                                 },
                                 {
@@ -6830,22 +6867,124 @@
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "1"
+                                    "Heroes.Animation::Duration()"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "SetNumberVariable"
+                                    "value": "SetBooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Phase",
-                                    "+",
-                                    "1"
+                                    "Heroes",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "stats.HP",
+                                    "-",
+                                    "Heroes.stats.ATK"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Distance"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Enemy",
+                                        "200",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PathfindingBehavior::SetDestination"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Pathfinding",
+                                        "",
+                                        "Heroes.boundPos.X",
+                                        "Heroes.boundPos.Y"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Animation",
+                                        "=",
+                                        "\"idle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Phase",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
                             }
-                          ]
+                          ],
+                          "parameters": []
                         }
                       ]
                     }
@@ -6854,7 +6993,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6968,90 +7106,28 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PickNearest"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "Heroes.X()",
-                                "Heroes.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Pathfinding",
-                                "",
-                                "Enemy.X()",
-                                "Enemy.Y()+64+32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Animation",
-                                "=",
-                                "\"attack\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "Heroes.Animation::Duration()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "stats.HP",
-                                "-",
-                                "Heroes.stats.ATK"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "True",
-                                ""
-                              ]
-                            }
-                          ],
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "HeroTargeting/Attacking/DMG calculation",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PickNearest"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "Heroes.X()",
+                                    "Heroes.Y()",
+                                    ""
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "BooleanObjectVariable"
@@ -7059,7 +7135,7 @@
                                   "parameters": [
                                     "Heroes",
                                     "attackExecuted",
-                                    "True",
+                                    "False",
                                     ""
                                   ]
                                 }
@@ -7073,8 +7149,8 @@
                                     "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Heroes.boundPos.X",
-                                    "Heroes.boundPos.Y"
+                                    "Enemy.X()",
+                                    "Enemy.Y()+64+32"
                                   ]
                                 },
                                 {
@@ -7085,7 +7161,19 @@
                                     "Heroes",
                                     "Animation",
                                     "=",
-                                    "\"idle\""
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Hit sound.mp3",
+                                    "",
+                                    "",
+                                    ""
                                   ]
                                 },
                                 {
@@ -7093,22 +7181,124 @@
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "1"
+                                    "Heroes.Animation::Duration()"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "SetNumberVariable"
+                                    "value": "SetBooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Phase",
-                                    "+",
-                                    "1"
+                                    "Heroes",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "stats.HP",
+                                    "-",
+                                    "Heroes.stats.ATK"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Distance"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Enemy",
+                                        "200",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PathfindingBehavior::SetDestination"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Pathfinding",
+                                        "",
+                                        "Heroes.boundPos.X",
+                                        "Heroes.boundPos.Y"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Animation",
+                                        "=",
+                                        "\"idle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Phase",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
                             }
-                          ]
+                          ],
+                          "parameters": []
                         }
                       ]
                     }
@@ -7117,7 +7307,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7231,90 +7420,28 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PickNearest"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "Heroes.X()",
-                                "Heroes.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Pathfinding",
-                                "",
-                                "Enemy.X()",
-                                "Enemy.Y()+64+32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Animation",
-                                "=",
-                                "\"attack\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "Heroes.Animation::Duration()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "stats.HP",
-                                "-",
-                                "Heroes.stats.ATK"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "True",
-                                ""
-                              ]
-                            }
-                          ],
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "HeroTargeting/Attacking/DMG calculation",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PickNearest"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "Heroes.X()",
+                                    "Heroes.Y()",
+                                    ""
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "BooleanObjectVariable"
@@ -7322,7 +7449,7 @@
                                   "parameters": [
                                     "Heroes",
                                     "attackExecuted",
-                                    "True",
+                                    "False",
                                     ""
                                   ]
                                 }
@@ -7336,8 +7463,8 @@
                                     "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Heroes.boundPos.X",
-                                    "Heroes.boundPos.Y"
+                                    "Enemy.X()",
+                                    "Enemy.Y()+64+32"
                                   ]
                                 },
                                 {
@@ -7348,7 +7475,19 @@
                                     "Heroes",
                                     "Animation",
                                     "=",
-                                    "\"idle\""
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Hit sound.mp3",
+                                    "",
+                                    "",
+                                    ""
                                   ]
                                 },
                                 {
@@ -7356,22 +7495,124 @@
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "1"
+                                    "Heroes.Animation::Duration()"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "SetNumberVariable"
+                                    "value": "SetBooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Phase",
-                                    "+",
-                                    "1"
+                                    "Heroes",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "stats.HP",
+                                    "-",
+                                    "Heroes.stats.ATK"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Distance"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Enemy",
+                                        "200",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PathfindingBehavior::SetDestination"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Pathfinding",
+                                        "",
+                                        "Heroes.boundPos.X",
+                                        "Heroes.boundPos.Y"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Animation",
+                                        "=",
+                                        "\"idle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Phase",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
                             }
-                          ]
+                          ],
+                          "parameters": []
                         }
                       ]
                     }
@@ -7380,7 +7621,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7494,90 +7734,28 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PickNearest"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "Heroes.X()",
-                                "Heroes.Y()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PathfindingBehavior::SetDestination"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Pathfinding",
-                                "",
-                                "Enemy.X()",
-                                "Enemy.Y()+64+32"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "Animation",
-                                "=",
-                                "\"attack\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "Heroes.Animation::Duration()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Enemy",
-                                "stats.HP",
-                                "-",
-                                "Heroes.stats.ATK"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Heroes",
-                                "attackExecuted",
-                                "True",
-                                ""
-                              ]
-                            }
-                          ],
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "HeroTargeting/Attacking/DMG calculation",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PickNearest"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "Heroes.X()",
+                                    "Heroes.Y()",
+                                    ""
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "BooleanObjectVariable"
@@ -7585,7 +7763,7 @@
                                   "parameters": [
                                     "Heroes",
                                     "attackExecuted",
-                                    "True",
+                                    "False",
                                     ""
                                   ]
                                 }
@@ -7599,8 +7777,8 @@
                                     "Heroes",
                                     "Pathfinding",
                                     "",
-                                    "Heroes.boundPos.X",
-                                    "Heroes.boundPos.Y"
+                                    "Enemy.X()",
+                                    "Enemy.Y()+64+32"
                                   ]
                                 },
                                 {
@@ -7611,7 +7789,19 @@
                                     "Heroes",
                                     "Animation",
                                     "=",
-                                    "\"idle\""
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Hit sound.mp3",
+                                    "",
+                                    "",
+                                    ""
                                   ]
                                 },
                                 {
@@ -7619,22 +7809,124 @@
                                     "value": "Wait"
                                   },
                                   "parameters": [
-                                    "1"
+                                    "Heroes.Animation::Duration()"
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "SetNumberVariable"
+                                    "value": "SetBooleanObjectVariable"
                                   },
                                   "parameters": [
-                                    "Phase",
-                                    "+",
-                                    "1"
+                                    "Heroes",
+                                    "attackExecuted",
+                                    "True",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Enemy",
+                                    "stats.HP",
+                                    "-",
+                                    "Heroes.stats.ATK"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "Distance"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Enemy",
+                                        "200",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "False",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "attackExecuted",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PathfindingBehavior::SetDestination"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Pathfinding",
+                                        "",
+                                        "Heroes.boundPos.X",
+                                        "Heroes.boundPos.Y"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                      },
+                                      "parameters": [
+                                        "Heroes",
+                                        "Animation",
+                                        "=",
+                                        "\"idle\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "1"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "Phase",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
                                   ]
                                 }
                               ]
                             }
-                          ]
+                          ],
+                          "parameters": []
                         }
                       ]
                     }
@@ -7650,7 +7942,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "ENEMY TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7875,6 +8166,18 @@
                                             "Animation",
                                             "=",
                                             "\"attack\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Hit sound.mp3",
+                                            "",
+                                            "",
+                                            ""
                                           ]
                                         },
                                         {
@@ -8123,6 +8426,18 @@
                                                 "Animation",
                                                 "=",
                                                 "\"attack\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Hit sound.mp3",
+                                                "",
+                                                "",
+                                                ""
                                               ]
                                             },
                                             {
@@ -8518,6 +8833,18 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Hit sound.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -8762,6 +9089,18 @@
                                                 "Animation",
                                                 "=",
                                                 "\"attack\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Hit sound.mp3",
+                                                "",
+                                                "",
+                                                ""
                                               ]
                                             },
                                             {
@@ -9157,6 +9496,18 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Hit sound.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -9401,6 +9752,18 @@
                                                 "Animation",
                                                 "=",
                                                 "\"attack\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Hit sound.mp3",
+                                                "",
+                                                "",
+                                                ""
                                               ]
                                             },
                                             {
@@ -9796,6 +10159,18 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Hit sound.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -10040,6 +10415,18 @@
                                                 "Animation",
                                                 "=",
                                                 "\"attack\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Hit sound.mp3",
+                                                "",
+                                                "",
+                                                ""
                                               ]
                                             },
                                             {
@@ -10435,6 +10822,18 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Hit sound.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -10679,6 +11078,18 @@
                                                 "Animation",
                                                 "=",
                                                 "\"attack\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Hit sound.mp3",
+                                                "",
+                                                "",
+                                                ""
                                               ]
                                             },
                                             {
@@ -11074,6 +11485,18 @@
                                         },
                                         {
                                           "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Hit sound.mp3",
+                                            "",
+                                            "",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
                                             "value": "Wait"
                                           },
                                           "parameters": [
@@ -11318,6 +11741,18 @@
                                                 "Animation",
                                                 "=",
                                                 "\"attack\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySound"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Hit sound.mp3",
+                                                "",
+                                                "",
+                                                ""
                                               ]
                                             },
                                             {
@@ -11770,6 +12205,7 @@
       "target": "UI"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
