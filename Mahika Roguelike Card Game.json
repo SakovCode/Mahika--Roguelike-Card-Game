@@ -4684,6 +4684,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/defHeight.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "defHeight",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
