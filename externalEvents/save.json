@@ -215,21 +215,11 @@
                     },
                     {
                       "type": {
-                        "value": "Inventory::SerializeToVariable"
-                      },
-                      "parameters": [
-                        "",
-                        "\"DECK\"",
-                        "DECK"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "EcrireFichierTxt"
                       },
                       "parameters": [
                         "\"Progress\"",
-                        "\"Inventory\"",
+                        "\"DECK\"",
                         "ToJSON(PlayerDeck)"
                       ]
                     }
