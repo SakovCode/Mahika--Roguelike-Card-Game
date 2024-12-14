@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3818841323241608,
+    "zoomFactor": 0.30276816608999435,
     "windowMask": false
   },
   "objectsGroups": [
@@ -18524,7 +18524,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNERS\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience\n\nMAIN MENU BACKGROUND ART\nRalph Jusuah \"Peter\" Sanque",
+      "string": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNERS\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience",
       "font": "NTBrickSans23.otf",
       "textAlignment": "center",
       "characterSize": 23,
@@ -18547,7 +18547,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNERS\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience\n\nMAIN MENU BACKGROUND ART\nRalph Jusuah \"Peter\" Sanque",
+        "text": "MAIN PROGRAMMER\nKenneth Angeles\n\nDESIGNERS\nJay Rome Tropia\nAllainkyle Atalig\nChristian Jerwin Avila\n\nFOREST MUSIC FROM\nYouTube - The Vault of Ambience\n\nCAVE MUSIC FROM\nYouTube - enviro ambient\n\nDARK FOREST MUSIC FROM\nYouTube - Night Sound Ambience",
         "font": "NTBrickSans23.otf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
