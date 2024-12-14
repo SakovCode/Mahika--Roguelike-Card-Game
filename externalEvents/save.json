@@ -205,6 +205,15 @@
                     },
                     {
                       "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "SaveProgress",
+                        "numberOfEnemiesDefeated"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "EcrireFichierTxt"
                       },
                       "parameters": [
@@ -543,6 +552,16 @@
                         "PlayerMaxMana",
                         "=",
                         "tempArr[4]"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "numberOfEnemiesDefeated",
+                        "=",
+                        "tempArr[5]"
                       ]
                     }
                   ],
