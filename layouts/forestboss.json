@@ -2062,7 +2062,7 @@
                   },
                   "parameters": [
                     "\"Progress\"",
-                    "\"Inventory\"",
+                    "\"DECK\"",
                     "",
                     "temp"
                   ]

@@ -9565,7 +9565,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": " - Find the portal\n - Open the portal by defeating enemies",
+      "string": " - Find the portal\n - Open the portal by defeating the boss",
       "font": "NTBrickSans13.otf",
       "textAlignment": "left",
       "characterSize": 17,
@@ -9588,7 +9588,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": " - Find the portal\n - Open the portal by defeating enemies",
+        "text": " - Find the portal\n - Open the portal by defeating the boss",
         "font": "NTBrickSans13.otf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
