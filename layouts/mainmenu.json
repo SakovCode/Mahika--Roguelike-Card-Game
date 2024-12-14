@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.24004286808043113,
+    "zoomFactor": 0.2322125831285518,
     "windowMask": false
   },
   "objectsGroups": [
@@ -4580,6 +4580,23 @@
       "x": 0,
       "y": 1216,
       "zOrder": -14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "discordButton",
+      "persistentUuid": "1008d13e-e622-4dd2-9ac3-782c9dfc46f5",
+      "width": 96,
+      "x": 1696,
+      "y": 928,
+      "zOrder": 302,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -17576,66 +17593,6 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "699d7d0d5fe6cc738e6e5b76e6ad1a055c55caed92714549909dfd2f3a854c64",
-      "name": "Chest",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Open",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chest_Open_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 8
-                      },
-                      {
-                        "x": 29,
-                        "y": 8
-                      },
-                      {
-                        "x": 29,
-                        "y": 29
-                      },
-                      {
-                        "x": 0,
-                        "y": 29
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "37c5cb062aac4fe7f5b73efbe8e3003e0973645f496e78fca775ff2fdc13ad93",
       "name": "ChestArrow",
       "type": "Sprite",
@@ -18614,6 +18571,33 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "discordButton",
+      "rightMargin": 0,
+      "texture": "images.png2",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -19337,9 +19321,6 @@
         "objectName": "Axe"
       },
       {
-        "objectName": "Chest"
-      },
-      {
         "objectName": "ChestInfo"
       },
       {
@@ -19347,6 +19328,9 @@
       },
       {
         "objectName": "ExclamationEmote"
+      },
+      {
+        "objectName": "discordButton"
       }
     ]
   },
@@ -19664,6 +19648,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Hover",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21251,6 +21236,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -22933,6 +22919,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "SETTINGS",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23379,6 +23366,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "NEW/LOAD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23501,6 +23489,66 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "discordButton",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "discordButton",
+            "ButtonFSM",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "LaunchFile"
+          },
+          "parameters": [
+            "\"https://discord.gg/6fZ7AJxN\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "discordButton",
+            "ButtonFSM",
+            "yes"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

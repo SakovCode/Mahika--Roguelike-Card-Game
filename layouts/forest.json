@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3457183571820246,
+    "zoomFactor": 0.4218332278033494,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1454,13 +1454,32 @@
       ],
       "effects": [
         {
-          "effectType": "Scene3D::ExponentialFog",
+          "effectType": "Scene3D::HemisphereLight",
           "name": "3D Light",
           "doubleParameters": {
-            "density": 0.002
+            "elevation": 90,
+            "intensity": 1,
+            "rotation": 0
           },
           "stringParameters": {
-            "color": "0;0;0"
+            "groundColor": "0;0;0",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "Effect2",
+          "doubleParameters": {
+            "elevation": 90,
+            "intensity": 0.5,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "21;39;2",
+            "skyColor": "74;144;226",
+            "top": "Y-"
           },
           "booleanParameters": {}
         }

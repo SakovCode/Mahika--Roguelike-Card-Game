@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3573760943009949,
+    "zoomFactor": 0.28333752444071253,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3573,22 +3573,11 @@
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "TODO:\nHOVER CARD PREVIEW"
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3634,6 +3623,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3655,6 +3645,42 @@
                 "",
                 "CurrentSceneName()",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "End"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Enemy"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Enemy",
+                "stats.HP",
+                "=",
+                "0"
               ]
             }
           ]
@@ -4424,6 +4450,59 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "MusicSlider2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+                  },
+                  "parameters": [
+                    "SoundSlider2",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Music",
+                "=",
+                "MusicSlider2.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Settings.Sound",
+                "=",
+                "SoundSlider2.Value()"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -4438,7 +4517,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4453,6 +4531,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Battle Scene bg music2.mp3",
+                "1",
+                "yes",
+                "Settings.Music",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -4460,51 +4551,31 @@
                 "=",
                 "PlayerMaxMana"
               ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "MusicSlider2",
+                "=",
+                "Settings.Music",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "SoundSlider2",
+                "=",
+                "Settings.Sound",
+                ""
+              ]
             }
           ],
           "events": [
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene3D::SetCameraRotationX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "20",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetCameraCenterY"
-                  },
-                  "parameters": [
-                    "",
-                    "+",
-                    "700",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ZoomCamera"
-                  },
-                  "parameters": [
-                    "",
-                    "1.1",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
@@ -4615,7 +4686,7 @@
                                     "EnemySlot",
                                     "random",
                                     ">=",
-                                    "50"
+                                    "40"
                                   ]
                                 }
                               ]
@@ -5821,6 +5892,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "BATTLE PHASE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6060,12 +6132,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "HERO TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6183,6 +6255,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "HeroTargeting/Attacking/DMG calculation",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -6239,13 +6312,14 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "PlaySound"
+                                    "value": "PlaySoundCanal"
                                   },
                                   "parameters": [
                                     "",
                                     "Hit sound.mp3",
+                                    "2",
                                     "",
-                                    "",
+                                    "Settings.Sound",
                                     ""
                                   ]
                                 },
@@ -6380,6 +6454,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6553,13 +6628,14 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "PlaySound"
+                                    "value": "PlaySoundCanal"
                                   },
                                   "parameters": [
                                     "",
                                     "Hit sound.mp3",
+                                    "2",
                                     "",
-                                    "",
+                                    "Settings.Sound",
                                     ""
                                   ]
                                 },
@@ -6694,6 +6770,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6867,13 +6944,14 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "PlaySound"
+                                    "value": "PlaySoundCanal"
                                   },
                                   "parameters": [
                                     "",
                                     "Hit sound.mp3",
+                                    "2",
                                     "",
-                                    "",
+                                    "Settings.Sound",
                                     ""
                                   ]
                                 },
@@ -7181,13 +7259,14 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "PlaySound"
+                                    "value": "PlaySoundCanal"
                                   },
                                   "parameters": [
                                     "",
                                     "Hit sound.mp3",
+                                    "2",
                                     "",
-                                    "",
+                                    "Settings.Sound",
                                     ""
                                   ]
                                 },
@@ -7495,13 +7574,14 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "PlaySound"
+                                    "value": "PlaySoundCanal"
                                   },
                                   "parameters": [
                                     "",
                                     "Hit sound.mp3",
+                                    "2",
                                     "",
-                                    "",
+                                    "Settings.Sound",
                                     ""
                                   ]
                                 },
@@ -7809,13 +7889,14 @@
                                 },
                                 {
                                   "type": {
-                                    "value": "PlaySound"
+                                    "value": "PlaySoundCanal"
                                   },
                                   "parameters": [
                                     "",
                                     "Hit sound.mp3",
+                                    "2",
                                     "",
-                                    "",
+                                    "Settings.Sound",
                                     ""
                                   ]
                                 },
@@ -8185,13 +8266,14 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "PlaySound"
+                                            "value": "PlaySoundCanal"
                                           },
                                           "parameters": [
                                             "",
                                             "Hit sound.mp3",
+                                            "2",
                                             "",
-                                            "",
+                                            "Settings.Sound",
                                             ""
                                           ]
                                         },
@@ -8445,13 +8527,14 @@
                                             },
                                             {
                                               "type": {
-                                                "value": "PlaySound"
+                                                "value": "PlaySoundCanal"
                                               },
                                               "parameters": [
                                                 "",
                                                 "Hit sound.mp3",
+                                                "2",
                                                 "",
-                                                "",
+                                                "Settings.Sound",
                                                 ""
                                               ]
                                             },
@@ -8840,13 +8923,14 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "PlaySound"
+                                            "value": "PlaySoundCanal"
                                           },
                                           "parameters": [
                                             "",
                                             "Hit sound.mp3",
+                                            "2",
                                             "",
-                                            "",
+                                            "Settings.Sound",
                                             ""
                                           ]
                                         },
@@ -9100,13 +9184,14 @@
                                             },
                                             {
                                               "type": {
-                                                "value": "PlaySound"
+                                                "value": "PlaySoundCanal"
                                               },
                                               "parameters": [
                                                 "",
                                                 "Hit sound.mp3",
+                                                "2",
                                                 "",
-                                                "",
+                                                "Settings.Sound",
                                                 ""
                                               ]
                                             },
@@ -9495,13 +9580,14 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "PlaySound"
+                                            "value": "PlaySoundCanal"
                                           },
                                           "parameters": [
                                             "",
                                             "Hit sound.mp3",
+                                            "2",
                                             "",
-                                            "",
+                                            "Settings.Sound",
                                             ""
                                           ]
                                         },
@@ -9755,13 +9841,14 @@
                                             },
                                             {
                                               "type": {
-                                                "value": "PlaySound"
+                                                "value": "PlaySoundCanal"
                                               },
                                               "parameters": [
                                                 "",
                                                 "Hit sound.mp3",
+                                                "2",
                                                 "",
-                                                "",
+                                                "Settings.Sound",
                                                 ""
                                               ]
                                             },
@@ -10150,13 +10237,14 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "PlaySound"
+                                            "value": "PlaySoundCanal"
                                           },
                                           "parameters": [
                                             "",
                                             "Hit sound.mp3",
+                                            "2",
                                             "",
-                                            "",
+                                            "Settings.Sound",
                                             ""
                                           ]
                                         },
@@ -10410,13 +10498,14 @@
                                             },
                                             {
                                               "type": {
-                                                "value": "PlaySound"
+                                                "value": "PlaySoundCanal"
                                               },
                                               "parameters": [
                                                 "",
                                                 "Hit sound.mp3",
+                                                "2",
                                                 "",
-                                                "",
+                                                "Settings.Sound",
                                                 ""
                                               ]
                                             },
@@ -10805,13 +10894,14 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "PlaySound"
+                                            "value": "PlaySoundCanal"
                                           },
                                           "parameters": [
                                             "",
                                             "Hit sound.mp3",
+                                            "2",
                                             "",
-                                            "",
+                                            "Settings.Sound",
                                             ""
                                           ]
                                         },
@@ -11065,13 +11155,14 @@
                                             },
                                             {
                                               "type": {
-                                                "value": "PlaySound"
+                                                "value": "PlaySoundCanal"
                                               },
                                               "parameters": [
                                                 "",
                                                 "Hit sound.mp3",
+                                                "2",
                                                 "",
-                                                "",
+                                                "Settings.Sound",
                                                 ""
                                               ]
                                             },
@@ -11460,13 +11551,14 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "PlaySound"
+                                            "value": "PlaySoundCanal"
                                           },
                                           "parameters": [
                                             "",
                                             "Hit sound.mp3",
+                                            "2",
                                             "",
-                                            "",
+                                            "Settings.Sound",
                                             ""
                                           ]
                                         },
@@ -11720,13 +11812,14 @@
                                             },
                                             {
                                               "type": {
-                                                "value": "PlaySound"
+                                                "value": "PlaySoundCanal"
                                               },
                                               "parameters": [
                                                 "",
                                                 "Hit sound.mp3",
+                                                "2",
                                                 "",
-                                                "",
+                                                "Settings.Sound",
                                                 ""
                                               ]
                                             },
@@ -11902,6 +11995,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "END OF ROUND",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12159,6 +12253,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "EWAN KO",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

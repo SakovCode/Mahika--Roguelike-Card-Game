@@ -4713,6 +4713,30 @@
         "metadata": "",
         "name": "Entry Dforest.mp4",
         "userAdded": false
+      },
+      {
+        "file": "../../../../../Downloads/images.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\..\\Downloads\\images.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "images.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "images.png2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6532,8 +6556,8 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 25,
+        "height": 25,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\aswang.glb",
@@ -6541,7 +6565,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
+        "width": 25,
         "animations": [
           {
             "loop": true,
@@ -6759,8 +6783,8 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 45,
+        "height": 45,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\kapre.glb",
@@ -6768,7 +6792,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
+        "width": 45,
         "animations": [
           {
             "loop": true,
@@ -6875,8 +6899,8 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 45,
+        "height": 45,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\berberoka.glb",
@@ -6884,7 +6908,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
+        "width": 45,
         "animations": [
           {
             "loop": true,
@@ -7102,8 +7126,8 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 35,
+        "height": 35,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tikbalang.glb",
@@ -7111,7 +7135,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
+        "width": 35,
         "animations": [
           {
             "loop": true,
@@ -7218,8 +7242,8 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 30,
+        "height": 30,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiktek.glb",
@@ -7227,7 +7251,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
+        "width": 30,
         "animations": [
           {
             "loop": true,
@@ -7334,8 +7358,8 @@
       ],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 32,
-        "height": 32,
+        "depth": 16,
+        "height": 16,
         "keepAspectRatio": true,
         "materialType": "Basic",
         "modelResourceName": "LAGAY NIYO GAWA NIYONG ASSETS DITO\\3D ASSETS\\Characters\\Monsters\\tiyanak.glb",
@@ -7343,7 +7367,7 @@
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 32,
+        "width": 16,
         "animations": [
           {
             "loop": true,
@@ -8467,7 +8491,7 @@
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
-        "outlineThickness": 1,
+        "outlineThickness": 5,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -9332,7 +9356,7 @@
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
-        "outlineThickness": 1,
+        "outlineThickness": 5,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -9385,7 +9409,7 @@
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
-        "outlineThickness": 1,
+        "outlineThickness": 5,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -10612,7 +10636,7 @@
     {
       "name": "encounterID",
       "type": "string",
-      "value": "EnemyAswang"
+      "value": "EnemyKapre"
     },
     {
       "folded": true,

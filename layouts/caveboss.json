@@ -2967,13 +2967,28 @@
           "effectType": "Scene3D::HemisphereLight",
           "name": "3D Light",
           "doubleParameters": {
-            "elevation": 45,
+            "elevation": 90,
             "intensity": 1,
             "rotation": 0
           },
           "stringParameters": {
-            "groundColor": "64;64;64",
+            "groundColor": "0;0;0",
             "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "Effect2",
+          "doubleParameters": {
+            "elevation": 90,
+            "intensity": 0.5,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "21;39;2",
+            "skyColor": "74;144;226",
             "top": "Y-"
           },
           "booleanParameters": {}
