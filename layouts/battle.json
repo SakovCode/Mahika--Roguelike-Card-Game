@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,7 +17,7 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
+    "snap": true,
     "zoomFactor": 0.40807287573670853,
     "windowMask": false
   },
@@ -612,8 +612,8 @@
       "name": "PlayerHealthbar",
       "persistentUuid": "2ce2e66d-6f6d-4a7f-8808-7f0a61de404f",
       "width": 320,
-      "x": 192,
-      "y": 96,
+      "x": 64,
+      "y": 128,
       "zOrder": 52,
       "numberProperties": [],
       "stringProperties": [],
@@ -629,8 +629,8 @@
       "name": "ManaBar",
       "persistentUuid": "fdda4efe-b7aa-4338-8f2f-22cb4985d96a",
       "width": 320,
-      "x": 192,
-      "y": 128,
+      "x": 64,
+      "y": 160,
       "zOrder": 53,
       "numberProperties": [],
       "stringProperties": [],
@@ -697,7 +697,7 @@
       "name": "Pause_button",
       "persistentUuid": "9e721239-843b-4137-9355-0706cb9552d2",
       "width": 64,
-      "x": 64,
+      "x": 1792,
       "y": 96,
       "zOrder": 2,
       "numberProperties": [],
@@ -3573,7 +3573,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "DEBUG",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3587,7 +3586,7 @@
                 "value": "DebuggerTools::ConsoleLog"
               },
               "parameters": [
-                "encounterID",
+                "Phase",
                 "\"info\"",
                 ""
               ]
@@ -6046,6 +6045,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "HERO TURN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8552,14 +8552,6 @@
                                                 },
                                                 {
                                                   "type": {
-                                                    "value": "Wait"
-                                                  },
-                                                  "parameters": [
-                                                    "1"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
                                                     "value": "SetNumberVariable"
                                                   },
                                                   "parameters": [
@@ -9211,14 +9203,6 @@
                                                     "Enemy",
                                                     "=",
                                                     "90\n"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
-                                                    "value": "Wait"
-                                                  },
-                                                  "parameters": [
-                                                    "1"
                                                   ]
                                                 },
                                                 {
@@ -9878,14 +9862,6 @@
                                                 },
                                                 {
                                                   "type": {
-                                                    "value": "Wait"
-                                                  },
-                                                  "parameters": [
-                                                    "1"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
                                                     "value": "SetNumberVariable"
                                                   },
                                                   "parameters": [
@@ -10537,14 +10513,6 @@
                                                     "Enemy",
                                                     "=",
                                                     "90\n"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
-                                                    "value": "Wait"
-                                                  },
-                                                  "parameters": [
-                                                    "1"
                                                   ]
                                                 },
                                                 {
@@ -11204,14 +11172,6 @@
                                                 },
                                                 {
                                                   "type": {
-                                                    "value": "Wait"
-                                                  },
-                                                  "parameters": [
-                                                    "1"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
                                                     "value": "SetNumberVariable"
                                                   },
                                                   "parameters": [
@@ -11867,14 +11827,6 @@
                                                 },
                                                 {
                                                   "type": {
-                                                    "value": "Wait"
-                                                  },
-                                                  "parameters": [
-                                                    "1"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
                                                     "value": "SetNumberVariable"
                                                   },
                                                   "parameters": [
@@ -11935,7 +11887,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "END OF ROUND",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12021,18 +11972,9 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "Enemy"
-                  ]
-                }
-              ],
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemy",
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -12198,60 +12140,35 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "UI"
-    },
-    {
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "load",
-            "=",
-            "0"
-          ]
-        }
-      ],
-      "actions": [],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "EWAN KO",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "UI"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": true,
-                "value": "GroupExists"
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
               },
               "parameters": [
-                "\"Storage\"",
-                "\"Settings\""
+                "MusicSlider2",
+                ""
               ]
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -12264,6 +12181,103 @@
             },
             {
               "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SitanCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "NewGameCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryForest",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "SarimanokCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryCave",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "BakunawaCutscene",
+                "=",
+                "Settings.Music"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryDForest",
+                "=",
+                "Settings.Music"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "SoundSlider2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -12272,6 +12286,34 @@
                 "SoundSlider2.Value()"
               ]
             },
+            {
+              "type": {
+                "value": "ModVolumeSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2",
+                "=",
+                "Settings.Sound"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "BackToPauseButton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "EcrireFichierTxt"
@@ -12283,263 +12325,9 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GroupExists"
-              },
-              "parameters": [
-                "\"Storage\"",
-                "\"Settings\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ReadStringFromStorage"
-              },
-              "parameters": [
-                "\"Storage\"",
-                "\"Settings\"",
-                "",
-                "temp"
-              ]
-            },
-            {
-              "type": {
-                "value": "JSONToVariableStructure2"
-              },
-              "parameters": [
-                "temp",
-                "Settings"
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
-              },
-              "parameters": [
-                "MusicSlider2",
-                "=",
-                "Settings.Music",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
-              },
-              "parameters": [
-                "SoundSlider2",
-                "=",
-                "Settings.Sound",
-                ""
-              ]
-            }
-          ],
-          "variables": [
-            {
-              "name": "temp",
-              "type": "string",
-              "value": ""
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "Battle Scene bg music2.mp3",
-                "1",
-                "yes",
-                "GlobalVariable(Settings.Music)",
-                ""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
-          },
-          "parameters": [
-            "MusicSlider2",
-            ""
-          ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Settings.Music",
-            "=",
-            "MusicSlider2.Value()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1",
-            "=",
-            "Settings.Music"
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::SetVolume"
-          },
-          "parameters": [
-            "SitanCutscene",
-            "=",
-            "Settings.Music"
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::SetVolume"
-          },
-          "parameters": [
-            "NewGameCutscene",
-            "=",
-            "Settings.Music"
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::SetVolume"
-          },
-          "parameters": [
-            "EntryForest",
-            "=",
-            "Settings.Music"
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::SetVolume"
-          },
-          "parameters": [
-            "SarimanokCutscene",
-            "=",
-            "Settings.Music"
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::SetVolume"
-          },
-          "parameters": [
-            "EntryCave",
-            "=",
-            "Settings.Music"
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::SetVolume"
-          },
-          "parameters": [
-            "BakunawaCutscene",
-            "=",
-            "Settings.Music"
-          ]
-        },
-        {
-          "type": {
-            "value": "Video::SetVolume"
-          },
-          "parameters": [
-            "EntryDForest",
-            "=",
-            "Settings.Music"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
-          },
-          "parameters": [
-            "SoundSlider2",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Settings.Sound",
-            "=",
-            "SoundSlider2.Value()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVolumeSoundCanal"
-          },
-          "parameters": [
-            "",
-            "2",
-            "=",
-            "Settings.Sound"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "BackToPauseButton",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "EcrireFichierTxt"
-          },
-          "parameters": [
-            "\"Storage\"",
-            "\"Settings\"",
-            "ToJSON(Settings)"
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [

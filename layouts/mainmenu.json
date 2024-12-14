@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.30276816608999435,
+    "zoomFactor": 0.3818841323241608,
     "windowMask": false
   },
   "objectsGroups": [
@@ -21251,7 +21251,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "IS CLICKED",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23371,7 +23370,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "NEW/LOAD",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23399,6 +23397,26 @@
                 "load",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerHP",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "PlayerMaxMana",
+                "=",
+                "4"
               ]
             }
           ]
