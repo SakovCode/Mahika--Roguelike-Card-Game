@@ -1147,42 +1147,42 @@
                   "value": ""
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "NewGameCutscene"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "NewGameCutscene",
+                ""
+              ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Video::Ended"
-                  },
-                  "parameters": [
-                    "NewGameCutscene"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "NewGameCutscene",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "Forest - The Vault of Ambience.mp3",
-                    "1",
-                    "yes",
-                    "GlobalVariable(Settings.Music)",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Forest - The Vault of Ambience.mp3",
+                "1",
+                "yes",
+                "GlobalVariable(Settings.Music)",
+                ""
               ]
             }
           ]

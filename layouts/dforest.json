@@ -61,6 +61,11 @@
       "name": "numberOfEnemiesDefeated",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "numberOfEnemiesToDefeat",
+      "type": "number",
+      "value": 8
     }
   ],
   "instances": [
