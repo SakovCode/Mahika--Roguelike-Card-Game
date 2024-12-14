@@ -4692,6 +4692,27 @@
         "name": "defHeight",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Entry Forest.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Entry Forest.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "EntryCave.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "EntryCave.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "Entry Dforest.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Entry Dforest.mp4",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5118,6 +5139,16 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        },
         {
           "name": "ButtonFSM",
           "type": "ButtonStates::ButtonFSM",
@@ -8409,7 +8440,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": "OBJECTIVES:",
       "font": "NTBrickSans10.otf",
       "textAlignment": "left",
@@ -8533,7 +8575,18 @@
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "InitialValue": 100,
         "MaxValue": 100,
@@ -9252,7 +9305,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": " - Find the portal\n - Open the portal by defeating enemies",
       "font": "NTBrickSans13.otf",
       "textAlignment": "left",
@@ -9294,7 +9358,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": "    - Defeated Enemies: (0/0)",
       "font": "NTBrickSans13.otf",
       "textAlignment": "left",

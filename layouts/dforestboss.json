@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.33005600491659676,
+    "zoomFactor": 0.330056004916597,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1637,7 +1637,7 @@
       "persistentUuid": "c16b6787-b0d3-4c35-9c67-018fcbbcadb4",
       "width": 64,
       "x": 64,
-      "y": 128,
+      "y": 64,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1907,15 +1907,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "Objectives_",
       "persistentUuid": "263e2f62-10f2-4e56-a401-77397040ea60",
-      "width": 0,
+      "width": 192,
       "x": 64,
-      "y": 256,
+      "y": 192,
       "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
@@ -1972,13 +1973,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 37.5,
+      "depth": 38,
       "height": 50,
       "keepRatio": true,
       "layer": "UI",
       "name": "PlayerHealthBar",
       "persistentUuid": "15a343ad-2661-4e6b-801a-7d1fc926c92e",
-      "width": 160.15625,
+      "width": 192,
       "x": 64,
       "y": 960,
       "zOrder": 126,
@@ -1988,15 +1989,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "ObjectivesContent",
       "persistentUuid": "2b5b482b-f2ff-4201-b541-a5573d507b30",
-      "width": 0,
+      "width": 448,
       "x": 64,
-      "y": 320,
+      "y": 256,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -2316,6 +2318,16 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "load",
+                "=",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -2325,6 +2337,16 @@
               },
               "parameters": [
                 "EntryDForest"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryDForest",
+                "=",
+                "Settings.Music"
               ]
             }
           ],

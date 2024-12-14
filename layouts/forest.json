@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.34571835718202404,
+    "zoomFactor": 0.3457183571820246,
     "windowMask": false
   },
   "objectsGroups": [
@@ -127,7 +127,7 @@
       "persistentUuid": "eaa2eb48-8ae4-4383-8eb3-312fb643f2b0",
       "width": 1920,
       "x": 0,
-      "y": -64,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -464,13 +464,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "Objectives_",
       "persistentUuid": "cbd1365e-cde4-42d9-a18a-7b1664300442",
-      "width": 0,
+      "width": 192,
       "x": 64,
       "y": 192,
       "zOrder": 121,
@@ -529,13 +530,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 37.5,
+      "depth": 38,
       "height": 50,
       "keepRatio": true,
       "layer": "UI",
       "name": "PlayerHealthBar",
       "persistentUuid": "b6b98eac-a5fb-4a3d-8986-92ba46884bec",
-      "width": 160.15625,
+      "width": 192,
       "x": 64,
       "y": 960,
       "zOrder": 126,
@@ -545,13 +546,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "ObjectivesContent",
       "persistentUuid": "c345312e-146e-4a67-9401-adbdcb0f2932",
-      "width": 0,
+      "width": 448,
       "x": 64,
       "y": 256,
       "zOrder": 127,
@@ -561,13 +563,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "ObjectivesContent2",
       "persistentUuid": "c067a8f8-aae4-4759-a9f9-cad7ea8551d7",
-      "width": 0,
+      "width": 320,
       "x": 64,
       "y": 320,
       "zOrder": 128,
@@ -911,6 +914,20 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "EntryForest2",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Entry Forest.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -947,6 +964,9 @@
       },
       {
         "objectName": "InvSlot"
+      },
+      {
+        "objectName": "EntryForest2"
       }
     ]
   },
@@ -1024,6 +1044,16 @@
               },
               "parameters": [
                 "NewGameCutscene"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "NewGameCutscene",
+                "=",
+                "Settings.Music"
               ]
             }
           ],
@@ -1174,6 +1204,15 @@
             },
             {
               "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "txtSkip",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySoundCanal"
               },
               "parameters": [
@@ -1252,16 +1291,6 @@
               "parameters": [
                 "",
                 "1",
-                "=",
-                "Settings.Music"
-              ]
-            },
-            {
-              "type": {
-                "value": "Video::SetVolume"
-              },
-              "parameters": [
-                "NewGameCutscene",
                 "=",
                 "Settings.Music"
               ]
@@ -1522,6 +1551,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

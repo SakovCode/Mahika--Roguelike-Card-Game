@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.21022123194177406,
+    "zoomFactor": 0.24004286808043113,
     "windowMask": false
   },
   "objectsGroups": [
@@ -19698,7 +19698,7 @@
                 "1118.mp3",
                 "69",
                 "",
-                "30",
+                "Settings.Sound",
                 "7"
               ]
             }
@@ -22942,7 +22942,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SoundBttns",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23331,6 +23330,16 @@
                 "2",
                 "=",
                 "Settings.Sound"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "NewGameCutscene",
+                "=",
+                "Settings.Music"
               ]
             }
           ]

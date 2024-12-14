@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.7562477198107455,
+    "zoomFactor": 0.1757638449180572,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1433,7 +1433,7 @@
       "persistentUuid": "7a0d8bfd-3729-4fe8-b230-71a2ff6bdce9",
       "width": 64,
       "x": 64,
-      "y": 128,
+      "y": 64,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1703,15 +1703,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "Objectives_",
       "persistentUuid": "f1b6c794-2fd0-42be-810a-4c0a734d9b8a",
-      "width": 0,
+      "width": 192,
       "x": 64,
-      "y": 256,
+      "y": 192,
       "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
@@ -1768,14 +1769,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 37.5,
+      "depth": 38,
       "height": 50,
       "keepRatio": true,
       "layer": "UI",
       "name": "PlayerHealthBar",
       "persistentUuid": "d3ba4070-6993-4d2f-9b37-7301fcb832d4",
-      "width": 160.15625,
-      "x": 96,
+      "width": 192,
+      "x": 64,
       "y": 960,
       "zOrder": 126,
       "numberProperties": [],
@@ -1784,15 +1785,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "ObjectivesContent",
       "persistentUuid": "534b5bf0-8cbb-4bac-9762-6ce7eacef621",
-      "width": 0,
+      "width": 448,
       "x": 64,
-      "y": 320,
+      "y": 256,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -2076,6 +2078,13 @@
       "include": {
         "includeConfig": 0
       },
+      "target": "LvlEvents"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
       "target": "PlayerMovement"
     },
     {
@@ -2182,6 +2191,16 @@
               },
               "parameters": [
                 "EntryCave"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryCave",
+                "=",
+                "Settings.Music"
               ]
             }
           ],

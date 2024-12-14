@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.45076158913273245,
+    "zoomFactor": 0.2833375244407043,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -113,7 +113,7 @@
       "persistentUuid": "8b3be625-7cfe-4943-8914-6507bb001eda",
       "width": 64,
       "x": 64,
-      "y": 128,
+      "y": 64,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -383,15 +383,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "Objectives_",
       "persistentUuid": "68d708a5-c481-4b61-b898-c8d3d8308abf",
-      "width": 0,
+      "width": 192,
       "x": 64,
-      "y": 256,
+      "y": 192,
       "zOrder": 121,
       "numberProperties": [],
       "stringProperties": [],
@@ -448,14 +449,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 37.5,
+      "depth": 38,
       "height": 50,
       "keepRatio": true,
       "layer": "UI",
       "name": "PlayerHealthBar",
       "persistentUuid": "b0f2a08b-4c94-4ef8-9a18-a3e31a241f4d",
-      "width": 160.15625,
-      "x": 96,
+      "width": 192,
+      "x": 64,
       "y": 960,
       "zOrder": 126,
       "numberProperties": [],
@@ -464,15 +465,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "ObjectivesContent",
       "persistentUuid": "23b2d0c0-5eb5-4bd7-8e98-f4bb49097446",
-      "width": 0,
+      "width": 448,
       "x": 64,
-      "y": 320,
+      "y": 256,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -480,15 +482,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "UI",
       "name": "ObjectivesContent2",
       "persistentUuid": "998b375a-df4d-4809-92dd-d6f26ad803ee",
-      "width": 0,
+      "width": 320,
       "x": 64,
-      "y": 384,
+      "y": 320,
       "zOrder": 128,
       "numberProperties": [],
       "stringProperties": [],
@@ -506,6 +509,23 @@
       "x": 5187,
       "y": 611,
       "zOrder": 129,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1088,
+      "keepRatio": true,
+      "layer": "Cutscene",
+      "name": "EntryDForest2",
+      "persistentUuid": "bd254b4c-2d46-481a-b48d-5617a4c5b06d",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 130,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -582,6 +602,20 @@
         "width": 32,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "EntryDForest2",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Entry Dforest.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -595,6 +629,9 @@
       },
       {
         "objectName": "Tree"
+      },
+      {
+        "objectName": "EntryDForest2"
       }
     ]
   },
@@ -665,7 +702,26 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "EntryDForest2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::SetVolume"
+              },
+              "parameters": [
+                "EntryDForest2",
+                "=",
+                "Settings.Music"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -786,24 +842,42 @@
                   "value": ""
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Video::Ended"
+              },
+              "parameters": [
+                "EntryDForest2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EntryDForest2",
+                ""
+              ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "DForest - Night Sound Ambience.mp3",
-                    "1",
-                    "yes",
-                    "GlobalVariable(Settings.Music)",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "DForest - Night Sound Ambience.mp3",
+                "1",
+                "yes",
+                "GlobalVariable(Settings.Music)",
+                ""
               ]
             }
           ]
@@ -1144,9 +1218,46 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Cutscene",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
